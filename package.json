@@ -1,8 +1,8 @@
 {
-  "name": "react-boilerplate",
+  "name": "positive-pup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://danforder.github.io/react-boilerplate",
+  "homepage": "http://nology-tech.github.io/positive-pup",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

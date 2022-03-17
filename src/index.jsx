@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const baseURL = "/react-boilerplate";
+const baseURL = "/positive-pup";
 
 ReactDOM.render(
   <React.StrictMode>
