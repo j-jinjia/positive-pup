@@ -14,7 +14,7 @@ exports[`should render the home page 1`] = `
       target="_blank"
     >
       <img
-        alt="badge"
+        alt="Victoria Stillwell certification badge"
         class="certificate-badges__img"
         src="victoria_stillwell.png"
       />
@@ -25,7 +25,7 @@ exports[`should render the home page 1`] = `
       target="_blank"
     >
       <img
-        alt="badge"
+        alt="international companion animal network certification badge"
         class="certificate-badges__img"
         src="international_companion.png"
       />
@@ -36,7 +36,7 @@ exports[`should render the home page 1`] = `
       target="_blank"
     >
       <img
-        alt="badge"
+        alt="UK dog behaviour and training charter certification badge"
         class="certificate-badges__img"
         src="UK_dog_behaviour.png"
       />
@@ -47,7 +47,7 @@ exports[`should render the home page 1`] = `
       target="_blank"
     >
       <img
-        alt="badge"
+        alt="the pet professional guild certification badge"
         class="certificate-badges__img"
         src="PPG_Member_Badge.png"
       />

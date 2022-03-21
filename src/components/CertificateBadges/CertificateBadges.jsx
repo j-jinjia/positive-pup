@@ -41,7 +41,11 @@ const CertificateBadges = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img src={ppgBadge} className="certificate-badges__img" alt="the pet professional guild certification badge" />
+        <img
+          src={ppgBadge}
+          className="certificate-badges__img"
+          alt="the pet professional guild certification badge"
+        />
       </a>
     </div>
   );
