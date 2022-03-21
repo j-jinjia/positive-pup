@@ -5,16 +5,30 @@
 
   &__header {
     font-family: $font-header;
-
     font-size: 4rem;
     font-weight: 400;
 
+    position: relative;
     margin-bottom: 1.625rem;
 
     &-highlight {
       color: $colour-primary;
-      position: relative;
       font-family: inherit;
+
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -0.5rem;
+        left: 0;
+        height: 0.6rem;
+        width: 100%;
+        background-image: url("../../assets/svgs/underline.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+      }
     }
   }
 
