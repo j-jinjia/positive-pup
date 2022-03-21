@@ -1,0 +1,11 @@
+.certificate-badges {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+
+  &__img {
+    margin: 0px 19px;
+  }
+}
