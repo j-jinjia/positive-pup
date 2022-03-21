@@ -1,0 +1,23 @@
+@use "../../styles/variables" as *;
+
+.button {
+  padding: 15px 38px;
+  border: none;
+  border-radius: 8px;
+}
+
+.squared {
+  border-radius: 0px;
+}
+
+.primary {
+  color: white;
+  background-color: $colour-primary;
+  font-weight: bold;
+}
+
+.secondary {
+  color: $colour-primary;
+  background-color: transparent;
+  border: 2px solid $colour-primary;
+}
