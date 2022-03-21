@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
+import { customRender } from "../../utils/testUtils";
 import Home from "./Home";
 
 it("should render the home page", () => {
-  const { container } = render(<Home />);
+  const { container } = customRender(<Home />);
 
   expect(container).toMatchSnapshot();
 });
