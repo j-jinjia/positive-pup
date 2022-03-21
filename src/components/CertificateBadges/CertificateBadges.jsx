@@ -1,4 +1,3 @@
-import React from "react";
 import "./CertificateBadges.scss";
 import internationalBadge from "../../assets/images/certification_badges/international_companion.png";
 import ppgBadge from "../../assets/images/certification_badges/PPG_Member_Badge.png";
@@ -16,7 +15,7 @@ const CertificateBadges = () => {
         <img
           src={victoriaStillwell}
           className="certificate-badges__img"
-          alt="badge"
+          alt="Victoria Stillwell certification badge"
         />
       </a>
       <a
@@ -27,14 +26,14 @@ const CertificateBadges = () => {
         <img
           src={internationalBadge}
           className="certificate-badges__img"
-          alt="badge"
+          alt="international companion animal network certification badge"
         />
       </a>
       <a href="https://ukdogcharter.org/" rel="noreferrer" target="_blank">
         <img
           src={ukBehaviour}
           className="certificate-badges__img"
-          alt="badge"
+          alt="UK dog behaviour and training charter certification badge"
         />
       </a>
       <a
@@ -42,7 +41,7 @@ const CertificateBadges = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img src={ppgBadge} className="certificate-badges__img" alt="badge" />
+        <img src={ppgBadge} className="certificate-badges__img" alt="the pet professional guild certification badge" />
       </a>
     </div>
   );
