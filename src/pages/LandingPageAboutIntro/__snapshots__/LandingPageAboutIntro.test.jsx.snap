@@ -2,9 +2,6 @@
 
 exports[`should render the home page 1`] = `
 <div>
-  <h1>
-    Positive Pup
-  </h1>
   <div
     class="landing-page__about-intro"
   >

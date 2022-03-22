@@ -1,50 +1,190 @@
 @import "../../styles/variables";
 
-.landing-page__about-intro {
-  &--header {
-    font-family: $font-header;
-    font-size: 40px;
-    font-weight: 500;
-    padding: 211px 222px 0px 430px;
-  }
+@media screen and (min-width: $desktop-breakpoint) {
+  .landing-page__about-intro {
+    display: flex;
+    flex-direction: column;
 
-  &--paragraph {
-    position: absolute;
-    width: 524px;
-    height: 180px;
-    left: 430px;
-    top: 305px;
-    font-family: $font-general;
-    font-size: 20px;
-    line-height: 180%;
-    color: $colour-font-paragraph;
-  }
+    &--header {
+      display: flex;
+      flex-direction: column;
+      font-family: $font-header;
+      font-size: 40px;
+      font-weight: 500;
+      padding: 211px 222px 0px 430px;
+    }
 
-  &--greenbox {
-    background-color: rgba(55, 175, 162, 0.06);
-    margin-left: 505px;
-    width: 1126px;
-    height: 734px;
-    position: relative;
-  }
+    &--paragraph {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 524px;
+      height: 180px;
+      left: 430px;
+      top: 305px;
+      font-family: $font-general;
+      font-size: 20px;
+      line-height: 180%;
+      color: $colour-font-paragraph;
+    }
 
-  &--paw {
-    position: absolute;
-    left: 430px;
-    top: 145px;
-    width: 60px;
-    height: 60px;
-  }
+    &--greenbox {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(55, 175, 162, 0.06);
+      margin-left: 505px;
+      width: 1126px;
+      height: 734px;
+      position: relative;
+    }
 
-  &--image {
-    position: absolute;
-    top: 78px;
-    left: -177px;
-  }
+    &--paw {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 430px;
+      top: 145px;
+      width: 60px;
+      height: 60px;
+    }
 
-  &--button {
-    position: absolute;
-    left: 430px;
-    top: 529px;
+    &--image {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 78px;
+      left: -177px;
+    }
+
+    &--button {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 430px;
+      top: 529px;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+  .landing-page__about-intro {
+    display: flex;
+    flex-direction: column;
+
+    &--header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-family: $font-header;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 150%;
+      padding-top: 71px;
+    }
+
+    &--paragraph {
+      display: flex;
+      flex-direction: column;
+      margin-top: 22px;
+      margin-left: 41px;
+      width: auto;
+      height: 288px;
+      font-family: $font-general;
+      font-size: 18px;
+      color: $colour-font-paragraph;
+      line-height: 180%;
+    }
+
+    &--greenbox {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(55, 175, 162, 0.06);
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    &--paw {
+      display: none;
+    }
+
+    &--image {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: auto;
+      margin: 0px 41px;
+    }
+
+    &--button {
+      margin-left: 41px;
+      margin-bottom: 64px;
+      margin: 20px 0 64px 41px;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint) {
+  .landing-page__about-intro {
+    display: flex;
+    flex-direction: column;
+
+    &--header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-family: $font-header;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 150%;
+      padding-top: 71px;
+    }
+
+    &--paragraph {
+      display: flex;
+      flex-direction: column;
+      margin-top: 22px;
+      margin-left: 41px;
+      width: auto;
+      height: 288px;
+      font-family: $font-general;
+      font-size: 18px;
+      color: $colour-font-paragraph;
+      line-height: 180%;
+    }
+
+    &--greenbox {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(55, 175, 162, 0.06);
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    &--paw {
+      display: none;
+    }
+
+    &--image {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: auto;
+      margin: 0px 41px;
+    }
+
+    &--button {
+      margin-left: 41px;
+      margin-bottom: 64px;
+      margin: 20px 0 64px 41px;
+      text-decoration: none;
+    }
   }
 }
