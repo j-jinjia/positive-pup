@@ -1,14 +1,14 @@
 import "./LandingPageAboutIntro.scss";
 import introImage from "../../assets/images/landing_page/landing_page_about_intro_img.png";
 import Button from "../../components/Button/Button";
-import paw from "../../assets/images/landing_page/paw_print.svg"
+import paw from "../../assets/images/landing_page/paw_print.svg";
 
 const LandingPageAboutIntro = () => {
   return (
     <>
       <div className="landing-page__about-intro">
         <div className="landing-page__about-intro--greenbox">
-        <img
+          <img
             src={paw}
             className="landing-page__about-intro--paw"
             alt="paw print"
@@ -29,12 +29,9 @@ const LandingPageAboutIntro = () => {
             eget sed amet malesuada est dignissim magna. Amet vel tempor egestas
             at in mi, facilisi proin.
           </p>
-          
-          <Link to={}>
           <div className="landing-page__about-intro--button">
             <Button isSecondary={true} buttonText="More About Me" />
           </div>
-          </Link>
         </div>
       </div>
     </>
