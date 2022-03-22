@@ -1,0 +1,28 @@
+@use "../../styles/variables" as *;
+
+.button {
+  padding: 15px 38px;
+  border: none;
+  border-radius: 8px;
+
+  &--squared {
+    border-radius: 0;
+  }
+
+  &--primary {
+    color: $colour-secondary;
+    background-color: $colour-primary;
+    font-weight: bold;
+  }
+
+  &--secondary {
+    color: $colour-primary;
+    background-color: transparent;
+    border: 1px solid $colour-primary;
+    font-size: 16px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
