@@ -29,10 +29,12 @@ const LandingPageAboutIntro = () => {
             eget sed amet malesuada est dignissim magna. Amet vel tempor egestas
             at in mi, facilisi proin.
           </p>
-
+          
+          <Link to={}>
           <div className="landing-page__about-intro--button">
             <Button isSecondary={true} buttonText="More About Me" />
           </div>
+          </Link>
         </div>
       </div>
     </>
