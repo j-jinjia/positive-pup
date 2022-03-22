@@ -5,13 +5,6 @@ exports[`should match form component snapshot 1`] = `
   <div
     class="hero"
   >
-    <h2
-      class="hero__header"
-    >
-      <span
-        class="hero__header-highlight"
-      />
-    </h2>
     <p
       class="hero__subheader"
     />
