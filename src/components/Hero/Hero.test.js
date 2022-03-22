@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
+import { customRender } from "../../utils/testUtils";
 import Hero from "./Hero";
 
 it("should match form component snapshot", () => {
-  const { container } = render(<Hero />);
+  const { container } = customRender(<Hero />);
 
   expect(container).toMatchSnapshot();
 });

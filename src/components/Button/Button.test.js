@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
+import { customRender } from "../../utils/testUtils";
 import Button from "./Button";
 
 it("should match button component snapshot", () => {
-  const { container } = render(<Button />);
+  const { container } = customRender(<Button />);
 
   expect(container).toMatchSnapshot();
 });
