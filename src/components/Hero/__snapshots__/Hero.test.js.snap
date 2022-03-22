@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match form component snapshot 1`] = `
+<div>
+  <div
+    class="hero"
+  >
+    <h2
+      class="hero__header"
+    >
+      <span
+        class="hero__header-highlight"
+      />
+    </h2>
+    <p
+      class="hero__subheader"
+    />
+    <button
+      class="button button--primary"
+    />
+  </div>
+</div>
+`;
