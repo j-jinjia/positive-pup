@@ -8,7 +8,8 @@ import Gallery from "./pages/Gallery/Gallery";
 import GetInTouch from "./pages/GetInTouch/GetInTouch";
 import BookNow from "./pages/BookNow/BookNow";
 import NotFound from "./pages/NotFound/NotFound";
-
+import TermsAndConditions from "./pages/TermsAndConditions/TermsAndConditions";
+import Faqs from "./pages/Faqs/Faqs";
 const App = () => {
   return (
     <Routes>
@@ -20,6 +21,8 @@ const App = () => {
       <Route path="/get-in-touch" element={<GetInTouch />} />
       <Route path="/book-now" element={<BookNow />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+      <Route path="/faqs" element={<Faqs />} />
     </Routes>
   );
 };
