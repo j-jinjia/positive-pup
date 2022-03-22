@@ -1,6 +1,7 @@
 import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
 import Hero from "../../components/Hero/Hero";
 import Layout from "../../components/Layout/Layout";
+
 const Home = () => {
   return (
     <Layout>
@@ -17,4 +18,5 @@ const Home = () => {
     </Layout>
   );
 };
+
 export default Home;

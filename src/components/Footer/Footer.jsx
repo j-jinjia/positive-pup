@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.scss";
 import logo from "../../assets/images/footer-logo.svg";
@@ -13,41 +12,41 @@ const Footer = () => {
       </div>
 
       <ul className="footer__links-container">
-        <li>
-          <Link className="footer__links-container--links" to="/about">
+        <li className="footer__list-item">
+          <Link className="footer__links" to="/about">
             About
           </Link>
         </li>
 
-        <li>
-          <Link className="footer__links-container--links" to="/services">
+        <li className="footer__list-item">
+          <Link className="footer__links" to="/services">
             Services
           </Link>
         </li>
 
-        <li>
-          <Link className="footer__links-container--links" to="/Gallery">
+        <li className="footer__list-item">
+          <Link className="footer__links" to="/Gallery">
             Gallery
           </Link>
         </li>
 
-        <li>
+        <li className="footer__list-item">
           <Link
-            className="footer__links-container--links"
+            className="footer__links"
             to="/terms-and-conditions"
           >
             Terms and conditions
           </Link>
         </li>
 
-        <li>
-          <Link className="footer__links-container--links" to="/faqs">
+        <li className="footer__list-item">
+          <Link className="footer__links" to="/faqs">
             FAQs
           </Link>
         </li>
 
-        <li>
-          <Link className="footer__links-container--links" to="/get-in-touch">
+        <li className="footer__list-item">
+          <Link className="footer__links" to="/get-in-touch">
             Contact
           </Link>
         </li>

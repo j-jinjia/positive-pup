@@ -11,8 +11,8 @@
   width: 100%;
   height: 588px;
   justify-content: space-evenly;
-  background-color: $colour-grey;
-  color: $colour-white;
+  background-color: $colour-footer-primary;
+  color: $colour-secondary;
 
   &__image-container {
     height: 77px;
@@ -34,21 +34,21 @@
     align-items: center;
     align-content: space-between;
 
-    li {
+    .footer__list-item {
       list-style-type: none;
       margin: 10px;
     }
-    &--links {
+    .footer__links {
       text-decoration: none;
-      color: $colour-white;
+      color: $colour-secondary;
     }
-    &--links:visited {
-      color: white;
+    .footer__links:visited {
+      color: $colour-secondary;
     }
   }
 
   hr {
-    border: 1px solid $colour-secondary-grey;
+    border: 1px solid $colour-footer-secondary;
     width: 90%;
   }
 
@@ -60,7 +60,7 @@
 
     &--copyright {
       margin-bottom: 38px;
-      color: $colour-secondary-grey;
+      color: $colour-footer-secondary;
       font-size: 0.75rem;
     }
 
