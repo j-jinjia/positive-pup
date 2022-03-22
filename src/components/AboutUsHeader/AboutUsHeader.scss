@@ -1,0 +1,13 @@
+@use "../../styles/variables" as *;
+
+.about-us-header {
+  display: flex;
+  flex-direction: row;
+
+  &__content {
+    &-title {
+      color: $colour-primary;
+      font-family: $font-general;
+    }
+  }
+}
