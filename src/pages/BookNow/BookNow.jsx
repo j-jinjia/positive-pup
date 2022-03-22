@@ -1,5 +1,11 @@
+import Layout from "../../components/Layout/Layout";
+
 const BookNow = () => {
-  return <h1>Book Now</h1>;
+  return (
+  <Layout>
+    <h1>Book Now</h1>
+  </Layout>
+  )
 };
 
 export default BookNow;

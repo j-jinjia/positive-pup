@@ -1,5 +1,11 @@
+import Layout from "../../components/Layout/Layout";
+
 const Gallery = () => {
-  return <h1>Gallery</h1>;
+  return (
+  <Layout>
+    <h1>Gallery</h1>
+  </Layout>
+  )
 };
 
 export default Gallery;

@@ -1,10 +1,9 @@
-import Hero from "../../components/Hero/Hero";
 import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
-import Footer from "../../components/Footer/Footer";
-
+import Hero from "../../components/Hero/Hero";
+import Layout from "../../components/Layout/Layout";
 const Home = () => {
   return (
-    <>
+    <Layout>
       <h1>Positive Pup</h1>
       <Hero
         headerText={"Start your journey on the right "}
@@ -15,9 +14,7 @@ const Home = () => {
         buttonText={"What We Offer"}
       />
       <CertificateBadges />
-      <Footer />
-    </>
+    </Layout>
   );
 };
-
 export default Home;
