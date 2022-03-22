@@ -18,7 +18,7 @@
     height: 77px;
     width: 77px;
 
-    &--logo {
+    .footer__logo {
       height: 100%;
       width: 100%;
     }
@@ -38,11 +38,11 @@
       list-style-type: none;
       margin: 10px;
     }
-    .footer__links {
+    .footer__link {
       text-decoration: none;
       color: $colour-secondary;
     }
-    .footer__links:visited {
+    .footer__link:visited {
       color: $colour-secondary;
     }
   }
@@ -55,10 +55,9 @@
   &__secondary-links-container {
     display: flex;
     flex-direction: column;
-    // width: 90%;
     align-items: center;
 
-    &--copyright {
+    .footer__copyright-text {
       margin-bottom: 38px;
       color: $colour-footer-secondary;
       font-size: 0.75rem;

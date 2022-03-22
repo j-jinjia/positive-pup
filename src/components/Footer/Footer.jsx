@@ -8,31 +8,31 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__image-container">
-        <img className="footer__image-container--logo" src={logo} alt="logo" />
+        <img className="footer__logo" src={logo} alt="logo" />
       </div>
 
       <ul className="footer__links-container">
         <li className="footer__list-item">
-          <Link className="footer__links" to="/about">
+          <Link className="footer__link" to="/about">
             About
           </Link>
         </li>
 
         <li className="footer__list-item">
-          <Link className="footer__links" to="/services">
+          <Link className="footer__link" to="/services">
             Services
           </Link>
         </li>
 
         <li className="footer__list-item">
-          <Link className="footer__links" to="/Gallery">
+          <Link className="footer__link" to="/gallery">
             Gallery
           </Link>
         </li>
 
         <li className="footer__list-item">
           <Link
-            className="footer__links"
+            className="footer__link"
             to="/terms-and-conditions"
           >
             Terms and conditions
@@ -40,13 +40,13 @@ const Footer = () => {
         </li>
 
         <li className="footer__list-item">
-          <Link className="footer__links" to="/faqs">
+          <Link className="footer__link" to="/faqs">
             FAQs
           </Link>
         </li>
 
         <li className="footer__list-item">
-          <Link className="footer__links" to="/get-in-touch">
+          <Link className="footer__link" to="/get-in-touch">
             Contact
           </Link>
         </li>
@@ -54,7 +54,7 @@ const Footer = () => {
       <hr></hr>
 
       <div className="footer__secondary-links-container">
-        <div className="footer__secondary-links-container--copyright">
+        <div className="footer__copyright-text">
           &copy; 2022 The Positive Pup. All rights reserved.
         </div>
         <div className="footer__secondary-links-container--social-links">
