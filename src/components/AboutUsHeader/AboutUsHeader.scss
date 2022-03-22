@@ -3,11 +3,30 @@
 .about-us-header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
 
+  &__image {
+    width: 100%;
+    max-width: 430px;
+  }
   &__content {
     &-title {
       color: $colour-primary;
       font-family: $font-general;
+      font-size: $font-size-h1;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .about-us-header {
+    &__image {
+      max-width: 540px;
+    }
+    &__content {
+      max-width: 45%;
     }
   }
 }

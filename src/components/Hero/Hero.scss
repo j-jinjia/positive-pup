@@ -1,15 +1,12 @@
 @use "../../styles/variables" as *;
 
 .hero {
-  max-width: 546px;
-
   &__header {
     font-family: $font-header;
-    font-size: 4rem;
+    font-size: $font-size-h2;
     font-weight: 400;
 
     position: relative;
-    margin-bottom: 1.625rem;
 
     &-highlight {
       color: $colour-primary;
@@ -41,11 +38,10 @@
   }
 }
 
-@media screen and (max-width: $tablet-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .hero {
     &__header {
-      font-size: 3.125rem;
-      margin-bottom: 2.5rem;
+      font-size: $font-size-h2-desktop;
     }
   }
 }
