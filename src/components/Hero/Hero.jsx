@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
-import "./LandingPageHeaderSection.scss";
+import "./Hero.scss";
 
-const LandingPageHeaderSection = ({
+const Hero = ({
   headerText,
   highlightHeaderText,
   subheaderText,
@@ -19,4 +19,4 @@ const LandingPageHeaderSection = ({
   );
 };
 
-export default LandingPageHeaderSection;
+export default Hero;

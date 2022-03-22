@@ -10,7 +10,7 @@
   }
 
   &--primary {
-    color: white;
+    color: $colour-secondary;
     background-color: $colour-primary;
     font-weight: bold;
   }
@@ -19,5 +19,9 @@
     color: $colour-primary;
     background-color: transparent;
     border: 2px solid $colour-primary;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 }

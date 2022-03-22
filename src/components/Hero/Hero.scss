@@ -37,13 +37,7 @@
     line-height: 150%;
     font-family: $font-general;
     color: hsla(259, 12%, 45%, 1);
-  }
-
-  .button {
-    margin-top: 60px;
-    &:hover {
-      cursor: pointer;
-    }
+    margin-bottom: 60px;
   }
 }
 

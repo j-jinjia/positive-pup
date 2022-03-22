@@ -1,8 +1,8 @@
 import { render } from "@testing-library/react";
-import LandingPageHeaderSection from "./LandingPageHeaderSection";
+import Hero from "./Hero";
 
 it("should match form component snapshot", () => {
-  const { container } = render(<LandingPageHeaderSection />);
+  const { container } = render(<Hero />);
 
   expect(container).toMatchSnapshot();
 });
