@@ -16,12 +16,8 @@ const ContactHeader = () => {
         className="contact-header__anchor"
         href="mailto:info@thepositivepup.co.uk"
       >
-        <button className="contact-header__button">
-          <img src={mailIcon} alt="" />
-          <p className="contact-header__button-text">
-            info@thepositivepup.co.uk
-          </p>
-        </button>
+        <img src={mailIcon} alt="" />
+        <p className="contact-header__button-text">info@thepositivepup.co.uk</p>
       </a>
     </div>
   );
