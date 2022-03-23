@@ -10,7 +10,7 @@ exports[`should render the footer component 1`] = `
     >
       <img
         alt="logo"
-        class="footer__image-container--logo"
+        class="footer__logo"
         src="footer-logo.svg"
       />
     </div>
@@ -21,7 +21,7 @@ exports[`should render the footer component 1`] = `
         class="footer__list-item"
       >
         <a
-          class="footer__links"
+          class="footer__link"
           href="/about"
         >
           About
@@ -31,7 +31,7 @@ exports[`should render the footer component 1`] = `
         class="footer__list-item"
       >
         <a
-          class="footer__links"
+          class="footer__link"
           href="/services"
         >
           Services
@@ -41,8 +41,8 @@ exports[`should render the footer component 1`] = `
         class="footer__list-item"
       >
         <a
-          class="footer__links"
-          href="/Gallery"
+          class="footer__link"
+          href="/gallery"
         >
           Gallery
         </a>
@@ -51,7 +51,7 @@ exports[`should render the footer component 1`] = `
         class="footer__list-item"
       >
         <a
-          class="footer__links"
+          class="footer__link"
           href="/terms-and-conditions"
         >
           Terms and conditions
@@ -61,7 +61,7 @@ exports[`should render the footer component 1`] = `
         class="footer__list-item"
       >
         <a
-          class="footer__links"
+          class="footer__link"
           href="/faqs"
         >
           FAQs
@@ -71,7 +71,7 @@ exports[`should render the footer component 1`] = `
         class="footer__list-item"
       >
         <a
-          class="footer__links"
+          class="footer__link"
           href="/get-in-touch"
         >
           Contact
@@ -83,7 +83,7 @@ exports[`should render the footer component 1`] = `
       class="footer__secondary-links-container"
     >
       <div
-        class="footer__secondary-links-container--copyright"
+        class="footer__copyright-text"
       >
         © 2022 The Positive Pup. All rights reserved.
       </div>

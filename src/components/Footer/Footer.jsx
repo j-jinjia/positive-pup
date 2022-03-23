@@ -31,10 +31,7 @@ const Footer = () => {
         </li>
 
         <li className="footer__list-item">
-          <Link
-            className="footer__link"
-            to="/terms-and-conditions"
-          >
+          <Link className="footer__link" to="/terms-and-conditions">
             Terms and conditions
           </Link>
         </li>
