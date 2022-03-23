@@ -1,0 +1,34 @@
+@use "../../styles/_variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: white;
+
+  &--active {
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+
+  &__container {
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    &-button {
+      background: transparent;
+      border: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
