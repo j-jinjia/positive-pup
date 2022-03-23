@@ -1,0 +1,17 @@
+@use "../../styles/variables" as *;
+
+.services-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 220px;
+
+  &__heading {
+    color: $colour-primary;
+    font-size: .75rem;
+  }
+
+  &__sub-heading {
+    font-size: 1rem;
+  }
+}
