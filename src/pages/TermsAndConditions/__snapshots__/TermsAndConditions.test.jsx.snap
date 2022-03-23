@@ -1,82 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the home page 1`] = `
+exports[`should render the terms and conditions page 1`] = `
 <div>
   <h1>
-    Positive Pup
+    Terms and conditions
   </h1>
-  <div
-    class="hero"
-  >
-    <h2
-      class="hero__header"
-    >
-      Start your journey on the right 
-      <span
-        class="hero__header-highlight"
-      >
-        paw.
-      </span>
-    </h2>
-    <p
-      class="hero__subheader"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
-    </p>
-    <button
-      class="button button--primary"
-    >
-      What We Offer
-    </button>
-  </div>
-  <div
-    class="certificate-badges"
-  >
-    <a
-      href="https://www.vsdogtrainingacademy.com/"
-      rel="noreferrer"
-      target="_blank"
-    >
-      <img
-        alt="Victoria Stillwell certification badge"
-        class="certificate-badges__img"
-        src="victoria_stillwell.png"
-      />
-    </a>
-    <a
-      href="https://companionanimal.network/"
-      rel="noreferrer"
-      target="_blank"
-    >
-      <img
-        alt="international companion animal network certification badge"
-        class="certificate-badges__img"
-        src="international_companion.png"
-      />
-    </a>
-    <a
-      href="https://ukdogcharter.org/"
-      rel="noreferrer"
-      target="_blank"
-    >
-      <img
-        alt="UK dog behaviour and training charter certification badge"
-        class="certificate-badges__img"
-        src="UK_dog_behaviour.png"
-      />
-    </a>
-    <a
-      href="https://www.petprofessionalguild.com/"
-      rel="noreferrer"
-      target="_blank"
-    >
-      <img
-        alt="the pet professional guild certification badge"
-        class="certificate-badges__img"
-        src="PPG_Member_Badge.png"
-      />
-    </a>
-  </div>
   <div
     class="footer"
   >
