@@ -5,9 +5,6 @@ exports[`should render the GetInTouch page 1`] = `
   <div
     class="layout"
   >
-    <h1>
-      Get in touch
-    </h1>
     <div
       class="contact-header"
     >
@@ -24,7 +21,7 @@ exports[`should render the GetInTouch page 1`] = `
       <p
         class="contact-header__text"
       >
-        Please fill in the form to the right or alternatively, drop me an email using the link below.
+        Please fill in the form or alternatively, drop me an email using the link below.
       </p>
       <a
         class="contact-header__anchor"
