@@ -5,6 +5,10 @@ import facebookLogo from "../../assets/images/facebook-logo.svg";
 import instagramLogo from "../../assets/images/instagram-logo.svg";
 
 const Footer = () => {
+  const tAndCs = "T&C's";
+  const termsAndConditions = "Terms & Conditions";
+  const faqs = "FAQ's";
+
   return (
     <div className="footer">
       <div className="footer__image-container">
@@ -30,15 +34,21 @@ const Footer = () => {
           </Link>
         </li>
 
-        <li className="footer__list-item">
+        <li className="footer__list-item terms-long">
           <Link className="footer__link" to="/terms-and-conditions">
-            Terms and conditions
+            {termsAndConditions}
+          </Link>
+        </li>
+
+        <li className="footer__list-item terms-short">
+          <Link className="footer__link" to="/terms-and-conditions">
+            {tAndCs}
           </Link>
         </li>
 
         <li className="footer__list-item">
           <Link className="footer__link" to="/faqs">
-            FAQs
+            {faqs}
           </Link>
         </li>
 

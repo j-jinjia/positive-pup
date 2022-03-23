@@ -37,6 +37,11 @@
       list-style-type: none;
       margin: 0.5rem;
     }
+
+    .terms-long {
+      display: none;
+    }
+
     .footer__link {
       text-decoration: none;
       color: $colour-secondary;
@@ -47,7 +52,7 @@
   }
 
   .footer__line-break {
-    border: 1px solid $colour-footer-secondary;
+    border: 1px solid $colour-footer-line-break;
     width: 90%;
     margin: 1rem;
   }
@@ -80,6 +85,15 @@
       height: auto;
       flex-wrap: nowrap;
       width: 643px;
+
+      .terms-long {
+        display: inline;
+      }
+
+      .terms-short {
+        display: none;
+      }
+
     }
 
     .footer__secondary-links-container {
