@@ -1,9 +1,8 @@
 import CourseCard from "../../components/CourseCard/CourseCard";
-import dogImage from "../../assets/images/dogimg-removebg-preview.png";
+import dogImage from "../../assets/images/dog-image.png";
 
 const Services = () => {
-  const mockArray = ["InPerson", "10Week+"];
-
+  const mockArray = ["InPerson", "10 Weeks+", "Online"];
   return (
     <>
       <h1>Services</h1>
@@ -11,7 +10,7 @@ const Services = () => {
         image={dogImage}
         courseType="GROUP CLASS"
         courseHeading="Little Stars Course"
-        filterLabels={mockArray}
+        labelsArray={mockArray}
       />
     </>
   );

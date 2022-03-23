@@ -1,0 +1,10 @@
+@use "../../styles/variables" as *;
+
+.label{
+    background-color: $colour-secondary-background;
+    padding:0.5rem;
+    border-radius:40px;
+    &__text{
+        color: $colour-primary-label-text;
+    }
+}

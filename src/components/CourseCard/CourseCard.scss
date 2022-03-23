@@ -1,9 +1,9 @@
 @use "../../styles/variables" as *;
 .course-card{
-    background-color:$colour-secondary-teal;
+    background-color:$colour-secondary-background;
     width: 100%;
     height:100%;
-    box-shadow: 1px 1px 3px $colour-primary-dark-grey;
+    box-shadow: 1px 1px 3px $colour-secondary-background;
     border-radius: 5%;
     &__img{
         width:20rem;
@@ -14,27 +14,26 @@
         height: 33%;
         border-radius: 5%;
         width:100%;
-        
         &__type{
             color:$colour-primary;
-            font-family: $font-general;
+
         }
         &__heading{
             margin-bottom:1rem;
-            font-family: $font-header;
         }
-        &__labels{
-                
-            color:$colour-primary-dark-grey;
-            background-color: $colour-secondary-teal;
-            border-radius:40px;
-            //border: 1px solid $colour-secondary-teal;
-            margin-right:1rem;
-            font-size:0.5rem;
-            font-family: $font-general;
-            padding:0.5rem;
-
-
-        }
+        
+        
+    }
+    .labels{
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+            
+/*            color:$colour-primary-label-text;
+        background-color: $colour-secondary-background;
+        border-radius:40px;
+        margin-right:1rem;
+        font-size:0.5rem;
+        padding:0.5rem; */
     }
 }
