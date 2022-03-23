@@ -3,14 +3,7 @@ import dogImage from "../../assets/images/dogimg-removebg-preview.png";
 
 const Services = () => {
   const mockArray = ["InPerson", "10Week+"];
-  /*   const getFiltersLabel = (labels) => {
-    if (labels.length === 1) {
-      return labels[0];
-    }
-    if (labels.length === 2) {
-      return `${labels[0]} ${labels[1]}`;
-    }
-  }; */
+
   return (
     <>
       <h1>Services</h1>
