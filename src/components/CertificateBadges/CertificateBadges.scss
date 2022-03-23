@@ -3,9 +3,23 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 450px;
 
   &__img {
-    margin: 0px 19px;
+    margin: 0px 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .certificate-badges {
+    justify-content: center;
+    width: 450px;
+
+    &__img {
+      margin: 0px 19px;
+      width: auto;
+      height: auto;
+    }
   }
 }
