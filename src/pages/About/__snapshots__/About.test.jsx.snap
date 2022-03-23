@@ -3,153 +3,169 @@
 exports[`should render the About page 1`] = `
 <div>
   <div
-    class="about-us-header"
-  >
-    <main
-      class="about-us-header__content"
-    >
-      <h1
-        class="about-us-header__content-title"
-      >
-        ABOUT US
-      </h1>
-      <div
-        class="hero"
-      >
-        <h2
-          class="hero__header"
-        >
-          Hey there
-        </h2>
-        <h2
-          class="hero__header"
-        >
-          My name is Melanie!
-        </h2>
-        <p
-          class="hero__subheader"
-        >
-          As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
-        </p>
-        <button
-          class="button button--secondary"
-        >
-          More About Us
-        </button>
-      </div>
-    </main>
-    <img
-      alt="Melanie and a dog"
-      class="about-us-header__image"
-      src="AboutMe.png"
-    />
-  </div>
-  <div
-    class="footer"
+    class="layout"
   >
     <div
-      class="footer__image-container"
+      class="about-us-header"
     >
+      <main
+        class="about-us-header__content"
+      >
+        <h1
+          class="about-us-header__content-title"
+        >
+          ABOUT US
+        </h1>
+        <div
+          class="hero"
+        >
+          <h2
+            class="hero__header"
+          >
+            Hey there
+          </h2>
+          <h2
+            class="hero__header"
+          >
+            My name is Melanie!
+          </h2>
+          <p
+            class="hero__subheader"
+          >
+            As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
+          </p>
+          <button
+            class="button button--secondary"
+          >
+            More About Us
+          </button>
+        </div>
+      </main>
       <img
-        alt="logo"
-        class="footer__logo"
-        src="footer-logo.svg"
+        alt="Melanie and a dog"
+        class="about-us-header__image"
+        src="AboutMe.png"
       />
     </div>
-    <ul
-      class="footer__links-container"
-    >
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/about"
-        >
-          About
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/services"
-        >
-          Services
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/gallery"
-        >
-          Gallery
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/terms-and-conditions"
-        >
-          Terms and conditions
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/faqs"
-        >
-          FAQs
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/get-in-touch"
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
-    <hr />
     <div
-      class="footer__secondary-links-container"
+      class="footer"
     >
       <div
-        class="footer__copyright-text"
+        class="footer__image-container"
       >
-        © 2022 The Positive Pup. All rights reserved.
+        <img
+          alt="logo"
+          class="footer__logo"
+          src="footer-logo.svg"
+        />
       </div>
-      <div
-        class="footer__secondary-links-container--social-links"
+      <ul
+        class="footer__links-container"
       >
-        <a
-          href="https://www.facebook.com/thepositivepupdogtraining"
-          target="blank"
+        <li
+          class="footer__list-item"
         >
-          <img
-            alt="link to facebook"
-            src="facebook-logo.svg"
-          />
-        </a>
-        <a
-          href="https://www.instagram.com/the_positivepup/"
-          target="blank"
+          <a
+            class="footer__link"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
         >
-          <img
-            alt="link to instagram"
-            src="instagram-logo.svg"
-          />
-        </a>
+          <a
+            class="footer__link"
+            href="/services"
+          >
+            Services
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/gallery"
+          >
+            Gallery
+          </a>
+        </li>
+        <li
+          class="footer__list-item footer__list-item--desktop"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            Terms & Conditions
+          </a>
+        </li>
+        <li
+          class="footer__list-item footer__list-item--mobile"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            T&C's
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/faqs"
+          >
+            FAQ's
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/get-in-touch"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <hr
+        class="footer__line-break"
+      />
+      <div
+        class="footer__secondary-links-container"
+      >
+        <div
+          class="footer__copyright-text"
+        >
+          © 2022 The Positive Pup. All rights reserved.
+        </div>
+        <div
+          class="footer__social-links"
+        >
+          <a
+            href="https://www.facebook.com/thepositivepupdogtraining"
+            target="blank"
+          >
+            <img
+              alt="link to facebook"
+              src="facebook-logo.svg"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/the_positivepup/"
+            target="blank"
+          >
+            <img
+              alt="link to instagram"
+              src="instagram-logo.svg"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>

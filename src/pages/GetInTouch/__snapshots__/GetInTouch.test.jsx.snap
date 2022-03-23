@@ -84,13 +84,23 @@ exports[`should render the GetInTouch page 1`] = `
           </a>
         </li>
         <li
-          class="footer__list-item"
+          class="footer__list-item footer__list-item--desktop"
         >
           <a
             class="footer__link"
             href="/terms-and-conditions"
           >
-            Terms and conditions
+            Terms & Conditions
+          </a>
+        </li>
+        <li
+          class="footer__list-item footer__list-item--mobile"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            T&C's
           </a>
         </li>
         <li
@@ -100,7 +110,7 @@ exports[`should render the GetInTouch page 1`] = `
             class="footer__link"
             href="/faqs"
           >
-            FAQs
+            FAQ's
           </a>
         </li>
         <li

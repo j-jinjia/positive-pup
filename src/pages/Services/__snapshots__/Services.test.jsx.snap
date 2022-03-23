@@ -9,58 +9,18 @@ exports[`should render the Serives page 1`] = `
       Services
     </h1>
     <div
-      class="course-card"
+      class="services"
     >
-      <img
-        alt="dog image"
-        class="course-card__img"
-        src="dog-image.png"
-      />
-      <div
-        class="course-card__course-content"
+      <h1
+        class="services__heading"
       >
-        <h1
-          class="course-card__course-content__type"
-        >
-          GROUP CLASS
-        </h1>
-        <h2
-          class="course-card__course-content__heading"
-        >
-          Little Stars Course
-        </h2>
-        <div
-          class="course-card__labels"
-        >
-          <div
-            class="card-label"
-          >
-            <span
-              class="card-label__text"
-            >
-              InPerson
-            </span>
-          </div>
-          <div
-            class="card-label"
-          >
-            <span
-              class="card-label__text"
-            >
-              10 Weeks+
-            </span>
-          </div>
-          <div
-            class="card-label"
-          >
-            <span
-              class="card-label__text"
-            >
-              Online
-            </span>
-          </div>
-        </div>
-      </div>
+        OUR SERVICES
+      </h1>
+      <h2
+        class="services__subheading"
+      >
+        Take a peek at everything we offer
+      </h2>
     </div>
     <div
       class="footer"
@@ -108,13 +68,23 @@ exports[`should render the Serives page 1`] = `
           </a>
         </li>
         <li
-          class="footer__list-item"
+          class="footer__list-item footer__list-item--desktop"
         >
           <a
             class="footer__link"
             href="/terms-and-conditions"
           >
-            Terms and conditions
+            Terms & Conditions
+          </a>
+        </li>
+        <li
+          class="footer__list-item footer__list-item--mobile"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            T&C's
           </a>
         </li>
         <li
@@ -124,7 +94,7 @@ exports[`should render the Serives page 1`] = `
             class="footer__link"
             href="/faqs"
           >
-            FAQs
+            FAQ's
           </a>
         </li>
         <li
