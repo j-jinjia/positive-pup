@@ -4,14 +4,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 220px;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 1rem;
 
   &__heading {
     color: $colour-primary;
-    font-size: .75rem;
+    font-size: 1rem;
+    margin: 1rem;
   }
 
-  &__sub-heading {
-    font-size: 1rem;
+  &__subheading {
+    font-size: 1.5rem;
   }
 }
