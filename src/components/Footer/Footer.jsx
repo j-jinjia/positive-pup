@@ -34,13 +34,15 @@ const Footer = () => {
           </Link>
         </li>
 
-        <li className="footer__list-item terms-long">
+        {/*  */}
+
+        <li className="footer__list-item footer__list-item--desktop">
           <Link className="footer__link" to="/terms-and-conditions">
             {termsAndConditions}
           </Link>
         </li>
 
-        <li className="footer__list-item terms-short">
+        <li className="footer__list-item footer__list-item--mobile">
           <Link className="footer__link" to="/terms-and-conditions">
             {tAndCs}
           </Link>

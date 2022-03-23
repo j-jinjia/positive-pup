@@ -36,10 +36,10 @@
     .footer__list-item {
       list-style-type: none;
       margin: 0.5rem;
-    }
 
-    .terms-long {
-      display: none;
+      &--desktop {
+        display: none;
+      }
     }
 
     .footer__link {
@@ -79,31 +79,31 @@
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
-  
-    .footer__links-container {
-      flex-direction: row;
-      height: auto;
-      flex-wrap: nowrap;
-      width: 643px;
+  .footer__links-container {
+    flex-direction: row;
+    height: auto;
+    flex-wrap: nowrap;
+    width: 643px;
 
-      .terms-long {
+    .footer__list-item {
+      &--desktop {
         display: inline;
       }
 
-      .terms-short {
+      &--mobile {
         display: none;
       }
-
     }
+  }
 
-    .footer__secondary-links-container {
-      display: flex;
-      flex-direction: row;
-      width: 90%;
-      justify-content: space-between;
+  .footer__secondary-links-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
 
-      .footer__copyright-text {
-        margin: 0;
-      }
+    .footer__copyright-text {
+      margin: 0;
     }
+  }
 }
