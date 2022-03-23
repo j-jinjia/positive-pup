@@ -7,8 +7,10 @@
     font-weight: 400;
 
     position: relative;
+    margin-bottom: 40px;
 
     &-highlight {
+      display: inline;
       color: $colour-primary;
       font-family: inherit;
 
@@ -42,6 +44,7 @@
   .hero {
     &__header {
       font-size: $font-size-h2-desktop;
+      margin-bottom: 26px;
     }
   }
 }
