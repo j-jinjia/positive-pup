@@ -1,11 +1,11 @@
 import Layout from "../../components/Layout/Layout";
 
-const BookNow = () => {
+const Faqs = () => {
   return (
     <Layout>
-      <h1>Book Now</h1>
+      <h1>FAQs</h1>
     </Layout>
   );
 };
 
-export default BookNow;
+export default Faqs;
