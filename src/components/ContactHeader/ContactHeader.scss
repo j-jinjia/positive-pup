@@ -1,0 +1,52 @@
+@use "../../styles/variables" as *;
+
+.contact-header {
+  max-width: 386px;
+  &__title {
+    color: $colour-primary;
+    font-size: $font-size-h1;
+    font-family: $font-general;
+    margin-bottom: 8px;
+  }
+  &__heading {
+    font-size: $font-size-h2;
+    font-family: $font-header;
+    font-weight: normal;
+    margin-bottom: 28px;
+  }
+  &__text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #6f6682;
+  }
+  &__anchor {
+    text-decoration: none;
+  }
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 270px;
+    background: transparent;
+    color: $colour-primary;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0px 20px 40px rgba(55, 175, 162, 0.08);
+    &-text {
+      text-decoration: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .contact-header {
+    &__heading {
+      font-size: $font-size-h2-desktop;
+    }
+  }
+}
