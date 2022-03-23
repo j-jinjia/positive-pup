@@ -2,8 +2,8 @@ import "./CardLabel.scss";
 
 const CardLabel = ({ name }) => {
   return (
-    <div className="label">
-      <span className="label__text">{name}</span>
+    <div className="card-label">
+      <span className="card-label__text">{name}</span>
     </div>
   );
 };

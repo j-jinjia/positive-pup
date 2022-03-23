@@ -11,10 +11,12 @@ const CourseCard = (props) => {
   return (
     <div className="course-card">
       <img className="course-card__img" src={image} alt="dog image" />
-      <div className="course-content">
-        <h1 className="course-content__type">{courseType}</h1>
-        <h2 className="course-content__heading">{courseHeading}</h2>
-        <div className="labels">{labels}</div>
+      <div className="course-card__course-content">
+        <h1 className="course-card__course-content__type">{courseType}</h1>
+        <h2 className="course-card__course-content__heading">
+          {courseHeading}
+        </h2>
+        <div className="course-card__labels">{labels}</div>
       </div>
     </div>
   );
