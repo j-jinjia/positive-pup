@@ -13,16 +13,16 @@ exports[`should match CourseCard component snapshot 1`] = `
     <div
       class="course-card__course-content"
     >
-      <h1
-        class="course-card__course-content__type"
+      <p
+        class="course-card__course-type"
       >
         Group Class
-      </h1>
-      <h2
-        class="course-card__course-content__heading"
+      </p>
+      <p
+        class="course-card__course-heading"
       >
         Little Stars
-      </h2>
+      </p>
       <div
         class="course-card__labels"
       >
