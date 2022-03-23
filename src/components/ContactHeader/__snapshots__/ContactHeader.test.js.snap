@@ -18,7 +18,7 @@ exports[`should match ContactHeader component snapshot 1`] = `
     <p
       class="contact-header__text"
     >
-      Please fill in the form to the right or alternatively, drop me an email using the link below.
+      Please fill in the form or alternatively, drop me an email using the link below.
     </p>
     <a
       class="contact-header__anchor"
