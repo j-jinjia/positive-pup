@@ -1,20 +1,12 @@
 import Button from "../Button/Button";
 import "./Hero.scss";
 
-const Hero = ({
-  headerText,
-  highlightHeaderText,
-  subheaderText,
-  buttonText,
-}) => {
+const Hero = ({ header, subheaderText, buttonText, isSecondary }) => {
   return (
     <div className="hero">
-      <h2 className="hero__header">
-        {headerText}
-        <span className="hero__header-highlight">{highlightHeaderText}</span>
-      </h2>
+      {header}
       <p className="hero__subheader">{subheaderText}</p>
-      <Button buttonText={buttonText} />
+      <Button buttonText={buttonText} isSecondary={isSecondary} />
     </div>
   );
 };

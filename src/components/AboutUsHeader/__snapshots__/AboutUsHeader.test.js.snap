@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match AboutUsHeader component snapshot 1`] = `
+<div>
+  <div
+    class="about-us-header"
+  >
+    <main
+      class="about-us-header__content"
+    >
+      <h1
+        class="about-us-header__content-title"
+      >
+        ABOUT US
+      </h1>
+      <div
+        class="hero"
+      >
+        <h2
+          class="hero__header"
+        >
+          Hey there
+        </h2>
+        <h2
+          class="hero__header"
+        >
+          My name is Melanie!
+        </h2>
+        <p
+          class="hero__subheader"
+        >
+          As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
+        </p>
+        <button
+          class="button button--secondary"
+        >
+          More About Us
+        </button>
+      </div>
+    </main>
+    <img
+      alt="Melanie and a dog"
+      class="about-us-header__image"
+      src="AboutMe.png"
+    />
+  </div>
+</div>
+`;

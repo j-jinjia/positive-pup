@@ -11,11 +11,11 @@ exports[`should render the home page 1`] = `
     <h2
       class="hero__header"
     >
-      Start your journey on the right 
+      Start your journey on the right
       <span
         class="hero__header-highlight"
       >
-        paw.
+         paw.
       </span>
     </h2>
     <p
