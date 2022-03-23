@@ -9,8 +9,8 @@ const ContactHeader = () => {
         {"I'd love to hear from you!"}
       </h2>
       <p className="contact-header__text">
-        Please fill in the form to the right or alternatively, drop me an email
-        using the link below.
+        Please fill in the form or alternatively, drop me an email using the
+        link below.
       </p>
       <a
         className="contact-header__anchor"
