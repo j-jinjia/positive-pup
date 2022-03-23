@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match ContactHeader component snapshot 1`] = `
+<div>
+  <div
+    class="contact-header"
+  >
+    <h1
+      class="contact-header__title"
+    >
+      CONTACT US
+    </h1>
+    <h2
+      class="contact-header__heading"
+    >
+      I'd love to hear from you!
+    </h2>
+    <p
+      class="contact-header__text"
+    >
+      Please fill in the form to the right or alternatively, drop me an email using the link below.
+    </p>
+    <a
+      class="contact-header__anchor"
+      href="mailto:info@thepositivepup.co.uk"
+    >
+      <img
+        alt=""
+        src="mail.svg"
+      />
+      <p
+        class="contact-header__button-text"
+      >
+        info@thepositivepup.co.uk
+      </p>
+    </a>
+  </div>
+</div>
+`;
