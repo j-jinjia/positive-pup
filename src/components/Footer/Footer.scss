@@ -74,17 +74,15 @@
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
-  .footer {
-    // height: 374px;
-
-    &__links-container {
+  
+    .footer__links-container {
       flex-direction: row;
       height: auto;
       flex-wrap: nowrap;
       width: 643px;
     }
 
-    &__secondary-links-container {
+    .footer__secondary-links-container {
       display: flex;
       flex-direction: row;
       width: 90%;
@@ -94,5 +92,4 @@
         margin: 0;
       }
     }
-  }
 }
