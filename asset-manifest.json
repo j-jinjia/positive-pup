@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/positive-pup/static/css/main.a955dbdd.css",
-    "main.js": "/positive-pup/static/js/main.9a815332.js",
+    "main.css": "/positive-pup/static/css/main.01bfaa15.css",
+    "main.js": "/positive-pup/static/js/main.f4f87727.js",
     "static/js/787.dace3d45.chunk.js": "/positive-pup/static/js/787.dace3d45.chunk.js",
     "static/media/AboutMe.png": "/positive-pup/static/media/AboutMe.127727f833ce9274181d.png",
+    "static/media/footer-logo.svg": "/positive-pup/static/media/footer-logo.21a8021849c8f16e075783415efa83cb.svg",
     "static/media/underline.svg": "/positive-pup/static/media/underline.fc4c4022e39b032fbde5.svg",
+    "static/media/instagram-logo.svg": "/positive-pup/static/media/instagram-logo.f1a0307a33e9dd9d16cfae1894f3a7cb.svg",
     "index.html": "/positive-pup/index.html",
-    "main.a955dbdd.css.map": "/positive-pup/static/css/main.a955dbdd.css.map",
-    "main.9a815332.js.map": "/positive-pup/static/js/main.9a815332.js.map",
+    "static/media/facebook-logo.svg": "/positive-pup/static/media/facebook-logo.03e2175f7b6de498fc5ac4fb90aeeeb3.svg",
+    "main.01bfaa15.css.map": "/positive-pup/static/css/main.01bfaa15.css.map",
+    "main.f4f87727.js.map": "/positive-pup/static/js/main.f4f87727.js.map",
     "787.dace3d45.chunk.js.map": "/positive-pup/static/js/787.dace3d45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a955dbdd.css",
-    "static/js/main.9a815332.js"
+    "static/css/main.01bfaa15.css",
+    "static/js/main.f4f87727.js"
   ]
 }
