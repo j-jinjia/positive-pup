@@ -48,13 +48,13 @@ const Footer = () => {
           </Link>
         </li>
       </ul>
-      <hr></hr>
+      <hr className="footer__line-break"></hr>
 
       <div className="footer__secondary-links-container">
         <div className="footer__copyright-text">
           &copy; 2022 The Positive Pup. All rights reserved.
         </div>
-        <div className="footer__secondary-links-container--social-links">
+        <div className="footer__social-links">
           <a
             href="https://www.facebook.com/thepositivepupdogtraining"
             target="blank"
