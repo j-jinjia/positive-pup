@@ -5,8 +5,10 @@ import facebookLogo from "../../assets/images/facebook-logo.svg";
 import instagramLogo from "../../assets/images/instagram-logo.svg";
 
 const Footer = () => {
-  const tAndCs = "T&C's";
-  const termsAndConditions = "Terms & Conditions";
+  const termsAndConditions = {
+    mobile: "T&C's",
+    desktop: "Terms & Conditions",
+  };
   const faqs = "FAQ's";
 
   return (
@@ -34,17 +36,16 @@ const Footer = () => {
           </Link>
         </li>
 
-        {/*  */}
-
+        {/* Added two similar T&C's list elements here. Only one is displayed at a time dending on whether the device is mobile or desktop */}
         <li className="footer__list-item footer__list-item--desktop">
           <Link className="footer__link" to="/terms-and-conditions">
-            {termsAndConditions}
+            {termsAndConditions.desktop}
           </Link>
         </li>
 
         <li className="footer__list-item footer__list-item--mobile">
           <Link className="footer__link" to="/terms-and-conditions">
-            {tAndCs}
+            {termsAndConditions.mobile}
           </Link>
         </li>
 
