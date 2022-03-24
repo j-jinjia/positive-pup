@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match CardLabel component snapshot 1`] = `
+<div>
+  <div
+    class="card-label"
+  >
+    <span
+      class="card-label__text"
+    >
+      Online
+    </span>
+  </div>
+</div>
+`;

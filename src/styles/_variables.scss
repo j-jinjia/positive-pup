@@ -9,8 +9,19 @@ $extra-large-desktop-breakpoint: 2560px;
 // Colours
 $colour-primary: hsla(173, 52%, 45%, 1);
 $colour-secondary: white;
+$colour-secondary-background: #e4f5f3;
+$colour-tertiary: #525252;
+
+$colour-footer-primary: #525252;
+$colour-footer-secondary: #cacaca;
+$colour-footer-line-break: #666666;
 $colour-font-paragraph: #6f6682;
 
 // Fonts
 $font-header: "Raleway", sans-serif;
 $font-general: "Lato", sans-serif;
+
+// Font size
+$font-size-h1: 1.125rem;
+$font-size-h2: 2rem;
+$font-size-h2-desktop: 3.125rem;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match hero component snapshot 1`] = `
+<div>
+  <div
+    class="hero"
+  >
+    <p
+      class="hero__subheader"
+    />
+    <button
+      class="button button--primary"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match CourseCard component snapshot 1`] = `
+<div>
+  <div
+    class="course-card"
+  >
+    <img
+      alt="dog image"
+      class="course-card__img"
+      src="dog-image.png"
+    />
+    <div
+      class="course-card__course-content"
+    >
+      <p
+        class="course-card__course-type"
+      >
+        Group Class
+      </p>
+      <p
+        class="course-card__course-heading"
+      >
+        Little Stars
+      </p>
+      <div
+        class="course-card__labels"
+      >
+        <div
+          class="card-label"
+        >
+          <span
+            class="card-label__text"
+          >
+            week
+          </span>
+        </div>
+        <div
+          class="card-label"
+        >
+          <span
+            class="card-label__text"
+          >
+            online
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

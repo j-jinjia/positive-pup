@@ -1,5 +1,12 @@
+import ContactHeader from "../../components/ContactHeader/ContactHeader";
+import Layout from "../../components/Layout/Layout";
+
 const GetInTouch = () => {
-  return <h1>Get in touch</h1>;
+  return (
+    <Layout>
+      <ContactHeader />
+    </Layout>
+  );
 };
 
 export default GetInTouch;

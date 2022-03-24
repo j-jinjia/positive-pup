@@ -1,5 +1,12 @@
+import AboutUsHeader from "../../components/AboutUsHeader/AboutUsHeader";
+import Layout from "../../components/Layout/Layout";
+
 const About = () => {
-  return <h1>About</h1>;
+  return (
+    <Layout>
+      <AboutUsHeader />
+    </Layout>
+  );
 };
 
 export default About;

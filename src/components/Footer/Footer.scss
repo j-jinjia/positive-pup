@@ -1,0 +1,109 @@
+@use "../../styles/reset" as *;
+@use "../../styles/variables" as *;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-color: $colour-tertiary;
+  color: $colour-secondary;
+  padding: 1rem;
+
+  &__image-container {
+    height: 77px;
+    width: 77px;
+    margin: 1rem;
+
+    .footer__logo {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &__links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 127px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    margin: 2rem;
+
+    .footer__list-item {
+      list-style-type: none;
+      margin: 0.5rem;
+
+      &--desktop {
+        display: none;
+      }
+    }
+
+    .footer__link {
+      text-decoration: none;
+      color: $colour-secondary;
+    }
+    .footer__link:visited {
+      color: $colour-secondary;
+    }
+  }
+
+  .footer__line-break {
+    border: 1px solid $colour-footer-line-break;
+    width: 90%;
+    margin: 1rem;
+  }
+
+  &__secondary-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+
+    .footer__copyright-text {
+      margin-bottom: 38px;
+      color: $colour-footer-secondary;
+      font-size: 0.75rem;
+    }
+
+    .footer__social-links {
+      display: flex;
+      width: 90px;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .footer__links-container {
+    flex-direction: row;
+    height: auto;
+    flex-wrap: nowrap;
+    width: 643px;
+
+    .footer__list-item {
+      &--desktop {
+        display: inline;
+      }
+
+      &--mobile {
+        display: none;
+      }
+    }
+  }
+
+  .footer__secondary-links-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+
+    .footer__copyright-text {
+      margin: 0;
+    }
+  }
+}
