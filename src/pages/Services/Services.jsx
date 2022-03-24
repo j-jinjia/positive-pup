@@ -4,7 +4,7 @@ import dogImage from "../../assets/images/dog-image.png";
 import "./Services.scss";
 
 const Services = () => {
-  const mockArray = ["InPerson", "10 Weeks+", "Online"];
+  const mockArray = ["In Person", "10 Weeks+", "Online"];
   return (
     <Layout>
       <div className="services">
