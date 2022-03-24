@@ -1,6 +1,6 @@
 import "./LandingPageAboutIntro.scss";
 import introImage from "../../assets/images/landing_page/landing_page_about_intro_img.png";
-import Button from "../../components/Button/Button";
+import Button from "../Button/Button";
 import paw from "../../assets/images/landing_page/paw_print.svg";
 import { Link } from "react-router-dom";
 
@@ -26,15 +26,17 @@ const LandingPageAboutIntro = () => {
             eget sed amet malesuada est dignissim magna. Amet vel tempor egestas
             at in mi, facilisi proin.
           </p>
-          <Link to="/about" className="landing-page__about-intro--button">
-            <Button isSecondary={true} buttonText="More About Me" />
-          </Link>
 
-          <img
-            src={introImage}
-            className="landing-page__about-intro--image"
-            alt="Positive Pup owner, Melanie, with a dog"
-          />
+          <div className="buttonAndImage-container">
+            <Link to="/about" className="landing-page__about-intro--button">
+              <Button isSecondary={true} buttonText="More About Me" />
+            </Link>
+            <img
+              src={introImage}
+              className="landing-page__about-intro--image"
+              alt="Positive Pup owner, Melanie, with a dog"
+            />
+          </div>
         </div>
       </div>
     </>
