@@ -39,6 +39,7 @@
     justify-content: flex-start;
     align-items: flex-end;
     height: 100%;
+
     &-item,
     &-item:visited {
       padding: 21px 0;
@@ -47,6 +48,32 @@
       border-bottom: 1px solid #f7f7f7;
       width: 100%;
       text-align: right;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .navbar {
+    &__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    &__nav {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      &-item {
+        text-align: center;
+        // align-self: center;
+        white-space: nowrap;
+        font-size: $font-size-general;
+        border: none;
+        padding: 0;
+      }
     }
   }
 }

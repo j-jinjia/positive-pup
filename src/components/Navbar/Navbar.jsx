@@ -2,18 +2,26 @@ import "./Navbar.scss";
 import icon from "../../assets/images/footer-logo.svg";
 import openMenu from "../../assets/svgs/hamburger-menu.svg";
 import closeMenu from "../../assets/svgs/close-menu.svg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const handleClick = () => {
-    console.log("handle");
-    setShowMenu(!showMenu);
+  const [windowIsDesktop, setwindowIsDesktop] = useState(
+    window.innerWidth > 1024
+  );
+
+  const handleResize = () => {
+    setwindowIsDesktop(window.innerWidth > 1024);
   };
 
-  const menuIcon = showMenu ? closeMenu : openMenu;
-  const navbarClass = showMenu ? "navbar navbar--active" : "navbar";
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  });
+
+  const handleClick = () => {
+    setShowMenu(!showMenu);
+  };
 
   const navJSX = (
     <>
@@ -36,13 +44,15 @@ const Navbar = () => {
         <a className="navbar__nav-item" href="get-in-touch">
           Get in Touch
         </a>
-        <a className="navbar__nav-item" href="book-now">
+        {<a className="navbar__nav-item" href="book-now">
           Book Now
-        </a>
+        </a>}
       </nav>
     </>
   );
 
+  const menuIcon = showMenu ? closeMenu : openMenu;
+  const navbarClass = showMenu ? "navbar navbar--active" : "navbar";
   const navbarJSX = (
     <>
       <div className={navbarClass}>
@@ -52,17 +62,19 @@ const Navbar = () => {
             className="navbar__container-logo"
             alt="The Positive Pup logo"
           />
-          <button onClick={handleClick} className="navbar__container-button">
-            <img
-              src={menuIcon}
-              className="navbar__container-button-image"
-              alt="Open site menu"
-            />
-          </button>
-          {/* {windowWidth > 600 && showMenu && navJSX} */}
+          {!windowIsDesktop && (
+            <button onClick={handleClick} className="navbar__container-button">
+              <img
+                src={menuIcon}
+                className="navbar__container-button-image"
+                alt="Open site menu"
+              />
+            </button>
+          )}
+          {/* big screen */}
+          {windowIsDesktop && navJSX}
         </div>
-        {/* {windowWidth < 600 && showMenu && navJSX} */}
-        {showMenu && navJSX}
+        {!windowIsDesktop && showMenu && navJSX}
       </div>
     </>
   );
