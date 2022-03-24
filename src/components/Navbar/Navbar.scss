@@ -1,9 +1,10 @@
-@use "../../styles/_variables.scss";
+@use "../../styles/_variables.scss" as *;
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // align-items: center;
   width: 100%;
   padding: 1rem 2rem;
   background-color: white;
@@ -17,11 +18,11 @@
   }
 
   &__container {
-    align-self: flex-start;
+    // align-self: flex-start;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    
+
     &-button {
       background: transparent;
       border: none;
@@ -29,6 +30,23 @@
       &:hover {
         cursor: pointer;
       }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    &-item,
+    &-item:visited {
+      padding: 21px 0;
+      text-decoration: none;
+      font-size: $font-size-navbar;
+      border-bottom: 1px solid #f7f7f7;
+      width: 100%;
+      text-align: right;
     }
   }
 }

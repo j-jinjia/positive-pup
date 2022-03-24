@@ -1,4 +1,7 @@
+@use "./variables" as *;
+
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  color: $colour-font-general;
 }
