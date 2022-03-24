@@ -1,28 +1,37 @@
 @use "../../styles/variables" as *;
+
 .course-card {
   background-color: $colour-secondary-background;
-  width: 100%;
-  height: 100%;
-  box-shadow: 1px 1px 3px $colour-secondary-background;
-  border-radius: 5%;
-  &__img {
-    width: 20rem;
+  max-width: 23.125rem;
+  max-height: 24.125rem;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.04));
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+
+  .course-card__img-container {
+    overflow: hidden;
+
+    .course-card__img {
+      width: 100%;
+      padding: 0 3rem;
+    }
   }
+
   &__course-content {
     background-color: $colour-secondary;
     padding: 1rem;
-    height: 20%;
-    border-radius: 5%;
-    width: 100%;
-    font-size: 1.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
 
     .course-card__course-type {
       color: $colour-primary;
     }
+
     .course-card__course-heading {
       margin-bottom: 1rem;
     }
   }
+
   &__labels {
     display: flex;
     flex-direction: row;

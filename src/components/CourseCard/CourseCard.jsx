@@ -10,7 +10,9 @@ const CourseCard = (props) => {
 
   return (
     <div className="course-card">
-      <img className="course-card__img" src={image} alt="dog image" />
+      <div className="course-card__img-container">
+        <img className="course-card__img" src={image} alt="dog" />
+      </div>
       <div className="course-card__course-content">
         <p className="course-card__course-type">{courseType}</p>
         <p className="course-card__course-heading">{courseHeading}</p>
