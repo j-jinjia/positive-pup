@@ -26,7 +26,7 @@ exports[`should render the Serives page 1`] = `
         class="course-card__img-container"
       >
         <img
-          alt="dog image"
+          alt="dog"
           class="course-card__img"
           src="dog-image.png"
         />

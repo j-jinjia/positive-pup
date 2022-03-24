@@ -9,7 +9,7 @@ exports[`should match CourseCard component snapshot 1`] = `
       class="course-card__img-container"
     >
       <img
-        alt="dog image"
+        alt="dog"
         class="course-card__img"
         src="dog-image.png"
       />
