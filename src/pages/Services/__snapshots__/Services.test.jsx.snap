@@ -20,6 +20,60 @@ exports[`should render the Serives page 1`] = `
       </h2>
     </div>
     <div
+      class="course-card"
+    >
+      <img
+        alt="dog image"
+        class="course-card__img"
+        src="dog-image.png"
+      />
+      <div
+        class="course-card__course-content"
+      >
+        <p
+          class="course-card__course-type"
+        >
+          GROUP CLASS
+        </p>
+        <p
+          class="course-card__course-heading"
+        >
+          Little Stars Course
+        </p>
+        <div
+          class="course-card__labels"
+        >
+          <div
+            class="card-label"
+          >
+            <span
+              class="card-label__text"
+            >
+              InPerson
+            </span>
+          </div>
+          <div
+            class="card-label"
+          >
+            <span
+              class="card-label__text"
+            >
+              10 Weeks+
+            </span>
+          </div>
+          <div
+            class="card-label"
+          >
+            <span
+              class="card-label__text"
+            >
+              Online
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
       class="footer"
     >
       <div

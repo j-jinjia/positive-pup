@@ -1,5 +1,5 @@
+@use "../styles/variables" as *;
 * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: $font-general, sans-serif;
   font-size: 1rem;
 }
