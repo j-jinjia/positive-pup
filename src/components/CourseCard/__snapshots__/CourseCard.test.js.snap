@@ -5,11 +5,15 @@ exports[`should match CourseCard component snapshot 1`] = `
   <div
     class="course-card"
   >
-    <img
-      alt="dog image"
-      class="course-card__img"
-      src="dog-image.png"
-    />
+    <div
+      class="course-card__img-container"
+    >
+      <img
+        alt="dog image"
+        class="course-card__img"
+        src="dog-image.png"
+      />
+    </div>
     <div
       class="course-card__course-content"
     >
