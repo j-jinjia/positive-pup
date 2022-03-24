@@ -2,7 +2,9 @@ import "./Navbar.scss";
 import icon from "../../assets/images/footer-logo.svg";
 import openMenu from "../../assets/svgs/hamburger-menu.svg";
 import closeMenu from "../../assets/svgs/close-menu.svg";
+import phone from "../../assets/svgs/phone.svg";
 import { useState, useEffect } from "react";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -26,9 +28,11 @@ const Navbar = () => {
   const navJSX = (
     <>
       <nav className="navbar__nav">
-        <a className="navbar__nav-item" href="positive-pup/">
-          Home
-        </a>
+        {!windowIsDesktop && (
+          <a className="navbar__nav-item" href="positive-pup/">
+            Home
+          </a>
+        )}
         <a className="navbar__nav-item" href="about">
           About
         </a>
@@ -41,12 +45,27 @@ const Navbar = () => {
         <a className="navbar__nav-item" href="gallery">
           Gallery
         </a>
-        <a className="navbar__nav-item" href="get-in-touch">
-          Get in Touch
-        </a>
-        {<a className="navbar__nav-item" href="book-now">
-          Book Now
-        </a>}
+        {windowIsDesktop ? (
+          <a className="navbar__nav-item" href="get-in-touch">
+            <img src={phone} alt="" /> Get in Touch
+          </a>
+        ) : (
+          <a className="navbar__nav-item" href="get-in-touch">
+            Get in Touch
+          </a>
+        )}
+        {windowIsDesktop ? (
+          <a className="navbar__nav-item" href="book-now">
+            <Button buttonText="Book Now" />
+          </a>
+        ) : (
+          <a
+            className="navbar__nav-item navbar__nav-item--active"
+            href="book-now"
+          >
+            Book Now
+          </a>
+        )}
       </nav>
     </>
   );
