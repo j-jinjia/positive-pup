@@ -84,20 +84,6 @@
     height: auto;
     flex-wrap: nowrap;
     width: 643px;
-<<<<<<< HEAD
-  }
-
-  .footer__secondary-links-container {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    justify-content: space-between;
-
-    .footer__copyright-text {
-      margin: 0;
-    }
-  }
-=======
 
     .footer__list-item {
       &--desktop {
@@ -120,5 +106,4 @@
       margin: 0;
     }
   }
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
 }
