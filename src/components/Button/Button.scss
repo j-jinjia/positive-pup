@@ -4,8 +4,12 @@
   padding: 15px 38px;
   border: none;
   border-radius: 8px;
+
   font-family: $font-general;
   font-size: $font-size-general;
+
+  text-decoration: none;
+  
   &--squared {
     border-radius: 0;
   }

@@ -6,6 +6,7 @@ exports[`should render the About page 1`] = `
     class="layout"
   >
     <div
+<<<<<<< HEAD
       class="navbar"
     >
       <div
@@ -45,6 +46,21 @@ exports[`should render the About page 1`] = `
         <div
           class="hero"
         >
+=======
+      class="about-us-header"
+    >
+      <main
+        class="about-us-header__content"
+      >
+        <h1
+          class="about-us-header__content-title"
+        >
+          ABOUT US
+        </h1>
+        <div
+          class="hero"
+        >
+>>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
           <h2
             class="hero__header"
           >
@@ -119,12 +135,17 @@ exports[`should render the About page 1`] = `
           </a>
         </li>
         <li
+<<<<<<< HEAD
           class="footer__list-item"
+=======
+          class="footer__list-item footer__list-item--desktop"
+>>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
         >
           <a
             class="footer__link"
             href="/terms-and-conditions"
           >
+<<<<<<< HEAD
             Terms and conditions
           </a>
         </li>
@@ -136,6 +157,29 @@ exports[`should render the About page 1`] = `
             href="/faqs"
           >
             FAQs
+=======
+            Terms & Conditions
+          </a>
+        </li>
+        <li
+          class="footer__list-item footer__list-item--mobile"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            T&C's
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/faqs"
+          >
+            FAQ's
+>>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
           </a>
         </li>
         <li
