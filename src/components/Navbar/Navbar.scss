@@ -36,6 +36,9 @@
     height: 100%;
 
     &-item {
+      // css goes here
+
+
       &--active {
         font-weight: bold;
         color: $colour-primary;
@@ -53,6 +56,8 @@
     }
   }
 }
+// SASS for active navLink
+
 
 @media screen and (min-width: $desktop-breakpoint) {
   .navbar {
@@ -90,4 +95,6 @@
       }
     }
   }
+  .active{color: $colour-primary;
+  text-decoration: underline $colour-primary;}
 }
