@@ -1,10 +1,9 @@
 import Layout from "../../components/Layout/Layout";
-import CourseCard from "../../components/CourseCard/CourseCard";
-import dogImage from "../../assets/images/dog-image.png";
 import "./Services.scss";
+import { CoursesList } from "../../Containers/CoursesList/CoursesList";
+import courseData from "../../assets/mockData/courseData";
 
 const Services = () => {
-  const mockArray = ["In Person", "10 Weeks+", "Online"];
   return (
     <Layout>
       <div className="services">
@@ -12,13 +11,8 @@ const Services = () => {
         <h2 className="services__subheading">
           Take a peek at everything we offer
         </h2>
+        <CoursesList courseData={courseData} />
       </div>
-      <CourseCard
-        image={dogImage}
-        courseType="GROUP CLASS"
-        courseHeading="Little Stars Course"
-        labelsArray={mockArray}
-      />
     </Layout>
   );
 };
