@@ -18,61 +18,283 @@ exports[`should render the Serives page 1`] = `
       >
         Take a peek at everything we offer
       </h2>
-    </div>
-    <div
-      class="course-card"
-    >
       <div
-        class="course-card__img-container"
+        class="courses-list"
       >
-        <img
-          alt="dog"
-          class="course-card__img"
-          src="dog-image.png"
-        />
-      </div>
-      <div
-        class="course-card__course-content"
-      >
-        <p
-          class="course-card__course-type"
-        >
-          GROUP CLASS
-        </p>
-        <p
-          class="course-card__course-heading"
-        >
-          Little Stars Course
-        </p>
         <div
-          class="course-card__labels"
+          class="course-card"
         >
           <div
-            class="card-label"
+            class="course-card__img-container"
           >
-            <span
-              class="card-label__text"
-            >
-              In Person
-            </span>
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image.png"
+            />
           </div>
           <div
-            class="card-label"
+            class="course-card__course-content"
           >
-            <span
-              class="card-label__text"
+            <p
+              class="course-card__course-type"
             >
-              10 Weeks+
-            </span>
+              Group Class
+            </p>
+            <p
+              class="course-card__course-heading"
+            >
+              Little Stars Course
+            </p>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  In Person
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  10 weeks+
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image1.png"
+            />
           </div>
           <div
-            class="card-label"
+            class="course-card__course-content"
           >
-            <span
-              class="card-label__text"
+            <p
+              class="course-card__course-type"
             >
-              Online
-            </span>
+              Group Class
+            </p>
+            <p
+              class="course-card__course-heading"
+            >
+              Rising Stars Course
+            </p>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  In Person
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  16 weeks+
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image2.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Bespoke Package
+            </p>
+            <p
+              class="course-card__course-heading"
+            >
+              1:1 Personalised Training
+            </p>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  In Person
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Intensive
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Group Class
+            </p>
+            <p
+              class="course-card__course-heading"
+            >
+              Little Stars Course
+            </p>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image1.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Online Course
+            </p>
+            <p
+              class="course-card__course-heading"
+            >
+              Chaos to Calm
+            </p>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Flexible
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image3.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Online Course
+            </p>
+            <p
+              class="course-card__course-heading"
+            >
+              Rapid Recall
+            </p>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
