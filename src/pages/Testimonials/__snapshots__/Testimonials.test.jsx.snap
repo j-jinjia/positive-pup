@@ -2,115 +2,147 @@
 
 exports[`should render the testimonials page 1`] = `
 <div>
-  <h1>
-    Testimonials
-  </h1>
   <div
-    class="footer"
+    class="layout"
   >
     <div
-      class="footer__image-container"
-    >
-      <img
-        alt="logo"
-        class="footer__logo"
-        src="footer-logo.svg"
-      />
-    </div>
-    <ul
-      class="footer__links-container"
-    >
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/about"
-        >
-          About
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/services"
-        >
-          Services
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/gallery"
-        >
-          Gallery
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/terms-and-conditions"
-        >
-          Terms and conditions
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/faqs"
-        >
-          FAQs
-        </a>
-      </li>
-      <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/get-in-touch"
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
-    <hr />
-    <div
-      class="footer__secondary-links-container"
+      class="navbar"
     >
       <div
-        class="footer__copyright-text"
+        class="navbar__container"
       >
-        © 2022 The Positive Pup. All rights reserved.
+        <a
+          href="/"
+        >
+          <img
+            alt="The Positive Pup logo"
+            class="navbar__container-logo"
+            src="footer-logo.svg"
+          />
+        </a>
+        <button
+          class="navbar__container-button"
+        >
+          <img
+            alt="Open site menu"
+            class="navbar__container-button-image"
+            src="hamburger-menu.svg"
+          />
+        </button>
       </div>
+    </div>
+    <h1>
+      Testimonials
+    </h1>
+    <div
+      class="footer"
+    >
       <div
-        class="footer__secondary-links-container--social-links"
+        class="footer__image-container"
       >
-        <a
-          href="https://www.facebook.com/thepositivepupdogtraining"
-          target="blank"
+        <img
+          alt="logo"
+          class="footer__logo"
+          src="footer-logo.svg"
+        />
+      </div>
+      <ul
+        class="footer__links-container"
+      >
+        <li
+          class="footer__list-item"
         >
-          <img
-            alt="link to facebook"
-            src="facebook-logo.svg"
-          />
-        </a>
-        <a
-          href="https://www.instagram.com/the_positivepup/"
-          target="blank"
+          <a
+            class="footer__link"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
         >
-          <img
-            alt="link to instagram"
-            src="instagram-logo.svg"
-          />
-        </a>
+          <a
+            class="footer__link"
+            href="/services"
+          >
+            Services
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/gallery"
+          >
+            Gallery
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            Terms and conditions
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/faqs"
+          >
+            FAQs
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/get-in-touch"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <hr
+        class="footer__line-break"
+      />
+      <div
+        class="footer__secondary-links-container"
+      >
+        <div
+          class="footer__copyright-text"
+        >
+          © 2022 The Positive Pup. All rights reserved.
+        </div>
+        <div
+          class="footer__social-links"
+        >
+          <a
+            href="https://www.facebook.com/thepositivepupdogtraining"
+            target="blank"
+          >
+            <img
+              alt="link to facebook"
+              src="facebook-logo.svg"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/the_positivepup/"
+            target="blank"
+          >
+            <img
+              alt="link to instagram"
+              src="instagram-logo.svg"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>
