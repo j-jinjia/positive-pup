@@ -18,6 +18,7 @@ const Home = () => {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas"
         }
         buttonText={"What We Offer"}
+        link={"/services"}
       />
       <CertificateBadges />
     </Layout>
