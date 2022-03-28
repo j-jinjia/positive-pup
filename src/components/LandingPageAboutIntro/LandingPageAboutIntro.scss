@@ -44,6 +44,7 @@
     margin-right: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 3rem;
 
     &__paw {
       display: inline;
@@ -98,6 +99,7 @@
       grid-column: 2;
       grid-row: 1;
       align-self: flex-end;
+      margin-bottom: 1rem;
     }
 
     &__header {
