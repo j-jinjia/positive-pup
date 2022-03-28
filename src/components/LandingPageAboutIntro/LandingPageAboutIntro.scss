@@ -77,7 +77,9 @@
 
 @media screen and (min-width: $desktop-breakpoint) {
   .landing-page-about-intro {
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 2fr, 1fr;
+    max-width: 1250px;
+    padding: 5rem;
     background: linear-gradient(
       to left,
       rgba(55, 175, 162, 0.06) 85%,
@@ -89,26 +91,26 @@
       grid-row-start: 1;
       grid-row-end: 5;
       width: 80%;
+      align-self: center;
     }
 
     &__paw {
       grid-column: 2;
       grid-row: 1;
+      align-self: flex-end;
     }
 
     &__header {
       grid-column: 2;
-      grid-row: 2;
+      margin: 0;
     }
 
     &__paragraph {
       grid-column: 2;
-      grid-row: 3;
     }
 
     &__button {
       grid-column: 2;
-      grid-row: 4;
     }
   }
 }
