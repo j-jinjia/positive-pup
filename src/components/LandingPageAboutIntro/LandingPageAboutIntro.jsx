@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 const LandingPageAboutIntro = () => {
   return (
-    <>
       <div className="landing-page__about-intro">
         <div className="landing-page__about-intro--greenbox">
           <img
@@ -27,7 +26,6 @@ const LandingPageAboutIntro = () => {
             at in mi, facilisi proin.
           </p>
 
-          <div className="buttonAndImage-container">
             <Link to="/about" className="landing-page__about-intro--button">
               <Button isSecondary={true} buttonText="More About Me" />
             </Link>
@@ -36,10 +34,9 @@ const LandingPageAboutIntro = () => {
               className="landing-page__about-intro--image"
               alt="Positive Pup owner, Melanie, with a dog"
             />
-          </div>
+          
         </div>
       </div>
-    </>
   );
 };
 
