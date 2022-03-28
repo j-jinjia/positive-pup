@@ -6,7 +6,6 @@ exports[`should render the Serives page 1`] = `
     class="layout"
   >
     <div
-<<<<<<< HEAD
       class="navbar"
     >
       <div
@@ -32,10 +31,7 @@ exports[`should render the Serives page 1`] = `
         </button>
       </div>
     </div>
-    <h1>
-      Services
-    </h1>
-=======
+    <div
       class="services"
     >
       <h1
@@ -329,7 +325,6 @@ exports[`should render the Serives page 1`] = `
         </div>
       </div>
     </div>
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
     <div
       class="footer"
     >
@@ -376,9 +371,6 @@ exports[`should render the Serives page 1`] = `
           </a>
         </li>
         <li
-<<<<<<< HEAD
-          class="footer__list-item"
-=======
           class="footer__list-item footer__list-item--desktop"
         >
           <a
@@ -390,17 +382,12 @@ exports[`should render the Serives page 1`] = `
         </li>
         <li
           class="footer__list-item footer__list-item--mobile"
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
         >
           <a
             class="footer__link"
             href="/terms-and-conditions"
           >
-<<<<<<< HEAD
-            Terms and conditions
-=======
             T&C's
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
           </a>
         </li>
         <li
@@ -410,11 +397,7 @@ exports[`should render the Serives page 1`] = `
             class="footer__link"
             href="/faqs"
           >
-<<<<<<< HEAD
-            FAQs
-=======
             FAQ's
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
           </a>
         </li>
         <li

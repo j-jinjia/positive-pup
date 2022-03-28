@@ -5,11 +5,7 @@ exports[`should render the home page 1`] = `
   <div
     class="layout"
   >
-    <h1>
-      Positive Pup
-    </h1>
     <div
-<<<<<<< HEAD
       class="navbar"
     >
       <div
@@ -39,35 +35,6 @@ exports[`should render the home page 1`] = `
       Positive Pup
     </h1>
     <div
-      class="hero"
-    >
-      <h2
-        class="hero__header"
-      >
-        Start your journey on the right 
-        <span
-          class="hero__header-highlight"
-        >
-          paw.
-        </span>
-      </h2>
-      <p
-        class="hero__subheader"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
-      </p>
-      <button
-        class="button button--primary"
-      >
-        What We Offer
-      </button>
-    </div>
-    <div
-      class="certificate-badges"
-    >
-      <a
-        href="https://www.vsdogtrainingacademy.com/"
-=======
       class="hero"
     >
       <h2
@@ -119,36 +86,10 @@ exports[`should render the home page 1`] = `
       </a>
       <a
         href="https://ukdogcharter.org/"
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
         rel="noreferrer"
         target="_blank"
       >
         <img
-<<<<<<< HEAD
-          alt="Victoria Stillwell certification badge"
-          class="certificate-badges__img"
-          src="victoria_stillwell.png"
-        />
-      </a>
-      <a
-        href="https://companionanimal.network/"
-        rel="noreferrer"
-        target="_blank"
-      >
-        <img
-          alt="international companion animal network certification badge"
-          class="certificate-badges__img"
-          src="international_companion.png"
-        />
-      </a>
-      <a
-        href="https://ukdogcharter.org/"
-        rel="noreferrer"
-        target="_blank"
-      >
-        <img
-=======
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
           alt="UK dog behaviour and training charter certification badge"
           class="certificate-badges__img"
           src="UK_dog_behaviour.png"
@@ -212,9 +153,6 @@ exports[`should render the home page 1`] = `
           </a>
         </li>
         <li
-<<<<<<< HEAD
-          class="footer__list-item"
-=======
           class="footer__list-item footer__list-item--desktop"
         >
           <a
@@ -226,17 +164,12 @@ exports[`should render the home page 1`] = `
         </li>
         <li
           class="footer__list-item footer__list-item--mobile"
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
         >
           <a
             class="footer__link"
             href="/terms-and-conditions"
           >
-<<<<<<< HEAD
-            Terms and conditions
-=======
             T&C's
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
           </a>
         </li>
         <li
@@ -246,11 +179,7 @@ exports[`should render the home page 1`] = `
             class="footer__link"
             href="/faqs"
           >
-<<<<<<< HEAD
-            FAQs
-=======
             FAQ's
->>>>>>> d0856e6ee34185512949d7ad7ee76ba26ed0604c
           </a>
         </li>
         <li
