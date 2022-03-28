@@ -5,7 +5,7 @@ import closeMenu from "../../assets/svgs/close-menu.svg";
 import phone from "../../assets/svgs/phone.svg";
 import { useState, useEffect } from "react";
 import Button from "../Button/Button";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -48,26 +48,29 @@ const Navbar = () => {
         </NavLink>
 
         {windowIsDesktop ? (
-          <NavLink className="navbar__nav-item" to="/get-in-touch">
+          <span className="navbar__nav-item">
+            {" "}
             <img src={phone} alt="" />
-            Get in Touch
-          </NavLink>
+            <NavLink className="navbar__nav-item" to="/get-in-touch">
+              Get in Touch
+            </NavLink>
+          </span>
         ) : (
           <NavLink className="navbar__nav-item" to="/get-in-touch">
             Get in Touch
           </NavLink>
         )}
         {windowIsDesktop ? (
-          <NavLink className="navbar__nav-item" to="/book-now">
+          <Link className="navbar__nav-item" to="/book-now">
             <Button buttonText="Book Now" />
-          </NavLink>
+          </Link>
         ) : (
-          <NavLink
+          <Link
             className="navbar__nav-item navbar__nav-item--active"
             to="/book-now"
           >
             Book Now
-          </NavLink>
+          </Link>
         )}
       </nav>
     </>
@@ -79,11 +82,14 @@ const Navbar = () => {
     <>
       <div className={navbarClass}>
         <div className="navbar__container">
-          <img
-            src={icon}
-            className="navbar__container-logo"
-            alt="The Positive Pup logo"
-          />
+          <Link to="/">
+            <img
+              src={icon}
+              className="navbar__container-logo"
+              alt="The Positive Pup logo"
+            />
+          </Link>
+
           {!windowIsDesktop && (
             <button onClick={handleClick} className="navbar__container-button">
               <img

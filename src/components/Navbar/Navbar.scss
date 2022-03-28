@@ -38,15 +38,13 @@
     &-item {
       // css goes here
 
-
       &--active {
         font-weight: bold;
         color: $colour-primary;
       }
     }
 
-    &-item,
-    &-item:visited {
+    &-item {
       padding: 21px 0;
       text-decoration: none;
       font-size: $font-size-navbar;
@@ -57,7 +55,6 @@
   }
 }
 // SASS for active navLink
-
 
 @media screen and (min-width: $desktop-breakpoint) {
   .navbar {
@@ -82,6 +79,8 @@
         border: none;
         padding: 0;
         width: fit-content;
+        border-style: none;
+
         &:nth-child(1) {
           margin-left: 50px;
         }
@@ -95,6 +94,13 @@
       }
     }
   }
-  .active{color: $colour-primary;
-  text-decoration: underline $colour-primary;}
+  .active {
+    color: $colour-primary;
+    border-style: none;
+    border-bottom: solid $colour-primary 1px;
+    img {
+      border-style: none;
+      border: none;
+    }
+  }
 }

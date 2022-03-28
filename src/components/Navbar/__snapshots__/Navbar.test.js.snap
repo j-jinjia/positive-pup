@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the Navbar component snapshot 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <div
+      class="navbar__container"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="The Positive Pup logo"
+          class="navbar__container-logo"
+          src="footer-logo.svg"
+        />
+      </a>
+      <button
+        class="navbar__container-button"
+      >
+        <img
+          alt="Open site menu"
+          class="navbar__container-button-image"
+          src="hamburger-menu.svg"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
