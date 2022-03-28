@@ -26,11 +26,12 @@ exports[`should render the home page 1`] = `
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
       </p>
-      <button
+      <a
         class="button button--primary"
+        href="/services"
       >
         What We Offer
-      </button>
+      </a>
     </div>
     <div
       class="certificate-badges"
