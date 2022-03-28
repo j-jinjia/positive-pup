@@ -1,14 +1,14 @@
-import image0 from "../mockData/images/image.png"
-import image1 from "../mockData/images/image1.png"
-import image2 from "../mockData/images/image2.png"
-import image3 from "../mockData/images/image3.png"
+import image0 from "../mockData/images/image.png";
+import image1 from "../mockData/images/image1.png";
+import image2 from "../mockData/images/image2.png";
+import image3 from "../mockData/images/image3.png";
 
 const courses = [
   {
     image: image0,
     courseType: "Group Class",
     courseHeading: "Little Stars Course",
-    labelsArray:["In Person", "10 weeks+"],
+    labelsArray: ["In Person", "10 weeks+"],
   },
   {
     image: image1,
