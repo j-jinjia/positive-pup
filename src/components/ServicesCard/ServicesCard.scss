@@ -1,0 +1,13 @@
+.servicesCard {
+  background-color: #e4f5f3;
+  max-width: 23.125rem;
+  //when all content is in, this can be changed to max height
+  height: 24.125rem;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.04));
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+}
