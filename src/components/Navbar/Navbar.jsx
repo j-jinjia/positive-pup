@@ -5,6 +5,7 @@ import closeMenu from "../../assets/svgs/close-menu.svg";
 import phone from "../../assets/svgs/phone.svg";
 import { useState, useEffect } from "react";
 import Button from "../Button/Button";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,42 +30,44 @@ const Navbar = () => {
     <>
       <nav className="navbar__nav">
         {!windowIsDesktop && (
-          <a className="navbar__nav-item" href="positive-pup/">
+          <NavLink className="navbar__nav-item" to="/">
             Home
-          </a>
+          </NavLink>
         )}
-        <a className="navbar__nav-item" href="about">
+        <NavLink className="navbar__nav-item" to="/about">
           About
-        </a>
-        <a className="navbar__nav-item" href="services">
+        </NavLink>
+        <NavLink className="navbar__nav-item" to="/services">
           Services
-        </a>
-        <a className="navbar__nav-item" href="testimonials">
+        </NavLink>
+        <NavLink className="navbar__nav-item" to="/testimonials">
           Testimonials
-        </a>
-        <a className="navbar__nav-item" href="gallery">
+        </NavLink>
+        <NavLink className="navbar__nav-item" to="/gallery">
           Gallery
-        </a>
+        </NavLink>
+
         {windowIsDesktop ? (
-          <a className="navbar__nav-item" href="get-in-touch">
-            <img src={phone} alt="" /> Get in Touch
-          </a>
-        ) : (
-          <a className="navbar__nav-item" href="get-in-touch">
+          <NavLink className="navbar__nav-item" to="/get-in-touch">
+            <img src={phone} alt="" />
             Get in Touch
-          </a>
+          </NavLink>
+        ) : (
+          <NavLink className="navbar__nav-item" to="/get-in-touch">
+            Get in Touch
+          </NavLink>
         )}
         {windowIsDesktop ? (
-          <a className="navbar__nav-item" href="book-now">
+          <NavLink className="navbar__nav-item" to="/book-now">
             <Button buttonText="Book Now" />
-          </a>
+          </NavLink>
         ) : (
-          <a
+          <NavLink
             className="navbar__nav-item navbar__nav-item--active"
-            href="book-now"
+            to="/book-now"
           >
             Book Now
-          </a>
+          </NavLink>
         )}
       </nav>
     </>
