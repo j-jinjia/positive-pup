@@ -2,6 +2,7 @@ import CertificateBadges from "../../components/CertificateBadges/CertificateBad
 import Hero from "../../components/Hero/Hero";
 import LandingPageAboutIntro from "../../components/LandingPageAboutIntro/LandingPageAboutIntro";
 import Layout from "../../components/Layout/Layout";
+import LandingPageServicesIntro from "../../components/LandingPageServicesIntro/LandingPageServicesIntro";
 
 const Home = () => {
   const headerText = "Start your journey on the right ";
@@ -23,6 +24,7 @@ const Home = () => {
       />
       <CertificateBadges />
       <LandingPageAboutIntro />
+      <LandingPageServicesIntro />
     </Layout>
   );
 };
