@@ -1,5 +1,6 @@
 import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
 import Hero from "../../components/Hero/Hero";
+import LandingPageAboutIntro from "../../components/LandingPageAboutIntro/LandingPageAboutIntro";
 import Layout from "../../components/Layout/Layout";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         link={"/services"}
       />
       <CertificateBadges />
+      <LandingPageAboutIntro />
     </Layout>
   );
 };
