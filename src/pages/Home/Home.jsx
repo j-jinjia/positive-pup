@@ -1,5 +1,6 @@
 import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
 import Hero from "../../components/Hero/Hero";
+import LandingPageAboutIntro from "../../components/LandingPageAboutIntro/LandingPageAboutIntro";
 import Layout from "../../components/Layout/Layout";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
 
@@ -22,7 +23,7 @@ const Home = () => {
         link={"/services"}
       />
       <CertificateBadges />
-
+      <LandingPageAboutIntro />
       <ServicesSection link={"/services"} />
     </Layout>
   );
