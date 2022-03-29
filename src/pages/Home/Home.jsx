@@ -23,7 +23,7 @@ const Home = () => {
       />
       <CertificateBadges />
 
-      <ServicesSection />
+      <ServicesSection link={"/services"} />
     </Layout>
   );
 };
