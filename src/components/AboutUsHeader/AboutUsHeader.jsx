@@ -15,8 +15,11 @@ const AboutUsHeader = () => {
         <Hero
           header={
             <>
-              <h2 className="hero__header">{headerJSX}</h2>
-              <h2 className="hero__header">My name is Melanie!</h2>
+              <h2 className="hero__header">
+                {headerJSX}
+                <div> </div>
+                My name is Melanie!
+              </h2>
             </>
           }
           subheaderText={
