@@ -3,77 +3,65 @@ import icon from "../../assets/images/footer-logo.svg";
 import openMenu from "../../assets/svgs/hamburger-menu.svg";
 import closeMenu from "../../assets/svgs/close-menu.svg";
 import phone from "../../assets/svgs/phone.svg";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Button from "../Button/Button";
 import { Link, NavLink } from "react-router-dom";
+import useWindowSize from "../../hooks/useWindowSize.js";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-
-  const [windowIsDesktop, setwindowIsDesktop] = useState(
-    window.innerWidth > 1024
-  );
-
-  const handleResize = () => {
-    setwindowIsDesktop(window.innerWidth > 1024);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-  });
+  const windowIsDesktop = useWindowSize(1024);
 
   const handleClick = () => {
     setShowMenu(!showMenu);
   };
 
   const navJSX = (
-    <>
-      <nav className="navbar__nav">
-        {!windowIsDesktop && (
-          <NavLink className="navbar__nav-item" to="/">
-            Home
-          </NavLink>
-        )}
-        <NavLink className="navbar__nav-item" to="/about">
-          About
+    <nav className="navbar__nav">
+      {!windowIsDesktop && (
+        <NavLink className="navbar__nav-item" to="/">
+          Home
         </NavLink>
-        <NavLink className="navbar__nav-item" to="/services">
-          Services
-        </NavLink>
-        <NavLink className="navbar__nav-item" to="/testimonials">
-          Testimonials
-        </NavLink>
-        <NavLink className="navbar__nav-item" to="/gallery">
-          Gallery
-        </NavLink>
+      )}
+      <NavLink className="navbar__nav-item" to="/about">
+        About
+      </NavLink>
+      <NavLink className="navbar__nav-item" to="/services">
+        Services
+      </NavLink>
+      <NavLink className="navbar__nav-item" to="/testimonials">
+        Testimonials
+      </NavLink>
+      <NavLink className="navbar__nav-item" to="/gallery">
+        Gallery
+      </NavLink>
 
-        {windowIsDesktop ? (
-          <span className="navbar__nav-item">
-            {" "}
-            <img src={phone} alt="" />
-            <NavLink className="navbar__nav-item" to="/get-in-touch">
-              Get in Touch
-            </NavLink>
-          </span>
-        ) : (
+      {windowIsDesktop ? (
+        <span className="navbar__nav-item">
+          {" "}
+          <img className="navbar__nav-item-button" src={phone} alt="" />
           <NavLink className="navbar__nav-item" to="/get-in-touch">
             Get in Touch
           </NavLink>
-        )}
-        {windowIsDesktop ? (
-          <Link className="navbar__nav-item" to="/book-now">
-            <Button buttonText="Book Now" />
-          </Link>
-        ) : (
-          <Link
-            className="navbar__nav-item navbar__nav-item--active"
-            to="/book-now"
-          >
-            Book Now
-          </Link>
-        )}
-      </nav>
-    </>
+        </span>
+      ) : (
+        <NavLink className="navbar__nav-item" to="/get-in-touch">
+          Get in Touch
+        </NavLink>
+      )}
+      {windowIsDesktop ? (
+        <Link className="navbar__nav-item" to="/book-now">
+          <Button buttonText="Book Now" />
+        </Link>
+      ) : (
+        <Link
+          className="navbar__nav-item navbar__nav-item--active"
+          to="/book-now"
+        >
+          Book Now
+        </Link>
+      )}
+    </nav>
   );
 
   const menuIcon = showMenu ? closeMenu : openMenu;

@@ -36,8 +36,6 @@
     height: 100%;
 
     &-item {
-      // css goes here
-
       &--active {
         font-weight: bold;
         color: $colour-primary;
@@ -98,7 +96,7 @@
     color: $colour-primary;
     border-style: none;
     border-bottom: solid $colour-primary 1px;
-    img {
+    .navbar__nav-item-button{
       border-style: none;
       border: none;
     }
