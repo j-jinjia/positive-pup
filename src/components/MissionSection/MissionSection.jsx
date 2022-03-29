@@ -27,7 +27,7 @@ const MissionSection = () => {
         <a className="link-container__link" href="">
           View Training Methods
         </a>
-        <img className="link-container__arrow" src={arrow} alt="arrow" />
+        <img className="link-container__arrow" src={arrow} alt="" />
       </div>
     </div>
   );
