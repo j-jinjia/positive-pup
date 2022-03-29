@@ -77,12 +77,10 @@ exports[`should render the About page 1`] = `
           class="link-container__link"
           href=""
         >
-           
           View Training Methods
-           
         </a>
-         
         <img
+          alt="arrow"
           class="link-container__arrow"
           src="arrow.svg"
         />

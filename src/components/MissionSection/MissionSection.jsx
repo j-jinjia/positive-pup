@@ -25,10 +25,9 @@ const MissionSection = () => {
       </p>
       <div className="link-container">
         <a className="link-container__link" href="">
-          {" "}
-          View Training Methods{" "}
-        </a>{" "}
-        <img className="link-container__arrow" src={arrow} />
+          View Training Methods
+        </a>
+        <img className="link-container__arrow" src={arrow} alt="arrow" />
       </div>
     </div>
   );
