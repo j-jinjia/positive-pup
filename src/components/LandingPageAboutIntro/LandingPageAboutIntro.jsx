@@ -12,7 +12,6 @@ const LandingPageAboutIntro = () => {
             className="landing-page-about-intro__paw"
             alt="paw print"
           />
-
           <h2 className="landing-page-about-intro__header">
             Why The Positive Pup?
           </h2>
@@ -24,15 +23,14 @@ const LandingPageAboutIntro = () => {
             eget sed amet malesuada est dignissim magna. Amet vel tempor egestas
             at in mi, facilisi proin.
           </p>
-
-            <Link to="/about" className="landing-page-about-intro__button">
-              <Button isSecondary={true} buttonText="More About Me" />
-            </Link>
-            <img
+          <Link to="/about" className="landing-page-about-intro__button">
+            <Button buttonClassName="landing-page-about-intro__button" isSecondary={true} buttonText="More About Me" />
+          </Link>
+          <img
               src={introImage}
               className="landing-page-about-intro__image"
               alt="Positive Pup owner, Melanie, with a dog"
-            />
+          />
       </div>
   );
 };
