@@ -23,10 +23,9 @@ exports[`should render the About page 1`] = `
             class="hero__header"
           >
             Hey there
-          </h2>
-          <h2
-            class="hero__header"
-          >
+            <div>
+               
+            </div>
             My name is Melanie!
           </h2>
           <p
