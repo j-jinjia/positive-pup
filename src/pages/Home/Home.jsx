@@ -1,8 +1,21 @@
 import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
 import Hero from "../../components/Hero/Hero";
 import Layout from "../../components/Layout/Layout";
+import { Testimonial } from "../../components/Testimonial/Testimonial";
+import testimonials from "../../assets/mockData/testimonialData";
 
 const Home = () => {
+  const testimonialsListJSX = testimonials.map((testimonial, index) => {
+    return (
+      <Testimonial
+        key={testimonial.name + index}
+        name={testimonial.name}
+        date={testimonial.date}
+        course={testimonial.course}
+        comment={testimonial.comment}
+      />
+    );
+  });
   const headerText = "Start your journey on the right ";
   return (
     <Layout>
@@ -21,7 +34,9 @@ const Home = () => {
         link={"/services"}
       />
       <CertificateBadges />
+      {testimonialsListJSX} 
     </Layout>
+    
   );
 };
 
