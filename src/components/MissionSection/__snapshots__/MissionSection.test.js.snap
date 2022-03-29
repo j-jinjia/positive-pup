@@ -35,7 +35,7 @@ exports[`should render the MissionSection component 1`] = `
         View Training Methods
       </a>
       <img
-        alt="arrow"
+        alt=""
         class="link-container__arrow"
         src="arrow.svg"
       />
