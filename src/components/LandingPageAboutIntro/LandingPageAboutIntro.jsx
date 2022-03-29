@@ -15,14 +15,15 @@ const LandingPageAboutIntro = () => {
         Why The Positive Pup?
       </h2>
       <p className="landing-page-about-intro__paragraph">
-        {" "}
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada
         tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo,
         faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet
         malesuada est dignissim magna. Amet vel tempor egestas at in mi,
         facilisi proin.
       </p>
-      <Button link="/about" isSecondary={true} buttonText="More About Me" />
+      <div>
+        <Button link="/about" isSecondary={true} buttonText="More About Me" />
+      </div>
       <img
         src={introImage}
         className="landing-page-about-intro__image"

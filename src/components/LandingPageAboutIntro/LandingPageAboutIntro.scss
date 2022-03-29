@@ -20,7 +20,7 @@
     font-family: $font-header;
     font-size: 1.75rem;
     font-weight: 600;
-    line-height: 150%;
+    line-height: 1.5;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -29,7 +29,7 @@
     margin-bottom: 3rem;
     font-size: 1.125rem;
     color: $colour-font-paragraph;
-    line-height: 180%;
+    line-height: 1.8;
   }
 
   &__button {
@@ -77,7 +77,7 @@
 
 @media screen and (min-width: $desktop-breakpoint) {
   .landing-page-about-intro {
-    grid-template-rows: 1fr, 1fr, 2fr, 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
     max-width: 1250px;
     padding: 5rem;
     background: linear-gradient(
