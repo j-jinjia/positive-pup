@@ -1,0 +1,58 @@
+@use "../../styles/variables" as *;
+
+.mission-section {
+  background-color: $colour-primary-light;
+  padding: 2rem;
+  border-radius: 8px;
+  &__heading {
+    font-size: $font-size-h2;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+  }
+  &__about-us {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+  .link-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    &__link {
+      color: $colour-primary;
+      font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (min-width: $desktop-breakpoint) {
+  .mission-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background: linear-gradient(
+      to right,
+      transparent 15%,
+      $colour-primary-light 15%,
+      $colour-primary-light 85%,
+      transparent 85%
+    );
+
+    &__heading {
+      text-align: center;
+      margin-left: 30%;
+      margin-top: 2.5rem;
+    }
+    &__about-us {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      margin-right: 30%;
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+    .link-container {
+      grid-column-start: 2;
+      margin-bottom: 1rem;
+    }
+  }
+}
