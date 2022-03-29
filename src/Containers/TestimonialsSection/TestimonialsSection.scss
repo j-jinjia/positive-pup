@@ -1,0 +1,31 @@
+@use "../../styles/variables" as *;
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: $colour-senary;
+  width: fit-content;
+  &__header {
+    color: $colour-primary;
+  }
+  &__subheader {
+    font-family: $font-header;
+    font-weight: normal;
+    font-size: $font-size-h2;
+  }
+
+  &__text {
+    color: $colour-quinary;
+    max-width: 650px;
+    margin: 2.3rem 0 5.5rem 0;
+    line-height: 180%;
+  }
+  &__cards {
+    display: flex;
+    gap: 42px;
+  }
+}
