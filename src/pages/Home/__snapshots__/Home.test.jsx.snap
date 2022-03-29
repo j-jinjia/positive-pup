@@ -82,6 +82,126 @@ exports[`should render the home page 1`] = `
       </a>
     </div>
     <div
+      class="services-section"
+    >
+      <h2
+        class="services-section__header"
+      >
+        Services I Offer
+      </h2>
+      <h3
+        class="services-section__sub-header"
+      >
+        A breakdown of all the different kind of services I offer.
+      </h3>
+      <hr
+        class="services-section__line-break"
+      />
+      <div
+        class="services-section__course-container"
+      >
+        <div
+          class="services-card"
+        >
+          <h1
+            class="services-card__title"
+          >
+            Online Courses
+          </h1>
+          <h2>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+          </h2>
+          <a
+            href="/services"
+          >
+            <div
+              class="services-card__button"
+            >
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--black"
+                src="Vector-black.svg"
+              />
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--white"
+                src="Vector-white.svg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="services-card"
+        >
+          <h1
+            class="services-card__title"
+          >
+            Group Courses
+          </h1>
+          <h2>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+          </h2>
+          <a
+            href="/services"
+          >
+            <div
+              class="services-card__button"
+            >
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--black"
+                src="Vector-black.svg"
+              />
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--white"
+                src="Vector-white.svg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="services-card"
+        >
+          <h1
+            class="services-card__title"
+          >
+            Bespoke Packages
+          </h1>
+          <h2>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+          </h2>
+          <a
+            href="/services"
+          >
+            <div
+              class="services-card__button"
+            >
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--black"
+                src="Vector-black.svg"
+              />
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--white"
+                src="Vector-white.svg"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+      <a
+        class="button button--secondary"
+        href="/services"
+      >
+        VIEW OUR SERVICES
+      </a>
+    </div>
+    <div
       class="footer"
     >
       <div

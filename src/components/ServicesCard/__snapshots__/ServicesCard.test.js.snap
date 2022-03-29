@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match ServicesCard component snapshot 1`] = `
+<div>
+  <div
+    class="services-card"
+  >
+    <h1
+      class="services-card__title"
+    />
+    <h2 />
+    <a
+      href="/services"
+    >
+      <div
+        class="services-card__button"
+      >
+        <img
+          alt=""
+          class="services-card__vector services-card__vector--black"
+          src="Vector-black.svg"
+        />
+        <img
+          alt=""
+          class="services-card__vector services-card__vector--white"
+          src="Vector-white.svg"
+        />
+      </div>
+    </a>
+  </div>
+</div>
+`;
