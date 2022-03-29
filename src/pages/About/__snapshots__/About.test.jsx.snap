@@ -152,6 +152,74 @@ exports[`should render the About page 1`] = `
       </div>
     </div>
     <div
+      class="certification-section"
+    >
+      <h2
+        class="certification-section__header"
+      >
+        You’re in professional hands!
+      </h2>
+      <p
+        class="certification-section__paragraph"
+      >
+        I’m a well-established, certified trainer in Dog behaviour & training, with over 
+        <span
+          class="certification-section__paragraph--highlighted-text"
+        >
+          4.5 years of experience.
+        </span>
+         To find out more information about any of my certifications, please click on one of the logos.
+      </p>
+      <div
+        class="certificate-badges"
+      >
+        <a
+          href="https://www.vsdogtrainingacademy.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Victoria Stillwell certification badge"
+            class="certificate-badges__img"
+            src="victoria_stillwell.png"
+          />
+        </a>
+        <a
+          href="https://companionanimal.network/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="international companion animal network certification badge"
+            class="certificate-badges__img"
+            src="international_companion.png"
+          />
+        </a>
+        <a
+          href="https://ukdogcharter.org/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="UK dog behaviour and training charter certification badge"
+            class="certificate-badges__img"
+            src="UK_dog_behaviour.png"
+          />
+        </a>
+        <a
+          href="https://www.petprofessionalguild.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="the pet professional guild certification badge"
+            class="certificate-badges__img"
+            src="PPG_Member_Badge.png"
+          />
+        </a>
+      </div>
+    </div>
+    <div
       class="footer"
     >
       <div
