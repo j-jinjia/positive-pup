@@ -36,23 +36,20 @@
     height: 100%;
 
     &-item {
-      &--active {
-        font-weight: bold;
-        color: $colour-primary;
-      }
-    }
-
-    &-item {
       padding: 21px 0;
       text-decoration: none;
       font-size: $font-size-navbar;
       border-bottom: 1px solid #f7f7f7;
       width: 100%;
       text-align: right;
+
+      &--active {
+        font-weight: bold;
+        color: $colour-primary;
+      }
     }
   }
 }
-// SASS for active navLink
 
 @media screen and (min-width: $desktop-breakpoint) {
   .navbar {
@@ -79,10 +76,11 @@
         width: fit-content;
         border-style: none;
 
-        &:nth-child(1) {
+        &:first-child {
           margin-left: 50px;
         }
-        &:nth-child(5) {
+
+        &--phone {
           margin-left: auto;
           display: flex;
           justify-content: center;
@@ -92,11 +90,12 @@
       }
     }
   }
+
   .active {
     color: $colour-primary;
     border-style: none;
     border-bottom: solid $colour-primary 1px;
-    .navbar__nav-item-button{
+    .navbar__nav-item-button {
       border-style: none;
       border: none;
     }
