@@ -1,6 +1,8 @@
 import "./TestimonialsSection.scss";
 import testimonials from "../../assets/mockData/testimonialData";
 import Testimonial from "../../components/Testimonial/Testimonial";
+import arrow from "../../assets/svgs/testimonial-arrow.svg"
+
 // import { useState } from "react";
 
 const Testimonials = () => {
@@ -31,6 +33,10 @@ const Testimonials = () => {
         tempor ac. Id adipiscing adipiscing ac odio.
       </p>
       <div className="testimonials__cards">{testimonialsListJSX}</div>
+   <div className="testimonials__carousel">
+   <img className="testimonials__arrow testimonials__arrow--1" src={arrow} alt="left arrow" />
+   <img className="testimonials__arrow testimonials__arrow--2" src={arrow} alt="left arrow" />
+   </div>
     </div>
   );
 };

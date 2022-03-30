@@ -1,6 +1,11 @@
 @use "../../styles/variables" as *;
-
 .testimonials {
+  display: none;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+.testimonials {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +31,14 @@
   }
   &__cards {
     display: flex;
+    justify-content: center;
     gap: 42px;
   }
+
+  &__arrow{
+    &--2 {
+      transform: scale(-1, 1);
+    }
+  }
+}
 }
