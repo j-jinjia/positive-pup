@@ -1,7 +1,6 @@
 @use "../../styles/variables" as *;
 
-.certification-section--show,
-.certification-section {
+.certifications {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -13,7 +12,7 @@
     line-height: 1.1;
   }
 
-  &__paragraph {
+  &__description {
     margin-bottom: 2rem;
     line-height: 2;
     font-size: 1.25rem;
@@ -26,27 +25,23 @@
       text-underline-offset: 0.2rem;
     }
   }
-}
 
-.certification-section--hide {
-  display: none;
-}
+  &__badge-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-.certificate-badges {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  &__img {
-    margin: 0px 10px;
-    width: 60px;
-    height: 60px;
+    .certifications__badge {
+      margin: 0px 10px;
+      width: 60px;
+      height: 60px;
+    }
   }
 }
 
 @media screen and (min-width: 460px) {
-  .certificate-badges {
+  .certifications__badge-container {
     justify-content: center;
     width: 450px;
 
@@ -59,13 +54,13 @@
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
-  .certification-section {
+  .certifications {
     text-align: center;
   }
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
-  .certification-section {
+  .certifications {
     max-width: 700px;
   }
 }
