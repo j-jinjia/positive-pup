@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const ServicesCard = ({ title, description }) => {
   return (
     <div className="services-card">
-      <h1 className="services-card__title">{title}</h1>
-      <h2>{description}</h2>
+      <h2 className="services-card__title">{title}</h2>
+      <h3>{description}</h3>
       <Link to="/services">
         <div className="services-card__button">
           <img
