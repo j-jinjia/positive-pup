@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/positive-pup/static/css/main.eca79fc3.css",
-    "main.js": "/positive-pup/static/js/main.b8445836.js",
+    "main.css": "/positive-pup/static/css/main.38551f5f.css",
+    "main.js": "/positive-pup/static/js/main.b1a8d7e2.js",
     "static/js/787.dace3d45.chunk.js": "/positive-pup/static/js/787.dace3d45.chunk.js",
     "static/media/AboutMe.png": "/positive-pup/static/media/AboutMe.127727f833ce9274181d.png",
     "static/media/landing_page_about_intro_img.png": "/positive-pup/static/media/landing_page_about_intro_img.cc2e741068be853adb93.png",
@@ -20,12 +20,12 @@
     "static/media/facebook-logo.svg": "/positive-pup/static/media/facebook-logo.03e2175f7b6de498fc5ac4fb90aeeeb3.svg",
     "static/media/close-menu.svg": "/positive-pup/static/media/close-menu.1e3a47ea57c8c548bf541bbbc1d6ada7.svg",
     "static/media/hamburger-menu.svg": "/positive-pup/static/media/hamburger-menu.282efe67ddd1e22bcb10adac968693b3.svg",
-    "main.eca79fc3.css.map": "/positive-pup/static/css/main.eca79fc3.css.map",
-    "main.b8445836.js.map": "/positive-pup/static/js/main.b8445836.js.map",
+    "main.38551f5f.css.map": "/positive-pup/static/css/main.38551f5f.css.map",
+    "main.b1a8d7e2.js.map": "/positive-pup/static/js/main.b1a8d7e2.js.map",
     "787.dace3d45.chunk.js.map": "/positive-pup/static/js/787.dace3d45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eca79fc3.css",
-    "static/js/main.b8445836.js"
+    "static/css/main.38551f5f.css",
+    "static/js/main.b1a8d7e2.js"
   ]
 }
