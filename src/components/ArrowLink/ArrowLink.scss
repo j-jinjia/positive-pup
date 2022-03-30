@@ -1,0 +1,9 @@
+@use "../../styles/_variables" as *;
+
+.link {
+  color: $colour-primary;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}

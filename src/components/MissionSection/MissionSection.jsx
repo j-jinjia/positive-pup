@@ -1,5 +1,6 @@
 import "./MissionSection.scss";
-import arrow from "../../assets/svgs/arrow.svg";
+
+import LinkArrow from "../../components/ArrowLink/ArrowLink";
 
 const MissionSection = () => {
   return (
@@ -23,12 +24,8 @@ const MissionSection = () => {
         Thanks for visiting The Positive Pup and for taking your very first step
         towards building a special bond with your canine companion.
       </p>
-      <div className="link-container">
-        <a className="link-container__link" href="">
-          View Training Methods
-        </a>
-        <img className="link-container__arrow" src={arrow} alt="" />
-      </div>
+
+      <LinkArrow linkText="View Training Methods" />
     </div>
   );
 };
