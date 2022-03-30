@@ -47,6 +47,7 @@ const Home = () => {
           />
         }
         image={introImage}
+        isFlipped={false}
       />
       <LandingContainer
         icon={chain}
