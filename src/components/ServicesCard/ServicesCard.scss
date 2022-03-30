@@ -1,13 +1,13 @@
 @use "../../styles/variables" as *;
+
 .services-card {
   background-color: #e4f5f3;
   max-width: 23.125rem;
-  //when all content is in, this can be changed to max height
-  height: 24.125rem;
+  max-height: 24.125rem;
   filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.04));
   border-radius: 5.67951px;
   padding: 2.5rem;
-  margin: 2rem;
+  margin-bottom: 2rem;
 
   &__title {
     margin-bottom: 1rem;
@@ -21,10 +21,5 @@
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-  }
-  &__vector {
-    &--white {
-      display: none;
-    }
   }
 }
