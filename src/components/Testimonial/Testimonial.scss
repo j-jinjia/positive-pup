@@ -1,55 +1,82 @@
 @use "../../styles/variables" as *;
 
-  .testimonial {
-    position: relative;
+.testimonial {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(55, 175, 162, 0.14);
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  max-width: calc(34rem * 0.725);
+
+  &__header {
+    font-size: calc($font-size-h3 * 0.6);
+    color: $colour-primary;
+  }
+
+  &__details {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-shrink: 0;
-    background: #ffffff;
-    box-shadow: 0px 20px 40px rgba(55, 175, 162, 0.14);
+    gap: 20px;
+    color: $colour-quatenary;
+    margin-top: 2px;
+  }
+
+  &__detail {
+    font-size: calc(0.9 * 0.625rem);
+  }
+
+  &__comment {
+    line-height: 150%;
+    text-align: center;
+    margin-top: 30px;
+    color: $colour-quinary;
+    font-size: 0.625em;
+  }
+
+  &__quotations {
+    z-index: 1;
+    &--1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-50%, -50%);
+    }
+
+    &--2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: translate(50%, 50%) scale(-1, -1);
+    }
+  }
+
+  &--active {
     border-radius: 16px;
     padding: 2rem 2.5rem;
     max-width: 34rem;
-  
-    &__header {
-      font-size: $font-size-h3;
-      color: $colour-primary;
-    }
-  
-    &__details {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-      color: $colour-quatenary;
-    }
-  
-    &__detail {
-      font-size: 10px;
-    }
-  
-    &__comment {
-      line-height: 150%;
-      text-align: center;
-      margin-top: 30px;
-      color: $colour-quinary;
-    }
-  
-    &__quotations {
-      z-index: 1;
-      &--1 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(-50%, -50%);
+    .testimonial {
+      &__header {
+        font-size: $font-size-h3;
       }
-  
-      &--2 {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        transform: translate(50%, 50%) scale(-1, -1);
+
+      &__details {
+        gap: 20px;
+        margin-top: 2px;
+      }
+
+      &__detail {
+        font-size: 0.625rem;
+      }
+
+      &__comment {
+        margin-top: 30px;
+        font-size: 1em;
       }
     }
   }
+}
