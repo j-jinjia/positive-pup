@@ -1,5 +1,5 @@
 import "./TestimonialsSection.scss";
-import testimonials from "../../assets/mockData/testimonialData";
+import unfilteredTestimonials from "../../assets/mockData/testimonialData";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import arrow from "../../assets/svgs/testimonial-arrow.svg";
 import dot from "../../assets/svgs/carousel-dot.svg";
@@ -9,29 +9,15 @@ import { useState, useEffect } from "react";
 
 const Testimonials = () => {
   const [currentTest, setCurrentTest] = useState(2);
+  const [testimonials, setTestimonials] = useState(
+    unfilteredTestimonials.filter((_testimonial, index) => index < 5)
+  );
   const [dotsArr, setDotsArr] = useState([true, false, false, false, false]);
 
   const dotsJSX = dotsArr.map((dotState, index) => {
     const dotType = dotState ? dotFull : dot;
     return <img key={index} src={dotType} alt="carousel dot" />;
   });
-
-  const testimonialsListJSX = testimonials
-    .filter((_testimonial, index) => {
-      return index < 5;
-    })
-    .map((testimonial, index) => {
-      return (
-        <Testimonial
-          key={testimonial.name + index}
-          name={testimonial.name}
-          date={testimonial.date}
-          course={testimonial.course}
-          comment={testimonial.comment}
-          active={index === currentTest}
-        />
-      );
-    });
 
   useEffect(() => {
     const newArr = [];
@@ -41,13 +27,37 @@ const Testimonials = () => {
     setDotsArr(newArr);
   }, [currentTest]);
 
+  const decrementTestimonials = () => {
+    currentTest === 0 ? setCurrentTest(4) : setCurrentTest(currentTest - 1);
+    const tempArr = [testimonials[4], ...testimonials.slice(0, 4)];
+    setTestimonials(tempArr);
+  };
+
+  const incrementTestimonials = () => {
+    currentTest === 4 ? setCurrentTest(0) : setCurrentTest(currentTest + 1);
+    const tempArr = [...testimonials.slice(1, 5), testimonials[0]];
+    setTestimonials(tempArr);
+  };
+
+  const testimonialsListJSX = testimonials.map((testimonial, index) => {
+    return (
+      <Testimonial
+        key={testimonial.name + index}
+        name={testimonial.name}
+        date={testimonial.date}
+        course={testimonial.course}
+        comment={testimonial.comment}
+        active={index === 2}
+      />
+    );
+  });
+
   const handleClick = (e) => {
     const buttonClass = e.target.className;
     const button = buttonClass.charAt(buttonClass.length - 1);
-    button === "1"
-      ? setCurrentTest(currentTest - 1)
-      : setCurrentTest(currentTest + 1);
+    button === "1" ? decrementTestimonials() : incrementTestimonials();
   };
+
   return (
     <div className="testimonials">
       <h2 className="testimonials__header">RECENT TESTIMONIALS</h2>
