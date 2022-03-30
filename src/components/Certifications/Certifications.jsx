@@ -1,10 +1,10 @@
-import "./CertificateBadges.scss";
+import "./Certifications.scss";
 import internationalBadge from "../../assets/images/certification_badges/international_companion.png";
 import ppgBadge from "../../assets/images/certification_badges/PPG_Member_Badge.png";
 import ukBehaviour from "../../assets/images/certification_badges/UK_dog_behaviour.png";
 import victoriaStillwell from "../../assets/images/certification_badges/victoria_stillwell.png";
 
-const CertificateBadges = ({ showText }) => {
+const Certifications = ({ showText }) => {
   return (
     <div className="certifications">
       {showText && (
@@ -69,4 +69,4 @@ const CertificateBadges = ({ showText }) => {
   );
 };
 
-export default CertificateBadges;
+export default Certifications;

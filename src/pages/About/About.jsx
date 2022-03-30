@@ -1,14 +1,14 @@
 import Layout from "../../components/Layout/Layout";
 import AboutUsHeader from "../../components/AboutUsHeader/AboutUsHeader";
 import MissionSection from "../../components/MissionSection/MissionSection";
-import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
+import Certifications from "../../components/Certifications/Certifications";
 
 const About = () => {
   return (
     <Layout>
       <AboutUsHeader />
       <MissionSection />
-      <CertificateBadges showText={true} />
+      <Certifications showText={true} />
     </Layout>
   );
 };

@@ -1,8 +1,8 @@
 import { customRender } from "../../utils/testUtils";
-import CertificateBadges from "./CertificateBadges";
+import Certifications from "./Certifications";
 
 it("should render the home page", () => {
-  const { container } = customRender(<CertificateBadges />);
+  const { container } = customRender(<Certifications />);
 
   expect(container).toMatchSnapshot();
 });
