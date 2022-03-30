@@ -1,3 +1,37 @@
+@use "../../styles/variables" as *;
+
+.certification-section--show,
+.certification-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+
+  &__header {
+    font-size: $font-size-h2;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+  }
+
+  &__paragraph {
+    margin-bottom: 2rem;
+    line-height: 2;
+    font-size: 1.25rem;
+    color: $colour-tertiary;
+
+    &--highlighted-text {
+      color: $colour-primary;
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 0.2rem;
+    }
+  }
+}
+
+.certification-section--hide {
+  display: none;
+}
+
 .certificate-badges {
   display: flex;
   flex-direction: row;
@@ -21,5 +55,17 @@
       width: auto;
       height: auto;
     }
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .certification-section {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .certification-section {
+    max-width: 700px;
   }
 }

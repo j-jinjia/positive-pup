@@ -100,6 +100,26 @@ exports[`should render the home page 1`] = `
       </a>
     </div>
     <div
+      class="certification-section certification-section--hide"
+    >
+      <h2
+        class="certification-section__header"
+      >
+        You’re in professional hands!
+      </h2>
+      <p
+        class="certification-section__paragraph"
+      >
+        I’m a well-established, certified trainer in Dog behaviour & training, withover  
+        <span
+          class="certification-section__paragraph--highlighted-text"
+        >
+          4.5 years of experience.
+        </span>
+         To find out moreinformation  about any of my certifications, please click on one of the logos.
+      </p>
+    </div>
+    <div
       class="certificate-badges"
     >
       <a

@@ -21,7 +21,7 @@ const Home = () => {
         buttonText={"What We Offer"}
         link={"/services"}
       />
-      <CertificateBadges />
+      <CertificateBadges showText={false} />
       <LandingPageAboutIntro />
     </Layout>
   );
