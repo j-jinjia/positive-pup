@@ -1,24 +1,12 @@
 import Hero from "../Hero/Hero";
 import "./AboutUsHeader.scss";
 import AboutMe from "../../assets/images/SitePictures/AboutMe.png";
-import { useState, useEffect } from "react";
+import useWindowSize from "../../hooks/useWindowSize.js";
 
 const AboutUsHeader = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const isTabletSize = useWindowSize(768);
 
-  const handleResize = () => {
-    setWindowWidth(window.innerWidth);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  const headerJSX = windowWidth < 768 ? "Hey there 👋" : "Hey there";
+  const headerJSX = isTabletSize ? "Hey there" : "Hey there 👋";
 
   return (
     <div className="about-us-header">
@@ -27,8 +15,11 @@ const AboutUsHeader = () => {
         <Hero
           header={
             <>
-              <h2 className="hero__header">{headerJSX}</h2>
-              <h2 className="hero__header">My name is Melanie!</h2>
+              <h2 className="hero__header">
+                {headerJSX}
+                <div> </div>
+                My name is Melanie!
+              </h2>
             </>
           }
           subheaderText={
