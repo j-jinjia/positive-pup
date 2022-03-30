@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the home page 1`] = `
+exports[`should render the certifications component 1`] = `
 <div>
   <div
     class="certifications"
