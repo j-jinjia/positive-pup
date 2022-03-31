@@ -1,5 +1,6 @@
-import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
+import Certifications from "../../components/Certifications/Certifications";
 import Hero from "../../components/Hero/Hero";
+import LandingPageAboutIntro from "../../components/LandingPageAboutIntro/LandingPageAboutIntro";
 import Layout from "../../components/Layout/Layout";
 import TestimonialsSection from "../../Containers/TestimonialsSection/TestimonialsSection";
 
@@ -21,8 +22,9 @@ const Home = () => {
         buttonText={"What We Offer"}
         link={"/services"}
       />
-      <CertificateBadges />
       <TestimonialsSection />
+      <Certifications showText={false} />
+      <LandingPageAboutIntro />
     </Layout>
   );
 };
