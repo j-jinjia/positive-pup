@@ -190,15 +190,14 @@ exports[`should render the About page 1`] = `
       <p
         class="certifications__description"
       >
-        I’m a well-established, certified trainer in Dog behaviour & training, withover
+        I’m a well-established, certified trainer in Dog behaviour & training, with over
          
         <span
           class="certifications__description--highlighted-text"
         >
-          4.5 years of experience.
+          4.5 years of experience
         </span>
-         
-        To find out more information about any of my certifications, please click on one of the logos.
+        . To find out more information about any of my certifications, please click on one of the logos.
       </p>
       <div
         class="certifications__badge-container"
