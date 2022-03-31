@@ -27,17 +27,17 @@
     }
   }
 
-  &__badge-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    .certifications__badge {
-      margin: 0px 10px;
-      width: 60px;
-      height: 60px;
-    }
-  }
+  // &__badge-container {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: center;
+  //   align-items: center;
+  //   .certifications__badge {
+  //     margin: 0px 10px;
+  //     width: 60px;
+  //     height: 60px;
+  //   }
+  // }
 }
 
 @media screen and (min-width: 460px) {
@@ -56,13 +56,13 @@
   .certifications {
     text-align: center;
   }
-  .certifications__badge-container {
-    .certifications__badge {
-      margin: 0px 19px;
-      width: 5.7rem;
-      height: 5.7rem;
-    }
-  }
+  // .certifications__badge-container {
+  //   .certifications__badge {
+  //     margin: 0px 19px;
+  //     width: 5.7rem;
+  //     height: 5.7rem;
+  //   }
+  // }
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
@@ -71,9 +71,9 @@
   }
   .certifications__badge-container {
     width: 39.75rem;
-    .certifications__badge {
-      width: 100px;
-      height: 100px;
-    }
+    // .certifications__badge {
+    //   width: 100px;
+    //   height: 100px;
+    // }
   }
 }
