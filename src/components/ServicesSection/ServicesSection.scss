@@ -1,0 +1,41 @@
+@use "../../styles/variables" as *;
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+
+  &__course-container {
+    margin-bottom: 1rem;
+  }
+
+  &__header {
+    font-size: $font-size-h2;
+    margin-bottom: 1rem;
+  }
+  &__sub-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: $colour-tertiary;
+    font-weight: 400;
+  }
+  &__line-break {
+    border: 1px solid $colour-primary;
+    background-color: $colour-primary;
+    width: 3.75rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: $desktop-breakpoint) {
+  .services-section {
+    &__line-break {
+      margin-bottom: 3rem;
+    }
+    &__course-container {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

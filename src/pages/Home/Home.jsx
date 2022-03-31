@@ -2,6 +2,7 @@ import Certifications from "../../components/Certifications/Certifications";
 import Hero from "../../components/Hero/Hero";
 import LandingPageAboutIntro from "../../components/LandingPageAboutIntro/LandingPageAboutIntro";
 import Layout from "../../components/Layout/Layout";
+import ServicesSection from "../../components/ServicesSection/ServicesSection";
 
 const Home = () => {
   const headerText = "Start your journey on the right ";
@@ -23,6 +24,7 @@ const Home = () => {
       />
       <Certifications showText={false} />
       <LandingPageAboutIntro />
+      <ServicesSection />
     </Layout>
   );
 };
