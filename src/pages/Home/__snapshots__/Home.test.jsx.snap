@@ -100,90 +100,6 @@ exports[`should render the home page 1`] = `
       </a>
     </div>
     <div
-      class="certifications"
-    >
-      <div
-        class="certifications__badge-container"
-      >
-        <a
-          href="https://www.vsdogtrainingacademy.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Victoria Stillwell certification badge"
-            class="certifications__badge"
-            src="victoria_stillwell.png"
-          />
-        </a>
-        <a
-          href="https://companionanimal.network/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="international companion animal network certification badge"
-            class="certifications__badge"
-            src="international_companion.png"
-          />
-        </a>
-        <a
-          href="https://ukdogcharter.org/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="UK dog behaviour and training charter certification badge"
-            class="certifications__badge"
-            src="UK_dog_behaviour.png"
-          />
-        </a>
-        <a
-          href="https://www.petprofessionalguild.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="the pet professional guild certification badge"
-            class="certifications__badge"
-            src="PPG_Member_Badge.png"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      class="landing-page-about-intro"
-    >
-      <img
-        alt="paw print"
-        class="landing-page-about-intro__paw"
-        src="paw_print.svg"
-      />
-      <h2
-        class="landing-page-about-intro__header"
-      >
-        Why The Positive Pup?
-      </h2>
-      <p
-        class="landing-page-about-intro__paragraph"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo, faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet malesuada est dignissim magna. Amet vel tempor egestas at in mi, facilisi proin.
-      </p>
-      <div>
-        <a
-          class="button button--secondary"
-          href="/about"
-        >
-          More About Me
-        </a>
-      </div>
-      <img
-        alt="Positive Pup owner, Melanie, with a dog"
-        class="landing-page-about-intro__image"
-        src="landing_page_about_intro_img.png"
-      />
-    </div>
-    <div
       class="testimonials"
     >
       <h2
@@ -506,6 +422,90 @@ exports[`should render the home page 1`] = `
           />
         </button>
       </div>
+    </div>
+    <div
+      class="certifications"
+    >
+      <div
+        class="certifications__badge-container"
+      >
+        <a
+          href="https://www.vsdogtrainingacademy.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Victoria Stillwell certification badge"
+            class="certifications__badge"
+            src="victoria_stillwell.png"
+          />
+        </a>
+        <a
+          href="https://companionanimal.network/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="international companion animal network certification badge"
+            class="certifications__badge"
+            src="international_companion.png"
+          />
+        </a>
+        <a
+          href="https://ukdogcharter.org/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="UK dog behaviour and training charter certification badge"
+            class="certifications__badge"
+            src="UK_dog_behaviour.png"
+          />
+        </a>
+        <a
+          href="https://www.petprofessionalguild.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="the pet professional guild certification badge"
+            class="certifications__badge"
+            src="PPG_Member_Badge.png"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="landing-page-about-intro"
+    >
+      <img
+        alt="paw print"
+        class="landing-page-about-intro__paw"
+        src="paw_print.svg"
+      />
+      <h2
+        class="landing-page-about-intro__header"
+      >
+        Why The Positive Pup?
+      </h2>
+      <p
+        class="landing-page-about-intro__paragraph"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo, faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet malesuada est dignissim magna. Amet vel tempor egestas at in mi, facilisi proin.
+      </p>
+      <div>
+        <a
+          class="button button--secondary"
+          href="/about"
+        >
+          More About Me
+        </a>
+      </div>
+      <img
+        alt="Positive Pup owner, Melanie, with a dog"
+        class="landing-page-about-intro__image"
+        src="landing_page_about_intro_img.png"
+      />
     </div>
     <div
       class="footer"
