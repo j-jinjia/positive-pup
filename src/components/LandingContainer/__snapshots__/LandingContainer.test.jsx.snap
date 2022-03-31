@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the LandingContainer component 1`] = `
+<div>
+  <div
+    class="landing-container"
+  >
+    <img
+      alt=""
+      class="landing-container__paw"
+    />
+    <h2
+      class="landing-container__header"
+    >
+       
+    </h2>
+    <p
+      class="landing-container__paragraph"
+    />
+    <div
+      class="landing-container__button"
+    />
+    <img
+      alt="Positive Pup owner, Melanie, with a dog"
+      class="landing-container__image"
+    />
+  </div>
+</div>
+`;
