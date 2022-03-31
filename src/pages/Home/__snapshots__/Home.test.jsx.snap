@@ -187,11 +187,11 @@ exports[`should render the home page 1`] = `
       >
         Services I Offer
       </h2>
-      <h3
+      <p
         class="services-section__sub-header"
       >
         A breakdown of all the different kind of services I offer.
-      </h3>
+      </p>
       <hr
         class="services-section__line-break"
       />
@@ -201,94 +201,70 @@ exports[`should render the home page 1`] = `
         <div
           class="services-card"
         >
-          <h1
+          <h3
             class="services-card__title"
           >
             Online Courses
-          </h1>
-          <h2>
+          </h3>
+          <p>
              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
  ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
-          </h2>
+          </p>
           <a
+            class="services-card__button"
             href="/services"
           >
-            <div
-              class="services-card__button"
-            >
-              <img
-                alt=""
-                class="services-card__vector services-card__vector--black"
-                src="Vector-black.svg"
-              />
-              <img
-                alt=""
-                class="services-card__vector services-card__vector--white"
-                src="Vector-white.svg"
-              />
-            </div>
+            <img
+              alt=""
+              class="services-card__vector services-card__vector--black"
+              src="Vector-black.svg"
+            />
           </a>
         </div>
         <div
           class="services-card"
         >
-          <h1
+          <h3
             class="services-card__title"
           >
             Group Courses
-          </h1>
-          <h2>
+          </h3>
+          <p>
              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
  ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
-          </h2>
+          </p>
           <a
+            class="services-card__button"
             href="/services"
           >
-            <div
-              class="services-card__button"
-            >
-              <img
-                alt=""
-                class="services-card__vector services-card__vector--black"
-                src="Vector-black.svg"
-              />
-              <img
-                alt=""
-                class="services-card__vector services-card__vector--white"
-                src="Vector-white.svg"
-              />
-            </div>
+            <img
+              alt=""
+              class="services-card__vector services-card__vector--black"
+              src="Vector-black.svg"
+            />
           </a>
         </div>
         <div
           class="services-card"
         >
-          <h1
+          <h3
             class="services-card__title"
           >
             Bespoke Packages
-          </h1>
-          <h2>
+          </h3>
+          <p>
              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
  ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
-          </h2>
+          </p>
           <a
+            class="services-card__button"
             href="/services"
           >
-            <div
-              class="services-card__button"
-            >
-              <img
-                alt=""
-                class="services-card__vector services-card__vector--black"
-                src="Vector-black.svg"
-              />
-              <img
-                alt=""
-                class="services-card__vector services-card__vector--white"
-                src="Vector-white.svg"
-              />
-            </div>
+            <img
+              alt=""
+              class="services-card__vector services-card__vector--black"
+              src="Vector-black.svg"
+            />
           </a>
         </div>
       </div>

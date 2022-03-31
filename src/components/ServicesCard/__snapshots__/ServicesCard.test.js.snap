@@ -5,27 +5,19 @@ exports[`should match ServicesCard component snapshot 1`] = `
   <div
     class="services-card"
   >
-    <h1
+    <h3
       class="services-card__title"
     />
-    <h2 />
+    <p />
     <a
+      class="services-card__button"
       href="/services"
     >
-      <div
-        class="services-card__button"
-      >
-        <img
-          alt=""
-          class="services-card__vector services-card__vector--black"
-          src="Vector-black.svg"
-        />
-        <img
-          alt=""
-          class="services-card__vector services-card__vector--white"
-          src="Vector-white.svg"
-        />
-      </div>
+      <img
+        alt=""
+        class="services-card__vector services-card__vector--black"
+        src="Vector-black.svg"
+      />
     </a>
   </div>
 </div>
