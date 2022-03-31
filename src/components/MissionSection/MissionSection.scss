@@ -13,6 +13,11 @@
     margin-bottom: 2rem;
     line-height: 2;
   }
+  .link-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+  }
 }
 
 @media only screen and (min-width: $desktop-breakpoint) {
@@ -39,6 +44,11 @@
       margin-right: 30%;
       grid-column-start: 2;
       grid-column-end: 4;
+    }
+
+    .link-container {
+      grid-column-start: 2;
+      margin-bottom: 1rem;
     }
   }
 }

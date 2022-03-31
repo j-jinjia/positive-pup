@@ -24,8 +24,9 @@ const MissionSection = () => {
         Thanks for visiting The Positive Pup and for taking your very first step
         towards building a special bond with your canine companion.
       </p>
-
-      <LinkArrow linkText="View Training Methods" />
+      <div className="link-container">
+        <LinkArrow linkText="View Training Methods" />
+      </div>
     </div>
   );
 };
