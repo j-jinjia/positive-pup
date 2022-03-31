@@ -1,0 +1,82 @@
+@use "../../styles/variables" as *;
+
+.testimonial {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(55, 175, 162, 0.14);
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  max-width: calc(34rem * 0.725);
+
+  &__header {
+    font-size: calc($font-size-h3 * 0.6);
+    color: $colour-primary;
+  }
+
+  &__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    color: $colour-quatenary;
+    margin-top: 2px;
+  }
+
+  &__detail {
+    font-size: calc(0.9 * 0.625rem);
+  }
+
+  &__comment {
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 2rem;
+    color: $colour-quinary;
+    font-size: 0.625rem;
+  }
+
+  &__quotations {
+    z-index: 1;
+    &--1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-50%, -50%);
+    }
+
+    &--2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: translate(50%, 50%) scale(-1, -1);
+    }
+  }
+
+  &--active {
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    max-width: 34rem;
+    .testimonial {
+      &__header {
+        font-size: $font-size-h3;
+      }
+
+      &__details {
+        gap: 1.25rem;
+        margin-top: 2px;
+      }
+
+      &__detail {
+        font-size: 0.625rem;
+      }
+
+      &__comment {
+        margin-top: 2rem;
+        font-size: 1em;
+      }
+    }
+  }
+}

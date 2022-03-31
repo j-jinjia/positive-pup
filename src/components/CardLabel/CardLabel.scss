@@ -3,9 +3,11 @@
 .card-label {
   background-color: $colour-secondary-background;
   padding: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
   border-radius: 40px;
   font-size: 0.7rem;
   &__text {
-    color: $colour-tertiary;
+    color: $colour-font-label;
   }
 }

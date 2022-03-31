@@ -8,7 +8,7 @@ import introImage from "../../assets/images/landing_page/landing_page_about_intr
 import servicesImage from "../../assets/images/landing_page/services-image.png";
 import chain from "../../assets/images/landing_page/chain.svg";
 import useWindowSize from "../../hooks/useWindowSize.js";
-
+import TestimonialsSection from "../../Containers/TestimonialsSection/TestimonialsSection";
 import ArrowLink from "../../components/ArrowLink/ArrowLink";
 
 const Home = () => {
@@ -31,6 +31,7 @@ const Home = () => {
         buttonText={"What We Offer"}
         link={"/services"}
       />
+      <TestimonialsSection />
       <Certifications showText={false} />
 
       <LandingContainer
