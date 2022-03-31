@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match ServicesSection component snapshot 1`] = `
+<div>
+  <div
+    class="services-section"
+  >
+    <h2
+      class="services-section__header"
+    >
+      Services I Offer
+    </h2>
+    <p
+      class="services-section__sub-header"
+    >
+      A breakdown of all the different kind of services I offer.
+    </p>
+    <hr
+      class="services-section__line-break"
+    />
+    <div
+      class="services-section__course-container"
+    >
+      <div
+        class="services-card"
+      >
+        <h3
+          class="services-card__title"
+        >
+          Online Courses
+        </h3>
+        <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+        </p>
+        <a
+          class="services-card__button"
+          href="/services"
+        >
+          <img
+            alt=""
+            class="services-card__vector services-card__vector--black"
+            src="Vector-black.svg"
+          />
+        </a>
+      </div>
+      <div
+        class="services-card"
+      >
+        <h3
+          class="services-card__title"
+        >
+          Group Courses
+        </h3>
+        <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+        </p>
+        <a
+          class="services-card__button"
+          href="/services"
+        >
+          <img
+            alt=""
+            class="services-card__vector services-card__vector--black"
+            src="Vector-black.svg"
+          />
+        </a>
+      </div>
+      <div
+        class="services-card"
+      >
+        <h3
+          class="services-card__title"
+        >
+          Bespoke Packages
+        </h3>
+        <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+        </p>
+        <a
+          class="services-card__button"
+          href="/services"
+        >
+          <img
+            alt=""
+            class="services-card__vector services-card__vector--black"
+            src="Vector-black.svg"
+          />
+        </a>
+      </div>
+    </div>
+    <a
+      class="button button--secondary"
+      href="/services"
+    >
+      VIEW OUR SERVICES
+    </a>
+  </div>
+</div>
+`;
