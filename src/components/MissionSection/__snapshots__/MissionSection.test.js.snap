@@ -29,13 +29,13 @@ exports[`should render the MissionSection component 1`] = `
       class="link-container"
     >
       <a
-        class="ArrowLink"
-        href=""
+        class="arrow-link"
+        href="/"
       >
         View Training Methods
         <img
           alt=""
-          class="ArrowLink__arrow"
+          class="arrow-link__arrow"
           src="arrow.svg"
         />
       </a>
