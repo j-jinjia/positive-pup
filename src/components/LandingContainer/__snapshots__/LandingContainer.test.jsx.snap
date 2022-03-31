@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the LandingContainer component 1`] = `
+<div>
+  <div
+    class="landing-page-about-intro"
+  >
+    <img
+      alt=""
+      class="landing-page-about-intro__paw"
+    />
+    <h2
+      class="landing-page-about-intro__header"
+    />
+    <p
+      class="landing-page-about-intro__paragraph"
+    />
+    <div
+      class="landing-page-about-intro__button"
+    />
+    <img
+      alt="Positive Pup owner, Melanie, with a dog"
+      class="landing-page-about-intro__image"
+    />
+  </div>
+</div>
+`;
+
+exports[`should render the LandingPageAboutIntro component 1`] = `
+<div>
+  <div
+    class="landing-page-about-intro"
+  >
+    <img
+      alt=""
+      class="landing-page-about-intro__paw"
+    />
+    <h2
+      class="landing-page-about-intro__header"
+    />
+    <p
+      class="landing-page-about-intro__paragraph"
+    />
+    <div
+      class="landing-page-about-intro__button"
+    />
+    <img
+      alt="Positive Pup owner, Melanie, with a dog"
+      class="landing-page-about-intro__image"
+    />
+  </div>
+</div>
+`;

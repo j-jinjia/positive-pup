@@ -23,7 +23,9 @@ const LandingContainer = ({
       <p className={`landing-page-about-intro${classNameMod}__paragraph`}>
         {paragraphText}
       </p>
-      <div className={`landing-page-about-intro${classNameMod}__button`}>{buttonComponent}</div>
+      <div className={`landing-page-about-intro${classNameMod}__button`}>
+        {buttonComponent}
+      </div>
       <img
         src={image}
         className={`landing-page-about-intro${classNameMod}__image`}

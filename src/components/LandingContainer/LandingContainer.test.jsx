@@ -1,8 +1,8 @@
 import { customRender } from "../../utils/testUtils";
-import LandingPageAboutIntro from "./LandingContainer";
+import LandingContainer from "./LandingContainer";
 
-it("should render the LandingPageAboutIntro component", () => {
-  const { container } = customRender(<LandingPageAboutIntro />);
+it("should render the LandingContainer component", () => {
+  const { container } = customRender(<LandingContainer />);
 
   expect(container).toMatchSnapshot();
 });
