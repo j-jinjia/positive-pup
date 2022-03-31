@@ -21,7 +21,7 @@ const Home = () => {
         buttonText={"What We Offer"}
         link={"/services"}
       />
-      <Certifications showText={false} isLarge={false} />
+      <Certifications showText={false} />
       <LandingPageAboutIntro />
     </Layout>
   );
