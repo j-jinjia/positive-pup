@@ -7,7 +7,7 @@ const Testimonial = ({ name, date, course, comment, active }) => {
   const cardClass = active ? "testimonial testimonial--active" : "testimonial";
 
   return (
-    <div className={cardClass}>
+    <div className={cardClass} data-testid={name}>
       <h3 className="testimonial__header">{name}</h3>
       <div className="testimonial__details">
         <p className="testimonial__detail">
