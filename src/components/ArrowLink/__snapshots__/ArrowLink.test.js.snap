@@ -3,12 +3,12 @@
 exports[`should match ArrowLink component snapshot 1`] = `
 <div>
   <a
-    class="ArrowLink"
-    href=""
+    class="arrow-link"
+    href="/"
   >
     <img
       alt=""
-      class="ArrowLink__arrow"
+      class="arrow-link__arrow"
       src="arrow.svg"
     />
   </a>
