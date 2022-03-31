@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 import ServicesCard from "../ServicesCard/ServicesCard";
 import "./ServicesSection.scss";
 
-const ServicesSection = ({ link }) => {
+const ServicesSection = () => {
   return (
     <div className="services-section">
       <h2 className="services-section__header">Services I Offer</h2>
@@ -27,7 +27,11 @@ const ServicesSection = ({ link }) => {
           ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut"
         />
       </div>
-      <Button buttonText="VIEW OUR SERVICES" isSecondary={true} link={link} />
+      <Button
+        buttonText="VIEW OUR SERVICES"
+        isSecondary={true}
+        link="/services"
+      />
     </div>
   );
 };

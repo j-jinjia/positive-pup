@@ -24,7 +24,7 @@ const Home = () => {
       />
       <CertificateBadges />
       <LandingPageAboutIntro />
-      <ServicesSection link={"/services"} />
+      <ServicesSection />
     </Layout>
   );
 };
