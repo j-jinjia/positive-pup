@@ -1,0 +1,66 @@
+@use "../../styles/variables" as *;
+
+.certifications {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+
+  &__header {
+    font-size: $font-size-h2;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+  }
+
+  &__description {
+    margin-bottom: 2rem;
+    line-height: 2;
+    font-size: 1.25rem;
+    color: $colour-tertiary;
+
+    &--highlighted-text {
+      color: $colour-primary;
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 0.2rem;
+    }
+  }
+
+  &__badge-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .certifications__badge {
+      margin: 0px 10px;
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .certifications__badge-container {
+    justify-content: center;
+    width: 450px;
+
+    &__img {
+      margin: 0px 19px;
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .certifications {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .certifications {
+    max-width: 700px;
+  }
+}
