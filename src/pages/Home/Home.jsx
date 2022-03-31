@@ -9,6 +9,7 @@ import servicesImage from "../../assets/images/landing_page/services-image.png";
 import chain from "../../assets/images/landing_page/chain.svg";
 
 import ArrowLink from "../../components/ArrowLink/ArrowLink";
+import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import TestimonialsSection from "../../Containers/TestimonialsSection/TestimonialsSection";
 
 const Home = () => {
@@ -60,8 +61,8 @@ const Home = () => {
         isFlipped={true}
       />
 
-
-      <Certifications showText={false} />
+    <Certifications showText={false} />
+      <ServicesSection />
       <TestimonialsSection />
     </Layout>
   );
