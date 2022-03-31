@@ -369,11 +369,6 @@ exports[`should render the home page 1`] = `
       <div
         class="testimonials__carousel"
       >
-        <label
-          for="previous-testimonial"
-        >
-          Previous Testimonial
-        </label>
         <button
           class="testimonials__btn"
           id="previous-testimonial"
@@ -405,11 +400,6 @@ exports[`should render the home page 1`] = `
           alt="carousel dot"
           src="carousel-dot.svg"
         />
-        <label
-          for="next-testimonial"
-        >
-          Next Testimonial
-        </label>
         <button
           class="testimonials__btn"
           id="next-testimonial"
