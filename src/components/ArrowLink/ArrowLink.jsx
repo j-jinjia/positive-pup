@@ -3,9 +3,9 @@ import arrow from "../../assets/svgs/arrow.svg";
 
 const ArrowLink = ({ linkText }) => {
   return (
-    <a className="link" href="">
+    <a className="ArrowLink" href="">
       {linkText}
-      <img className="link__arrow" src={arrow} alt="" />
+      <img className="ArrowLink__arrow" src={arrow} alt="" />
     </a>
   );
 };

@@ -1,7 +1,6 @@
 @use "../../styles/variables" as *;
 
-.landing-page-about-intro,
-.landing-page-about-intro--flipped {
+.landing-container {
   background: linear-gradient(
     to bottom,
     rgba(55, 175, 162, 0.06) 75%,
@@ -45,8 +44,7 @@
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
-  .landing-page-about-intro,
-  .landing-page-about-intro--flipped {
+  .landing-container {
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
@@ -84,13 +82,13 @@
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
-  .landing-page-about-intro {
+  .landing-container {
     grid-template-rows: 1fr 1fr 2fr 1fr;
     max-width: 1250px;
     padding: 5rem;
     background: linear-gradient(
       to left,
-      rgba(55, 175, 162, 0.06) 85%,
+      $colour-container-foreground 85%,
       transparent 15%
     );
 
@@ -126,45 +124,23 @@
     }
   }
 
-  .landing-page-about-intro--flipped {
-    grid-template-rows: 1fr 1fr 2fr 1fr;
-    max-width: 1250px;
-    padding: 5rem;
+  .landing-container--flipped {
     background: linear-gradient(
       to right,
-      rgba(55, 175, 162, 0.06) 85%,
+      $colour-container-foreground 85%,
       transparent 15%
     );
 
-    &__image {
-      grid-column-end: 2;
-      grid-row-start: 1;
-      grid-row-end: 5;
-      width: 80%;
-      align-self: center;
-      margin-left: auto;
+    .landing-container__image {
+      grid-column: 2;
+      justify-self: flex-end;
     }
 
-    &__paw {
+    .landing-container__paw,
+    .landing-container__header,
+    .landing-container__paragraph,
+    .landing-container__button {
       grid-column: 1;
-      grid-row: 1;
-      align-self: flex-end;
-      margin-bottom: 1rem;
-    }
-
-    &__header {
-      grid-column: 1;
-      margin: 0;
-    }
-
-    &__paragraph {
-      grid-column: 1;
-      margin: auto 0;
-    }
-
-    &__button {
-      grid-column: 1;
-      margin: auto 0;
     }
   }
 } ;
