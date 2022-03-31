@@ -100,6 +100,320 @@ exports[`should render the Home Page 1`] = `
       </a>
     </div>
     <div
+      class="testimonials"
+    >
+      <h2
+        class="testimonials__header"
+      >
+        RECENT TESTIMONIALS
+      </h2>
+      <h3
+        class="testimonials__subheader"
+      >
+        See what people have said...
+      </h3>
+      <p
+        class="testimonials__text"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem egestas vestibulum est neque, viverra. Vel neque dui aenean sagittis id in nulla tempor ac. Id adipiscing adipiscing ac odio.
+      </p>
+      <div
+        class="testimonials__cards"
+      >
+        <div
+          class="testimonial"
+          data-testid="Gemma Powell & Max"
+        >
+          <h3
+            class="testimonial__header"
+          >
+            Gemma Powell & Max
+          </h3>
+          <div
+            class="testimonial__details"
+          >
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt="calendar"
+                src="calendar.svg"
+              />
+               
+              JAN 2020
+            </p>
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt=""
+                src="testimonial_course.svg"
+              />
+               
+              LITTLE STARS COURSE
+            </p>
+          </div>
+          <p
+            class="testimonial__comment"
+          >
+            We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!
+          </p>
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--1"
+            src="quotations-1.svg"
+          />
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--2"
+            src="quotations-1.svg"
+          />
+        </div>
+        <div
+          class="testimonial"
+          data-testid="Karen Hayter & Tilly"
+        >
+          <h3
+            class="testimonial__header"
+          >
+            Karen Hayter & Tilly
+          </h3>
+          <div
+            class="testimonial__details"
+          >
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt="calendar"
+                src="calendar.svg"
+              />
+               
+              MAY 2020
+            </p>
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt=""
+                src="testimonial_course.svg"
+              />
+               
+              LITTLE STARS COURSE
+            </p>
+          </div>
+          <p
+            class="testimonial__comment"
+          >
+            Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique and general puppy care. Tilly has come on in leaps and bounds and I don't know if we would have coped without the input from The Positive Pup team. We will definitely be enrolling in Rising Stars, even if it still has to be delivered over the internet.
+          </p>
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--1"
+            src="quotations-1.svg"
+          />
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--2"
+            src="quotations-1.svg"
+          />
+        </div>
+        <div
+          class="testimonial testimonial--active"
+          data-testid="Lianna Bradshaw & Ralph"
+        >
+          <h3
+            class="testimonial__header"
+          >
+            Lianna Bradshaw & Ralph
+          </h3>
+          <div
+            class="testimonial__details"
+          >
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt="calendar"
+                src="calendar.svg"
+              />
+               
+              DEC 2019
+            </p>
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt=""
+                src="testimonial_course.svg"
+              />
+               
+              LITTLE STARS COURSE
+            </p>
+          </div>
+          <p
+            class="testimonial__comment"
+          >
+            Mel has been absolutely brilliant over the course, super informative and lots of great advice. Ralph is particularly nervous for a pup as he’s so small (mini dachshund) but Mel adapted the layout of the class to help him which was brilliant. We’ve had so much fun and are hoping to have some sessions outside of the classes to work on extra things. Would highly recommend! Xxx
+          </p>
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--1"
+            src="quotations-1.svg"
+          />
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--2"
+            src="quotations-1.svg"
+          />
+        </div>
+        <div
+          class="testimonial"
+          data-testid="Bethanie Maxwell & Teddy"
+        >
+          <h3
+            class="testimonial__header"
+          >
+            Bethanie Maxwell & Teddy
+          </h3>
+          <div
+            class="testimonial__details"
+          >
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt="calendar"
+                src="calendar.svg"
+              />
+               
+              DEC 2019
+            </p>
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt=""
+                src="testimonial_course.svg"
+              />
+               
+              LITTLE STARS COURSE
+            </p>
+          </div>
+          <p
+            class="testimonial__comment"
+          >
+            Couldn’t be happier with the quality of training we received, although our puppy was very easily distracted Melanie gave us all the tools and help that we needed! Very very happy with the training received would highly recommend and have recommended to several friends! Melanie is a very lovely and welcoming lady, 5⭐️
+          </p>
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--1"
+            src="quotations-1.svg"
+          />
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--2"
+            src="quotations-1.svg"
+          />
+        </div>
+        <div
+          class="testimonial"
+          data-testid="Jessika-Anne Horner & Layla"
+        >
+          <h3
+            class="testimonial__header"
+          >
+            Jessika-Anne Horner & Layla
+          </h3>
+          <div
+            class="testimonial__details"
+          >
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt="calendar"
+                src="calendar.svg"
+              />
+               
+              NOV 2019
+            </p>
+            <p
+              class="testimonial__detail"
+            >
+              <img
+                alt=""
+                src="testimonial_course.svg"
+              />
+               
+              RISING STARS COURSE
+            </p>
+          </div>
+          <p
+            class="testimonial__comment"
+          >
+            Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me and Layla loved every single session, we made a puppy family and met some amazing people along the way. Mel sends all the sessions in brilliant detail so when you go home you don’t feel like you have forgotten and it can be done in your daily routine. I really can’t wait for me and Layla to start the relaxed rally and carry on seeing Mel because she truly is amazing lady so thank you from Jess and Layla 🐾
+          </p>
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--1"
+            src="quotations-1.svg"
+          />
+          <img
+            alt="quotation marks"
+            class="testimonial__quotations testimonial__quotations--2"
+            src="quotations-1.svg"
+          />
+        </div>
+      </div>
+      <div
+        class="testimonials__carousel"
+      >
+        <button
+          class="testimonials__btn"
+          id="previous-testimonial"
+        >
+          <img
+            alt="left arrow"
+            class="testimonials__btn-arrow testimonials__btn-arrow--1"
+            data-testid="previous-button"
+            src="testimonial-arrow.svg"
+          />
+        </button>
+        <img
+          alt="carousel dot"
+          src="carousel-dot.svg"
+        />
+        <img
+          alt="carousel dot"
+          src="carousel-dot.svg"
+        />
+        <img
+          alt="carousel dot"
+          src="carousel-dot-active.svg"
+        />
+        <img
+          alt="carousel dot"
+          src="carousel-dot.svg"
+        />
+        <img
+          alt="carousel dot"
+          src="carousel-dot.svg"
+        />
+        <button
+          class="testimonials__btn"
+          id="next-testimonial"
+        >
+          <img
+            alt="left arrow"
+            class="testimonials__btn-arrow testimonials__btn-arrow--2"
+            data-testid="next-button"
+            src="testimonial-arrow.svg"
+          />
+        </button>
+      </div>
+    </div>
+    <div
       class="certifications"
     >
       <div
