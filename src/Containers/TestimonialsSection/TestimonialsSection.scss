@@ -1,0 +1,73 @@
+@use "../../styles/variables" as *;
+.testimonials {
+  display: none;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .testimonials {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: $colour-senary;
+    width: 100%;
+    &__header {
+      color: $colour-primary;
+    }
+    &__subheader {
+      font-family: $font-header;
+      font-weight: normal;
+      font-size: $font-size-h2;
+    }
+
+    &__text {
+      color: $colour-quinary;
+      max-width: 40.625rem;
+      margin: 2.3rem 0 5.5rem 0;
+      line-height: 1.8;
+    }
+    &__cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2.625rem;
+    }
+
+    &__carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.3125rem;
+
+      margin-top: 3.44rem;
+
+      & > label {
+        display: none;
+      }
+
+      .testimonials__btn {
+        background: transparent;
+        border: none;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &-arrow {
+          &:first-child {
+            margin-right: 2rem;
+          }
+          &:last-child {
+            margin-left: 2rem;
+          }
+          &--2 {
+            transform: scale(-1, 1);
+          }
+        }
+      }
+    }
+  }
+}

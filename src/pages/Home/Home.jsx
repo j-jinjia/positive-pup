@@ -1,6 +1,7 @@
 import Certifications from "../../components/Certifications/Certifications";
 import Hero from "../../components/Hero/Hero";
 import Layout from "../../components/Layout/Layout";
+<<<<<<< HEAD
 import paw from "../../assets/images/landing_page/paw_print.svg";
 import LandingContainer from "../../components/LandingContainer/LandingContainer";
 import Button from "../../components/Button/Button";
@@ -9,6 +10,9 @@ import servicesImage from "../../assets/images/landing_page/services-image.png";
 import chain from "../../assets/images/landing_page/chain.svg";
 
 import ArrowLink from "../../components/ArrowLink/ArrowLink";
+=======
+import TestimonialsSection from "../../Containers/TestimonialsSection/TestimonialsSection";
+>>>>>>> origin/main
 
 const Home = () => {
   const headerText = "Start your journey on the right ";
@@ -28,6 +32,7 @@ const Home = () => {
         buttonText={"What We Offer"}
         link={"/services"}
       />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <CertificateBadges />
 
@@ -61,6 +66,9 @@ const Home = () => {
         isFlipped={true}
       />
 =======
+=======
+      <TestimonialsSection />
+>>>>>>> origin/main
       <Certifications showText={false} />
       <LandingPageAboutIntro />
 >>>>>>> origin/main
