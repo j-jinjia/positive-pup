@@ -320,6 +320,7 @@ exports[`should match TestimonialsSection component snapshot 1`] = `
         <img
           alt="left arrow"
           class="testimonials__btn-arrow testimonials__btn-arrow--2"
+          data-testid="next-button"
           src="testimonial-arrow.svg"
         />
       </button>

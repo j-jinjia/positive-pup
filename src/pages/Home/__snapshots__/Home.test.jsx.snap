@@ -399,6 +399,7 @@ exports[`should render the home page 1`] = `
           <img
             alt="left arrow"
             class="testimonials__btn-arrow testimonials__btn-arrow--2"
+            data-testid="next-button"
             src="testimonial-arrow.svg"
           />
         </button>

@@ -93,6 +93,7 @@ const Testimonials = () => {
             className="testimonials__btn-arrow testimonials__btn-arrow--2"
             src={arrow}
             alt="left arrow"
+            data-testid="next-button"
           />
         </button>
       </div>

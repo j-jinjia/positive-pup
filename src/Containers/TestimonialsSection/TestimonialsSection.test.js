@@ -16,7 +16,7 @@ it("check the next testimonial button works ", () => {
   expect(cardHeader).toBeInTheDocument;
   expect(cardHeader.classList.contains("testimonial--active")).toBeTruthy();
 
-  const nextButton = screen.getByLabelText("Next Testimonial");
+  const nextButton = screen.getByTestId("next-button");
   userEvent.click(nextButton);
   const cardHeader2 = screen
     .getByText("Lianna Bradshaw & Ralph")
