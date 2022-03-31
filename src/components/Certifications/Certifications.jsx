@@ -14,12 +14,12 @@ const Certifications = ({ showText }) => {
           </h2>
           <p className="certifications__description">
             I’m a well-established, certified trainer in Dog behaviour &#38;
-            training, withover{" "}
+            training, with over{" "}
             <span className="certifications__description--highlighted-text">
-              4.5 years of experience.
-            </span>{" "}
-            To find out more information about any of my certifications, please
-            click on one of the logos.
+              4.5 years of experience
+            </span>
+            . To find out more information about any of my certifications,
+            please click on one of the logos.
           </p>
         </>
       )}
