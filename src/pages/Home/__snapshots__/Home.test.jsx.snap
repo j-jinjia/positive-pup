@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Home Page 1`] = `
+<div>
+  <div
+    class="layout"
+  >
+    <div
+      class="navbar"
+    >
+      <div
+        class="navbar__container"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="The Positive Pup logo"
+            class="navbar__container-logo"
+            src="footer-logo.svg"
+          />
+        </a>
+        <nav
+          class="navbar__nav"
+        >
+          <a
+            class="navbar__nav-item"
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="navbar__nav-item"
+            href="/services"
+          >
+            Services
+          </a>
+          <a
+            class="navbar__nav-item"
+            href="/testimonials"
+          >
+            Testimonials
+          </a>
+          <a
+            class="navbar__nav-item"
+            href="/gallery"
+          >
+            Gallery
+          </a>
+          <span
+            class="navbar__nav-item navbar__nav-item--phone"
+          >
+            <img
+              alt=""
+              class="navbar__nav-item-button"
+              src="phone.svg"
+            />
+            <a
+              class="navbar__nav-item"
+              href="/get-in-touch"
+            >
+              Get in Touch
+            </a>
+          </span>
+          <a
+            class="button button--primary"
+            href="/book-now"
+          >
+            Book Now
+          </a>
+        </nav>
+      </div>
+    </div>
+    <h1>
+      Positive Pup
+    </h1>
+    <div
+      class="hero"
+    >
+      <h2
+        class="hero__header"
+      >
+        Start your journey on the right 
+        <span
+          class="hero__header-highlight"
+        >
+          paw.
+        </span>
+      </h2>
+      <p
+        class="hero__subheader"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
+      </p>
+      <a
+        class="button button--primary"
+        href="/services"
+      >
+        What We Offer
+      </a>
+    </div>
+    <div
+      class="certifications"
+    >
+      <div
+        class="certifications__badge-container"
+      >
+        <a
+          href="https://www.vsdogtrainingacademy.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Victoria Stillwell certification badge"
+            class="certifications__badge"
+            src="victoria_stillwell.png"
+          />
+        </a>
+        <a
+          href="https://companionanimal.network/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="international companion animal network certification badge"
+            class="certifications__badge"
+            src="international_companion.png"
+          />
+        </a>
+        <a
+          href="https://ukdogcharter.org/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="UK dog behaviour and training charter certification badge"
+            class="certifications__badge"
+            src="UK_dog_behaviour.png"
+          />
+        </a>
+        <a
+          href="https://www.petprofessionalguild.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="the pet professional guild certification badge"
+            class="certifications__badge"
+            src="PPG_Member_Badge.png"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="landing-page-about-intro"
+    >
+      <img
+        alt="paw print"
+        class="landing-page-about-intro__paw"
+        src="paw_print.svg"
+      />
+      <h2
+        class="landing-page-about-intro__header"
+      >
+        Why The Positive Pup?
+      </h2>
+      <p
+        class="landing-page-about-intro__paragraph"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo, faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet malesuada est dignissim magna. Amet vel tempor egestas at in mi, facilisi proin.
+      </p>
+      <div>
+        <a
+          class="button button--secondary"
+          href="/about"
+        >
+          More About Me
+        </a>
+      </div>
+      <img
+        alt="Positive Pup owner, Melanie, with a dog"
+        class="landing-page-about-intro__image"
+        src="landing_page_about_intro_img.png"
+      />
+    </div>
+    <div
+      class="services-section"
+    >
+      <h2
+        class="services-section__header"
+      >
+        Services I Offer
+      </h2>
+      <p
+        class="services-section__sub-header"
+      >
+        A breakdown of all the different kind of services I offer.
+      </p>
+      <hr
+        class="services-section__line-break"
+      />
+      <div
+        class="services-section__course-container"
+      >
+        <div
+          class="services-card"
+        >
+          <h3
+            class="services-card__title"
+          >
+            Online Courses
+          </h3>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+          </p>
+          <a
+            class="services-card__button"
+            href="/services"
+          >
+            <img
+              alt=""
+              class="services-card__vector services-card__vector--black"
+              src="Vector-black.svg"
+            />
+          </a>
+        </div>
+        <div
+          class="services-card"
+        >
+          <h3
+            class="services-card__title"
+          >
+            Group Courses
+          </h3>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+          </p>
+          <a
+            class="services-card__button"
+            href="/services"
+          >
+            <img
+              alt=""
+              class="services-card__vector services-card__vector--black"
+              src="Vector-black.svg"
+            />
+          </a>
+        </div>
+        <div
+          class="services-card"
+        >
+          <h3
+            class="services-card__title"
+          >
+            Bespoke Packages
+          </h3>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
+ ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+          </p>
+          <a
+            class="services-card__button"
+            href="/services"
+          >
+            <img
+              alt=""
+              class="services-card__vector services-card__vector--black"
+              src="Vector-black.svg"
+            />
+          </a>
+        </div>
+      </div>
+      <a
+        class="button button--secondary"
+        href="/services"
+      >
+        VIEW OUR SERVICES
+      </a>
+    </div>
+    <div
+      class="footer"
+    >
+      <div
+        class="footer__image-container"
+      >
+        <img
+          alt="logo"
+          class="footer__logo"
+          src="footer-logo.svg"
+        />
+      </div>
+      <ul
+        class="footer__links-container"
+      >
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/services"
+          >
+            Services
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/gallery"
+          >
+            Gallery
+          </a>
+        </li>
+        <li
+          class="footer__list-item footer__list-item--desktop"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            Terms & Conditions
+          </a>
+        </li>
+        <li
+          class="footer__list-item footer__list-item--mobile"
+        >
+          <a
+            class="footer__link"
+            href="/terms-and-conditions"
+          >
+            T&C's
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/faqs"
+          >
+            FAQ's
+          </a>
+        </li>
+        <li
+          class="footer__list-item"
+        >
+          <a
+            class="footer__link"
+            href="/get-in-touch"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <hr
+        class="footer__line-break"
+      />
+      <div
+        class="footer__secondary-links-container"
+      >
+        <div
+          class="footer__copyright-text"
+        >
+          © 2022 The Positive Pup. All rights reserved.
+        </div>
+        <div
+          class="footer__social-links"
+        >
+          <a
+            href="https://www.facebook.com/thepositivepupdogtraining"
+            target="blank"
+          >
+            <img
+              alt="link to facebook"
+              src="facebook-logo.svg"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/the_positivepup/"
+            target="blank"
+          >
+            <img
+              alt="link to instagram"
+              src="instagram-logo.svg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
