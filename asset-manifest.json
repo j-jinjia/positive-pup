@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/positive-pup/static/css/main.5da84b0b.css",
+    "main.css": "/positive-pup/static/css/main.43c1d1d9.css",
     "main.js": "/positive-pup/static/js/main.5d79d88f.js",
     "static/js/787.dace3d45.chunk.js": "/positive-pup/static/js/787.dace3d45.chunk.js",
     "static/media/trainingMethodsImage.svg": "/positive-pup/static/media/trainingMethodsImage.6f63b941c6de5d8ee3aefc21585950c6.svg",
@@ -21,12 +21,12 @@
     "static/media/facebook-logo.svg": "/positive-pup/static/media/facebook-logo.03e2175f7b6de498fc5ac4fb90aeeeb3.svg",
     "static/media/close-menu.svg": "/positive-pup/static/media/close-menu.1e3a47ea57c8c548bf541bbbc1d6ada7.svg",
     "static/media/hamburger-menu.svg": "/positive-pup/static/media/hamburger-menu.282efe67ddd1e22bcb10adac968693b3.svg",
-    "main.5da84b0b.css.map": "/positive-pup/static/css/main.5da84b0b.css.map",
+    "main.43c1d1d9.css.map": "/positive-pup/static/css/main.43c1d1d9.css.map",
     "main.5d79d88f.js.map": "/positive-pup/static/js/main.5d79d88f.js.map",
     "787.dace3d45.chunk.js.map": "/positive-pup/static/js/787.dace3d45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5da84b0b.css",
+    "static/css/main.43c1d1d9.css",
     "static/js/main.5d79d88f.js"
   ]
 }
