@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/positive-pup/static/css/main.894e2944.css",
-    "main.js": "/positive-pup/static/js/main.831af38e.js",
+    "main.css": "/positive-pup/static/css/main.80af0b00.css",
+    "main.js": "/positive-pup/static/js/main.a12734a8.js",
     "static/js/787.dace3d45.chunk.js": "/positive-pup/static/js/787.dace3d45.chunk.js",
     "static/media/trainingMethodsImage.svg": "/positive-pup/static/media/trainingMethodsImage.6f63b941c6de5d8ee3aefc21585950c6.svg",
     "static/media/AboutMe.png": "/positive-pup/static/media/AboutMe.127727f833ce9274181d.png",
     "static/media/landing_page_about_intro_img.png": "/positive-pup/static/media/landing_page_about_intro_img.cc2e741068be853adb93.png",
+    "static/media/services-image.png": "/positive-pup/static/media/services-image.94b63e63c8404485a6f6.png",
     "static/media/image3.png": "/positive-pup/static/media/image3.da261253f1e83b631497.png",
     "static/media/image1.png": "/positive-pup/static/media/image1.6c5df23df9a7de451e1b.png",
     "static/media/image.png": "/positive-pup/static/media/image.a4dfcf3495a2c85d99af.png",
@@ -17,6 +18,7 @@
     "static/media/paw_print.svg": "/positive-pup/static/media/paw_print.444004762532bfe1ad6d21d964735ece.svg",
     "static/media/quotations-1.svg": "/positive-pup/static/media/quotations-1.af27aa08324bfd858ce09127e393fd27.svg",
     "static/media/phone.svg": "/positive-pup/static/media/phone.e0af6e678a12853cd1bc1b4240aa59f3.svg",
+    "static/media/chain.svg": "/positive-pup/static/media/chain.6b8aa7b1b507cdf459c4ffc39458ca4b.svg",
     "index.html": "/positive-pup/index.html",
     "static/media/arrow.svg": "/positive-pup/static/media/arrow.ca766092acfd1224e937af8283498412.svg",
     "static/media/mail.svg": "/positive-pup/static/media/mail.a327bae536b954c4cabd6c57897b0b74.svg",
@@ -28,12 +30,12 @@
     "static/media/Vector-black.svg": "/positive-pup/static/media/Vector-black.282e57cb2d9d579f66c9d2071fcfba85.svg",
     "static/media/carousel-dot.svg": "/positive-pup/static/media/carousel-dot.73a54db33f5305a44a616e01d6ca7422.svg",
     "static/media/carousel-dot-active.svg": "/positive-pup/static/media/carousel-dot-active.61f84ff4589c9a3dbc151cfac0f73db4.svg",
-    "main.894e2944.css.map": "/positive-pup/static/css/main.894e2944.css.map",
-    "main.831af38e.js.map": "/positive-pup/static/js/main.831af38e.js.map",
+    "main.80af0b00.css.map": "/positive-pup/static/css/main.80af0b00.css.map",
+    "main.a12734a8.js.map": "/positive-pup/static/js/main.a12734a8.js.map",
     "787.dace3d45.chunk.js.map": "/positive-pup/static/js/787.dace3d45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.894e2944.css",
-    "static/js/main.831af38e.js"
+    "static/css/main.80af0b00.css",
+    "static/js/main.a12734a8.js"
   ]
 }
