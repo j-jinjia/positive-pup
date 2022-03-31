@@ -10,7 +10,7 @@ it("should match TestimonialsSection component snapshot", () => {
 });
 
 it("check the next testimonial button works ", () => {
-  const { container } = customRender(<Testimonials />);
+  customRender(<Testimonials />);
 
   const cardHeader = screen.getByText("Lianna Bradshaw & Ralph").closest("div");
   expect(cardHeader).toBeInTheDocument;
@@ -23,8 +23,6 @@ it("check the next testimonial button works ", () => {
     .closest("div");
   expect(cardHeader2.classList.contains("testimonial--active")).toBeFalsy();
 
-  expect(container).toMatchSnapshot();
-
   const cardHeader3 = screen
     .getByText("Bethanie Maxwell & Teddy")
     .closest("div");
@@ -32,13 +30,13 @@ it("check the next testimonial button works ", () => {
 });
 
 it("check the previous testimonial button works ", () => {
-  const { container } = customRender(<Testimonials />);
+  customRender(<Testimonials />);
 
   const cardHeader = screen.getByText("Lianna Bradshaw & Ralph").closest("div");
   expect(cardHeader).toBeInTheDocument;
   expect(cardHeader.classList.contains("testimonial--active")).toBeTruthy();
 
-  const previousButton = screen.getByLabelText("Next Testimonial");
+  const previousButton = screen.getByTestId("previous-button");
   console.log(previousButton);
   userEvent.click(previousButton);
   const cardHeader2 = screen
@@ -46,9 +44,6 @@ it("check the previous testimonial button works ", () => {
     .closest("div");
   expect(cardHeader2.classList.contains("testimonial--active")).toBeFalsy();
 
-  expect(container).toMatchSnapshot();
-
   const cardHeader3 = screen.getByText("Karen Hayter & Tilly").closest("div");
-  //   console.log(cardHeader3);
   expect(cardHeader3.classList.contains("testimonial--active")).toBeTruthy();
 });

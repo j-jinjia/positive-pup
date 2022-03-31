@@ -69,17 +69,26 @@ const Testimonials = () => {
       </p>
       <div className="testimonials__cards">{testimonialsListJSX}</div>
       <div className="testimonials__carousel">
-      <label htmlFor="previous-testimonial">Previous Testimonial</label>
-        <button id="previous-testimonial" className="testimonials__btn" onClick={handleClick}>
+        <label htmlFor="previous-testimonial">Previous Testimonial</label>
+        <button
+          id="previous-testimonial"
+          className="testimonials__btn"
+          onClick={handleClick}
+        >
           <img
             className="testimonials__btn-arrow testimonials__btn-arrow--1"
             src={arrow}
             alt="left arrow"
+            data-testid="previous-button"
           />
         </button>
         {dotsJSX}
         <label htmlFor="next-testimonial">Next Testimonial</label>
-        <button id="next-testimonial" className="testimonials__btn" onClick={handleClick}>
+        <button
+          id="next-testimonial"
+          className="testimonials__btn"
+          onClick={handleClick}
+        >
           <img
             className="testimonials__btn-arrow testimonials__btn-arrow--2"
             src={arrow}
