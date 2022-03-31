@@ -57,6 +57,7 @@ const Home = () => {
       faucibus bibendum sagittis lacus ornare. "
         buttonComponent={<ArrowLink linkText="View Our Services" />}
         image={servicesImage}
+        isFlipped={true}
       />
     </Layout>
   );

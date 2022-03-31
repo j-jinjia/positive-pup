@@ -8,17 +8,25 @@ const LandingContainer = ({
   image,
   isFlipped,
 }) => {
-  const classNameMod = isFlipped ? "flipped" : "";
+  const classNameMod = isFlipped ? "--flipped" : "";
 
   return (
-    <div className={`landing-page-about-intro`}>
-      <img src={icon} className={`landing-page-about-intro__paw ${classNameMod}`} alt="" />
-      <h2 className="landing-page-about-intro__header">{headingText}</h2>
-      <p className="landing-page-about-intro__paragraph">{paragraphText}</p>
+    <div className={`landing-page-about-intro${classNameMod}`}>
+      <img
+        src={icon}
+        className={`landing-page-about-intro${classNameMod}__paw`}
+        alt=""
+      />
+      <h2 className={`landing-page-about-intro${classNameMod}__header`}>
+        {headingText}
+      </h2>
+      <p className={`landing-page-about-intro${classNameMod}__paragraph`}>
+        {paragraphText}
+      </p>
       <div>{buttonComponent}</div>
       <img
         src={image}
-        className="landing-page-about-intro__image"
+        className={`landing-page-about-intro${classNameMod}__image`}
         alt="Positive Pup owner, Melanie, with a dog"
       />
     </div>
