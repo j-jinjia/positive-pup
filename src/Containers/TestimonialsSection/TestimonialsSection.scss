@@ -25,24 +25,24 @@
 
     &__text {
       color: $colour-quinary;
-      max-width: 650px;
+      max-width: 40.625rem;
       margin: 2.3rem 0 5.5rem 0;
-      line-height: 180%;
+      line-height: 1.8;
     }
     &__cards {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 42px;
+      gap: 2.625rem;
     }
 
     &__carousel {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 5px;
+      gap: 0.3125rem;
 
-      margin-top: 55px;
+      margin-top: 3.44rem;
 
       & > label {
         display: none;
@@ -70,5 +70,4 @@
       }
     }
   }
-
 }

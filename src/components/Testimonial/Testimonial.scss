@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     color: $colour-quatenary;
     margin-top: 2px;
   }
@@ -31,11 +31,11 @@
   }
 
   &__comment {
-    line-height: 150%;
+    line-height: 1.5;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 2rem;
     color: $colour-quinary;
-    font-size: 0.625em;
+    font-size: 0.625rem;
   }
 
   &__quotations {
@@ -65,7 +65,7 @@
       }
 
       &__details {
-        gap: 20px;
+        gap: 1.25rem;
         margin-top: 2px;
       }
 
@@ -74,7 +74,7 @@
       }
 
       &__comment {
-        margin-top: 30px;
+        margin-top: 2rem;
         font-size: 1em;
       }
     }

@@ -4,7 +4,6 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 import arrow from "../../assets/svgs/testimonial-arrow.svg";
 import dot from "../../assets/svgs/carousel-dot.svg";
 import dotFull from "../../assets/svgs/carousel-dot-active.svg";
-
 import { useState, useEffect } from "react";
 
 const Testimonials = () => {
@@ -69,7 +68,6 @@ const Testimonials = () => {
       </p>
       <div className="testimonials__cards">{testimonialsListJSX}</div>
       <div className="testimonials__carousel">
-        <label htmlFor="previous-testimonial">Previous Testimonial</label>
         <button
           id="previous-testimonial"
           className="testimonials__btn"
@@ -83,7 +81,6 @@ const Testimonials = () => {
           />
         </button>
         {dotsJSX}
-        <label htmlFor="next-testimonial">Next Testimonial</label>
         <button
           id="next-testimonial"
           className="testimonials__btn"
