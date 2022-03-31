@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the certifications component 1`] = `
+<div>
+  <div
+    class="certifications"
+  >
+    <div
+      class="certifications__badge-container"
+    >
+      <a
+        href="https://www.vsdogtrainingacademy.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Victoria Stillwell certification badge"
+          class="certifications__badge"
+          src="victoria_stillwell.png"
+        />
+      </a>
+      <a
+        href="https://companionanimal.network/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="international companion animal network certification badge"
+          class="certifications__badge"
+          src="international_companion.png"
+        />
+      </a>
+      <a
+        href="https://ukdogcharter.org/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="UK dog behaviour and training charter certification badge"
+          class="certifications__badge"
+          src="UK_dog_behaviour.png"
+        />
+      </a>
+      <a
+        href="https://www.petprofessionalguild.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="the pet professional guild certification badge"
+          class="certifications__badge"
+          src="PPG_Member_Badge.png"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;

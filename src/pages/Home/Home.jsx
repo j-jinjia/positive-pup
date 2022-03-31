@@ -1,4 +1,4 @@
-import CertificateBadges from "../../components/CertificateBadges/CertificateBadges";
+import Certifications from "../../components/Certifications/Certifications";
 import Hero from "../../components/Hero/Hero";
 import Layout from "../../components/Layout/Layout";
 import paw from "../../assets/images/landing_page/paw_print.svg";
@@ -28,6 +28,7 @@ const Home = () => {
         buttonText={"What We Offer"}
         link={"/services"}
       />
+<<<<<<< HEAD
       <CertificateBadges />
 
       <LandingContainer
@@ -59,6 +60,10 @@ const Home = () => {
         image={servicesImage}
         isFlipped={true}
       />
+=======
+      <Certifications showText={false} />
+      <LandingPageAboutIntro />
+>>>>>>> origin/main
     </Layout>
   );
 };
