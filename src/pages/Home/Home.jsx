@@ -2,6 +2,7 @@ import Certifications from "../../components/Certifications/Certifications";
 import Hero from "../../components/Hero/Hero";
 import LandingPageAboutIntro from "../../components/LandingPageAboutIntro/LandingPageAboutIntro";
 import Layout from "../../components/Layout/Layout";
+import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import TestimonialsSection from "../../Containers/TestimonialsSection/TestimonialsSection";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       <TestimonialsSection />
       <Certifications showText={false} />
       <LandingPageAboutIntro />
+      <ServicesSection />
     </Layout>
   );
 };
