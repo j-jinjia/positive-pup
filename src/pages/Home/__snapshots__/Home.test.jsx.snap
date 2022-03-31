@@ -525,8 +525,7 @@ exports[`should render the Home Page 1`] = `
             Online Courses
           </h3>
           <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
- ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -548,8 +547,7 @@ exports[`should render the Home Page 1`] = `
             Group Courses
           </h3>
           <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
- ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -571,8 +569,7 @@ exports[`should render the Home Page 1`] = `
             Bespoke Packages
           </h3>
           <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
- ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"

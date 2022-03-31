@@ -13,18 +13,15 @@ const ServicesSection = () => {
       <div className="services-section__course-container">
         <ServicesCard
           title="Online Courses"
-          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
-          ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut"
+          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         />
         <ServicesCard
           title="Group Courses"
-          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
-          ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut"
+          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         />
         <ServicesCard
           title="Bespoke Packages"
-          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quod
-          ipsum saepe ipsa optio dolorem veniam tenetur nemo labore ut"
+          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         />
       </div>
       <Button
