@@ -152,25 +152,26 @@ exports[`should render the home page 1`] = `
       </div>
     </div>
     <div
-      class="landing-page-about-intro"
+      class="landing-container"
     >
       <img
         alt=""
-        class="landing-page-about-intro__paw"
+        class="landing-container__paw"
         src="paw_print.svg"
       />
       <h2
-        class="landing-page-about-intro__header"
+        class="landing-container__header"
       >
         Why The Positive Pup?
+         
       </h2>
       <p
-        class="landing-page-about-intro__paragraph"
+        class="landing-container__paragraph"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo, faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet malesuada est dignissim magna. Amet vel tempor egestas at in mi, facilisi proin.
       </p>
       <div
-        class="landing-page-about-intro__button"
+        class="landing-container__button"
       >
         <a
           class="button button--secondary"
@@ -181,46 +182,47 @@ exports[`should render the home page 1`] = `
       </div>
       <img
         alt="Positive Pup owner, Melanie, with a dog"
-        class="landing-page-about-intro__image"
+        class="landing-container__image"
         src="landing_page_about_intro_img.png"
       />
     </div>
     <div
-      class="landing-page-about-intro--flipped"
+      class="landing-container landing-container--flipped"
     >
       <img
         alt=""
-        class="landing-page-about-intro--flipped__paw"
+        class="landing-container__paw"
         src="chain.svg"
       />
       <h2
-        class="landing-page-about-intro--flipped__header"
+        class="landing-container__header"
       >
         Strengthen the bond between you and your pup
+         
       </h2>
       <p
-        class="landing-page-about-intro--flipped__paragraph"
+        class="landing-container__paragraph"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo, faucibus bibendum sagittis lacus ornare. 
       </p>
       <div
-        class="landing-page-about-intro--flipped__button"
+        class="landing-container__button"
       >
         <a
-          class="link"
+          class="ArrowLink"
           href=""
         >
           View Our Services
           <img
             alt=""
-            class="link__arrow"
+            class="ArrowLink__arrow"
             src="arrow.svg"
           />
         </a>
       </div>
       <img
         alt="Positive Pup owner, Melanie, with a dog"
-        class="landing-page-about-intro--flipped__image"
+        class="landing-container__image"
         src="services-image.png"
       />
     </div>

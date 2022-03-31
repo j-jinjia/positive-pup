@@ -3,50 +3,26 @@
 exports[`should render the LandingContainer component 1`] = `
 <div>
   <div
-    class="landing-page-about-intro"
+    class="landing-container"
   >
     <img
       alt=""
-      class="landing-page-about-intro__paw"
+      class="landing-container__paw"
     />
     <h2
-      class="landing-page-about-intro__header"
-    />
+      class="landing-container__header"
+    >
+       
+    </h2>
     <p
-      class="landing-page-about-intro__paragraph"
+      class="landing-container__paragraph"
     />
     <div
-      class="landing-page-about-intro__button"
+      class="landing-container__button"
     />
     <img
       alt="Positive Pup owner, Melanie, with a dog"
-      class="landing-page-about-intro__image"
-    />
-  </div>
-</div>
-`;
-
-exports[`should render the LandingPageAboutIntro component 1`] = `
-<div>
-  <div
-    class="landing-page-about-intro"
-  >
-    <img
-      alt=""
-      class="landing-page-about-intro__paw"
-    />
-    <h2
-      class="landing-page-about-intro__header"
-    />
-    <p
-      class="landing-page-about-intro__paragraph"
-    />
-    <div
-      class="landing-page-about-intro__button"
-    />
-    <img
-      alt="Positive Pup owner, Melanie, with a dog"
-      class="landing-page-about-intro__image"
+      class="landing-container__image"
     />
   </div>
 </div>
