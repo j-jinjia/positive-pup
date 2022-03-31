@@ -1,5 +1,4 @@
 import "./MissionSection.scss";
-
 import LinkArrow from "../../components/ArrowLink/ArrowLink";
 
 const MissionSection = () => {
