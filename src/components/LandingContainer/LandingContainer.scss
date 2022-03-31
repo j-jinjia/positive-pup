@@ -36,6 +36,12 @@
   &__button {
     margin-bottom: 3rem;
   }
+  &__image {
+    max-width: 22rem;
+    width: 100%;
+    margin-top: 3rem;
+    align-self: center;
+  }
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
@@ -94,6 +100,7 @@
       grid-row-end: 5;
       width: 80%;
       align-self: center;
+      max-width: initial;
     }
 
     &__paw {
