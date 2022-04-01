@@ -5,6 +5,7 @@ import ukBehaviour from "../../assets/images/certification_badges/behave.png";
 import victoriaStillwell from "../../assets/images/certification_badges/VSWA.png";
 import petAdvocacy from "../../assets/images/certification_badges/PIAI.png";
 
+
 const Certifications = ({ showText }) => {
   return (
     <div className="certifications">

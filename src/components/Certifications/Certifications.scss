@@ -32,6 +32,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    max-height: 578px;
     .certifications__badge {
       margin: 0px 10px;
       width: 60px;
@@ -46,7 +48,6 @@
     &__img {
       margin: 0px 19px;
       width: auto;
-      height: auto;
     }
   }
 }
