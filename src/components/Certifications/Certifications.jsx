@@ -3,7 +3,7 @@ import internationalBadge from "../../assets/images/certification_badges/ICAN.pn
 import ppgBadge from "../../assets/images/certification_badges/ppg2022.png";
 import ukBehaviour from "../../assets/images/certification_badges/behave.png";
 import victoriaStillwell from "../../assets/images/certification_badges/VSWA.png";
-import petAdvocacy from "../../assets/images/certification_badges/PIAI.png"
+import petAdvocacy from "../../assets/images/certification_badges/PIAI.png";
 
 const Certifications = ({ showText }) => {
   return (
@@ -26,28 +26,6 @@ const Certifications = ({ showText }) => {
       )}
       <div className="certifications__badge-container">
         <a
-          href="https://www.vsdogtrainingacademy.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={victoriaStillwell}
-            className="certifications__badge"
-            alt="Victoria Stillwell certification badge"
-          />
-        </a>
-        <a
-          href="https://www.petadvocacy.info/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={petAdvocacy}
-            className="certifications__badge"
-            alt="Pet Industry Advocacy International badge"
-          />
-        </a>
-        <a
           href="https://companionanimal.network/"
           rel="noreferrer"
           target="_blank"
@@ -58,6 +36,30 @@ const Certifications = ({ showText }) => {
             alt="international companion animal network certification badge"
           />
         </a>
+
+        <a
+          href="https://www.petadvocacy.info/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            src={petAdvocacy}
+            className="certifications__badge"
+            alt="Pet Industry Advocacy International badge"
+          />{" "}
+        </a>
+        <a
+          href="https://www.vsdogtrainingacademy.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            src={victoriaStillwell}
+            className="certifications__badge"
+            alt="Victoria Stillwell certification badge"
+          />
+        </a>
+
         <a href="https://ukdogcharter.org/" rel="noreferrer" target="_blank">
           <img
             src={ukBehaviour}
