@@ -1,8 +1,9 @@
 import "./Certifications.scss";
-import internationalBadge from "../../assets/images/certification_badges/international_companion.png";
-import ppgBadge from "../../assets/images/certification_badges/PPG_Member_Badge.png";
-import ukBehaviour from "../../assets/images/certification_badges/UK_dog_behaviour.png";
-import victoriaStillwell from "../../assets/images/certification_badges/victoria_stillwell.png";
+import internationalBadge from "../../assets/images/certification_badges/ICAN.png";
+import ppgBadge from "../../assets/images/certification_badges/ppg2022.png";
+import ukBehaviour from "../../assets/images/certification_badges/behave.png";
+import victoriaStillwell from "../../assets/images/certification_badges/VSWA.png";
+import petAdvocacy from "../../assets/images/certification_badges/PIAI.png"
 
 const Certifications = ({ showText }) => {
   return (
@@ -33,6 +34,17 @@ const Certifications = ({ showText }) => {
             src={victoriaStillwell}
             className="certifications__badge"
             alt="Victoria Stillwell certification badge"
+          />
+        </a>
+        <a
+          href="https://www.petadvocacy.info/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            src={petAdvocacy}
+            className="certifications__badge"
+            alt="Pet Industry Advocacy International badge"
           />
         </a>
         <a
