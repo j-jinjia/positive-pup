@@ -1,0 +1,17 @@
+@use "../../styles/variables" as *;
+@use "../../styles/typography" as *;
+
+.category-filter-container {
+  display: flex;
+  border: black solid 2px;
+
+  &__filter-option {
+    margin: 1rem;
+    cursor: pointer;
+
+    &--selected {
+      font-weight: bold;
+      text-decoration: underline $colour-primary;
+    }
+  }
+}
