@@ -5,14 +5,14 @@ const ServicesSearchBar = ({ searchTerm, handleInput }) => {
   return (
     <div className="search-box">
       <label htmlFor="search-box">
-      <input
-        className="search-box__input"
-        type="text"
-        value={searchTerm}
-        onChange={handleInput}
-      />
+        <input
+          className="search-box__input"
+          type="text"
+          value={searchTerm}
+          onChange={handleInput}
+        />
       </label>
-     
+
       <img
         className="search-box__input-icon"
         src={searchIcon}

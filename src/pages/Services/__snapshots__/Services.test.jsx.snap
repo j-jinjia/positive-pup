@@ -87,14 +87,18 @@ exports[`should render the Services page 1`] = `
       <div
         class="search-box"
       >
-        <input
-          class="search-box__input"
-          type="text"
-          value=""
-        />
+        <label
+          for="search-box"
+        >
+          <input
+            class="search-box__input"
+            type="text"
+            value=""
+          />
+        </label>
         <img
           alt="search icon"
-          class="search-box__input--icon"
+          class="search-box__input-icon"
           src="searchBarIcon.svg"
         />
       </div>
@@ -509,14 +513,18 @@ exports[`should render the Services search bar 1`] = `
   <div
     class="search-box"
   >
-    <input
-      class="search-box__input"
-      type="text"
-      value=""
-    />
+    <label
+      for="search-box"
+    >
+      <input
+        class="search-box__input"
+        type="text"
+        value=""
+      />
+    </label>
     <img
       alt="search icon"
-      class="search-box__input--icon"
+      class="search-box__input-icon"
       src="searchBarIcon.svg"
     />
   </div>

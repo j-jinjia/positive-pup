@@ -13,5 +13,3 @@ it("should render the Services search bar", () => {
 
   expect(container).toMatchSnapshot();
 });
-
-
