@@ -209,17 +209,6 @@ exports[`should render the About page 1`] = `
         class="certifications__badge-container"
       >
         <a
-          href="https://www.vsdogtrainingacademy.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Victoria Stillwell certification badge"
-            class="certifications__badge"
-            src="victoria_stillwell.png"
-          />
-        </a>
-        <a
           href="https://companionanimal.network/"
           rel="noreferrer"
           target="_blank"
@@ -227,7 +216,30 @@ exports[`should render the About page 1`] = `
           <img
             alt="international companion animal network certification badge"
             class="certifications__badge"
-            src="international_companion.png"
+            src="ICAN.png"
+          />
+        </a>
+        <a
+          href="https://www.petadvocacy.info/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Pet Industry Advocacy International badge"
+            class="certifications__badge"
+            src="PIAI.png"
+          />
+           
+        </a>
+        <a
+          href="https://www.vsdogtrainingacademy.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Victoria Stillwell certification badge"
+            class="certifications__badge"
+            src="VSWA.png"
           />
         </a>
         <a
@@ -238,7 +250,7 @@ exports[`should render the About page 1`] = `
           <img
             alt="UK dog behaviour and training charter certification badge"
             class="certifications__badge"
-            src="UK_dog_behaviour.png"
+            src="behave.png"
           />
         </a>
         <a
@@ -249,7 +261,7 @@ exports[`should render the About page 1`] = `
           <img
             alt="the pet professional guild certification badge"
             class="certifications__badge"
-            src="PPG_Member_Badge.png"
+            src="ppg2022.png"
           />
         </a>
       </div>
