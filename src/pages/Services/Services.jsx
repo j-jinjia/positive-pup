@@ -13,13 +13,10 @@ const Services = () => {
     setSearchTerm(cleanInput);
   };
 
-  
   const filteredSearchItems = courseData.filter((course) => {
     const filteredCourseHeading = course.courseHeading.toLowerCase();
-    return filteredCourseHeading.includes(searchTerm) 
+    return filteredCourseHeading.includes(searchTerm);
   });
-
-
 
   return (
     <Layout>
@@ -28,7 +25,7 @@ const Services = () => {
         <h2 className="services__subheading">
           Take a peek at everything we offer
         </h2>
-        <ServicesSearchBar searchTerm={searchTerm} handleInput={handleInput}/>
+        <ServicesSearchBar searchTerm={searchTerm} handleInput={handleInput} />
         <CoursesList courseData={filteredSearchItems} />
       </div>
     </Layout>

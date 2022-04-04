@@ -1,7 +1,7 @@
-.search-box{
-position: relative;
+.search-box {
+  position: relative;
 
-&__input {
+  &__input {
     width: 242px;
     height: 40px;
     position: relative;
@@ -9,13 +9,10 @@ position: relative;
     background-color: rgba(55, 175, 162, 0.04);
     border: none;
 
-    &--icon{
-        position: absolute;
-        right: 10px;
-        top: 10px;
+    &--icon {
+      position: absolute;
+      right: 10px;
+      top: 10px;
     }
-
+  }
 }
-}
-
-
