@@ -61,7 +61,6 @@ const Home = () => {
         image={servicesImage}
         isFlipped={true}
       />
-
       <ServicesSection />
       <TestimonialsSection />
     </Layout>

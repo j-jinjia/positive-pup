@@ -30,7 +30,7 @@ exports[`should render the MissionSection component 1`] = `
     >
       <a
         class="arrow-link"
-        href="/"
+        href="#about-us-training-section"
       >
         View Training Methods
         <img

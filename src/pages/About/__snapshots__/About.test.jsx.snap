@@ -140,7 +140,7 @@ exports[`should render the About page 1`] = `
       >
         <a
           class="arrow-link"
-          href="/"
+          href="#about-us-training-section"
         >
           View Training Methods
           <img
@@ -153,6 +153,7 @@ exports[`should render the About page 1`] = `
     </div>
     <div
       class="about-us-training-section"
+      id="about-us-training-section"
     >
       <img
         alt="Positive Pup owner, Melanie, with a dog"

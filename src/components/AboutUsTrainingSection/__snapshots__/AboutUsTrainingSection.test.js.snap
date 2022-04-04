@@ -4,6 +4,7 @@ exports[`should render the AbouUsTrainingSection component 1`] = `
 <div>
   <div
     class="about-us-training-section"
+    id="about-us-training-section"
   >
     <img
       alt="Positive Pup owner, Melanie, with a dog"

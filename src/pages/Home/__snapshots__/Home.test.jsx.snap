@@ -210,7 +210,7 @@ exports[`should render the Home Page 1`] = `
       >
         <a
           class="arrow-link"
-          href="/"
+          href="#services-section"
         >
           View Our Services
           <img
@@ -228,6 +228,7 @@ exports[`should render the Home Page 1`] = `
     </div>
     <div
       class="services-section"
+      id="services-section"
     >
       <h2
         class="services-section__header"

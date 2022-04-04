@@ -4,6 +4,7 @@ exports[`should match ServicesSection component snapshot 1`] = `
 <div>
   <div
     class="services-section"
+    id="services-section"
   >
     <h2
       class="services-section__header"
