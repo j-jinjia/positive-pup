@@ -16,9 +16,7 @@ const Services = () => {
   
   const filteredSearchItems = courseData.filter((course) => {
     const filteredCourseHeading = course.courseHeading.toLowerCase();
-    // const filteredCourseLabel = course.labelsArray.toLowerCase();
     return filteredCourseHeading.includes(searchTerm) 
-    // || filteredCourseLabel.includes(searchTerm);
   });
 
 
