@@ -8,9 +8,13 @@ exports[`should match hero component snapshot 1`] = `
     <p
       class="hero__subheader"
     />
-    <button
-      class="button button--primary"
-    />
+    <a
+      href="#mission-section"
+    >
+      <button
+        class="button button--primary"
+      />
+    </a>
   </div>
 </div>
 `;

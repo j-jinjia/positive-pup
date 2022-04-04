@@ -3,7 +3,7 @@ import LinkArrow from "../../components/ArrowLink/ArrowLink";
 
 const MissionSection = () => {
   return (
-    <div className="mission-section">
+    <div className="mission-section" id="mission-section">
       <h1 className="mission-section__heading"> My Mission</h1>
       <p className="mission-section__about-us">
         Have you ever dreamt about your perfect career? the kind of job that

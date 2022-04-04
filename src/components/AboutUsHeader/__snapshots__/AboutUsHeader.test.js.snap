@@ -30,11 +30,15 @@ exports[`should match AboutUsHeader component snapshot 1`] = `
         >
           As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
         </p>
-        <button
-          class="button button--secondary"
+        <a
+          href="#mission-section"
         >
-          More About Us
-        </button>
+          <button
+            class="button button--secondary"
+          >
+            More About Us
+          </button>
+        </a>
       </div>
     </main>
     <img
