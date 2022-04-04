@@ -2,7 +2,7 @@ import Layout from "../../components/Layout/Layout";
 import "./Services.scss";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
-import ServicesSearchBar from "../../components/ServicesSearchBar/ServicesSearchBar";
+import ServicesSearchBar from "../../components/ServicesSearchBar/SearchBar";
 import { useState } from "react";
 
 const Services = () => {

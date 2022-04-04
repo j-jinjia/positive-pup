@@ -1,15 +1,18 @@
+@use "../../styles/variables" as *;
+
+
 .search-box {
   position: relative;
 
   &__input {
-    width: 242px;
-    height: 40px;
+    width: 15rem;
+    height: 2.5rem;
     position: relative;
     border-radius: 8px;
-    background-color: rgba(55, 175, 162, 0.04);
+    background-color: $colour-primary-light-searchbar;
     border: none;
 
-    &--icon {
+    &-icon {
       position: absolute;
       right: 10px;
       top: 10px;

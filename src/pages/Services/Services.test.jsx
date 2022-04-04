@@ -1,4 +1,4 @@
-import ServicesSearchBar from "../../components/ServicesSearchBar/ServicesSearchBar";
+import ServicesSearchBar from "../../components/ServicesSearchBar/SearchBar";
 import { customRender } from "../../utils/testUtils";
 import Services from "./Services";
 
