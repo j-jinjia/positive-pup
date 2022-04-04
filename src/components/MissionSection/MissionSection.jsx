@@ -24,7 +24,10 @@ const MissionSection = () => {
         towards building a special bond with your canine companion.
       </p>
       <div className="link-container">
-        <LinkArrow linkText="View Training Methods" />
+        <LinkArrow
+          linkText="View Training Methods"
+          linkTo="#about-us-training-section"
+        />
       </div>
     </div>
   );

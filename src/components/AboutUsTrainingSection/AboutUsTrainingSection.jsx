@@ -3,7 +3,7 @@ import "./AboutUsTrainingSection.scss";
 
 const AboutUsTrainingSection = () => {
   return (
-    <div className="about-us-training-section">
+    <div className="about-us-training-section" id="about-us-training-section">
       <img
         src={trainingMethods}
         className="about-us-training-section__image"
