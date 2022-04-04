@@ -1,28 +1,10 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./ServicesCategoryFilter.scss";
 
-const ServicesCategoryFilter = () => {
-  const [courseType, setCourseType] = useState("All");
-
-  // let filterOptionClassName = "category-filter-container__filter-option";
+const ServicesCategoryFilter = ({ courseType, handleClick }) => {
   const unselected = "category-filter-container__filter-option";
   const selected =
     "category-filter-container__filter-option category-filter-container__filter-option--selected";
-
-  const handleClick = (event) => {
-    console.log(event.target.id);
-    if (event.target.id === "All") {
-      setCourseType("All");
-    } else if (event.target.id === "Online Courses") {
-      setCourseType("Online Courses");
-    } else if (event.target.id === "Group Classes") {
-      setCourseType("Group Classes");
-    } else if (event.target.id === "Bespoke Packages") {
-      setCourseType("Bespoke Packages");
-    }
-
-    // console.log(courseType);
-  };
 
   return (
     <div className="category-filter-container">
