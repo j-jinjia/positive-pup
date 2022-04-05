@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match ServicesGetInTouchSection component snapshot 1`] = `
+<div>
+  <div
+    class="services-getInTouch-section"
+  >
+    <h3
+      class="services-getInTouch-section__header"
+    >
+       
+      Have a question about any of our courses?
+       
+    </h3>
+    <p
+      class="services-getInTouch-section__subtext"
+    >
+       
+      Please take a look at our FAQ’s to see if it’s already been answered. Alternatively,
+      <br />
+      get in touch using the button below.
+    </p>
+    <button
+      class="button button--primary"
+    />
+  </div>
+</div>
+`;

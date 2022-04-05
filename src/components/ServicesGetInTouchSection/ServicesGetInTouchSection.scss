@@ -1,0 +1,21 @@
+@use "../../styles/variables" as *;
+
+.services-getInTouch-section {
+  &__header {
+    font-family: $font-header;
+    font-size: $font-size-h3;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 150%;
+    font-weight: 600;
+  }
+
+  &__subtext {
+    padding-bottom: 2rem;
+    color: $colour-font-paragraph;
+  }
+}
+
+a {
+  font-size: 0.8rem;
+}
