@@ -43,22 +43,10 @@ const ServicesCategoryFilter = ({ courseType, handleClick }) => {
 
   const mobileFilters = (
     <select name="filter-options" onChange={handleClick}>
-      <option
-        className={courseType == "All" ? selected : unselected}
-        // onChange={handleClick}
-        value={"All"}
-      >
-        All
-      </option>
-      <option onChange={handleClick} value={"Online Courses"}>
-        Online Courses
-      </option>
-      <option onClick={handleClick} value={"Group Classes"}>
-        Group Classes
-      </option>
-      <option onClick={handleClick} value={"Bespoke Packages"}>
-        Bespoke Packages
-      </option>
+      <option value={"All"}>All</option>
+      <option value={"Online Courses"}>Online Courses</option>
+      <option value={"Group Classes"}>Group Classes</option>
+      <option value={"Bespoke Packages"}>Bespoke Packages</option>
     </select>
   );
 
