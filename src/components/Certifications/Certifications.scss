@@ -65,11 +65,7 @@
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
-  .certifications {
-    max-width: 39.75rem;
-  }
   .certifications__badge-container {
-    width: 39.75rem;
     .certifications__badge {
       width: 100px;
     }
