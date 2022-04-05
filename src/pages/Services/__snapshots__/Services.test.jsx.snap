@@ -72,20 +72,24 @@ exports[`should render the Serives page 1`] = `
       </div>
     </div>
     <div
-      class="headerheader"
+      class="services__header"
     >
-      <h1
-        class="header__heading"
+      <div
+        class="headerheader"
       >
-         
-        Services
-         
-      </h1>
-      <h2
-        class="header__subheading"
-      >
-        Take a peek at everything we offer
-      </h2>
+        <h1
+          class="header__heading"
+        >
+           
+          Services
+           
+        </h1>
+        <h2
+          class="header__subheading"
+        >
+          Take a peek at everything we offer
+        </h2>
+      </div>
     </div>
     <div
       class="courses-list"
