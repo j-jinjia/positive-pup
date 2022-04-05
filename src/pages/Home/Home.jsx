@@ -10,6 +10,7 @@ import chain from "../../assets/images/landing_page/chain.svg";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import TestimonialsSection from "../../Containers/TestimonialsSection/TestimonialsSection";
 import ArrowLink from "../../components/ArrowLink/ArrowLink";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const headerText = "Start your journey on the right ";
@@ -26,8 +27,7 @@ const Home = () => {
         subheaderText={
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas"
         }
-        buttonText={"What We Offer"}
-        link={"/services"}
+        link={<Link to={"/services"}>What We Offer</Link>}
       />
       <Certifications showText={false} />
       <LandingContainer
@@ -40,10 +40,8 @@ const Home = () => {
       facilisi proin."
         buttonComponent={
           <Button
-            link="/about"
+            link={<Link to="/about">More About Me</Link>}
             isSecondary={true}
-            headingText="Why The Positive Pup?"
-            buttonText="More About Me"
           />
         }
         image={introImage}

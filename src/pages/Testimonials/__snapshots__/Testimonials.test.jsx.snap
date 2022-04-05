@@ -62,12 +62,15 @@ exports[`should render the testimonials page 1`] = `
               Get in Touch
             </a>
           </span>
-          <a
-            class="button button--primary"
-            href="/book-now"
+          <div
+            class="button button--primary button--link"
           >
-            Book Now
-          </a>
+            <a
+              href="/book-now"
+            >
+              Book Now
+            </a>
+          </div>
         </nav>
       </div>
     </div>

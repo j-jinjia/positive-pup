@@ -6,9 +6,7 @@ const Hero = ({ header, subheaderText, buttonText, isSecondary, link }) => {
     <div className="hero">
       {header}
       <p className="hero__subheader">{subheaderText}</p>
-      <a href="#mission-section">
-        <Button buttonText={buttonText} isSecondary={isSecondary} link={link} />
-      </a>
+      <Button buttonText={buttonText} isSecondary={isSecondary} link={link} />
     </div>
   );
 };
