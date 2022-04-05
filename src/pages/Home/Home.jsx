@@ -33,11 +33,7 @@ const Home = () => {
       <LandingContainer
         icon={paw}
         headingText="Why The Positive Pup?"
-        paragraphText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada
-      tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo,
-      faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet
-      malesuada est dignissim magna. Amet vel tempor egestas at in mi,
-      facilisi proin."
+        paragraphText="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         buttonComponent={
           <Button
             link={<Link to="/about">More About Me</Link>}
@@ -50,9 +46,7 @@ const Home = () => {
       <LandingContainer
         icon={chain}
         headingText="Strengthen the bond between you and your pup"
-        paragraphText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada
-      tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo,
-      faucibus bibendum sagittis lacus ornare. "
+        paragraphText="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         buttonComponent={
           <ArrowLink linkText="View Our Services" linkTo="#services-section" />
         }
