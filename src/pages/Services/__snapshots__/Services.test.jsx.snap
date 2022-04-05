@@ -84,24 +84,27 @@ exports[`should render the Services page 1`] = `
       >
         Take a peek at everything we offer
       </h2>
-      <div
-        class="search-box"
+      <form
+        class="search-bar"
       >
         <label
-          for="search-box"
+          class="search-bar__label"
+          for="search-bar__course"
         >
-          <input
-            class="search-box__input"
-            type="text"
-            value=""
-          />
+          Search Course
         </label>
+        <input
+          class="search-bar__input"
+          id="search-bar__course"
+          type="text"
+          value=""
+        />
         <img
           alt="search icon"
-          class="search-box__input-icon"
+          class="search-bar__input-icon"
           src="searchBarIcon.svg"
         />
-      </div>
+      </form>
       <div
         class="courses-list"
       >
@@ -504,29 +507,6 @@ exports[`should render the Services page 1`] = `
         </div>
       </div>
     </div>
-  </div>
-</div>
-`;
-
-exports[`should render the Services search bar 1`] = `
-<div>
-  <div
-    class="search-box"
-  >
-    <label
-      for="search-box"
-    >
-      <input
-        class="search-box__input"
-        type="text"
-        value=""
-      />
-    </label>
-    <img
-      alt="search icon"
-      class="search-box__input-icon"
-      src="searchBarIcon.svg"
-    />
   </div>
 </div>
 `;

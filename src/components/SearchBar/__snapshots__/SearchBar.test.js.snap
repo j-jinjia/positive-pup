@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match ServicesSearchBar component snapshot 1`] = `
+<div>
+  <form
+    class="search-bar"
+  >
+    <label
+      class="search-bar__label"
+      for="search-bar__course"
+    >
+      Search Course
+    </label>
+    <input
+      class="search-bar__input"
+      id="search-bar__course"
+      type="text"
+      value=""
+    />
+    <img
+      alt="search icon"
+      class="search-bar__input-icon"
+      src="searchBarIcon.svg"
+    />
+  </form>
+</div>
+`;
