@@ -2,11 +2,18 @@ import Layout from "../../components/Layout/Layout";
 import "./Services.scss";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
-import ServicesCategoryFilter from "../../components/ServicesCategoryFilter/ServicesCategoryFilter";
+import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState } from "react";
 
 const Services = () => {
   const [courseType, setCourseType] = useState("All");
+
+  const filterOptions = [
+    "All",
+    "Online Courses",
+    "Group Classes",
+    "Bespoke Packages",
+  ];
 
   const handleClick = (event) => {
     // console.log("working");
@@ -50,9 +57,10 @@ const Services = () => {
         <h2 className="services__subheading">
           Take a peek at everything we offer
         </h2>
-        <ServicesCategoryFilter
+        <CategoryFilter
           courseType={courseType}
           handleClick={handleClick}
+          filterOptions={filterOptions}
         />
         <CoursesList courseData={filteredCourses} />
       </div>
