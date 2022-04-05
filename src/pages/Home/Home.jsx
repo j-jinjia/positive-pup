@@ -18,7 +18,6 @@ const Home = () => {
   const headerText = "Start your journey on the right ";
   return (
     <Layout>
-      <h1>Positive Pup</h1>
       <Hero
         header={
           <h2 className="hero__header">

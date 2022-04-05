@@ -71,9 +71,6 @@ exports[`should render the Home Page 1`] = `
         </nav>
       </div>
     </div>
-    <h1>
-      Positive Pup
-    </h1>
     <div
       class="hero"
     >
