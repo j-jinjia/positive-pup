@@ -2,7 +2,7 @@ import "./ServicesCard.scss";
 import vectorBlack from "../../assets/svgs/Vector-black.svg";
 import { Link } from "react-router-dom";
 
-const ServicesCard = ({ title, description }) => {
+const ServicesCard = ({ title, description, image }) => {
   return (
     <div className="services-card">
       <h3 className="services-card__title">{title}</h3>
@@ -14,6 +14,8 @@ const ServicesCard = ({ title, description }) => {
           alt=""
         />
       </Link>
+
+      <img className="services-card__img" src={image} alt="dog" />
     </div>
   );
 };

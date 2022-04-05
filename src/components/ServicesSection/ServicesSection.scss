@@ -8,10 +8,6 @@
   justify-content: center;
   padding-top: 7rem;
 
-  &__course-container {
-    margin-bottom: 1rem;
-  }
-
   &__header {
     font-size: $font-size-h2;
     margin-bottom: 1rem;
@@ -34,10 +30,6 @@
   .services-section {
     &__line-break {
       margin-bottom: 3rem;
-    }
-    &__course-container {
-      display: flex;
-      gap: 1rem;
     }
   }
 }
