@@ -1,9 +1,10 @@
 import Layout from "../../components/Layout/Layout";
+import BookNowHeader from "../../components/BookNowHeader/BookNowHeader";
 
 const BookNow = () => {
   return (
     <Layout>
-      <h1>Book Now</h1>
+      <BookNowHeader />
     </Layout>
   );
 };
