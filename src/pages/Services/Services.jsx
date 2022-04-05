@@ -25,17 +25,17 @@ const Services = () => {
       event.target.id === "Online Courses" ||
       event.target.value === "Online Courses"
     ) {
-      setCourseType("Online Course");
+      setCourseType("Online Courses");
     } else if (
       event.target.id === "Group Classes" ||
       event.target.value === "Group Classes"
     ) {
-      setCourseType("Group Class");
+      setCourseType("Group Classes");
     } else if (
       event.target.id === "Bespoke Packages" ||
       event.target.value === "Bespoke Packages"
     ) {
-      setCourseType("Bespoke Package");
+      setCourseType("Bespoke Packages");
     }
   };
 
