@@ -7,13 +7,11 @@
 
   &__filter-option {
     cursor: pointer;
-    font-size:$font-size-general;
+    font-size: $font-size-general;
     color: $colour-quatenary;
     font-weight: $font-filter-weight;
-    
 
     &--selected {
-      
       color: $colour-font-general;
     }
   }

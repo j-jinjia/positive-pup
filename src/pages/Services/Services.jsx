@@ -9,14 +9,25 @@ const Services = () => {
   const [courseType, setCourseType] = useState("All");
 
   const handleClick = (event) => {
-    console.log(event.target.id);
-    if (event.target.id === "All") {
+    // console.log("working");
+    // console.log(event.target.id);
+    // console.log(event.target.value);
+    if (event.target.id === "All" || event.target.value === "All") {
       setCourseType("All");
-    } else if (event.target.id === "Online Courses") {
+    } else if (
+      event.target.id === "Online Courses" ||
+      event.target.value === "Online Courses"
+    ) {
       setCourseType("Online Course");
-    } else if (event.target.id === "Group Classes") {
+    } else if (
+      event.target.id === "Group Classes" ||
+      event.target.value === "Group Classes"
+    ) {
       setCourseType("Group Class");
-    } else if (event.target.id === "Bespoke Packages") {
+    } else if (
+      event.target.id === "Bespoke Packages" ||
+      event.target.value === "Bespoke Packages"
+    ) {
       setCourseType("Bespoke Package");
     }
   };
