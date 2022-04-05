@@ -4,7 +4,10 @@ import BookNowHeader from "../../components/BookNowHeader/BookNowHeader";
 const BookNow = () => {
   return (
     <Layout>
-      <BookNowHeader />
+      <BookNowHeader
+        headingText={"Book Now"}
+        subheadingText={"Secure your place on one of our services"}
+      />
     </Layout>
   );
 };

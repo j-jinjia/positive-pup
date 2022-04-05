@@ -72,294 +72,296 @@ exports[`should render the Serives page 1`] = `
       </div>
     </div>
     <div
-      class="services"
+      class="headerheader"
     >
       <h1
-        class="services__heading"
+        class="header__heading"
       >
-        OUR SERVICES
+         
+        Services
+         
       </h1>
       <h2
-        class="services__subheading"
+        class="header__subheading"
       >
         Take a peek at everything we offer
       </h2>
+    </div>
+    <div
+      class="courses-list"
+    >
       <div
-        class="courses-list"
+        class="course-card"
       >
         <div
-          class="course-card"
+          class="course-card__img-container"
         >
-          <div
-            class="course-card__img-container"
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
           >
-            <img
-              alt="dog"
-              class="course-card__img"
-              src="image.png"
-            />
-          </div>
-          <div
-            class="course-card__course-content"
+            Group Class
+          </p>
+          <p
+            class="course-card__course-heading"
           >
-            <p
-              class="course-card__course-type"
-            >
-              Group Class
-            </p>
-            <p
-              class="course-card__course-heading"
-            >
-              Little Stars Course
-            </p>
+            Little Stars Course
+          </p>
+          <div
+            class="course-card__labels"
+          >
             <div
-              class="course-card__labels"
+              class="card-label"
             >
-              <div
-                class="card-label"
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  In Person
-                </span>
-              </div>
-              <div
-                class="card-label"
+                In Person
+              </span>
+            </div>
+            <div
+              class="card-label"
+            >
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  10 weeks+
-                </span>
-              </div>
+                10 weeks+
+              </span>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="course-card"
+      >
         <div
-          class="course-card"
+          class="course-card__img-container"
         >
-          <div
-            class="course-card__img-container"
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image1.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
           >
-            <img
-              alt="dog"
-              class="course-card__img"
-              src="image1.png"
-            />
-          </div>
-          <div
-            class="course-card__course-content"
+            Group Class
+          </p>
+          <p
+            class="course-card__course-heading"
           >
-            <p
-              class="course-card__course-type"
-            >
-              Group Class
-            </p>
-            <p
-              class="course-card__course-heading"
-            >
-              Rising Stars Course
-            </p>
+            Rising Stars Course
+          </p>
+          <div
+            class="course-card__labels"
+          >
             <div
-              class="course-card__labels"
+              class="card-label"
             >
-              <div
-                class="card-label"
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  In Person
-                </span>
-              </div>
-              <div
-                class="card-label"
+                In Person
+              </span>
+            </div>
+            <div
+              class="card-label"
+            >
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  16 weeks+
-                </span>
-              </div>
+                16 weeks+
+              </span>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="course-card"
+      >
         <div
-          class="course-card"
+          class="course-card__img-container"
         >
-          <div
-            class="course-card__img-container"
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image2.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
           >
-            <img
-              alt="dog"
-              class="course-card__img"
-              src="image2.png"
-            />
-          </div>
-          <div
-            class="course-card__course-content"
+            Bespoke Package
+          </p>
+          <p
+            class="course-card__course-heading"
           >
-            <p
-              class="course-card__course-type"
-            >
-              Bespoke Package
-            </p>
-            <p
-              class="course-card__course-heading"
-            >
-              1:1 Personalised Training
-            </p>
+            1:1 Personalised Training
+          </p>
+          <div
+            class="course-card__labels"
+          >
             <div
-              class="course-card__labels"
+              class="card-label"
             >
-              <div
-                class="card-label"
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  In Person
-                </span>
-              </div>
-              <div
-                class="card-label"
+                In Person
+              </span>
+            </div>
+            <div
+              class="card-label"
+            >
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  Intensive
-                </span>
-              </div>
+                Intensive
+              </span>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="course-card"
+      >
         <div
-          class="course-card"
+          class="course-card__img-container"
         >
-          <div
-            class="course-card__img-container"
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
           >
-            <img
-              alt="dog"
-              class="course-card__img"
-              src="image.png"
-            />
-          </div>
-          <div
-            class="course-card__course-content"
+            Group Class
+          </p>
+          <p
+            class="course-card__course-heading"
           >
-            <p
-              class="course-card__course-type"
-            >
-              Group Class
-            </p>
-            <p
-              class="course-card__course-heading"
-            >
-              Little Stars Course
-            </p>
+            Little Stars Course
+          </p>
+          <div
+            class="course-card__labels"
+          >
             <div
-              class="course-card__labels"
+              class="card-label"
             >
-              <div
-                class="card-label"
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  Online
-                </span>
-              </div>
+                Online
+              </span>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="course-card"
+      >
         <div
-          class="course-card"
+          class="course-card__img-container"
         >
-          <div
-            class="course-card__img-container"
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image1.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
           >
-            <img
-              alt="dog"
-              class="course-card__img"
-              src="image1.png"
-            />
-          </div>
-          <div
-            class="course-card__course-content"
+            Online Course
+          </p>
+          <p
+            class="course-card__course-heading"
           >
-            <p
-              class="course-card__course-type"
-            >
-              Online Course
-            </p>
-            <p
-              class="course-card__course-heading"
-            >
-              Chaos to Calm
-            </p>
+            Chaos to Calm
+          </p>
+          <div
+            class="course-card__labels"
+          >
             <div
-              class="course-card__labels"
+              class="card-label"
             >
-              <div
-                class="card-label"
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  Online
-                </span>
-              </div>
-              <div
-                class="card-label"
+                Online
+              </span>
+            </div>
+            <div
+              class="card-label"
+            >
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  Flexible
-                </span>
-              </div>
+                Flexible
+              </span>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="course-card"
+      >
         <div
-          class="course-card"
+          class="course-card__img-container"
         >
-          <div
-            class="course-card__img-container"
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image3.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
           >
-            <img
-              alt="dog"
-              class="course-card__img"
-              src="image3.png"
-            />
-          </div>
-          <div
-            class="course-card__course-content"
+            Online Course
+          </p>
+          <p
+            class="course-card__course-heading"
           >
-            <p
-              class="course-card__course-type"
-            >
-              Online Course
-            </p>
-            <p
-              class="course-card__course-heading"
-            >
-              Rapid Recall
-            </p>
+            Rapid Recall
+          </p>
+          <div
+            class="course-card__labels"
+          >
             <div
-              class="course-card__labels"
+              class="card-label"
             >
-              <div
-                class="card-label"
+              <span
+                class="card-label__text"
               >
-                <span
-                  class="card-label__text"
-                >
-                  Online
-                </span>
-              </div>
+                Online
+              </span>
             </div>
           </div>
         </div>
