@@ -4,6 +4,7 @@ exports[`should match ServicesSection component snapshot 1`] = `
 <div>
   <div
     class="services-section"
+    id="services-section"
   >
     <h2
       class="services-section__header"
@@ -88,12 +89,15 @@ exports[`should match ServicesSection component snapshot 1`] = `
         </a>
       </div>
     </div>
-    <a
-      class="button button--secondary"
-      href="/services"
+    <div
+      class="button button--secondary button--link"
     >
-      VIEW OUR SERVICES
-    </a>
+      <a
+        href="/services"
+      >
+        VIEW OUR SERVICES
+      </a>
+    </div>
   </div>
 </div>
 `;

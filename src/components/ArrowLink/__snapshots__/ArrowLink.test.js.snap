@@ -4,7 +4,6 @@ exports[`should match ArrowLink component snapshot 1`] = `
 <div>
   <a
     class="arrow-link"
-    href="/"
   >
     <img
       alt=""

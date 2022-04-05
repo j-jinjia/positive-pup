@@ -38,8 +38,7 @@ const Navbar = () => {
       </span>
       <Button
         className="navbar__nav-item"
-        link="/book-now"
-        buttonText="Book Now"
+        link={<Link to={"/book-now"}>Book Now</Link>}
       />
     </nav>
   );

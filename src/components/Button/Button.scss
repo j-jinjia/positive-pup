@@ -12,15 +12,27 @@
   }
 
   &--primary {
-    color: $colour-secondary;
     background-color: $colour-primary;
-    font-weight: bold;
+    > * {
+      color: $colour-secondary;
+      font-weight: bold;
+    }
   }
 
   &--secondary {
-    color: $colour-primary;
     background-color: transparent;
     border: 2px solid $colour-primary;
+    > * {
+      color: $colour-primary;
+    }
+  }
+  &--link {
+    padding: 0;
+    > * {
+      display: block;
+      padding: 15px 38px;
+      text-decoration: none;
+    }
   }
 
   &:hover {

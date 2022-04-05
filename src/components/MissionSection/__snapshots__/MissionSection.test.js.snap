@@ -4,6 +4,7 @@ exports[`should render the MissionSection component 1`] = `
 <div>
   <div
     class="mission-section"
+    id="mission-section"
   >
     <h1
       class="mission-section__heading"
@@ -30,7 +31,7 @@ exports[`should render the MissionSection component 1`] = `
     >
       <a
         class="arrow-link"
-        href="/"
+        href="#about-us-training-section"
       >
         View Training Methods
         <img
