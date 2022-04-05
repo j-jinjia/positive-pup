@@ -16,21 +16,21 @@ const ServicesCategoryFilter = ({ courseType, handleClick }) => {
         All
       </p>
       <p
-        className={courseType == "Online Courses" ? selected : unselected}
+        className={courseType == "Online Course" ? selected : unselected}
         onClick={handleClick}
         id={"Online Courses"}
       >
         Online Courses
       </p>
       <p
-        className={courseType == "Group Classes" ? selected : unselected}
+        className={courseType == "Group Class" ? selected : unselected}
         onClick={handleClick}
         id={"Group Classes"}
       >
         Group Classes
       </p>
       <p
-        className={courseType == "Bespoke Packages" ? selected : unselected}
+        className={courseType == "Bespoke Package" ? selected : unselected}
         onClick={handleClick}
         id={"Bespoke Packages"}
       >
