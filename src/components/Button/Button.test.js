@@ -6,3 +6,8 @@ it("should match button component snapshot", () => {
 
   expect(container).toMatchSnapshot();
 });
+it("should match button component snapshot using link property ", () => {
+  const { container } = customRender(<Button link={"test"} />);
+
+  expect(container).toMatchSnapshot();
+});

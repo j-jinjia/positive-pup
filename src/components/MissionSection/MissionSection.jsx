@@ -1,5 +1,5 @@
 import "./MissionSection.scss";
-import LinkArrow from "../../components/ArrowLink/ArrowLink";
+import ArrowLink from "../../components/ArrowLink/ArrowLink";
 
 const MissionSection = () => {
   return (
@@ -24,7 +24,7 @@ const MissionSection = () => {
         towards building a special bond with your canine companion.
       </p>
       <div className="link-container">
-        <LinkArrow
+        <ArrowLink
           linkText="View Training Methods"
           linkTo="#about-us-training-section"
         />

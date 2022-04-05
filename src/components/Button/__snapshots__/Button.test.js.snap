@@ -7,3 +7,13 @@ exports[`should match button component snapshot 1`] = `
   />
 </div>
 `;
+
+exports[`should match button component snapshot using link property  1`] = `
+<div>
+  <div
+    class="button button--primary button--link"
+  >
+    test
+  </div>
+</div>
+`;
