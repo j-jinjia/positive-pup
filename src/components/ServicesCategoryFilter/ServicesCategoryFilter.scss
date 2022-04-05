@@ -1,17 +1,20 @@
-@use "../../styles/variables" as *;
-@use "../../styles/typography" as *;
+@use "../../styles/_variables.scss" as *;
 
 .category-filter-container {
   display: flex;
-  border: black solid 2px;
+  justify-content: space-between;
+  gap: 20px;
 
   &__filter-option {
-    margin: 1rem;
     cursor: pointer;
+    font-size:$font-size-general;
+    color: $colour-quatenary;
+    font-weight: $font-filter-weight;
+    
 
     &--selected {
-      font-weight: bold;
-      text-decoration: underline $colour-primary;
+      
+      color: $colour-font-general;
     }
   }
 }
