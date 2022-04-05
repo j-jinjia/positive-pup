@@ -9,6 +9,7 @@ const SearchBar = ({ searchTerm, handleInput }) => {
       </label>
       <input
         id="search-bar__course"
+        role="input"
         className="search-bar__input"
         type="text"
         value={searchTerm}

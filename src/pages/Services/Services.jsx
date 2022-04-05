@@ -2,7 +2,7 @@ import Layout from "../../components/Layout/Layout";
 import "./Services.scss";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
-import ServicesSearchBar from "../../components/SearchBar/SearchBar";
+import SearchBar from "../../components/SearchBar/SearchBar";
 import { useState } from "react";
 
 const Services = () => {
@@ -25,7 +25,7 @@ const Services = () => {
         <h2 className="services__subheading">
           Take a peek at everything we offer
         </h2>
-        <ServicesSearchBar searchTerm={searchTerm} handleInput={handleInput} />
+        <SearchBar searchTerm={searchTerm} handleInput={handleInput} />
         <CoursesList courseData={filteredSearchItems} />
       </div>
     </Layout>

@@ -1,8 +1,8 @@
 import { customRender } from "../../utils/testUtils";
-import ServicesSearchBar from "./SearchBar";
+import SearchBar from "./SearchBar";
 
-it("should match ServicesSearchBar component snapshot", () => {
-  const { container } = customRender(<ServicesSearchBar />);
+it("should match SearchBar component snapshot", () => {
+  const { container } = customRender(<SearchBar searchTerm="rising stars" />);
 
   expect(container).toMatchSnapshot();
 });
