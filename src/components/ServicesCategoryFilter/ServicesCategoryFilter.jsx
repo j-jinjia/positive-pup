@@ -1,6 +1,4 @@
-// import { useState } from "react";
 import "./ServicesCategoryFilter.scss";
-// import dropdownArrow from "../../assets/svgs/services-dropdown-arrow.svg";
 import useWindowSize from "../../hooks/useWindowSize";
 
 const ServicesCategoryFilter = ({ courseType, handleClick }) => {
