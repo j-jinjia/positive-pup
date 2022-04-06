@@ -12,7 +12,7 @@ const CategoryFilter = ({ courseType, handleClick, filterOptions }) => {
     return (
       <p
         key={index}
-        className={courseType == { val } ? selected : unselected}
+        className={courseType == val ? selected : unselected}
         onClick={handleClick}
         id={val}
       >
@@ -27,50 +27,22 @@ const CategoryFilter = ({ courseType, handleClick, filterOptions }) => {
 
   const mapFiltersMobile = filterOptions.map((val, index) => {
     return (
-      <option key={index} value={val}>
+      <option
+        className="category-filter-dropdown-menu__option"
+        key={index}
+        value={val}
+      >
         {val}
       </option>
     );
   });
 
-  // const desktopFilters = (
-  //   <div className="category-filter-container">
-
-  //     filterOptions.map(())
-  //     <p
-  //       className={courseType == "All" ? selected : unselected}
-  //       onClick={handleClick}
-  //       id={"All"}
-  //     >
-  //       All
-  //     </p>
-
-  //     <p
-  //       className={courseType == "Online Course" ? selected : unselected}
-  //       onClick={handleClick}
-  //       id={"Online Courses"}
-  //     >
-  //       Online Courses
-  //     </p>
-  //     <p
-  //       className={courseType == "Group Class" ? selected : unselected}
-  //       onClick={handleClick}
-  //       id={"Group Classes"}
-  //     >
-  //       Group Classes
-  //     </p>
-  //     <p
-  //       className={courseType == "Bespoke Package" ? selected : unselected}
-  //       onClick={handleClick}
-  //       id={"Bespoke Packages"}
-  //     >
-  //       Bespoke Packages
-  //     </p>
-  //   </div>
-  // );
-
   const mobileFilters = (
-    <select name="filter-options" onChange={handleClick}>
+    <select
+      className="category-filter-dropdown-menu"
+      name="filter-options"
+      onChange={handleClick}
+    >
       {mapFiltersMobile}
     </select>
   );

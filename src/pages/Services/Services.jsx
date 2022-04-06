@@ -45,9 +45,8 @@ const Services = () => {
     filteredCourses = courseData;
   } else {
     filteredCourses = courseData.filter(
-      (course) => course.courseType === courseType
+      (course) => course.courseTypePlural === courseType
     );
-    console.log(filteredCourses);
   }
 
   return (
