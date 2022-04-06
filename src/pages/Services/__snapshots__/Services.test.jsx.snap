@@ -368,17 +368,17 @@ exports[`should render the Serives page 1`] = `
         </div>
       </div>
       <div
-        class="services-getInTouch-section"
+        class="services-get-in-touch-section"
       >
         <h3
-          class="services-getInTouch-section__header"
+          class="services-get-in-touch-section__header"
         >
            
           Have a question about any of our courses?
            
         </h3>
         <p
-          class="services-getInTouch-section__subtext"
+          class="services-get-in-touch-section__subtext"
         >
            
           Please take a look at our FAQ’s to see if it’s already been answered. Alternatively,
@@ -389,6 +389,7 @@ exports[`should render the Serives page 1`] = `
           class="button button--secondary button--link"
         >
           <a
+            class="services-get-in-touch-section__button"
             href="/get-in-touch"
           >
             GET IN TOUCH

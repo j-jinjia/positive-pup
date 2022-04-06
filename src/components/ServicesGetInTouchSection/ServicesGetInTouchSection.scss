@@ -1,6 +1,6 @@
 @use "../../styles/variables" as *;
 
-.services-getInTouch-section {
+.services-get-in-touch-section {
   &__header {
     font-family: $font-header;
     font-size: $font-size-h3;
@@ -14,8 +14,4 @@
     padding-bottom: 2rem;
     color: $colour-font-paragraph;
   }
-}
-
-a {
-  font-size: 0.8rem;
 }
