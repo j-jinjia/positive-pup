@@ -62,12 +62,15 @@ exports[`should render the About page 1`] = `
               Get in Touch
             </a>
           </span>
-          <a
-            class="button button--primary"
-            href="/book-now"
+          <div
+            class="button button--primary button--link"
           >
-            Book Now
-          </a>
+            <a
+              href="/book-now"
+            >
+              Book Now
+            </a>
+          </div>
         </nav>
       </div>
     </div>
@@ -99,11 +102,15 @@ exports[`should render the About page 1`] = `
           >
             As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
           </p>
-          <button
-            class="button button--secondary"
+          <div
+            class="button button--secondary button--link"
           >
-            More About Us
-          </button>
+            <a
+              href="#mission-section"
+            >
+              More About Us
+            </a>
+          </div>
         </div>
       </main>
       <img
@@ -114,6 +121,7 @@ exports[`should render the About page 1`] = `
     </div>
     <div
       class="mission-section"
+      id="mission-section"
     >
       <h1
         class="mission-section__heading"
@@ -140,7 +148,7 @@ exports[`should render the About page 1`] = `
       >
         <a
           class="arrow-link"
-          href="/"
+          href="#about-us-training-section"
         >
           View Training Methods
           <img
@@ -153,6 +161,7 @@ exports[`should render the About page 1`] = `
     </div>
     <div
       class="about-us-training-section"
+      id="about-us-training-section"
     >
       <img
         alt="Positive Pup owner, Melanie, with a dog"
@@ -203,17 +212,6 @@ exports[`should render the About page 1`] = `
         class="certifications__badge-container"
       >
         <a
-          href="https://www.vsdogtrainingacademy.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Victoria Stillwell certification badge"
-            class="certifications__badge"
-            src="victoria_stillwell.png"
-          />
-        </a>
-        <a
           href="https://companionanimal.network/"
           rel="noreferrer"
           target="_blank"
@@ -221,7 +219,30 @@ exports[`should render the About page 1`] = `
           <img
             alt="international companion animal network certification badge"
             class="certifications__badge"
-            src="international_companion.png"
+            src="ICAN.png"
+          />
+        </a>
+        <a
+          href="https://www.petadvocacy.info/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Pet Industry Advocacy International badge"
+            class="certifications__badge"
+            src="PIAI.png"
+          />
+           
+        </a>
+        <a
+          href="https://www.vsdogtrainingacademy.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Victoria Stillwell certification badge"
+            class="certifications__badge"
+            src="VSWA.png"
           />
         </a>
         <a
@@ -232,7 +253,7 @@ exports[`should render the About page 1`] = `
           <img
             alt="UK dog behaviour and training charter certification badge"
             class="certifications__badge"
-            src="UK_dog_behaviour.png"
+            src="behave.png"
           />
         </a>
         <a
@@ -243,7 +264,7 @@ exports[`should render the About page 1`] = `
           <img
             alt="the pet professional guild certification badge"
             class="certifications__badge"
-            src="PPG_Member_Badge.png"
+            src="ppg2022.png"
           />
         </a>
       </div>

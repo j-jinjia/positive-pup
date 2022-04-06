@@ -77,6 +77,17 @@
     &__image {
       grid-column: 2;
       width: 100%;
+      margin-top: 0;
+    }
+  }
+  .landing-container--flipped {
+    .landing-container__image {
+      grid-column: 1;
+      grid-row-start: 4;
+    }
+    .landing-container__button {
+      grid-column: 2;
+      justify-self: flex-end;
     }
   }
 }
@@ -133,6 +144,7 @@
 
     .landing-container__image {
       grid-column: 2;
+      grid-row-start: 1;
       justify-self: flex-end;
     }
 
@@ -141,6 +153,7 @@
     .landing-container__paragraph,
     .landing-container__button {
       grid-column: 1;
+      justify-self: normal;
     }
   }
 } ;

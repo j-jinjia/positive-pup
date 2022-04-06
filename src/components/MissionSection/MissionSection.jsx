@@ -1,9 +1,9 @@
 import "./MissionSection.scss";
-import LinkArrow from "../../components/ArrowLink/ArrowLink";
+import ArrowLink from "../../components/ArrowLink/ArrowLink";
 
 const MissionSection = () => {
   return (
-    <div className="mission-section">
+    <div className="mission-section" id="mission-section">
       <h1 className="mission-section__heading"> My Mission</h1>
       <p className="mission-section__about-us">
         Have you ever dreamt about your perfect career? the kind of job that
@@ -24,7 +24,10 @@ const MissionSection = () => {
         towards building a special bond with your canine companion.
       </p>
       <div className="link-container">
-        <LinkArrow linkText="View Training Methods" />
+        <ArrowLink
+          linkText="View Training Methods"
+          linkTo="#about-us-training-section"
+        />
       </div>
     </div>
   );

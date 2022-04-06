@@ -4,9 +4,22 @@ import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState } from "react";
+import SearchBar from "../../components/SearchBar/SearchBar";
+
 
 const Services = () => {
   const [courseType, setCourseType] = useState("All");
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleInput = (event) => {
+    const cleanInput = event.target.value.toLowerCase();
+    setSearchTerm(cleanInput);
+  };
+
+  const filteredSearchItems = courseData.filter((course) => {
+    const filteredCourseHeading = course.courseHeading.toLowerCase();
+    return filteredCourseHeading.includes(searchTerm);
+  });
 
   const filterOptions = [
     "All",
@@ -46,6 +59,7 @@ const Services = () => {
     );
   }
 
+
   return (
     <Layout>
       <div className="services">
@@ -58,7 +72,14 @@ const Services = () => {
           handleClick={handleClick}
           filterOptions={filterOptions}
         />
-        <CoursesList courseData={filteredCourses} />
+       
+        <SearchBar
+          searchTerm={searchTerm}
+          handleInput={handleInput}
+          label="Search Courses"
+        />
+        <CoursesList courseData={filteredSearchItems} />
+         <CoursesList courseData={filteredCourses} />
       </div>
     </Layout>
   );

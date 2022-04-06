@@ -25,8 +25,8 @@ const AboutUsHeader = () => {
           subheaderText={
             "As the owner of The Positive Pup, it is my joy to be able to welcome you to this website."
           }
-          buttonText={"More About Us"}
           isSecondary={true}
+          link={<a href="#mission-section">More About Us</a>}
         />
       </main>
       <img

@@ -32,10 +32,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    max-height: 578px;
     .certifications__badge {
       margin: 0px 10px;
       width: 60px;
-      height: 60px;
     }
   }
 }
@@ -47,7 +48,6 @@
     &__img {
       margin: 0px 19px;
       width: auto;
-      height: auto;
     }
   }
 }
@@ -60,20 +60,14 @@
     .certifications__badge {
       margin: 0px 19px;
       width: 5.7rem;
-      height: 5.7rem;
     }
   }
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
-  .certifications {
-    max-width: 39.75rem;
-  }
   .certifications__badge-container {
-    width: 39.75rem;
     .certifications__badge {
       width: 100px;
-      height: 100px;
     }
   }
 }

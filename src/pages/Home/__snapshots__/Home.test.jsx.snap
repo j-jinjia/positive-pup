@@ -62,18 +62,18 @@ exports[`should render the Home Page 1`] = `
               Get in Touch
             </a>
           </span>
-          <a
-            class="button button--primary"
-            href="/book-now"
+          <div
+            class="button button--primary button--link"
           >
-            Book Now
-          </a>
+            <a
+              href="/book-now"
+            >
+              Book Now
+            </a>
+          </div>
         </nav>
       </div>
     </div>
-    <h1>
-      Positive Pup
-    </h1>
     <div
       class="hero"
     >
@@ -92,12 +92,15 @@ exports[`should render the Home Page 1`] = `
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
       </p>
-      <a
-        class="button button--primary"
-        href="/services"
+      <div
+        class="button button--primary button--link"
       >
-        What We Offer
-      </a>
+        <a
+          href="/services"
+        >
+          What We Offer
+        </a>
+      </div>
     </div>
     <div
       class="certifications"
@@ -106,17 +109,6 @@ exports[`should render the Home Page 1`] = `
         class="certifications__badge-container"
       >
         <a
-          href="https://www.vsdogtrainingacademy.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Victoria Stillwell certification badge"
-            class="certifications__badge"
-            src="victoria_stillwell.png"
-          />
-        </a>
-        <a
           href="https://companionanimal.network/"
           rel="noreferrer"
           target="_blank"
@@ -124,7 +116,30 @@ exports[`should render the Home Page 1`] = `
           <img
             alt="international companion animal network certification badge"
             class="certifications__badge"
-            src="international_companion.png"
+            src="ICAN.png"
+          />
+        </a>
+        <a
+          href="https://www.petadvocacy.info/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Pet Industry Advocacy International badge"
+            class="certifications__badge"
+            src="PIAI.png"
+          />
+           
+        </a>
+        <a
+          href="https://www.vsdogtrainingacademy.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Victoria Stillwell certification badge"
+            class="certifications__badge"
+            src="VSWA.png"
           />
         </a>
         <a
@@ -135,7 +150,7 @@ exports[`should render the Home Page 1`] = `
           <img
             alt="UK dog behaviour and training charter certification badge"
             class="certifications__badge"
-            src="UK_dog_behaviour.png"
+            src="behave.png"
           />
         </a>
         <a
@@ -146,7 +161,7 @@ exports[`should render the Home Page 1`] = `
           <img
             alt="the pet professional guild certification badge"
             class="certifications__badge"
-            src="PPG_Member_Badge.png"
+            src="ppg2022.png"
           />
         </a>
       </div>
@@ -168,21 +183,28 @@ exports[`should render the Home Page 1`] = `
       <p
         class="landing-container__paragraph"
       >
+<<<<<<< HEAD
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada
  tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo,
  faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet
  malesuada est dignissim magna. Amet vel tempor egestas at in mi,
  facilisi proin.
+=======
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+>>>>>>> origin/main
       </p>
       <div
         class="landing-container__button"
       >
-        <a
-          class="button button--secondary"
-          href="/about"
+        <div
+          class="button button--secondary button--link"
         >
-          More About Me
-        </a>
+          <a
+            href="/about"
+          >
+            More About Me
+          </a>
+        </div>
       </div>
       <img
         alt="Positive Pup owner, Melanie, with a dog"
@@ -207,16 +229,20 @@ exports[`should render the Home Page 1`] = `
       <p
         class="landing-container__paragraph"
       >
+<<<<<<< HEAD
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada
  tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo,
  faucibus bibendum sagittis lacus ornare. 
+=======
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+>>>>>>> origin/main
       </p>
       <div
         class="landing-container__button"
       >
         <a
           class="arrow-link"
-          href="/"
+          href="#services-section"
         >
           View Our Services
           <img
@@ -234,6 +260,7 @@ exports[`should render the Home Page 1`] = `
     </div>
     <div
       class="services-section"
+      id="services-section"
     >
       <h2
         class="services-section__header"
@@ -249,7 +276,7 @@ exports[`should render the Home Page 1`] = `
         class="services-section__line-break"
       />
       <div
-        class="services-section__course-container"
+        class="card-list"
       >
         <div
           class="services-card"
@@ -259,8 +286,10 @@ exports[`should render the Home Page 1`] = `
           >
             Online Courses
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -272,6 +301,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image.png"
+          />
         </div>
         <div
           class="services-card"
@@ -281,8 +315,10 @@ exports[`should render the Home Page 1`] = `
           >
             Group Courses
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -294,6 +330,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image1.png"
+          />
         </div>
         <div
           class="services-card"
@@ -303,8 +344,10 @@ exports[`should render the Home Page 1`] = `
           >
             Bespoke Packages
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -316,14 +359,22 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image4.png"
+          />
         </div>
       </div>
-      <a
-        class="button button--secondary"
-        href="/services"
+      <div
+        class="button button--secondary button--link"
       >
-        VIEW OUR SERVICES
-      </a>
+        <a
+          href="/services"
+        >
+          VIEW OUR SERVICES
+        </a>
+      </div>
     </div>
     <div
       class="testimonials"
