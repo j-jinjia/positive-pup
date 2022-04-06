@@ -3,23 +3,32 @@ import "./Services.scss";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
-
 
 const Services = () => {
   const [courseType, setCourseType] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
+  const [courseCards, setCourseCards] = useState(courseData);
+
+  useEffect(() => {
+    const filteredCourses = courseData.filter((course) => {
+      if (courseType === "All") return true;
+      return course.courseTypePlural === courseType;
+    });
+
+    const veryFilteredCourses = filteredCourses.filter((course) => {
+      const filteredCourseHeading = course.courseHeading.toLowerCase();
+      return filteredCourseHeading.includes(searchTerm);
+    });
+
+    setCourseCards(veryFilteredCourses);
+  }, [courseType, searchTerm]);
 
   const handleInput = (event) => {
     const cleanInput = event.target.value.toLowerCase();
     setSearchTerm(cleanInput);
   };
-
-  const filteredSearchItems = courseData.filter((course) => {
-    const filteredCourseHeading = course.courseHeading.toLowerCase();
-    return filteredCourseHeading.includes(searchTerm);
-  });
 
   const filterOptions = [
     "All",
@@ -49,17 +58,6 @@ const Services = () => {
     }
   };
 
-  let filteredCourses;
-
-  if (courseType === "All") {
-    filteredCourses = courseData;
-  } else {
-    filteredCourses = courseData.filter(
-      (course) => course.courseTypePlural === courseType
-    );
-  }
-
-
   return (
     <Layout>
       <div className="services">
@@ -72,14 +70,13 @@ const Services = () => {
           handleClick={handleClick}
           filterOptions={filterOptions}
         />
-       
+
         <SearchBar
           searchTerm={searchTerm}
           handleInput={handleInput}
           label="Search Courses"
         />
-        <CoursesList courseData={filteredSearchItems} />
-         <CoursesList courseData={filteredCourses} />
+        <CoursesList courseData={courseCards} />
       </div>
     </Layout>
   );
