@@ -4,12 +4,12 @@
   max-width: 386px;
   &__title {
     color: $colour-primary;
-    font-size: $font-size-h1;
+    font-size: $font-size-smallest;
     font-family: $font-header;
     margin-bottom: 0.5rem;
   }
   &__heading {
-    font-size: $font-size-h2;
+    font-size: $font-size-medium;
     font-family: $font-header;
     font-weight: normal;
     margin-bottom: 1.75rem;
@@ -43,7 +43,7 @@
 @media screen and (min-width: $desktop-breakpoint) {
   .contact-header {
     &__heading {
-      font-size: $font-size-h2-desktop;
+      font-size: $font-size-larger;
     }
   }
 }

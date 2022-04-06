@@ -41,7 +41,7 @@
     &-item {
       padding: 21px 0;
       text-decoration: none;
-      font-size: $font-size-navbar;
+      font-size: $font-size-small;
       border-bottom: 1px solid #f7f7f7;
       width: 100%;
       text-align: right;
@@ -73,7 +73,7 @@
       &-item {
         text-align: center;
         white-space: nowrap;
-        font-size: $font-size-general;
+        font-size: $font-size-smallest;
         border: none;
         padding: 0;
         width: fit-content;

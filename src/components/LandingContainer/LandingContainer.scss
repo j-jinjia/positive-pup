@@ -18,7 +18,7 @@
 
   &__header {
     font-family: $font-header;
-    font-size: 1.75rem;
+    font-size: $font-size-large;
     font-weight: 600;
     line-height: 1.5;
     margin-top: 2rem;
@@ -27,7 +27,7 @@
 
   &__paragraph {
     margin-bottom: 3rem;
-    font-size: 1.125rem;
+    font-size: $font-size-smaller;
     color: $colour-font-paragraph;
     line-height: 1.8;
   }

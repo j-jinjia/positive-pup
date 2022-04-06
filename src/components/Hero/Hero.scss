@@ -3,7 +3,7 @@
 .hero {
   &__header {
     font-family: $font-header;
-    font-size: $font-size-h2;
+    font-size: $font-size-medium;
     font-weight: 400;
 
     position: relative;
@@ -44,7 +44,7 @@
 @media screen and (min-width: $tablet-breakpoint) {
   .hero {
     &__header {
-      font-size: $font-size-h2-desktop;
+      font-size: $font-size-larger;
       margin-bottom: 26px;
     }
   }
