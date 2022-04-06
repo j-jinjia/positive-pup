@@ -3,6 +3,13 @@
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  .hero-certifications {
+    grid-column-start: 2;
+    display: flex;
+  }
+
   .hero-content {
     align-self: center;
     padding-top: 3rem;
@@ -48,15 +55,25 @@
   }
   .hero-image {
     display: flex;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(
+      to right,
+      transparent 15%,
+      rgba(108, 168, 162, 0.2) 15%,
+      rgba(55, 175, 162, 0.2) 85%,
+      transparent 85%
+    );
     &__image {
       width: 100%;
     }
   }
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (max-width: $desktop-breakpoint) {
   .hero {
     grid-template-columns: 1fr;
+
     .hero-content {
       text-align: center;
       padding-left: 5rem;
@@ -64,6 +81,25 @@
       &__header {
         font-size: $font-size-h2-desktop;
         margin-bottom: 26px;
+      }
+    }
+
+    .hero-image {
+      margin: 2rem;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+  .hero {
+    .hero-image {
+      background: none;
+      padding: 0;
+      margin: 0;
+      &__image {
+        display: none;
       }
     }
   }

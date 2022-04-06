@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import "./Hero.scss";
+import Certifications from "../Certifications/Certifications";
 
 const Hero = ({
   header,
@@ -22,6 +23,9 @@ const Hero = ({
           src={dogImage}
           alt="Picture of a happy bulldog"
         />
+      </div>
+      <div className="hero-certifications">
+        <Certifications showText={false} />
       </div>
     </div>
   );
