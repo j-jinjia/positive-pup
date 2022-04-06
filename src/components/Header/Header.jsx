@@ -3,7 +3,7 @@ import "./Header.scss";
 const Header = (props) => {
   const { headingText, subheadingText, isLeftAlign } = props;
   let headerClassName = "header";
-  headerClassName += isLeftAlign ? "header--leftAlign" : "header";
+  if (isLeftAlign) headerClassName += "header--left-align";
 
   return (
     <div className={headerClassName}>

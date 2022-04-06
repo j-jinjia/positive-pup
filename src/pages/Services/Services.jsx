@@ -7,13 +7,11 @@ import courseData from "../../assets/mockData/courseData";
 const Services = () => {
   return (
     <Layout>
-      <div className="services__header">
-        <Header
-          isLeftAlign={false}
-          headingText={"Services"}
-          subheadingText={"Take a peek at everything we offer"}
-        />
-      </div>
+      <Header
+        isLeftAlign={false}
+        headingText={"Services"}
+        subheadingText={"Take a peek at everything we offer"}
+      />
       <CoursesList courseData={courseData} />
     </Layout>
   );

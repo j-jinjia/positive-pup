@@ -75,7 +75,7 @@ exports[`should render the GetInTouch page 1`] = `
       class="contact-header"
     >
       <div
-        class="headerheader--leftAlign"
+        class="headerheader--left-align"
       >
         <h1
           class="header__heading"

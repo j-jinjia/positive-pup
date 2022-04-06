@@ -1,12 +1,13 @@
 import Layout from "../../components/Layout/Layout";
-import BookNowHeader from "../../components/BookNowHeader/BookNowHeader";
+import Header from "../../components/Header/Header";
 
 const BookNow = () => {
   return (
     <Layout>
-      <BookNowHeader
+      <Header
         headingText={"Book Now"}
         subheadingText={"Secure your place on one of our services"}
+        isLeftAlign={false}
       />
     </Layout>
   );

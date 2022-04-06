@@ -6,7 +6,7 @@ exports[`should match ContactHeader component snapshot 1`] = `
     class="contact-header"
   >
     <div
-      class="headerheader"
+      class="header"
     >
       <h1
         class="header__heading"
