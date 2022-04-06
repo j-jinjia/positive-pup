@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
-import ServicesCardList from "../../Containers/servicesCardList/servicesCardList";
+import CardList from "../../Containers/CardList/CardList";
 import "./ServicesSection.scss";
 import servicesCardData from "../../assets/mockData/servicesCardData";
 
@@ -12,7 +12,7 @@ const ServicesSection = () => {
         A breakdown of all the different kind of services I offer.
       </p>
       <hr className="services-section__line-break"></hr>
-      <ServicesCardList cardData={servicesCardData} />
+      <CardList cardData={servicesCardData} />
       <Button
         isSecondary={true}
         link={<Link to="/services">VIEW OUR SERVICES</Link>}

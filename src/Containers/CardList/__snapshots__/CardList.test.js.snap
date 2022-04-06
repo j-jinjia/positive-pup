@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should match servicesCardList component snapshot 1`] = `
+exports[`should match CardList component snapshot 1`] = `
 <div>
   <div
     class="services-card-list"

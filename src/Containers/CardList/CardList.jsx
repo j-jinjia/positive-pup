@@ -1,11 +1,11 @@
 import ServicesCard from "../../components/ServicesCard/ServicesCard";
-import "./servicesCardList.scss";
+import "./CardList.scss";
 
 const servicesCardList = ({ cardData }) => {
-  const cardsListJSX = cardData.map((card) => {
+  const cardsListJSX = cardData.map((card, index) => {
     return (
       <ServicesCard
-        key={card.id}
+        key={index}
         title={card.title}
         description={card.description}
         image={card.image}

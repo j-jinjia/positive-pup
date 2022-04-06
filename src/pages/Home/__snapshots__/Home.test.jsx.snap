@@ -342,7 +342,7 @@ exports[`should render the Home Page 1`] = `
           <img
             alt="dog"
             class="services-card__img"
-            src="image2.png"
+            src="image4.png"
           />
         </div>
       </div>
