@@ -10,11 +10,16 @@
 
   &__heading {
     color: $colour-primary;
-    font-size: 1rem;
-    margin: 1rem;
+    font-family: $font-general;
+    font-size: $font-size-h1;
   }
 
   &__subheading {
-    font-size: 1.5rem;
+    font-family: $font-header;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $font-size-large;
+    color: $colour-font-general;
+    line-height: 110%;
   }
 }
