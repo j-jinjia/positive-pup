@@ -11,22 +11,23 @@ import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import TestimonialsSection from "../../Containers/TestimonialsSection/TestimonialsSection";
 import ArrowLink from "../../components/ArrowLink/ArrowLink";
 import { Link } from "react-router-dom";
-
+import dogImage from "../../assets/images/landing_page/dog.svg";
 const Home = () => {
   const headerText = "Start your journey on the right ";
   return (
     <Layout>
       <Hero
         header={
-          <h2 className="hero__header">
+          <h2 className="hero-content__header">
             {headerText}
-            <span className="hero__header-highlight">paw.</span>
+            <span className="hero-content__header-highlight">paw.</span>
           </h2>
         }
         subheaderText={
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas"
         }
         link={<Link to={"/services"}>What We Offer</Link>}
+        dogImage={dogImage}
       />
       <Certifications showText={false} />
       <LandingContainer
