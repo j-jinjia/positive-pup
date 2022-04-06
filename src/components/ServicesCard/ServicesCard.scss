@@ -8,9 +8,26 @@
   border-radius: 0.4375rem;
   padding: 2.5rem;
   margin-bottom: 2rem;
+  overflow: hidden;
+  &:hover {
+    background-color: $colour-primary;
+    .services-card__title {
+      color: $colour-secondary;
+    }
+    .services-card__text {
+      color: $colour-secondary;
+    }
+    .services-card__button {
+      filter: invert(100%) brightness(1000%);
+    }
+  }
 
   &__title {
     margin-bottom: 1rem;
+    font-size: $font-size-h3;
+  }
+  &__text {
+    color: $colour-tertiary;
   }
   &__button {
     border: 1px solid black;
@@ -21,5 +38,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+  }
+
+  .services-card__img {
+    height: 100%;
+    padding: 0 3rem;
+    max-height: 15.625rem;
   }
 }

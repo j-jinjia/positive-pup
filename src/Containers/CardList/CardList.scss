@@ -1,0 +1,16 @@
+@use "../../styles/variables" as *;
+.card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

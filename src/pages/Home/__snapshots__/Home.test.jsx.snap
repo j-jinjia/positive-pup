@@ -262,7 +262,7 @@ exports[`should render the Home Page 1`] = `
         class="services-section__line-break"
       />
       <div
-        class="services-section__course-container"
+        class="card-list"
       >
         <div
           class="services-card"
@@ -272,8 +272,10 @@ exports[`should render the Home Page 1`] = `
           >
             Online Courses
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -285,6 +287,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image.png"
+          />
         </div>
         <div
           class="services-card"
@@ -294,8 +301,10 @@ exports[`should render the Home Page 1`] = `
           >
             Group Courses
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -307,6 +316,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image1.png"
+          />
         </div>
         <div
           class="services-card"
@@ -316,8 +330,10 @@ exports[`should render the Home Page 1`] = `
           >
             Bespoke Packages
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -329,6 +345,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image4.png"
+          />
         </div>
       </div>
       <div
