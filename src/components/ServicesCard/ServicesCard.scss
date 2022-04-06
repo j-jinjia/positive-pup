@@ -11,10 +11,23 @@
   overflow: hidden;
   &:hover {
     background-color: $colour-primary;
+    .services-card__title {
+      color: $colour-secondary;
+    }
+    .services-card__text {
+      color: $colour-secondary;
+    }
+    .services-card__button {
+      filter: invert(100%) brightness(1000%);
+    }
   }
 
   &__title {
     margin-bottom: 1rem;
+    font-size: $font-size-h3;
+  }
+  &__text {
+    color: $colour-tertiary;
   }
   &__button {
     border: 1px solid black;
