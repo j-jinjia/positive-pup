@@ -16,9 +16,6 @@ const Services = () => {
   ];
 
   const handleClick = (event) => {
-    // console.log("working");
-    // console.log(event.target.id);
-    // console.log(event.target.value);
     if (event.target.id === "All" || event.target.value === "All") {
       setCourseType("All");
     } else if (
