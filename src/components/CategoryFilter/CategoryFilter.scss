@@ -10,6 +10,8 @@
     font-size: $font-size-general;
     color: $colour-quatenary;
     font-weight: $font-filter-weight;
+    border: none;
+    background: transparent;
 
     &--selected {
       color: $colour-font-general;

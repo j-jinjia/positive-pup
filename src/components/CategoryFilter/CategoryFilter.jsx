@@ -10,14 +10,14 @@ const CategoryFilter = ({ courseType, handleClick, filterOptions }) => {
 
   const mapFiltersDesktop = filterOptions.map((val, index) => {
     return (
-      <p
+      <button
         key={index}
         className={courseType == val ? selected : unselected}
         onClick={handleClick}
-        id={val}
+        value={val}
       >
         {val}
-      </p>
+      </button>
     );
   });
 
