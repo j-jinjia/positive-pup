@@ -5,30 +5,30 @@ exports[`should match CategoryFilter component snapshot 1`] = `
   <div
     class="category-filter-container"
   >
-    <p
+    <button
       class="category-filter-container__filter-option category-filter-container__filter-option--selected"
-      id="All"
+      value="All"
     >
       All
-    </p>
-    <p
+    </button>
+    <button
       class="category-filter-container__filter-option"
-      id="Online Courses"
+      value="Online Courses"
     >
       Online Courses
-    </p>
-    <p
+    </button>
+    <button
       class="category-filter-container__filter-option"
-      id="Group Classes"
+      value="Group Classes"
     >
       Group Classes
-    </p>
-    <p
+    </button>
+    <button
       class="category-filter-container__filter-option"
-      id="Bespoke Packages"
+      value="Bespoke Packages"
     >
       Bespoke Packages
-    </p>
+    </button>
   </div>
 </div>
 `;

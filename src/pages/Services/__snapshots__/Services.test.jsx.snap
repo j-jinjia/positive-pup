@@ -87,6 +87,34 @@ exports[`should render the Services page 1`] = `
       >
         Take a peek at everything we offer
       </h2>
+      <div
+        class="category-filter-container"
+      >
+        <button
+          class="category-filter-container__filter-option category-filter-container__filter-option--selected"
+          value="All"
+        >
+          All
+        </button>
+        <button
+          class="category-filter-container__filter-option"
+          value="Online Courses"
+        >
+          Online Courses
+        </button>
+        <button
+          class="category-filter-container__filter-option"
+          value="Group Classes"
+        >
+          Group Classes
+        </button>
+        <button
+          class="category-filter-container__filter-option"
+          value="Bespoke Packages"
+        >
+          Bespoke Packages
+        </button>
+      </div>
       <form
         class="search-bar"
       >
@@ -109,34 +137,6 @@ exports[`should render the Services page 1`] = `
           src="searchBarIcon.svg"
         />
       </form>
-      <div
-        class="category-filter-container"
-      >
-        <p
-          class="category-filter-container__filter-option category-filter-container__filter-option--selected"
-          id="All"
-        >
-          All
-        </p>
-        <p
-          class="category-filter-container__filter-option"
-          id="Online Courses"
-        >
-          Online Courses
-        </p>
-        <p
-          class="category-filter-container__filter-option"
-          id="Group Classes"
-        >
-          Group Classes
-        </p>
-        <p
-          class="category-filter-container__filter-option"
-          id="Bespoke Packages"
-        >
-          Bespoke Packages
-        </p>
-      </div>
       <div
         class="courses-list"
       >
