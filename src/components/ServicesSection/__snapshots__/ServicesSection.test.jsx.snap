@@ -20,7 +20,7 @@ exports[`should match ServicesSection component snapshot 1`] = `
       class="services-section__line-break"
     />
     <div
-      class="services-card-list"
+      class="card-list"
     >
       <div
         class="services-card"
