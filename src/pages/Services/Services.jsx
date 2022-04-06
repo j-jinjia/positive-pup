@@ -12,22 +12,20 @@ const Services = () => {
   const [courseCards, setCourseCards] = useState(courseData);
 
   useEffect(() => {
-    const filteredCourses = courseData.filter((course) => {
-      if (courseType === "All") return true;
-      return course.courseTypePlural === courseType;
-    });
+    const filteredCourses = courseData
+      .filter((course) => {
+        if (courseType === "All") return true;
+        return course.courseTypePlural === courseType;
+      })
+      .filter((course) => {
+        return course.courseHeading.toLowerCase().includes(searchTerm);
+      });
 
-    const veryFilteredCourses = filteredCourses.filter((course) => {
-      const filteredCourseHeading = course.courseHeading.toLowerCase();
-      return filteredCourseHeading.includes(searchTerm);
-    });
-
-    setCourseCards(veryFilteredCourses);
+    setCourseCards(filteredCourses);
   }, [courseType, searchTerm]);
 
   const handleInput = (event) => {
-    const cleanInput = event.target.value.toLowerCase();
-    setSearchTerm(cleanInput);
+    setSearchTerm(event.target.value.toLowerCase());
   };
 
   const filterOptions = [
@@ -38,23 +36,8 @@ const Services = () => {
   ];
 
   const handleClick = (event) => {
-    if (event.target.id === "All" || event.target.value === "All") {
-      setCourseType("All");
-    } else if (
-      event.target.id === "Online Courses" ||
-      event.target.value === "Online Courses"
-    ) {
-      setCourseType("Online Courses");
-    } else if (
-      event.target.id === "Group Classes" ||
-      event.target.value === "Group Classes"
-    ) {
-      setCourseType("Group Classes");
-    } else if (
-      event.target.id === "Bespoke Packages" ||
-      event.target.value === "Bespoke Packages"
-    ) {
-      setCourseType("Bespoke Packages");
+    if (filterOptions.includes(event.target.value)) {
+      setCourseType(event.target.value);
     }
   };
 
