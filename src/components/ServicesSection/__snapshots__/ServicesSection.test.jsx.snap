@@ -30,7 +30,9 @@ exports[`should match ServicesSection component snapshot 1`] = `
         >
           Online Courses
         </h3>
-        <p>
+        <p
+          class="services-card__text"
+        >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
         <a
@@ -57,7 +59,9 @@ exports[`should match ServicesSection component snapshot 1`] = `
         >
           Group Courses
         </h3>
-        <p>
+        <p
+          class="services-card__text"
+        >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
         <a
@@ -84,7 +88,9 @@ exports[`should match ServicesSection component snapshot 1`] = `
         >
           Bespoke Packages
         </h3>
-        <p>
+        <p
+          class="services-card__text"
+        >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
         <a

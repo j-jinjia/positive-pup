@@ -8,7 +8,9 @@ exports[`should match ServicesCard component snapshot 1`] = `
     <h3
       class="services-card__title"
     />
-    <p />
+    <p
+      class="services-card__text"
+    />
     <a
       class="services-card__button"
       href="/services"
