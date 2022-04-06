@@ -1,14 +1,16 @@
 import "./SearchBar.scss";
 import searchIcon from "../../assets/svgs/searchBarIcon.svg";
 
-const SearchBar = ({ searchTerm, handleInput }) => {
+const SearchBar = ({ searchTerm, handleInput, label }) => {
+  const capitalizedLabel = label[0].toUpperCase() + label.slice(1);
+
   return (
     <form className="search-bar">
-      <label className="search-bar__label" htmlFor="search-bar__course">
-        Search Course
+      <label className="search-bar__label" htmlFor={label}>
+        {capitalizedLabel}
       </label>
       <input
-        id="search-bar__course"
+        id={label}
         role="input"
         className="search-bar__input"
         type="text"

@@ -89,13 +89,13 @@ exports[`should render the Services page 1`] = `
       >
         <label
           class="search-bar__label"
-          for="search-bar__course"
+          for="Search Courses"
         >
-          Search Course
+          Search Courses
         </label>
         <input
           class="search-bar__input"
-          id="search-bar__course"
+          id="Search Courses"
           role="input"
           type="text"
           value=""

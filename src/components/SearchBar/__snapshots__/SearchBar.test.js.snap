@@ -7,13 +7,13 @@ exports[`should match SearchBar component snapshot 1`] = `
   >
     <label
       class="search-bar__label"
-      for="search-bar__course"
+      for="searchbar"
     >
-      Search Course
+      Searchbar
     </label>
     <input
       class="search-bar__input"
-      id="search-bar__course"
+      id="searchbar"
       role="input"
       type="text"
       value="rising stars"

@@ -25,7 +25,11 @@ const Services = () => {
         <h2 className="services__subheading">
           Take a peek at everything we offer
         </h2>
-        <SearchBar searchTerm={searchTerm} handleInput={handleInput} />
+        <SearchBar
+          searchTerm={searchTerm}
+          handleInput={handleInput}
+          label="Search Courses"
+        />
         <CoursesList courseData={filteredSearchItems} />
       </div>
     </Layout>
