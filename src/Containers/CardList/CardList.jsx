@@ -1,7 +1,7 @@
 import ServicesCard from "../../components/ServicesCard/ServicesCard";
 import "./CardList.scss";
 
-const servicesCardList = ({ cardData }) => {
+const CardList = ({ cardData }) => {
   const cardsListJSX = cardData.map((card, index) => {
     return (
       <ServicesCard
@@ -12,7 +12,7 @@ const servicesCardList = ({ cardData }) => {
       />
     );
   });
-  return <div className="services-card-list">{cardsListJSX}</div>;
+  return <div className="card-list">{cardsListJSX}</div>;
 };
 
-export default servicesCardList;
+export default CardList;
