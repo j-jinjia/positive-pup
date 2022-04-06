@@ -402,8 +402,15 @@ exports[`should render the Home Page 1`] = `
             class="testimonial__comment"
           >
             We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
+            <label
+              class="testimonial__comment-button-label"
+              for="toggle-more"
+            >
+              Toggle additional testimonial text
+            </label>
             <button
               class="testimonial__comment-button"
+              id="toggle-more"
             >
               show more
             </button>
@@ -456,8 +463,15 @@ exports[`should render the Home Page 1`] = `
             class="testimonial__comment"
           >
             Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique...
+            <label
+              class="testimonial__comment-button-label"
+              for="toggle-more"
+            >
+              Toggle additional testimonial text
+            </label>
             <button
               class="testimonial__comment-button"
+              id="toggle-more"
             >
               show more
             </button>
@@ -608,8 +622,15 @@ exports[`should render the Home Page 1`] = `
             class="testimonial__comment"
           >
             Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me...
+            <label
+              class="testimonial__comment-button-label"
+              for="toggle-more"
+            >
+              Toggle additional testimonial text
+            </label>
             <button
               class="testimonial__comment-button"
+              id="toggle-more"
             >
               show more
             </button>

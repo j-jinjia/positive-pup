@@ -36,6 +36,7 @@
     margin-top: 2rem;
     color: $colour-quinary;
     font-size: 0.625rem;
+
     &-button {
       font-size: inherit;
       background: none;
@@ -46,6 +47,9 @@
       padding-left: 0.5rem;
       &:hover {
         cursor: pointer;
+      }
+      &-label {
+        display: none;
       }
     }
   }

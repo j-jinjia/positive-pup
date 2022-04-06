@@ -39,8 +39,15 @@ exports[`should match active Testimonial component snapshot 1`] = `
       class="testimonial__comment"
     >
       We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
+      <label
+        class="testimonial__comment-button-label"
+        for="toggle-more"
+      >
+        Toggle additional testimonial text
+      </label>
       <button
         class="testimonial__comment-button"
+        id="toggle-more"
       >
         show more
       </button>
@@ -98,8 +105,15 @@ exports[`should match inactive Testimonial component snapshot 1`] = `
       class="testimonial__comment"
     >
       We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
+      <label
+        class="testimonial__comment-button-label"
+        for="toggle-more"
+      >
+        Toggle additional testimonial text
+      </label>
       <button
         class="testimonial__comment-button"
+        id="toggle-more"
       >
         show more
       </button>

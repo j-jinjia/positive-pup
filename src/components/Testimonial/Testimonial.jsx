@@ -16,6 +16,31 @@ const Testimonial = ({ name, date, course, comment, active }) => {
     setFilterComment(!filterComment);
   };
 
+  const textJSX = (
+    <>
+      {comment.length > charLimit && filterComment
+        ? filteredComment()
+        : comment}
+      {comment.length > charLimit && (
+        <>
+          <label
+            htmlFor="toggle-more"
+            className="testimonial__comment-button-label"
+          >
+            Toggle additional testimonial text
+          </label>
+          <button
+            id="toggle-more"
+            className="testimonial__comment-button"
+            onClick={handleClick}
+          >
+            {filterComment ? "show more" : "show less"}
+          </button>
+        </>
+      )}
+    </>
+  );
+
   return (
     <div className={cardClass} data-testid={name}>
       <h3 className="testimonial__header">{name}</h3>
@@ -27,16 +52,7 @@ const Testimonial = ({ name, date, course, comment, active }) => {
           <img src={folder} alt="" /> {course}
         </p>
       </div>
-      <p className="testimonial__comment">
-        {comment.length > charLimit && filterComment
-          ? filteredComment()
-          : comment}
-        {comment.length > charLimit && (
-          <button className="testimonial__comment-button" onClick={handleClick}>
-            {filterComment ? "show more" : "show less"}
-          </button>
-        )}
-      </p>
+      <p className="testimonial__comment">{textJSX}</p>
       <img
         className="testimonial__quotations testimonial__quotations--1"
         src={quotations}
