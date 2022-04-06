@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
-import ServicesCard from "../ServicesCard/ServicesCard";
+import CardList from "../../Containers/CardList/CardList";
 import "./ServicesSection.scss";
+import servicesCardData from "../../assets/mockData/servicesCardData";
 
 const ServicesSection = () => {
   return (
@@ -11,20 +12,7 @@ const ServicesSection = () => {
         A breakdown of all the different kind of services I offer.
       </p>
       <hr className="services-section__line-break"></hr>
-      <div className="services-section__course-container">
-        <ServicesCard
-          title="Online Courses"
-          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-        />
-        <ServicesCard
-          title="Group Courses"
-          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-        />
-        <ServicesCard
-          title="Bespoke Packages"
-          description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-        />
-      </div>
+      <CardList cardData={servicesCardData} />
       <Button
         isSecondary={true}
         link={<Link to="/services">VIEW OUR SERVICES</Link>}
