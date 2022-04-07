@@ -2,18 +2,6 @@
 
 .contact-header {
   max-width: 386px;
-  &__title {
-    color: $colour-primary;
-    font-size: $font-size-h1;
-    font-family: $font-header;
-    margin-bottom: 0.5rem;
-  }
-  &__heading {
-    font-size: $font-size-h2;
-    font-family: $font-header;
-    font-weight: normal;
-    margin-bottom: 1.75rem;
-  }
   &__text {
     line-height: 1.5;
     margin-bottom: 2.5rem;
