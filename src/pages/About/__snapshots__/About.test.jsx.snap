@@ -62,12 +62,15 @@ exports[`should render the About page 1`] = `
               Get in Touch
             </a>
           </span>
-          <a
-            class="button button--primary"
-            href="/book-now"
+          <div
+            class="button button--primary button--link"
           >
-            Book Now
-          </a>
+            <a
+              href="/book-now"
+            >
+              Book Now
+            </a>
+          </div>
         </nav>
       </div>
     </div>
@@ -99,11 +102,15 @@ exports[`should render the About page 1`] = `
           >
             As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
           </p>
-          <button
-            class="button button--secondary"
+          <div
+            class="button button--secondary button--link"
           >
-            More About Us
-          </button>
+            <a
+              href="#mission-section"
+            >
+              More About Us
+            </a>
+          </div>
         </div>
       </main>
       <img
@@ -114,6 +121,7 @@ exports[`should render the About page 1`] = `
     </div>
     <div
       class="mission-section"
+      id="mission-section"
     >
       <h1
         class="mission-section__heading"
@@ -140,7 +148,7 @@ exports[`should render the About page 1`] = `
       >
         <a
           class="arrow-link"
-          href="/"
+          href="#about-us-training-section"
         >
           View Training Methods
           <img
@@ -153,6 +161,7 @@ exports[`should render the About page 1`] = `
     </div>
     <div
       class="about-us-training-section"
+      id="about-us-training-section"
     >
       <img
         alt="Positive Pup owner, Melanie, with a dog"

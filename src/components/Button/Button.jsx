@@ -1,16 +1,15 @@
 import "./Button.scss";
-import { Link } from "react-router-dom";
 
 const Button = (props) => {
   const { buttonText, isSecondary, isSquare, link } = props;
   let buttonClassName = "button";
   buttonClassName += isSecondary ? " button--secondary" : " button--primary";
+
+  if (link) buttonClassName += " button--link";
   if (isSquare) buttonClassName += " button--squared";
 
   return link ? (
-    <Link to={link} className={buttonClassName}>
-      {buttonText}
-    </Link>
+    <div className={buttonClassName}>{link}</div>
   ) : (
     <button className={buttonClassName}>{buttonText}</button>
   );
