@@ -8,7 +8,7 @@ const Faqs = () => {
         isLeftAlign={false}
         headingText={"Frequently Asked Questions"}
         subheadingText={"Some of your most common questions"}
-        isBackgroundSecondary={true}
+        isAlternative={true}
       />
     </Layout>
   );
