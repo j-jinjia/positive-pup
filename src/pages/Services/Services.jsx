@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout/Layout";
 import "./Services.scss";
+import Header from "../../components/Header/Header";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
 import ServicesGetInTouchSection from "../../components/ServicesGetInTouchSection/ServicesGetInTouchSection";
@@ -22,22 +23,21 @@ const Services = () => {
 
   return (
     <Layout>
-      <div className="services">
-        <h1 className="services__heading">OUR SERVICES</h1>
-        <h2 className="services__subheading">
-          Take a peek at everything we offer
-        </h2>
-        <ServicesGetInTouchSection
-          buttonText={"GET IN TOUCH"}
-          link={<Link to="/get-in-touch">GET IN TOUCH</Link>}
-        />
-        <SearchBar
-          searchTerm={searchTerm}
-          handleInput={handleInput}
-          label="Search Courses"
-        />
-        <CoursesList courseData={filteredSearchItems} />
-      </div>
+      <Header
+        isLeftAlign={false}
+        headingText={"Services"}
+        subheadingText={"Take a peek at everything we offer"}
+      />
+      <ServicesGetInTouchSection
+        buttonText={"GET IN TOUCH"}
+        link={<Link to="/get-in-touch">GET IN TOUCH</Link>}
+      />
+      <SearchBar
+        searchTerm={searchTerm}
+        handleInput={handleInput}
+        label="Search Courses"
+      />
+      <CoursesList courseData={filteredSearchItems} />
     </Layout>
   );
 };
