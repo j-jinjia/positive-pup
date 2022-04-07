@@ -1,6 +1,8 @@
 @use "../../styles/variables" as *;
 
 .services-get-in-touch-section {
+  text-align: center;
+  padding-bottom: 3rem;
   &__header {
     font-family: $font-header;
     font-size: $font-size-h3;
