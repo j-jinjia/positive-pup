@@ -1,9 +1,15 @@
+import Header from "../../components/Header/Header";
 import Layout from "../../components/Layout/Layout";
 
 const Faqs = () => {
   return (
     <Layout>
-      <h1>FAQs</h1>
+      <Header
+        isLeftAlign={false}
+        headingText={"Frequently Asked Questions"}
+        subheadingText={"Some of your most common questions"}
+        isBackgroundSecondary={true}
+      />
     </Layout>
   );
 };

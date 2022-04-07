@@ -1,4 +1,4 @@
-@use "../../styles/variables" as *;
+@use "../../styles/_variables" as *;
 
 .header {
   text-align: center;
@@ -23,5 +23,14 @@
   &--left-align {
     text-align: left;
     padding: 0;
+  }
+
+  &--background-secondary {
+    background: $colour-primary;
+    width: 100%;
+    .header__heading,
+    .header__subheading {
+      color: $colour-secondary;
+    }
   }
 }
