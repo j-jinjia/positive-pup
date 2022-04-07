@@ -49,7 +49,6 @@ const Services = () => {
         headingText={"Services"}
         subheadingText={"Take a peek at everything we offer"}
       />
-      <ServicesGetInTouchSection />
       <CategoryFilter
         courseType={courseType}
         handleClick={handleClick}
@@ -61,6 +60,7 @@ const Services = () => {
         label="Search Courses"
       />
       <CoursesList courseData={courseCards} />
+      <ServicesGetInTouchSection />
     </Layout>
   );
 };

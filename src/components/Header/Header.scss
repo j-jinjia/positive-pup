@@ -25,3 +25,11 @@
     padding: 0;
   }
 }
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .header {
+    &__subheading {
+      font-size: $font-size-large;
+    }
+  }
+}

@@ -11,6 +11,7 @@
   overflow: hidden;
   &:hover {
     background-color: $colour-primary;
+    cursor: pointer;
     .services-card__title {
       color: $colour-secondary;
     }
