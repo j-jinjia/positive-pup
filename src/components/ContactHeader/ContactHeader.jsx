@@ -1,13 +1,16 @@
 import "./ContactHeader.scss";
 import mailIcon from "../../assets/svgs/mail.svg";
+import Header from "../Header/Header";
 
-const ContactHeader = () => {
+const ContactHeader = ({ headingText, subheadingText, isLeftAlign }) => {
   return (
     <div className="contact-header">
-      <h1 className="contact-header__title">CONTACT US</h1>
-      <h2 className="contact-header__heading">
-        {"I'd love to hear from you!"}
-      </h2>
+      <Header
+        headingText={headingText}
+        subheadingText={subheadingText}
+        isLeftAlign={isLeftAlign}
+      />
+
       <p className="contact-header__text">
         Please fill in the form or alternatively, drop me an email using the
         link below.

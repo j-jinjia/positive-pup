@@ -77,16 +77,22 @@ exports[`should render the GetInTouch page 1`] = `
     <div
       class="contact-header"
     >
-      <h1
-        class="contact-header__title"
+      <div
+        class="header header--left-align"
       >
-        CONTACT US
-      </h1>
-      <h2
-        class="contact-header__heading"
-      >
-        I'd love to hear from you!
-      </h2>
+        <h1
+          class="header__heading"
+        >
+           
+          Contact Us
+           
+        </h1>
+        <h2
+          class="header__subheading"
+        >
+          I'd love to hear from you!
+        </h2>
+      </div>
       <p
         class="contact-header__text"
       >

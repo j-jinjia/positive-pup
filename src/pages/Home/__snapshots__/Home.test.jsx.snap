@@ -262,7 +262,7 @@ exports[`should render the Home Page 1`] = `
         class="services-section__line-break"
       />
       <div
-        class="services-section__course-container"
+        class="card-list"
       >
         <div
           class="services-card"
@@ -272,8 +272,10 @@ exports[`should render the Home Page 1`] = `
           >
             Online Courses
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -285,6 +287,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image.png"
+          />
         </div>
         <div
           class="services-card"
@@ -294,8 +301,10 @@ exports[`should render the Home Page 1`] = `
           >
             Group Courses
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -307,6 +316,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image1.png"
+          />
         </div>
         <div
           class="services-card"
@@ -316,8 +330,10 @@ exports[`should render the Home Page 1`] = `
           >
             Bespoke Packages
           </h3>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p
+            class="services-card__text"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
           <a
             class="services-card__button"
@@ -329,6 +345,11 @@ exports[`should render the Home Page 1`] = `
               src="Vector-black.svg"
             />
           </a>
+          <img
+            alt="dog"
+            class="services-card__img"
+            src="image4.png"
+          />
         </div>
       </div>
       <div
@@ -398,7 +419,19 @@ exports[`should render the Home Page 1`] = `
           <p
             class="testimonial__comment"
           >
-            We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!
+            We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
+            <label
+              class="testimonial__comment-button-label"
+              for="toggle-more"
+            >
+              Toggle additional testimonial text
+            </label>
+            <button
+              class="testimonial__comment-button"
+              id="toggle-more"
+            >
+              show more
+            </button>
           </p>
           <img
             alt="quotation marks"
@@ -447,7 +480,19 @@ exports[`should render the Home Page 1`] = `
           <p
             class="testimonial__comment"
           >
-            Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique and general puppy care. Tilly has come on in leaps and bounds and I don't know if we would have coped without the input from The Positive Pup team. We will definitely be enrolling in Rising Stars, even if it still has to be delivered over the internet.
+            Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique...
+            <label
+              class="testimonial__comment-button-label"
+              for="toggle-more"
+            >
+              Toggle additional testimonial text
+            </label>
+            <button
+              class="testimonial__comment-button"
+              id="toggle-more"
+            >
+              show more
+            </button>
           </p>
           <img
             alt="quotation marks"
@@ -594,7 +639,19 @@ exports[`should render the Home Page 1`] = `
           <p
             class="testimonial__comment"
           >
-            Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me and Layla loved every single session, we made a puppy family and met some amazing people along the way. Mel sends all the sessions in brilliant detail so when you go home you don’t feel like you have forgotten and it can be done in your daily routine. I really can’t wait for me and Layla to start the relaxed rally and carry on seeing Mel because she truly is amazing lady so thank you from Jess and Layla 🐾
+            Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me...
+            <label
+              class="testimonial__comment-button-label"
+              for="toggle-more"
+            >
+              Toggle additional testimonial text
+            </label>
+            <button
+              class="testimonial__comment-button"
+              id="toggle-more"
+            >
+              show more
+            </button>
           </p>
           <img
             alt="quotation marks"
