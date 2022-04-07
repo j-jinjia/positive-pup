@@ -1,6 +1,8 @@
 import image0 from "../mockData/images/image.png";
 import image1 from "../mockData/images/image1.png";
-import image4 from "../mockData/images/image4.png";
+//import image6 from "../mockData/images/image6.png;
+import image5 from "../mockData/images/image4-1.png";
+//import image4 from "../mockData/images/image4.png";
 
 const courses = [
   {
@@ -14,7 +16,7 @@ const courses = [
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    image: image4,
+    image: image5,
     title: "Bespoke Packages",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
