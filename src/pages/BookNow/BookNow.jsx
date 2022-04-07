@@ -1,9 +1,14 @@
 import Layout from "../../components/Layout/Layout";
+import Header from "../../components/Header/Header";
 
 const BookNow = () => {
   return (
     <Layout>
-      <h1>Book Now</h1>
+      <Header
+        headingText={"Book Now"}
+        subheadingText={"Secure your place on one of our services"}
+        isLeftAlign={false}
+      />
     </Layout>
   );
 };

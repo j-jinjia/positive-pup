@@ -7,19 +7,4 @@
   margin-top: 5rem;
   text-align: center;
   padding: 1rem;
-
-  &__heading {
-    color: $colour-primary;
-    font-family: $font-general;
-    font-size: $font-size-smallest;
-  }
-
-  &__subheading {
-    font-family: $font-header;
-    font-style: normal;
-    font-weight: 500;
-    font-size: $font-size-large;
-    color: $colour-font-general;
-    line-height: 110%;
-  }
 }
