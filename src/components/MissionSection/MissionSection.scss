@@ -6,7 +6,7 @@
   border-radius: 8px;
   padding-top: 7rem;
   &__heading {
-    font-size: $font-size-h2;
+    font-size: $font-size-medium;
     margin-bottom: 2rem;
     line-height: 1.1;
   }
@@ -40,7 +40,7 @@
       margin-top: 2.5rem;
     }
     &__about-us {
-      font-size: 1.3rem;
+      font-size: $font-size-smaller;
       margin-top: 2rem;
       margin-right: 30%;
       grid-column-start: 2;

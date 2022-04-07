@@ -16,7 +16,6 @@ const ServicesGetInTouchSection = () => {
         buttonText={"GET IN TOUCH"}
         isSecondary
         link={<Link to="/get-in-touch">GET IN TOUCH</Link>}
-        isSmallText
       />
     </div>
   );
