@@ -4,7 +4,11 @@ import Layout from "../../components/Layout/Layout";
 const GetInTouch = () => {
   return (
     <Layout>
-      <ContactHeader />
+      <ContactHeader
+        headingText={"Contact Us"}
+        subheadingText={"I'd love to hear from you!"}
+        isLeftAlign={true}
+      />
     </Layout>
   );
 };
