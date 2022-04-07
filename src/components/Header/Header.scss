@@ -1,0 +1,27 @@
+@use "../../styles/variables" as *;
+
+.header {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  &__heading {
+    color: $colour-primary;
+    font-size: $font-size-h1;
+    font-family: $font-header;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  &__subheading {
+    font-size: $font-size-h2;
+    font-family: $font-header;
+    font-weight: normal;
+    margin-bottom: 1.75rem;
+  }
+
+  &--left-align {
+    text-align: left;
+    padding: 0;
+  }
+}

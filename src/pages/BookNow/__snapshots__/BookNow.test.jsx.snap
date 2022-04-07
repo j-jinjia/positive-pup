@@ -74,9 +74,22 @@ exports[`should render the BookNow page 1`] = `
         </nav>
       </div>
     </div>
-    <h1>
-      Book Now
-    </h1>
+    <div
+      class="header"
+    >
+      <h1
+        class="header__heading"
+      >
+         
+        Book Now
+         
+      </h1>
+      <h2
+        class="header__subheading"
+      >
+        Secure your place on one of our services
+      </h2>
+    </div>
     <div
       class="footer"
     >
