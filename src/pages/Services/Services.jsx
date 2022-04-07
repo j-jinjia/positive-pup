@@ -26,7 +26,6 @@ const Services = () => {
         headingText={"Services"}
         subheadingText={"Take a peek at everything we offer"}
       />
-
       <SearchBar
         searchTerm={searchTerm}
         handleInput={handleInput}

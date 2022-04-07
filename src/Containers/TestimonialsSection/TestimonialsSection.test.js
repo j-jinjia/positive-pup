@@ -37,7 +37,6 @@ it("check the previous testimonial button works ", () => {
   expect(cardHeader.classList.contains("testimonial--active")).toBeTruthy();
 
   const previousButton = screen.getByTestId("previous-button");
-  console.log(previousButton);
   userEvent.click(previousButton);
   const cardHeader2 = screen
     .getByText("Lianna Bradshaw & Ralph")
