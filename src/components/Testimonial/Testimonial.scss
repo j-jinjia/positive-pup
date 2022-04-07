@@ -27,7 +27,7 @@
   }
 
   &__detail {
-    font-size: calc(0.9 * 0.625rem);
+    font-size: $font-size-tiny;
   }
 
   &__comment {
@@ -35,7 +35,7 @@
     text-align: center;
     margin-top: 2rem;
     color: $colour-quinary;
-    font-size: 0.625rem;
+    font-size: $font-size-tiny;
 
     &-button {
       font-size: inherit;
@@ -88,12 +88,12 @@
       }
 
       &__detail {
-        font-size: 0.625rem;
+        font-size: $font-size-tiny;
       }
 
       &__comment {
         margin-top: 2rem;
-        font-size: 1em;
+        font-size: $font-size-smallest;
       }
     }
   }

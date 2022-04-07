@@ -14,7 +14,6 @@
       color: $colour-primary;
       font-family: inherit;
       font-size: inherit;
-
       position: relative;
 
       &::after {
@@ -33,7 +32,7 @@
   }
 
   &__subheader {
-    font-size: 1.25rem;
+    font-size: $font-size-smaller;
     line-height: 150%;
     font-family: $font-general;
     color: hsla(259, 12%, 45%, 1);

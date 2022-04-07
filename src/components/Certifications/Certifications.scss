@@ -15,7 +15,7 @@
   &__description {
     margin-bottom: 2rem;
     line-height: 2;
-    font-size: 1.25rem;
+    font-size: $font-size-smaller;
     color: $colour-tertiary;
 
     &--highlighted-text {
@@ -23,7 +23,7 @@
       font-weight: 700;
       text-decoration: underline;
       text-underline-offset: 0.2rem;
-      font-size: 1.25rem;
+      font-size: $font-size-smaller;
     }
   }
 
