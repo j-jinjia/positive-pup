@@ -17,7 +17,6 @@ it("should match CategoryFilter component snapshot", () => {
   expect(container).toMatchSnapshot();
 });
 
-
 it("should match CategoryFilter component snapshot when an option is selected", () => {
   const { container } = customRender(
     <CategoryFilter
