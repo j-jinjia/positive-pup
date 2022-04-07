@@ -4,7 +4,6 @@ import Header from "../../components/Header/Header";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
 import ServicesGetInTouchSection from "../../components/ServicesGetInTouchSection/ServicesGetInTouchSection";
-import { Link } from "react-router-dom";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import { useState } from "react";
 
@@ -28,10 +27,7 @@ const Services = () => {
         headingText={"Services"}
         subheadingText={"Take a peek at everything we offer"}
       />
-      <ServicesGetInTouchSection
-        buttonText={"GET IN TOUCH"}
-        link={<Link to="/get-in-touch">GET IN TOUCH</Link>}
-      />
+      <ServicesGetInTouchSection />
       <SearchBar
         searchTerm={searchTerm}
         handleInput={handleInput}
