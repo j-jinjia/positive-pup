@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match CategoryFilter component snapshot 1`] = `
+<div>
+  <div
+    class="category-filter category-filter--desktop"
+  >
+    <button
+      class="category-filter__option category-filter__option--selected"
+      value="All"
+    >
+      All
+    </button>
+    <button
+      class="category-filter__option"
+      value="Online Courses"
+    >
+      Online Courses
+    </button>
+    <button
+      class="category-filter__option"
+      value="Group Classes"
+    >
+      Group Classes
+    </button>
+    <button
+      class="category-filter__option"
+      value="Bespoke Packages"
+    >
+      Bespoke Packages
+    </button>
+  </div>
+</div>
+`;
+
+exports[`should match CategoryFilter component snapshot when an option is selected 1`] = `
+<div>
+  <div
+    class="category-filter category-filter--desktop"
+  >
+    <button
+      class="category-filter__option"
+      value="All"
+    >
+      All
+    </button>
+    <button
+      class="category-filter__option category-filter__option--selected"
+      value="Online Courses"
+    >
+      Online Courses
+    </button>
+    <button
+      class="category-filter__option"
+      value="Group Classes"
+    >
+      Group Classes
+    </button>
+    <button
+      class="category-filter__option"
+      value="Bespoke Packages"
+    >
+      Bespoke Packages
+    </button>
+  </div>
+</div>
+`;
