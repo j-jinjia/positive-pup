@@ -1,0 +1,26 @@
+@use "../../styles/variables" as *;
+
+.services-get-in-touch-section {
+  text-align: center;
+  padding-bottom: 3rem;
+  &__header {
+    font-family: $font-header;
+    font-size: $font-size-h3;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 150%;
+    font-weight: 600;
+  }
+
+  &__subtext {
+    padding-bottom: 2rem;
+    color: $colour-font-paragraph;
+    line-height: 1.8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    @media screen and (min-width: $tablet-breakpoint) {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+  }
+}

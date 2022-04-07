@@ -2,6 +2,7 @@ import Layout from "../../components/Layout/Layout";
 import Header from "../../components/Header/Header";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
+import ServicesGetInTouchSection from "../../components/ServicesGetInTouchSection/ServicesGetInTouchSection";
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
@@ -53,13 +54,13 @@ const Services = () => {
         handleClick={handleClick}
         filterOptions={filterOptions}
       />
-
       <SearchBar
         searchTerm={searchTerm}
         handleInput={handleInput}
         label="Search Courses"
       />
       <CoursesList courseData={courseCards} />
+      <ServicesGetInTouchSection />
     </Layout>
   );
 };

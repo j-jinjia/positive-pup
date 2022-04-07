@@ -2,8 +2,8 @@
 
 .services-card {
   background-color: #e4f5f3;
-  max-width: 23.125rem;
-  max-height: 24.125rem;
+  max-width: 22.28rem;
+  max-height: 22.28rem;
   filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.04));
   border-radius: 0.4375rem;
   padding: 2.5rem;
@@ -11,6 +11,7 @@
   overflow: hidden;
   &:hover {
     background-color: $colour-primary;
+    cursor: pointer;
     .services-card__title {
       color: $colour-secondary;
     }
@@ -25,6 +26,7 @@
   &__title {
     margin-bottom: 1rem;
     font-size: $font-size-h3;
+    white-space: nowrap;
   }
   &__text {
     color: $colour-tertiary;
@@ -42,7 +44,7 @@
 
   .services-card__img {
     height: 100%;
-    padding: 0 3rem;
+    padding: 0 0 3rem 3rem;
     max-height: 15.625rem;
   }
 }
