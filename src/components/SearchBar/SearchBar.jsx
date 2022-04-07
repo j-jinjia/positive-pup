@@ -5,7 +5,7 @@ const SearchBar = ({ searchTerm, handleInput, label }) => {
   const capitalizedLabel = label[0].toUpperCase() + label.slice(1);
 
   return (
-    <form className="search-bar">
+    <div className="search-bar">
       <label className="search-bar__label" htmlFor={label}>
         {capitalizedLabel}
       </label>
@@ -22,7 +22,7 @@ const SearchBar = ({ searchTerm, handleInput, label }) => {
         src={searchIcon}
         alt="search icon"
       />
-    </form>
+    </div>
   );
 };
 

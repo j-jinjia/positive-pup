@@ -91,6 +91,7 @@ exports[`should render the Services page 1`] = `
       </h2>
     </div>
     <div
+<<<<<<< HEAD
       class="services-get-in-touch-section"
     >
       <h3
@@ -114,6 +115,36 @@ exports[`should render the Services page 1`] = `
       </div>
     </div>
     <form
+=======
+      class="category-filter category-filter--desktop"
+    >
+      <button
+        class="category-filter__option category-filter__option--selected"
+        value="All"
+      >
+        All
+      </button>
+      <button
+        class="category-filter__option"
+        value="Online Courses"
+      >
+        Online Courses
+      </button>
+      <button
+        class="category-filter__option"
+        value="Group Classes"
+      >
+        Group Classes
+      </button>
+      <button
+        class="category-filter__option"
+        value="Bespoke Packages"
+      >
+        Bespoke Packages
+      </button>
+    </div>
+    <div
+>>>>>>> origin/main
       class="search-bar"
     >
       <label
@@ -134,7 +165,7 @@ exports[`should render the Services page 1`] = `
         class="search-bar__input-icon"
         src="searchBarIcon.svg"
       />
-    </form>
+    </div>
     <div
       class="courses-list"
     >

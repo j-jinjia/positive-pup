@@ -2,7 +2,7 @@
 
 exports[`should match SearchBar component snapshot 1`] = `
 <div>
-  <form
+  <div
     class="search-bar"
   >
     <label
@@ -23,6 +23,6 @@ exports[`should match SearchBar component snapshot 1`] = `
       class="search-bar__input-icon"
       src="searchBarIcon.svg"
     />
-  </form>
+  </div>
 </div>
 `;

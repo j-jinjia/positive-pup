@@ -1,24 +1,46 @@
 import Layout from "../../components/Layout/Layout";
-import "./Services.scss";
 import Header from "../../components/Header/Header";
 import { CoursesList } from "../../Containers/CoursesList/CoursesList";
 import courseData from "../../assets/mockData/courseData";
 import ServicesGetInTouchSection from "../../components/ServicesGetInTouchSection/ServicesGetInTouchSection";
+import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
+import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
-import { useState } from "react";
 
 const Services = () => {
+  const [courseType, setCourseType] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
+  const [courseCards, setCourseCards] = useState(courseData);
+
+  const filterOptions = [
+    "All",
+    "Online Courses",
+    "Group Classes",
+    "Bespoke Packages",
+  ];
+
+  useEffect(() => {
+    const filteredCourses = courseData
+      .filter((course) => {
+        if (courseType === "All") return true;
+        return course.courseTypePlural === courseType;
+      })
+      .filter((course) => {
+        return course.courseHeading.toLowerCase().includes(searchTerm);
+      });
+
+    setCourseCards(filteredCourses);
+  }, [courseType, searchTerm]);
 
   const handleInput = (event) => {
-    const cleanInput = event.target.value.toLowerCase();
-    setSearchTerm(cleanInput);
+    setSearchTerm(event.target.value.toLowerCase());
   };
 
-  const filteredSearchItems = courseData.filter((course) => {
-    const filteredCourseHeading = course.courseHeading.toLowerCase();
-    return filteredCourseHeading.includes(searchTerm);
-  });
+  const handleClick = (event) => {
+    if (filterOptions.includes(event.target.value)) {
+      setCourseType(event.target.value);
+    }
+  };
 
   return (
     <Layout>
@@ -28,12 +50,17 @@ const Services = () => {
         subheadingText={"Take a peek at everything we offer"}
       />
       <ServicesGetInTouchSection />
+      <CategoryFilter
+        courseType={courseType}
+        handleClick={handleClick}
+        filterOptions={filterOptions}
+      />
       <SearchBar
         searchTerm={searchTerm}
         handleInput={handleInput}
         label="Search Courses"
       />
-      <CoursesList courseData={filteredSearchItems} />
+      <CoursesList courseData={courseCards} />
     </Layout>
   );
 };
