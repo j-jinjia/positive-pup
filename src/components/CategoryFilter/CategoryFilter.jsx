@@ -2,9 +2,8 @@ import "./CategoryFilter.scss";
 import useWindowSize from "../../hooks/useWindowSize";
 
 const CategoryFilter = ({ courseType, handleClick, filterOptions }) => {
-  const unselected = "category-filter-container__filter-option";
-  const selected =
-    "category-filter-container__filter-option category-filter-container__filter-option--selected";
+  const unselected = "category-filter__option";
+  const selected = "category-filter__option category-filter__option--selected";
 
   const windowIsDesktop = useWindowSize(1024);
 
@@ -22,16 +21,14 @@ const CategoryFilter = ({ courseType, handleClick, filterOptions }) => {
   });
 
   const desktopFilters = (
-    <div className="category-filter-container">{mapFiltersDesktop}</div>
+    <div className="category-filter category-filter--desktop">
+      {mapFiltersDesktop}
+    </div>
   );
 
   const mapFiltersMobile = filterOptions.map((val, index) => {
     return (
-      <option
-        className="category-filter-dropdown-menu__option"
-        key={index}
-        value={val}
-      >
+      <option className="category-filter__option" key={index} value={val}>
         {val}
       </option>
     );
@@ -39,7 +36,7 @@ const CategoryFilter = ({ courseType, handleClick, filterOptions }) => {
 
   const mobileFilters = (
     <select
-      className="category-filter-dropdown-menu"
+      className="category-filter"
       name="filter-options"
       onChange={handleClick}
     >

@@ -11,6 +11,13 @@ const Services = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [courseCards, setCourseCards] = useState(courseData);
 
+  const filterOptions = [
+    "All",
+    "Online Courses",
+    "Group Classes",
+    "Bespoke Packages",
+  ];
+
   useEffect(() => {
     const filteredCourses = courseData
       .filter((course) => {
@@ -27,13 +34,6 @@ const Services = () => {
   const handleInput = (event) => {
     setSearchTerm(event.target.value.toLowerCase());
   };
-
-  const filterOptions = [
-    "All",
-    "Online Courses",
-    "Group Classes",
-    "Bespoke Packages",
-  ];
 
   const handleClick = (event) => {
     if (filterOptions.includes(event.target.value)) {
