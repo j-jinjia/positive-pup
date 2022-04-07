@@ -6,39 +6,45 @@ import image3 from "../mockData/images/image3.png";
 const courses = [
   {
     image: image0,
-    courseType: "Group Class",
+    courseTypeSingular: "Group Class",
+    courseTypePlural: "Group Classes",
     courseHeading: "Little Stars Course",
     labelsArray: ["In Person", "10 weeks+"],
   },
   {
     image: image1,
-    courseType: "Group Class",
+    courseTypeSingular: "Group Class",
+    courseTypePlural: "Group Classes",
     courseHeading: "Rising Stars Course",
     labelsArray: ["In Person", "16 weeks+"],
   },
   {
     image: image2,
-    courseType: "Bespoke Package",
+    courseTypeSingular: "Bespoke Package",
+    courseTypePlural: "Bespoke Packages",
     courseHeading: "1:1 Personalised Training",
     labelsArray: ["In Person", "Intensive"],
   },
   {
     image: image0,
-    courseType: "Group Class",
+    courseTypeSingular: "Group Class",
+    courseTypePlural: "Group Classes",
     courseHeading: "Little Stars Course",
     labelsArray: ["Online"],
   },
 
   {
     image: image1,
-    courseType: "Online Course",
+    courseTypeSingular: "Online Course",
+    courseTypePlural: "Online Courses",
     courseHeading: "Chaos to Calm",
     labelsArray: ["Online", "Flexible"],
   },
 
   {
     image: image3,
-    courseType: "Online Course",
+    courseTypeSingular: "Online Course",
+    courseTypePlural: "Online Courses",
     courseHeading: "Rapid Recall",
     labelsArray: ["Online"],
   },

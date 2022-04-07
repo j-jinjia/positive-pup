@@ -7,7 +7,7 @@ export const CoursesList = ({ courseData }) => {
       <CourseCard
         key={card.courseHeading + index}
         image={card.image}
-        courseType={card.courseType}
+        courseType={card.courseTypeSingular}
         courseHeading={card.courseHeading}
         labelsArray={card.labelsArray}
       />
