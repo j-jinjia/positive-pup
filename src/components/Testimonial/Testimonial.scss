@@ -36,6 +36,22 @@
     margin-top: 2rem;
     color: $colour-quinary;
     font-size: 0.625rem;
+
+    &-button {
+      font-size: inherit;
+      background: none;
+      border: none;
+      font-weight: bold;
+      text-decoration: underline;
+      color: $colour-primary;
+      padding-left: 0.5rem;
+      &:hover {
+        cursor: pointer;
+      }
+      &-label {
+        display: none;
+      }
+    }
   }
 
   &__quotations {
@@ -59,6 +75,8 @@
     border-radius: 16px;
     padding: 2rem 2.5rem;
     max-width: 34rem;
+    min-height: 20rem;
+
     .testimonial {
       &__header {
         font-size: $font-size-small;
