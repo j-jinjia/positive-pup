@@ -1,38 +1,17 @@
 @use "../../styles/_variables.scss" as *;
 
-// .category-filter--desktop{
-
-//   display: flex;
-//   justify-content: space-between;
-//   gap: 20px;
-
-//   &__filter-option {
-//     cursor: pointer;
-//     font-size: $font-size-general;
-//     color: $colour-quatenary;
-//     font-weight: 500;
-//     border: none;
-//     background: transparent;
-
-//     &--selected {
-//       color: $colour-font-general;
-//     }
-//   }
-// }
-
 .category-filter {
   border: none;
   color: $colour-font-general;
   font-size: 1rem;
   width: max-content;
 
-  &.category-filter--desktop{
-    // might need to undo the above if it looks weird
+  &.category-filter--desktop {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 
-    .category-filter__option{
+    .category-filter__option {
       cursor: pointer;
       font-size: $font-size-general;
       color: $colour-quatenary;
@@ -40,13 +19,9 @@
       border: none;
       background: transparent;
 
-      &.category-filter__option--selected{
+      &.category-filter__option--selected {
         color: $colour-font-general;
       }
     }
-  }
-
-  .category-filter__option{
-
   }
 }

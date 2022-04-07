@@ -16,3 +16,20 @@ it("should match CategoryFilter component snapshot", () => {
 
   expect(container).toMatchSnapshot();
 });
+
+
+it("should match CategoryFilter component snapshot when an option is selected", () => {
+  const { container } = customRender(
+    <CategoryFilter
+      courseType={"Online Courses"}
+      filterOptions={[
+        "All",
+        "Online Courses",
+        "Group Classes",
+        "Bespoke Packages",
+      ]}
+    />
+  );
+
+  expect(container).toMatchSnapshot();
+});
