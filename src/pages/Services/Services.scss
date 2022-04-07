@@ -18,8 +18,21 @@
     font-family: $font-header;
     font-style: normal;
     font-weight: 500;
-    font-size: $font-size-large;
+    font-size: $font-size-medium;
     color: $colour-font-general;
     line-height: 110%;
+  }
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    .services {
+      &__subheading {
+        font-family: $font-header;
+        font-style: normal;
+        font-weight: 500;
+        font-size: $font-size-large;
+        color: $colour-font-general;
+        line-height: 110%;
+      }
+    }
   }
 }
