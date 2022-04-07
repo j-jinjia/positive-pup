@@ -1,4 +1,3 @@
-import Certifications from "../../components/Certifications/Certifications";
 import Hero from "../../components/Hero/Hero";
 import Layout from "../../components/Layout/Layout";
 import paw from "../../assets/images/landing_page/paw_print.svg";
@@ -29,7 +28,6 @@ const Home = () => {
         link={<Link to={"/services"}>What We Offer</Link>}
         dogImage={dogImage}
       />
-      <Certifications showText={false} />
       <LandingContainer
         icon={paw}
         headingText="Why The Positive Pup?"

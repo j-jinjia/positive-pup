@@ -21,11 +21,11 @@ const Hero = ({
         <img
           className="hero-image__image"
           src={dogImage}
-          alt="Picture of a happy bulldog"
+          alt="Picture of a happy Staffie"
         />
       </div>
       <div className="hero-certifications">
-        <Certifications showText={false} />
+        <Certifications showText={false} isSmaller />
       </div>
     </div>
   );
