@@ -7,14 +7,14 @@
 
   &__heading {
     color: $colour-primary;
-    font-size: $font-size-h1;
+    font-size: $font-size-smallest;
     font-family: $font-header;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
   }
 
   &__subheading {
-    font-size: $font-size-h2;
+    font-size: $font-size-medium;
     font-family: $font-header;
     font-weight: normal;
     margin-bottom: 1.75rem;
