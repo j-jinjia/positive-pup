@@ -16,15 +16,7 @@ const Services = () => {
         <CoursesList courseData={courseData} />
         <ServicesGetInTouchSection
           buttonText={"GET IN TOUCH"}
-          isSecondary={true}
-          link={
-            <Link
-              className="services-get-in-touch-section__button"
-              to="/get-in-touch"
-            >
-              GET IN TOUCH
-            </Link>
-          }
+          link={<Link to="/get-in-touch">GET IN TOUCH</Link>}
         />
       </div>
     </Layout>

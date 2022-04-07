@@ -373,23 +373,17 @@ exports[`should render the Serives page 1`] = `
         <h3
           class="services-get-in-touch-section__header"
         >
-           
           Have a question about any of our courses?
-           
         </h3>
         <p
           class="services-get-in-touch-section__subtext"
         >
-           
-          Please take a look at our FAQ’s to see if it’s already been answered. Alternatively,
-          <br />
-          get in touch using the button below.
+          Please take a look at our FAQ’s to see if it’s already been answered. Alternatively, get in touch using the button below.
         </p>
         <div
-          class="button button--secondary button--link"
+          class="button button--secondary button--link button--small-text"
         >
           <a
-            class="services-get-in-touch-section__button"
             href="/get-in-touch"
           >
             GET IN TOUCH

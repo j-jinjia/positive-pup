@@ -13,5 +13,12 @@
   &__subtext {
     padding-bottom: 2rem;
     color: $colour-font-paragraph;
+    line-height: 1.8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    @media screen and (min-width: $tablet-breakpoint) {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
   }
 }
