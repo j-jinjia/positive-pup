@@ -4,7 +4,7 @@
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
-  width:100%;
+  width: 100%;
 
   &__heading {
     color: $colour-primary;
@@ -30,10 +30,10 @@
     background: $colour-primary;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     padding-top: 1.5rem;
 
-    .header__heading{
+    .header__heading {
       color: $colour-secondary;
       font-size: $font-size-h2-desktop;
       text-transform: none;
