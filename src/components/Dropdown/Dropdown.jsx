@@ -14,9 +14,9 @@ const Dropdown = ({ question, answer }) => {
     : "dropdown__main";
 
   const answerArr = answer.split("\n");
-  const answerText = answerArr.map((l, i) => (
-    <React.Fragment key={l}>
-      <p className="dropdown__main-text">{l}</p>
+  const answerText = answerArr.map((answer, i) => (
+    <React.Fragment key={answer}>
+      <p className="dropdown__main-text">{answer}</p>
       {i !== answerArr.length - 1 && <br />}
     </React.Fragment>
   ));

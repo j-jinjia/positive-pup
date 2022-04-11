@@ -4,8 +4,8 @@ import Layout from "../../components/Layout/Layout";
 import faqsData from "../../assets/mockData/faqsData";
 
 const Faqs = () => {
-  const faqSection = faqsData.map((d) => (
-    <Dropdown key={d.id} question={d.question} answer={d.answer} />
+  const faqSection = faqsData.map((data) => (
+    <Dropdown key={data.id} question={data.question} answer={data.answer} />
   ));
 
   return (
