@@ -1,0 +1,27 @@
+@use "../../styles/_variables.scss" as *;
+
+.category-filter {
+  border: none;
+  color: $colour-font-general;
+  font-size: $font-size-default;
+  width: max-content;
+
+  &.category-filter--desktop {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .category-filter__option {
+      cursor: pointer;
+      font-size: $font-size-default;
+      color: $colour-quatenary;
+      font-weight: 500;
+      border: none;
+      background: transparent;
+
+      &.category-filter__option--selected {
+        color: $colour-font-general;
+      }
+    }
+  }
+}

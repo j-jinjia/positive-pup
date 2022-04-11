@@ -21,6 +21,13 @@
   .about-us-header {
     justify-content: center;
     text-align: center;
+    &__content {
+      &-title {
+        color: $colour-primary;
+        font-family: $font-general;
+        font-size: $font-size-smallest;
+      }
+    }
   }
 }
 
