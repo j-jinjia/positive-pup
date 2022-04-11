@@ -78,6 +78,35 @@ exports[`should render the Faqs page 1`] = `
       FAQs
     </h1>
     <div
+      class="faq-get-in-touch"
+    >
+      <div
+        class="header"
+      >
+        <h1
+          class="header__heading"
+        >
+           
+           
+        </h1>
+        <h2
+          class="header__subheading"
+        >
+          Can't find an answer to your Question?
+        </h2>
+      </div>
+      <p
+        class="faq-get-in-touch__paragraph"
+      >
+        Please get in touch below if you can’t find an answer youre looking for. I’d love to hear from you! Thanks Mel
+      </p>
+      <button
+        class="button button--secondary"
+      >
+        GET IN TOUCH
+      </button>
+    </div>
+    <div
       class="footer"
     >
       <div

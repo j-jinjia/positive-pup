@@ -1,0 +1,37 @@
+@use "../../styles/variables" as *;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.faq-get-in-touch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__heading {
+    font-size: $font-size-medium;
+    font-weight: 600;
+    font-family: $font-header;
+    margin-bottom: 0;
+  }
+
+  &__paragraph {
+    text-align: center;
+    font-size: $font-size-default;
+    font-family: $font-general;
+    line-height: 150%;
+    max-width: 36.375rem;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .button {
+    font-family: $font-general;
+    color: $colour-primary;
+    font-weight: 700;
+    font-size: $font-size-default;
+    margin-bottom: 6.25rem;
+  }
+}
