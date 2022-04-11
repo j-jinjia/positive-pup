@@ -6,8 +6,12 @@ import useWindowSize from "../../hooks/useWindowSize.js";
 
 const AboutUsHeader = () => {
   const isTabletSize = useWindowSize(768);
+  const isDesktopSize = useWindowSize(1024);
 
-  const headerJSX = isTabletSize ? "Hey there " : "Hey there 👋";
+  const headerJSX = isTabletSize ? "Hey there" : "Hey there 👋";
+
+  const leftAlign =
+    isDesktopSize == false && isTabletSize == true ? false : true;
 
   return (
     <div className="about-us-header">
@@ -15,7 +19,8 @@ const AboutUsHeader = () => {
         <Header
           headingText={"About Us"}
           subheadingText={headerJSX}
-          isLeftAlign
+          subheadingSecondLine={"My name is Melanie!"}
+          isLeftAlign={leftAlign}
         />
         <p className="about-us-header__text">
           As the owner of The Positive Pup, it is my joy to be able to welcome

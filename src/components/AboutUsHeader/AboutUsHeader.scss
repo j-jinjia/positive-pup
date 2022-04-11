@@ -17,9 +17,17 @@
     padding-bottom: 2rem;
   }
 }
+@media screen and (min-width: $tablet-breakpoint) {
+  .about-us-header {
+    justify-content: center;
+    text-align: center;
+  }
+}
 
 @media screen and (min-width: $desktop-breakpoint) {
   .about-us-header {
+    flex-wrap: nowrap;
+    text-align: left;
     &__image {
       max-width: 540px;
       padding-right: 5rem;

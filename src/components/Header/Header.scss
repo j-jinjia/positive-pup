@@ -4,6 +4,7 @@
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-bottom: 1.75rem;
 
   &__heading {
     color: $colour-primary;
@@ -17,7 +18,6 @@
     font-size: $font-size-h2;
     font-family: $font-header;
     font-weight: normal;
-    margin-bottom: 1.75rem;
   }
 
   &--left-align {
