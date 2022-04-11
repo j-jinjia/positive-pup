@@ -12,6 +12,7 @@ const Services = () => {
   const [courseType, setCourseType] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
   const [ageFilter, setAgeFilter] = useState("all");
+  const [durationFilter, setDurationFilter] = useState("");
   const [courseCards, setCourseCards] = useState(courseData);
 
   const filterOptions = [
@@ -32,11 +33,15 @@ const Services = () => {
       })
       .filter((course) => {
         if (ageFilter === "all") return true;
-        return course.suitableAges === ageFilter;
+        return course.suitableAges.includes(ageFilter);
+      })
+      .filter((course) => {
+        if (durationFilter === "") return true;
+        return course.duration === durationFilter;
       });
 
     setCourseCards(filteredCourses);
-  }, [courseType, searchTerm, ageFilter]);
+  }, [courseType, searchTerm, ageFilter, durationFilter]);
 
   const handleInput = (event) => {
     setSearchTerm(event.target.value.toLowerCase());
@@ -49,12 +54,11 @@ const Services = () => {
   };
 
   const handleAgeFilterSelect = (event) => {
-    console.log(event.target.id);
     setAgeFilter(event.target.id);
   };
 
   const handleDurationFilterSelect = (event) => {
-    console.log(event.target.id);
+    setDurationFilter(event.target.id);
   };
 
   return (
