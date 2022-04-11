@@ -35,13 +35,13 @@
 
     .header__heading {
       color: $colour-secondary;
-      font-size: $font-size-h2-desktop;
+      font-size: $font-size-larger;
       text-transform: none;
       font-weight: 500;
     }
     .header__subheading {
       color: $colour-secondary;
-      font-size: $font-size-general;
+      font-size: $font-size-default;
     }
   }
 }
