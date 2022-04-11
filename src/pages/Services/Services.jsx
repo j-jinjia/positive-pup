@@ -6,10 +6,12 @@ import ServicesGetInTouchSection from "../../components/ServicesGetInTouchSectio
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
+import FiltersDropdown from "../../components/FiltersDropdown/FiltersDropdown";
 
 const Services = () => {
   const [courseType, setCourseType] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
+  const [ageFilter, setAgeFilter] = useState("all");
   const [courseCards, setCourseCards] = useState(courseData);
 
   const filterOptions = [
@@ -27,10 +29,14 @@ const Services = () => {
       })
       .filter((course) => {
         return course.courseHeading.toLowerCase().includes(searchTerm);
+      })
+      .filter((course) => {
+        if (ageFilter === "all") return true;
+        return course.suitableAges === ageFilter;
       });
 
     setCourseCards(filteredCourses);
-  }, [courseType, searchTerm]);
+  }, [courseType, searchTerm, ageFilter]);
 
   const handleInput = (event) => {
     setSearchTerm(event.target.value.toLowerCase());
@@ -40,6 +46,15 @@ const Services = () => {
     if (filterOptions.includes(event.target.value)) {
       setCourseType(event.target.value);
     }
+  };
+
+  const handleAgeFilterSelect = (event) => {
+    console.log(event.target.id);
+    setAgeFilter(event.target.id);
+  };
+
+  const handleDurationFilterSelect = (event) => {
+    console.log(event.target.id);
   };
 
   return (
@@ -58,6 +73,10 @@ const Services = () => {
         searchTerm={searchTerm}
         handleInput={handleInput}
         label="Search Courses"
+      />
+      <FiltersDropdown
+        handleAgeFilterSelect={handleAgeFilterSelect}
+        handleDurationFilterSelect={handleDurationFilterSelect}
       />
       <CoursesList courseData={courseCards} />
       <ServicesGetInTouchSection />

@@ -10,6 +10,8 @@ const courses = [
     courseTypePlural: "Group Classes",
     courseHeading: "Little Stars Course",
     labelsArray: ["In Person", "10 weeks+"],
+    suitableAges: "infant",
+    duration: "medium"
   },
   {
     image: image1,
@@ -17,6 +19,8 @@ const courses = [
     courseTypePlural: "Group Classes",
     courseHeading: "Rising Stars Course",
     labelsArray: ["In Person", "16 weeks+"],
+    suitableAges: "junior",
+    duration: "long"
   },
   {
     image: image2,
@@ -24,6 +28,8 @@ const courses = [
     courseTypePlural: "Bespoke Packages",
     courseHeading: "1:1 Personalised Training",
     labelsArray: ["In Person", "Intensive"],
+    suitableAges: "all",
+    duration: "short"
   },
   {
     image: image0,
@@ -31,6 +37,8 @@ const courses = [
     courseTypePlural: "Group Classes",
     courseHeading: "Little Stars Course",
     labelsArray: ["Online"],
+    suitableAges: "infant",
+    duration: "medium"
   },
 
   {
@@ -39,6 +47,8 @@ const courses = [
     courseTypePlural: "Online Courses",
     courseHeading: "Chaos to Calm",
     labelsArray: ["Online", "Flexible"],
+    suitableAges: "mature",
+    duration: "long"
   },
 
   {
@@ -47,6 +57,8 @@ const courses = [
     courseTypePlural: "Online Courses",
     courseHeading: "Rapid Recall",
     labelsArray: ["Online"],
+    suitableAges: "all",
+    duration: "short"
   },
 ];
 
