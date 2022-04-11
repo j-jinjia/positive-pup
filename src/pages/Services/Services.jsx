@@ -6,9 +6,12 @@ import ServicesGetInTouchSection from "../../components/ServicesGetInTouchSectio
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
+import { useParams } from "react-router-dom";
 
 const Services = () => {
-  const [courseType, setCourseType] = useState("All");
+  const { filter } = useParams();
+
+  const [courseType, setCourseType] = useState(filter || "All");
   const [searchTerm, setSearchTerm] = useState("");
   const [courseCards, setCourseCards] = useState(courseData);
 
