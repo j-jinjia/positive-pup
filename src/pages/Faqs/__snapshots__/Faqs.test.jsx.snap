@@ -74,9 +74,22 @@ exports[`should render the Faqs page 1`] = `
         </nav>
       </div>
     </div>
-    <h1>
-      FAQs
-    </h1>
+    <div
+      class="header header--alternative"
+    >
+      <h1
+        class="header__heading"
+      >
+         
+        Frequently Asked Questions
+         
+      </h1>
+      <h2
+        class="header__subheading"
+      >
+        Some of your most common questions
+      </h2>
+    </div>
     <div
       class="faq-get-in-touch"
     >
