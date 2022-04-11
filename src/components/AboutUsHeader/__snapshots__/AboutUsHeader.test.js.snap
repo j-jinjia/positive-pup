@@ -21,7 +21,12 @@ exports[`should match AboutUsHeader component snapshot 1`] = `
         <h2
           class="header__subheading"
         >
-          Hey there 
+          Hey there
+        </h2>
+        <h2
+          class="header__subheading"
+        >
+          My name is Melanie!
         </h2>
       </div>
       <p

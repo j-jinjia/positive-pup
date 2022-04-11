@@ -17,6 +17,9 @@ exports[`should match ContactHeader component snapshot 1`] = `
       <h2
         class="header__subheading"
       />
+      <h2
+        class="header__subheading"
+      />
     </div>
     <p
       class="contact-header__text"

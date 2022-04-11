@@ -92,6 +92,9 @@ exports[`should render the GetInTouch page 1`] = `
         >
           I'd love to hear from you!
         </h2>
+        <h2
+          class="header__subheading"
+        />
       </div>
       <p
         class="contact-header__text"
