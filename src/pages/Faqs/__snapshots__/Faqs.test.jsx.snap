@@ -78,22 +78,6 @@ exports[`should render the Faqs page 1`] = `
       FAQs
     </h1>
     <div
-      class="header header--alternative"
-    >
-      <h1
-        class="header__heading"
-      >
-         
-        Frequently Asked Questions
-         
-      </h1>
-      <h2
-        class="header__subheading"
-      >
-        Some of your most common questions
-      </h2>
-    </div>
-    <div
       class="faq-get-in-touch"
     >
       <div
@@ -124,7 +108,25 @@ exports[`should render the Faqs page 1`] = `
         >
           GET IN TOUCH
         </a>
-
+      </div>
+    </div>
+    <div
+      class="header header--alternative"
+    >
+      <h1
+        class="header__heading"
+      >
+         
+        Frequently Asked Questions
+         
+      </h1>
+      <h2
+        class="header__subheading"
+      >
+        Some of your most common questions
+      </h2>
+    </div>
+    <div
       class="dropdown"
     >
       <label
@@ -270,7 +272,6 @@ exports[`should render the Faqs page 1`] = `
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-
       </div>
     </div>
     <div
