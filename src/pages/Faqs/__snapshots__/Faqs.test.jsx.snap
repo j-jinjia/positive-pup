@@ -74,6 +74,9 @@ exports[`should render the Faqs page 1`] = `
         </nav>
       </div>
     </div>
+    <h1>
+      FAQs
+    </h1>
     <div
       class="header header--alternative"
     >
