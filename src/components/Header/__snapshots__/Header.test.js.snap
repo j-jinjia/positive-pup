@@ -3,20 +3,25 @@
 exports[`should match the Header component snapshot 1`] = `
 <div>
   <div
-    class="header"
+    class="header header--left-align"
   >
     <h1
       class="header__heading"
     >
        
+      About Us
        
     </h1>
     <h2
       class="header__subheading"
-    />
+    >
+      headerJSX
+    </h2>
     <h2
       class="header__subheading"
-    />
+    >
+      My name is Melanie!
+    </h2>
   </div>
 </div>
 `;

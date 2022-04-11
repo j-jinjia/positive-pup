@@ -8,12 +8,30 @@ exports[`should match hero component snapshot 1`] = `
     <div
       class="hero-content"
     >
+      <h2
+        class="hero-content__header"
+      >
+        "header text"
+        <span
+          class="hero-content__header-highlight"
+        >
+          paw.
+        </span>
+      </h2>
       <p
         class="hero-content__subheader"
-      />
-      <button
-        class="button button--primary"
-      />
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
+      </p>
+      <div
+        class="button button--primary button--link"
+      >
+        <a
+          href="/services"
+        >
+          What We Offer
+        </a>
+      </div>
     </div>
     <div
       class="hero-image"
@@ -21,6 +39,7 @@ exports[`should match hero component snapshot 1`] = `
       <img
         alt="Picture of a happy Staffie"
         class="hero-image__image"
+        src="dog.svg"
       />
     </div>
     <div
