@@ -75,7 +75,7 @@ exports[`should render the Faqs page 1`] = `
       </div>
     </div>
     <div
-      class="header header--alternative"
+      class="header"
     >
       <h1
         class="header__heading"
@@ -89,6 +89,9 @@ exports[`should render the Faqs page 1`] = `
       >
         Some of your most common questions
       </h2>
+      <h2
+        class="header__subheading"
+      />
     </div>
     <div
       class="footer"
