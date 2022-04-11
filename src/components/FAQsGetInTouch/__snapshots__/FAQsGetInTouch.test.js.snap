@@ -25,11 +25,15 @@ exports[`should match the FAQS Get in Touch component snapshot 1`] = `
     >
       Please get in touch below if you can’t find an answer youre looking for. I’d love to hear from you! Thanks Mel
     </p>
-    <button
-      class="button button--secondary"
+    <div
+      class="button button--secondary button--link"
     >
-      GET IN TOUCH
-    </button>
+      <a
+        href="/get-in-touch"
+      >
+        GET IN TOUCH
+      </a>
+    </div>
   </div>
 </div>
 `;

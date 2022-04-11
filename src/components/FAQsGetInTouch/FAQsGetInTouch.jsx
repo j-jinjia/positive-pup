@@ -1,6 +1,7 @@
 import Button from "../Button/Button";
 import Header from "../Header/Header";
 import "./FAQsGetInTouch.scss";
+import { Link } from "react-router-dom";
 
 const FAQsGetInTouch = () => {
   return (
@@ -13,7 +14,12 @@ const FAQsGetInTouch = () => {
         Please get in touch below if you can’t find an answer youre looking for.
         I’d love to hear from you! Thanks Mel
       </p>
-      <Button buttonText="GET IN TOUCH" isSecondary />
+
+      <Button
+        buttonText={"GET IN TOUCH"}
+        isSecondary
+        link={<Link to="/get-in-touch">GET IN TOUCH</Link>}
+      />
     </div>
   );
 };
