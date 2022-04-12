@@ -1,0 +1,40 @@
+@use "../../styles/_variables.scss" as *;
+
+.dropdown-menu {
+  position: absolute;
+  top: 2rem;
+  border: 1px solid $colour-septenary;
+  border-radius: 0.5rem;
+  background-color: $colour-secondary;
+  display: flex;
+  column-gap: 2rem;
+  padding: 2rem;
+  text-align: left;
+
+  &:hover {
+    cursor: default;
+  }
+
+  &__link {
+    color: $colour-primary;
+    font-weight: 600;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    row-gap: 0.7rem;
+
+    &-title {
+      color: $colour-quatenary;
+      font-weight: inherit;
+      margin-bottom: 0.55rem;
+    }
+
+    &-option {
+      text-decoration: none;
+      color: $colour-quinary;
+    }
+  }
+}
