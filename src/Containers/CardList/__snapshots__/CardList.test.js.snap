@@ -10,13 +10,17 @@ exports[`should match CardList component snapshot 1`] = `
     >
       <h3
         class="services-card__title"
-      />
+      >
+        Online Courses
+      </h3>
       <p
         class="services-card__text"
-      />
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
       <a
         class="services-card__button"
-        href="/services/undefined"
+        href="/services/Online Courses"
       >
         <img
           alt=""
@@ -35,13 +39,17 @@ exports[`should match CardList component snapshot 1`] = `
     >
       <h3
         class="services-card__title"
-      />
+      >
+        Group Classes
+      </h3>
       <p
         class="services-card__text"
-      />
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
       <a
         class="services-card__button"
-        href="/services/undefined"
+        href="/services/Group Classes"
       >
         <img
           alt=""
@@ -60,13 +68,17 @@ exports[`should match CardList component snapshot 1`] = `
     >
       <h3
         class="services-card__title"
-      />
+      >
+        Bespoke Packages
+      </h3>
       <p
         class="services-card__text"
-      />
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
       <a
         class="services-card__button"
-        href="/services/undefined"
+        href="/services/Bespoke Packages"
       >
         <img
           alt=""
@@ -77,82 +89,7 @@ exports[`should match CardList component snapshot 1`] = `
       <img
         alt="dog"
         class="services-card__img"
-        src="image2.png"
-      />
-    </div>
-    <div
-      class="services-card"
-    >
-      <h3
-        class="services-card__title"
-      />
-      <p
-        class="services-card__text"
-      />
-      <a
-        class="services-card__button"
-        href="/services/undefined"
-      >
-        <img
-          alt=""
-          class="services-card__vector services-card__vector--black"
-          src="Vector-black.svg"
-        />
-      </a>
-      <img
-        alt="dog"
-        class="services-card__img"
-        src="image.png"
-      />
-    </div>
-    <div
-      class="services-card"
-    >
-      <h3
-        class="services-card__title"
-      />
-      <p
-        class="services-card__text"
-      />
-      <a
-        class="services-card__button"
-        href="/services/undefined"
-      >
-        <img
-          alt=""
-          class="services-card__vector services-card__vector--black"
-          src="Vector-black.svg"
-        />
-      </a>
-      <img
-        alt="dog"
-        class="services-card__img"
-        src="image1.png"
-      />
-    </div>
-    <div
-      class="services-card"
-    >
-      <h3
-        class="services-card__title"
-      />
-      <p
-        class="services-card__text"
-      />
-      <a
-        class="services-card__button"
-        href="/services/undefined"
-      >
-        <img
-          alt=""
-          class="services-card__vector services-card__vector--black"
-          src="Vector-black.svg"
-        />
-      </a>
-      <img
-        alt="dog"
-        class="services-card__img"
-        src="image3.png"
+        src="image4.png"
       />
     </div>
   </div>
