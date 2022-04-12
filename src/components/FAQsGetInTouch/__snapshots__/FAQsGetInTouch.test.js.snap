@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the FAQS Get in Touch component snapshot 1`] = `
+<div>
+  <div
+    class="faq-get-in-touch"
+  >
+    <div
+      class="header"
+    >
+      <h1
+        class="header__heading"
+      >
+         
+         
+      </h1>
+      <h2
+        class="header__subheading"
+      >
+        Can't find an answer to your Question?
+      </h2>
+    </div>
+    <p
+      class="faq-get-in-touch__paragraph"
+    >
+      Please get in touch below if you can’t find an answer youre looking for. I’d love to hear from you! Thanks Mel
+    </p>
+    <div
+      class="button button--secondary button--link"
+    >
+      <a
+        href="/get-in-touch"
+      >
+        GET IN TOUCH
+      </a>
+    </div>
+  </div>
+</div>
+`;

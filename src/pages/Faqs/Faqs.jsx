@@ -1,3 +1,4 @@
+import FAQsGetInTouch from "../../components/FAQsGetInTouch/FAQsGetInTouch";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Header from "../../components/Header/Header";
 import Layout from "../../components/Layout/Layout";
@@ -11,6 +12,7 @@ const Faqs = () => {
   return (
     <Layout>
       <h1>FAQs</h1>
+      <FAQsGetInTouch />
       <Header
         isLeftAlign={false}
         headingText={"Frequently Asked Questions"}
