@@ -7,13 +7,17 @@ exports[`should match ServicesCard component snapshot 1`] = `
   >
     <h3
       class="services-card__title"
-    />
+    >
+      Online Courses
+    </h3>
     <p
       class="services-card__text"
-    />
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
     <a
       class="services-card__button"
-      href="/services/undefined"
+      href="/services/Online Courses"
     >
       <img
         alt=""
@@ -24,6 +28,7 @@ exports[`should match ServicesCard component snapshot 1`] = `
     <img
       alt="dog"
       class="services-card__img"
+      src="image.png"
     />
   </div>
 </div>
