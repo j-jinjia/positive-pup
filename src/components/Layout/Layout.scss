@@ -5,4 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &__children {
+    margin: 0 2rem;
+  }
 }

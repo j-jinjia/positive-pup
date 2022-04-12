@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 2rem;
 
   &__header {
     font-size: $font-size-medium;
@@ -15,7 +14,7 @@
   &__description {
     margin-bottom: 2rem;
     line-height: 2;
-    font-size: $font-size-smaller;
+    font-size: $font-size-smallest;
     color: $colour-tertiary;
 
     &--highlighted-text {
@@ -23,7 +22,7 @@
       font-weight: 700;
       text-decoration: underline;
       text-underline-offset: 0.2rem;
-      font-size: $font-size-smaller;
+      font-size: $font-size-smallest;
     }
   }
 
@@ -34,9 +33,10 @@
     align-items: center;
     flex-wrap: wrap;
     max-height: 578px;
+    margin-bottom: 6.4rem;
     .certifications__badge {
       margin: 0px 10px;
-      width: 60px;
+      width: 5.3rem;
     }
   }
 }
@@ -69,5 +69,8 @@
     .certifications__badge {
       width: 100px;
     }
+  }
+  .certifications__description {
+    font-size: $font-size-smaller;
   }
 }
