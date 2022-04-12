@@ -40,7 +40,6 @@
     background: none;
     align-items: center;
     padding: 3rem;
-
     &__header {
       text-align: center;
     }
@@ -62,6 +61,7 @@
     align-items: center;
     max-width: 1250px;
     padding: 5rem;
+    margin-left: 10rem;
 
     &__image {
       height: 80%;
@@ -72,11 +72,14 @@
     &__header {
       flex-direction: column;
       text-align: left;
+      margin-left: 6.75rem;
     }
 
     &__paragraph {
       flex-direction: row;
       text-align: left;
+      width: 35.5rem;
+      margin-left: 6.75rem;
     }
   }
 }
