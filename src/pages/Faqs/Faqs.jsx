@@ -47,6 +47,7 @@ const Faqs = () => {
         isAlternativeHighlight
       />
       <div className="faq-section">{faqSection}</div>
+
       <FAQsGetInTouch />
     </Layout>
   );
