@@ -8,7 +8,7 @@ import faqsData from "../../assets/mockData/faqsData";
 import "./Faq.scss";
 
 const Faqs = () => {
-  const [faqType, setFaqType] = useState("General /");
+  const [faqType, setFaqType] = useState("General");
   const filterOptions = [
     "General",
     "Payments",
@@ -18,7 +18,7 @@ const Faqs = () => {
   ];
 
   const filteredQuestions = faqsData.filter((question) => {
-    if (faqType === "General /") return true;
+    if (faqType === "General") return true;
     return question.type === faqType;
   });
 
