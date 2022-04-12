@@ -78,7 +78,7 @@ exports[`should render the Faqs page 1`] = `
       </div>
     </div>
     <div
-      class="header"
+      class="header header--alternative"
     >
       <h1
         class="header__heading"

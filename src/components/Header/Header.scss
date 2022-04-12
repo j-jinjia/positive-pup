@@ -25,6 +25,24 @@
     text-align: left;
     padding: 0;
   }
+  &.header--alternative {
+    background: $colour-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.5rem;
+
+    .header__heading {
+      color: $colour-secondary;
+      font-size: $font-size-larger;
+      text-transform: none;
+      font-weight: 500;
+    }
+    .header__subheading {
+      color: $colour-secondary;
+      font-size: $font-size-default;
+    }
+  }
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
