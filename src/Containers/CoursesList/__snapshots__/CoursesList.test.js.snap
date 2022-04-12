@@ -25,11 +25,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Group Class
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          Little Stars Course
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Little Stars Course
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >
@@ -74,11 +81,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Group Class
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          Rising Stars Course
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Rising Stars Course
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >
@@ -123,11 +137,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Bespoke Package
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          1:1 Personalised Training
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            1:1 Personalised Training
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >
@@ -172,11 +193,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Group Class
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          Little Stars Course
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Little Stars Course
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >
@@ -212,11 +240,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Online Course
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          Chaos to Calm
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Chaos to Calm
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >
@@ -261,11 +296,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Online Course
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          Rapid Recall
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Rapid Recall
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >
@@ -301,11 +343,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Bespoke Package
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          Premium Puppy
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Premium Puppy
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >
@@ -341,11 +390,18 @@ exports[`should match CoursesList component snapshot 1`] = `
         >
           Bespoke Package
         </p>
-        <p
-          class="course-card__course-heading"
+        <a
+          class="course-card__course-link"
+          href="https://www.thepositivepup.teachable.com/"
+          rel="noreferrer"
+          target="_blank"
         >
-          Bespoke Packages
-        </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Bespoke Packages
+          </p>
+        </a>
         <div
           class="course-card__labels"
         >

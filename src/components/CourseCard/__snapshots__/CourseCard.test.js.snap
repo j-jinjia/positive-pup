@@ -22,11 +22,17 @@ exports[`should match CourseCard component snapshot 1`] = `
       >
         Group Class
       </p>
-      <p
-        class="course-card__course-heading"
+      <a
+        class="course-card__course-link"
+        rel="noreferrer"
+        target="_blank"
       >
-        Little Stars
-      </p>
+        <p
+          class="course-card__course-heading"
+        >
+          Little Stars
+        </p>
+      </a>
       <div
         class="course-card__labels"
       >
