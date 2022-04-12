@@ -46,7 +46,7 @@ const Faqs = () => {
         filterOptions={filterOptions}
         isAlternativeHighlight
       />
-      <div className="faq-section">{faqSection}</div>
+      <div className="faqs">{faqSection}</div>
 
       <FAQsGetInTouch />
     </Layout>
