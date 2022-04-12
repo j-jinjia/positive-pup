@@ -22,12 +22,16 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         Chaos to Calm
       </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         Rapid Recall
       </a>
@@ -43,18 +47,24 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         Little Stars Course
       </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         Rising Stars Course
       </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         Little Stars Course
       </a>
@@ -70,18 +80,24 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         1:1 Personalised Training
       </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         Premium Puppy
       </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
+        rel="noreferrer"
+        target="_blank"
       >
         Bespoke Packages
       </a>

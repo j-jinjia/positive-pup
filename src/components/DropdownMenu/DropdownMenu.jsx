@@ -12,6 +12,8 @@ const DropdownMenu = () => {
         href={courseData.link}
         key={courseData.labelsArray.join("") + index}
         className="dropdown-menu__column-option"
+        target="_blank"
+        rel="noreferrer"
       >
         {courseData.courseHeading}
       </a>
