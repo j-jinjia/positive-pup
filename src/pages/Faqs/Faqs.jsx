@@ -5,7 +5,7 @@ import Dropdown from "../../components/Dropdown/Dropdown";
 import Header from "../../components/Header/Header";
 import Layout from "../../components/Layout/Layout";
 import faqsData from "../../assets/mockData/faqsData";
-import "./Faq.scss";
+import "./Faqs.scss";
 
 const Faqs = () => {
   const [faqType, setFaqType] = useState("General");
