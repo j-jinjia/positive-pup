@@ -1,5 +1,6 @@
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState } from "react";
+import FAQsGetInTouch from "../../components/FAQsGetInTouch/FAQsGetInTouch";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Header from "../../components/Header/Header";
 import Layout from "../../components/Layout/Layout";
@@ -48,6 +49,7 @@ const Faqs = () => {
         isAlternativeHighlight
       />
       <div className="faq-section">{faqSection}</div>
+      <FAQsGetInTouch />
     </Layout>
   );
 };

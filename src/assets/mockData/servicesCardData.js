@@ -10,7 +10,7 @@ const courses = [
   },
   {
     image: image1,
-    title: "Group Courses",
+    title: "Group Classes",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
