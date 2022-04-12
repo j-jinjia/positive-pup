@@ -7,9 +7,12 @@ import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import FiltersDropdown from "../../components/FiltersDropdown/FiltersDropdown";
+import { useParams } from "react-router-dom";
 
 const Services = () => {
-  const [courseType, setCourseType] = useState("All");
+  const { filter } = useParams();
+
+  const [courseType, setCourseType] = useState(filter || "All");
   const [searchTerm, setSearchTerm] = useState("");
   const [ageFilter, setAgeFilter] = useState("all");
   const [durationFilter, setDurationFilter] = useState("");

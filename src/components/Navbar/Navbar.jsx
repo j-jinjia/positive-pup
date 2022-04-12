@@ -1,5 +1,5 @@
 import "./Navbar.scss";
-import icon from "../../assets/images/footer-logo.svg";
+import logo from "../../assets/images/navbar-logo.png";
 import openMenu from "../../assets/svgs/hamburger-menu.svg";
 import closeMenu from "../../assets/svgs/close-menu.svg";
 import phone from "../../assets/svgs/phone.svg";
@@ -79,7 +79,7 @@ const Navbar = () => {
       <div className="navbar__container">
         <Link to="/">
           <img
-            src={icon}
+            src={logo}
             className="navbar__container-logo"
             alt="The Positive Pup logo"
           />
