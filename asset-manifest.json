@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/positive-pup/static/css/main.9d18e1ef.css",
-    "main.js": "/positive-pup/static/js/main.5946582d.js",
+    "main.js": "/positive-pup/static/js/main.1055ad51.js",
     "static/js/787.dace3d45.chunk.js": "/positive-pup/static/js/787.dace3d45.chunk.js",
     "static/media/trainingMethodsImage.svg": "/positive-pup/static/media/trainingMethodsImage.6f63b941c6de5d8ee3aefc21585950c6.svg",
     "static/media/AboutMe.png": "/positive-pup/static/media/AboutMe.127727f833ce9274181d.png",
@@ -13,7 +13,6 @@
     "static/media/image2.png": "/positive-pup/static/media/image2.1dce47b9fbeb7506239e.png",
     "static/media/image4.png": "/positive-pup/static/media/image4.2816353b40c48a269972.png",
     "static/media/footer-logo.svg": "/positive-pup/static/media/footer-logo.21a8021849c8f16e075783415efa83cb.svg",
-    "static/media/navbar-logo.svg": "/positive-pup/static/media/navbar-logo.c28348b44f08869c6d53344df7f0ba96.svg",
     "static/media/ppg2022.png": "/positive-pup/static/media/ppg2022.9af88dac52557ee3cf5b.png",
     "static/media/underline.svg": "/positive-pup/static/media/underline.fc4c4022e39b032fbde5.svg",
     "static/media/instagram-logo.svg": "/positive-pup/static/media/instagram-logo.f1a0307a33e9dd9d16cfae1894f3a7cb.svg",
@@ -35,11 +34,11 @@
     "static/media/carousel-dot.svg": "/positive-pup/static/media/carousel-dot.73a54db33f5305a44a616e01d6ca7422.svg",
     "static/media/carousel-dot-active.svg": "/positive-pup/static/media/carousel-dot-active.61f84ff4589c9a3dbc151cfac0f73db4.svg",
     "main.9d18e1ef.css.map": "/positive-pup/static/css/main.9d18e1ef.css.map",
-    "main.5946582d.js.map": "/positive-pup/static/js/main.5946582d.js.map",
+    "main.1055ad51.js.map": "/positive-pup/static/js/main.1055ad51.js.map",
     "787.dace3d45.chunk.js.map": "/positive-pup/static/js/787.dace3d45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d18e1ef.css",
-    "static/js/main.5946582d.js"
+    "static/js/main.1055ad51.js"
   ]
 }
