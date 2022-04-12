@@ -81,6 +81,8 @@ const Services = () => {
       <FiltersDropdown
         handleAgeFilterSelect={handleAgeFilterSelect}
         handleDurationFilterSelect={handleDurationFilterSelect}
+        ageFilter={ageFilter}
+        durationFilter={durationFilter}
       />
       <CoursesList courseData={courseCards} />
       <ServicesGetInTouchSection />

@@ -8,75 +8,139 @@ const FiltersDropdown = ({
   handleDurationFilterSelect,
 }) => {
   const [showFilterMenu, setShowFilterMenu] = useState(false);
+  const [activeAgeInput, setActiveAgeInput] = useState(null);
+  const [activeDurationInput, setActiveDurationInput] = useState(null);
 
   const handleClick = () => {
     setShowFilterMenu(!showFilterMenu);
   };
 
+  const handleAgeFilterChange = (event) => {
+    setActiveAgeInput(event.target.id);
+  };
+
+  const handleDurationFilterChange = (event) => {
+    setActiveDurationInput(event.target.id);
+  };
+
   const filterDropdownMenu = (
     <div className="menu-container">
-      <button>
+      <button className="menu-container__button">
         <img onClick={handleClick} src={filterCross} />
       </button>
-      <h3>Suitable Age</h3>
-      <input
-        onClick={handleAgeFilterSelect}
-        name="suitable-age"
-        type="radio"
-        id="all"
-      />
-      <label htmlFor="all">All ages</label>
-      <input
-        onClick={handleAgeFilterSelect}
-        name="suitable-age"
-        type="radio"
-        id="infant"
-      />
-      <label htmlFor="infant">Infant (10 weeks &amp; above)</label>
-      <input
-        onClick={handleAgeFilterSelect}
-        name="suitable-age"
-        type="radio"
-        id="junior"
-      />
-      <label htmlFor="junior">Junior (16 weeks &amp; above)</label>
-      <input
-        onClick={handleAgeFilterSelect}
-        name="suitable-age"
-        type="radio"
-        id="mature"
-      />
-      <label htmlFor="mature">Mature (1 year &amp; above)</label>
-      <h3>Duration</h3>
-      <input
-        onClick={handleDurationFilterSelect}
-        name="duration"
-        type="radio"
-        id="short"
-      />
-      <label htmlFor="short"> &lt; 1 month</label>
-      <input
-        onClick={handleDurationFilterSelect}
-        name="duration"
-        type="radio"
-        id="medium"
-      />
-      <label htmlFor="medium">1 to 3 months</label>
-      <input
-        onClick={handleDurationFilterSelect}
-        name="duration"
-        type="radio"
-        id="long"
-      />
-      <label htmlFor="long">3+ months</label>
+      <h3 className="menu-container__heading">Suitable Age</h3>
+      <div className="menu-container__filter-options">
+        <span>
+          <input
+            className="menu-container__input"
+            onClick={handleAgeFilterSelect}
+            onChange={handleAgeFilterChange}
+            name="suitable-age"
+            type="radio"
+            id="all"
+            checked={activeAgeInput === "all"}
+          />
+          <label className="menu-container__label" htmlFor="all">
+            All ages
+          </label>
+        </span>
+        <span>
+          <input
+            className="menu-container__input"
+            onClick={handleAgeFilterSelect}
+            onChange={handleAgeFilterChange}
+            name="suitable-age"
+            type="radio"
+            id="infant"
+            checked={activeAgeInput === "infant"}
+          />
+          <label className="menu-container__label" htmlFor="infant">
+            Infant (10 weeks &amp; above)
+          </label>
+        </span>
+        <span>
+          <input
+            className="menu-container__input"
+            onClick={handleAgeFilterSelect}
+            onChange={handleAgeFilterChange}
+            name="suitable-age"
+            type="radio"
+            id="junior"
+            checked={activeAgeInput === "junior"}
+          />
+          <label className="menu-container__label" htmlFor="junior">
+            Junior (16 weeks &amp; above)
+          </label>
+        </span>
+        <span>
+          <input
+            className="menu-container__input"
+            onClick={handleAgeFilterSelect}
+            onChange={handleAgeFilterChange}
+            name="suitable-age"
+            type="radio"
+            id="mature"
+            checked={activeAgeInput === "mature"}
+          />
+          <label className="menu-container__label" htmlFor="mature">
+            Mature (1 year &amp; above)
+          </label>
+        </span>
+      </div>
+      <h3 className="menu-container__heading">Duration</h3>
+      <div className="menu-container__filter-options">
+        <span>
+          <input
+            className="menu-container__input"
+            onClick={handleDurationFilterSelect}
+            onChange={handleDurationFilterChange}
+            name="duration"
+            type="radio"
+            id="short"
+            checked={activeDurationInput === "short"}
+          />
+          <label className="menu-container__label" htmlFor="short">
+            {" "}
+            &lt; 1 month
+          </label>
+        </span>
+        <span>
+          <input
+            className="menu-container__input"
+            onClick={handleDurationFilterSelect}
+            onChange={handleDurationFilterChange}
+            name="duration"
+            type="radio"
+            id="medium"
+            checked={activeDurationInput === "medium"}
+          />
+          <label className="menu-container__label" htmlFor="medium">
+            1 to 3 months
+          </label>
+        </span>
+        <span>
+          <input
+            className="menu-container__input"
+            onClick={handleDurationFilterSelect}
+            onChange={handleDurationFilterChange}
+            name="duration"
+            type="radio"
+            id="long"
+            checked={activeDurationInput === "long"}
+          />
+          <label className="menu-container__label" htmlFor="long">
+            3+ months
+          </label>
+        </span>
+      </div>
     </div>
   );
 
   return (
     <>
-      <button onClick={handleClick}>
+      <button className="filter-dropdown-button" onClick={handleClick}>
         Filters
-        <img src={filterIcon} />
+        <img className="filter-dropdown-button__image" src={filterIcon} />
       </button>
       {showFilterMenu && <div>{filterDropdownMenu}</div>}
     </>

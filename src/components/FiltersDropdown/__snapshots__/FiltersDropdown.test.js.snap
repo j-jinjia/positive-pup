@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the FiltersDropdown component snapshot 1`] = `
+<div>
+  <button
+    class="filter-dropdown-button"
+  >
+    Filters
+    <img
+      class="filter-dropdown-button__image"
+      src="filter-icon.svg"
+    />
+  </button>
+</div>
+`;

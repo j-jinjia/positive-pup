@@ -1,0 +1,59 @@
+@use "../../styles/_variables.scss" as *;
+
+.filter-dropdown-button {
+  border: solid 1px $colour-secondary-background;
+  background-color: $colour-secondary;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  &__image {
+    margin-left: 0.5rem;
+  }
+}
+
+.menu-container {
+  border: solid 1px $colour-secondary-background;
+  background-color: $colour-secondary;
+  position: relative;
+
+  &__button {
+    background-color: transparent;
+    border-style: none;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__heading {
+    font-size: $font-size-smallest;
+    font-family: $font-general;
+    color: $colour-font-general;
+    padding: 1rem;
+    padding-left: 2rem;
+  }
+
+  &__filter-options {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+
+  &__label {
+    font-size: $font-general;
+    font-family: $font-general;
+    padding-left: 1rem;
+    color: $colour-font-paragraph;
+  }
+
+  &__input {
+    margin: 0.5rem;
+    border: solid 1px $colour-secondary-background;
+    background-color: transparent;
+  }
+
+  &__input:checked {
+    color: $colour-primary;
+  }
+}
