@@ -34,7 +34,7 @@ exports[`should render the Faqs page 1`] = `
           >
             Services
             <img
-              class="navbar__nav-item--button-arrow"
+              class="navbar__nav-item-arrow"
               src="dropdown-arrow.svg"
             />
           </button>

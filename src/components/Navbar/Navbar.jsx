@@ -33,7 +33,7 @@ const Navbar = () => {
         onClick={toggleDropdown}
       >
         Services
-        <img src={dropdownArrow} className="navbar__nav-item--button-arrow" />
+        <img src={dropdownArrow} className="navbar__nav-item-arrow" />
         {showDropdown && <DropdownMenu />}
       </button>
       <NavLink className="navbar__nav-item" to="/testimonials">

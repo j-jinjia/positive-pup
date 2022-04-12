@@ -57,12 +57,13 @@
         display: flex;
         align-items: center;
 
-        &-arrow {
-          margin-left: 0.75rem;
-        }
         &:hover {
           cursor: pointer;
         }
+      }
+
+      &-arrow {
+        margin-left: 0.75rem;
       }
     }
   }
