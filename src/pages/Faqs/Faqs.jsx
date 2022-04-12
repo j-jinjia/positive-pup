@@ -10,10 +10,10 @@ import "./Faq.scss";
 const Faqs = () => {
   const [faqType, setFaqType] = useState("General /");
   const filterOptions = [
-    "General /",
-    "Payments /",
-    "Training Methods /",
-    "Packages /",
+    "General",
+    "Payments",
+    "Training Methods",
+    "Packages",
     "Group Classes",
   ];
 
