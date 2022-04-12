@@ -17,7 +17,7 @@ exports[`should render the GetInTouch page 1`] = `
           <img
             alt="The Positive Pup logo"
             class="navbar__container-logo"
-            src="footer-logo.svg"
+            src="navbar-logo.svg"
           />
         </a>
         <nav
