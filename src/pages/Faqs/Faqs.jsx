@@ -11,8 +11,6 @@ const Faqs = () => {
 
   return (
     <Layout>
-      <h1>FAQs</h1>
-      <FAQsGetInTouch />
       <Header
         isLeftAlign={false}
         headingText={"Frequently Asked Questions"}
@@ -20,6 +18,7 @@ const Faqs = () => {
         isAlternative={true}
       />
       {faqSection}
+      <FAQsGetInTouch />
     </Layout>
   );
 };
