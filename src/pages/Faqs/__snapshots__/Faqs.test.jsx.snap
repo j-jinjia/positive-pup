@@ -125,7 +125,7 @@ exports[`should render the Faqs page 1`] = `
       </button>
     </div>
     <div
-      class="faq-section"
+      class="faqs"
     >
       <div
         class="dropdown"
