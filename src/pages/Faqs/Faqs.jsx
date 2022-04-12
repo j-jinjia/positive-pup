@@ -1,11 +1,34 @@
+import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
+import { useState } from "react";
 import FAQsGetInTouch from "../../components/FAQsGetInTouch/FAQsGetInTouch";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Header from "../../components/Header/Header";
 import Layout from "../../components/Layout/Layout";
 import faqsData from "../../assets/mockData/faqsData";
+import "./Faqs.scss";
 
 const Faqs = () => {
-  const faqSection = faqsData.map((data) => (
+  const [faqType, setFaqType] = useState("General");
+  const filterOptions = [
+    "General",
+    "Payments",
+    "Training Methods",
+    "Packages",
+    "Group Classes",
+  ];
+
+  const filteredQuestions = faqsData.filter((question) => {
+    if (faqType === "General") return true;
+    return question.type === faqType;
+  });
+
+  const handleClick = (event) => {
+    if (filterOptions.includes(event.target.value)) {
+      setFaqType(event.target.value);
+    }
+  };
+
+  const faqSection = filteredQuestions.map((data) => (
     <Dropdown key={data.id} question={data.question} answer={data.answer} />
   ));
 
@@ -17,7 +40,14 @@ const Faqs = () => {
         subheadingText={"Some of your most common questions"}
         isAlternative={true}
       />
-      {faqSection}
+      <CategoryFilter
+        courseType={faqType}
+        handleClick={handleClick}
+        filterOptions={filterOptions}
+        isAlternativeHighlight
+      />
+      <div className="faqs">{faqSection}</div>
+
       <FAQsGetInTouch />
     </Layout>
   );
