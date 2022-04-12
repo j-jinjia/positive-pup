@@ -50,6 +50,20 @@
         font-weight: bold;
         color: $colour-primary;
       }
+
+      &--button {
+        position: relative;
+        background: none;
+        display: flex;
+        align-items: center;
+
+        &-arrow {
+          margin-left: 0.75rem;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
   }
 }

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the DropdownMenu component snapshot 1`] = `
+<div>
+  <div
+    class="dropdown-menu"
+  >
+    <a
+      class="dropdown-menu__link"
+      href="/services"
+    >
+      View All
+    </a>
+    <div
+      class="dropdown-menu__column"
+    >
+      <h3
+        class="dropdown-menu__column-title"
+      >
+        Online Courses
+      </h3>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        Chaos to Calm
+      </a>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        Rapid Recall
+      </a>
+    </div>
+    <div
+      class="dropdown-menu__column"
+    >
+      <h3
+        class="dropdown-menu__column-title"
+      >
+        Group Classes
+      </h3>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        Little Stars Course
+      </a>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        Rising Stars Course
+      </a>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        Little Stars Course
+      </a>
+    </div>
+    <div
+      class="dropdown-menu__column"
+    >
+      <h3
+        class="dropdown-menu__column-title"
+      >
+        Other
+      </h3>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        1:1 Personalised Training
+      </a>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        Premium Puppy
+      </a>
+      <a
+        class="dropdown-menu__column-option"
+        href="https://www.thepositivepup.teachable.com/"
+      >
+        Bespoke Packages
+      </a>
+    </div>
+  </div>
+</div>
+`;
