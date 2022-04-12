@@ -9,7 +9,7 @@ exports[`should match Dropdown component snapshot 1`] = `
       class="dropdown__heading-label"
       for="dropdown"
     >
-      Click to view answer to Why should I choose The Positive Pup?
+      Click to view answer to What are the payments methods that you take?
     </label>
     <button
       class="dropdown__heading"
@@ -18,7 +18,7 @@ exports[`should match Dropdown component snapshot 1`] = `
       <h3
         class="dropdown__heading-title"
       >
-        Why should I choose The Positive Pup?
+        What are the payments methods that you take?
       </h3>
       <p
         class="dropdown__heading-action"
