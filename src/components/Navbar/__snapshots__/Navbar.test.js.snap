@@ -14,7 +14,7 @@ exports[`should match the Navbar component snapshot 1`] = `
         <img
           alt="The Positive Pup logo"
           class="navbar__container-logo"
-          src="footer-logo.svg"
+          src="navbar-logo.png"
         />
       </a>
       <nav
@@ -26,12 +26,15 @@ exports[`should match the Navbar component snapshot 1`] = `
         >
           About
         </a>
-        <a
-          class="navbar__nav-item"
-          href="/services"
+        <button
+          class="navbar__nav-item navbar__nav-item--button"
         >
           Services
-        </a>
+          <img
+            class="navbar__nav-item-arrow"
+            src="dropdown-arrow.svg"
+          />
+        </button>
         <a
           class="navbar__nav-item"
           href="/testimonials"

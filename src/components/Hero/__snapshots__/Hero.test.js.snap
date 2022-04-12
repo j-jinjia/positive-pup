@@ -5,12 +5,111 @@ exports[`should match hero component snapshot 1`] = `
   <div
     class="hero"
   >
-    <p
-      class="hero__subheader"
-    />
-    <button
-      class="button button--primary"
-    />
+    <div
+      class="hero-content"
+    >
+      <h2
+        class="hero-content__header"
+      >
+        header
+        <span
+          class="hero-content__header-highlight"
+        >
+          paw.
+        </span>
+      </h2>
+      <p
+        class="hero-content__subheader"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
+      </p>
+      <div
+        class="button button--primary button--link"
+      >
+        <a
+          href="/services"
+        >
+          What We Offer
+        </a>
+      </div>
+    </div>
+    <div
+      class="hero-image"
+    >
+      <img
+        alt="Picture of a happy Staffie"
+        class="hero-image__image"
+        src="dog.svg"
+      />
+    </div>
+    <div
+      class="hero-certifications"
+    >
+      <div
+        class="certifications"
+      >
+        <div
+          class="certifications__badge-container"
+        >
+          <a
+            href="https://companionanimal.network/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="international companion animal network certification badge"
+              class="certifications__badge certifications__badge--small"
+              src="ICAN.png"
+            />
+          </a>
+          <a
+            href="https://www.petadvocacy.info/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Pet Industry Advocacy International badge"
+              class="certifications__badge certifications__badge--small"
+              src="PIAI.png"
+            />
+             
+          </a>
+          <a
+            href="https://www.vsdogtrainingacademy.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Victoria Stillwell certification badge"
+              class="certifications__badge certifications__badge--small"
+              src="VSWA.png"
+            />
+          </a>
+          <a
+            href="https://ukdogcharter.org/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="UK dog behaviour and training charter certification badge"
+              class="certifications__badge certifications__badge--small"
+              src="behave.png"
+            />
+          </a>
+          <a
+            href="https://www.petprofessionalguild.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="the pet professional guild certification badge"
+              class="certifications__badge certifications__badge--small"
+              src="ppg2022.png"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

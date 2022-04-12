@@ -17,7 +17,7 @@ exports[`should render the Services page 1`] = `
           <img
             alt="The Positive Pup logo"
             class="navbar__container-logo"
-            src="footer-logo.svg"
+            src="navbar-logo.png"
           />
         </a>
         <nav
@@ -29,12 +29,15 @@ exports[`should render the Services page 1`] = `
           >
             About
           </a>
-          <a
-            class="navbar__nav-item"
-            href="/services"
+          <button
+            class="navbar__nav-item navbar__nav-item--button"
           >
             Services
-          </a>
+            <img
+              class="navbar__nav-item-arrow"
+              src="dropdown-arrow.svg"
+            />
+          </button>
           <a
             class="navbar__nav-item"
             href="/testimonials"
@@ -403,6 +406,86 @@ exports[`should render the Services page 1`] = `
             class="course-card__course-heading"
           >
             Rapid Recall
+          </p>
+          <div
+            class="course-card__labels"
+          >
+            <div
+              class="card-label"
+            >
+              <span
+                class="card-label__text"
+              >
+                Online
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="course-card"
+      >
+        <div
+          class="course-card__img-container"
+        >
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
+          >
+            Bespoke Package
+          </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Premium Puppy
+          </p>
+          <div
+            class="course-card__labels"
+          >
+            <div
+              class="card-label"
+            >
+              <span
+                class="card-label__text"
+              >
+                Online
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="course-card"
+      >
+        <div
+          class="course-card__img-container"
+        >
+          <img
+            alt="dog"
+            class="course-card__img"
+            src="image3.png"
+          />
+        </div>
+        <div
+          class="course-card__course-content"
+        >
+          <p
+            class="course-card__course-type"
+          >
+            Bespoke Package
+          </p>
+          <p
+            class="course-card__course-heading"
+          >
+            Bespoke Packages
           </p>
           <div
             class="course-card__labels"
