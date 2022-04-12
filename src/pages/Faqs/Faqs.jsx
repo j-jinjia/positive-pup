@@ -34,8 +34,6 @@ const Faqs = () => {
 
   return (
     <Layout>
-      <h1>FAQs</h1>
-
       <Header
         isLeftAlign={false}
         headingText={"Frequently Asked Questions"}
