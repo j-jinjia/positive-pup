@@ -22,7 +22,7 @@ const CategoryFilter = ({
         onClick={handleClick}
         value={val}
       >
-        {val}
+        {`${val} / `}
       </button>
     );
   });
