@@ -89,9 +89,6 @@ exports[`should render the BookNow page 1`] = `
       >
         Secure your place on one of our services
       </h2>
-      <h2
-        class="header__subheading"
-      />
     </div>
     <div
       class="footer"
