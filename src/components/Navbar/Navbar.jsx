@@ -1,5 +1,5 @@
 import "./Navbar.scss";
-import logo from "../../assets/images/navbar-logo.svg";
+import logo from "../../assets/images/navbar-logo.png";
 import openMenu from "../../assets/svgs/hamburger-menu.svg";
 import closeMenu from "../../assets/svgs/close-menu.svg";
 import phone from "../../assets/svgs/phone.svg";
