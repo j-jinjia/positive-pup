@@ -11,7 +11,7 @@ exports[`should match hero component snapshot 1`] = `
       <h2
         class="hero-content__header"
       >
-        "header text"
+        header
         <span
           class="hero-content__header-highlight"
         >

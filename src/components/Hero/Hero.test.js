@@ -8,14 +8,14 @@ it("should match hero component snapshot", () => {
     <Hero
       header={
         <h2 className="hero-content__header">
-          "header text"
-          <span className="hero-content__header-highlight">paw.</span>
+          {"header"}
+          <span className="hero-content__header-highlight">{"paw."}</span>
         </h2>
       }
       subheaderText={
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas"
       }
-      link={<Link to={"/services"}>What We Offer</Link>}
+      link={<Link to={"/services"}>{"What We Offer"}</Link>}
       dogImage={dogImage}
     />
   );
