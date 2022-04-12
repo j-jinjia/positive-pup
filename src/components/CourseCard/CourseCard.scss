@@ -37,6 +37,13 @@
       text-align: left;
       font-size: $font-size-small;
       margin-left: 1rem;
+      &:hover {
+        cursor: pointer;
+        font-weight: 600;
+      }
+    }
+    .course-card__course-link {
+      text-decoration: none;
     }
   }
 
