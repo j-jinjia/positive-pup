@@ -296,7 +296,7 @@ exports[`should render the Home Page 1`] = `
           </p>
           <a
             class="services-card__button"
-            href="/services"
+            href="/services/Online Courses"
           >
             <img
               alt=""
@@ -316,7 +316,7 @@ exports[`should render the Home Page 1`] = `
           <h3
             class="services-card__title"
           >
-            Group Courses
+            Group Classes
           </h3>
           <p
             class="services-card__text"
@@ -325,7 +325,7 @@ exports[`should render the Home Page 1`] = `
           </p>
           <a
             class="services-card__button"
-            href="/services"
+            href="/services/Group Classes"
           >
             <img
               alt=""
@@ -354,7 +354,7 @@ exports[`should render the Home Page 1`] = `
           </p>
           <a
             class="services-card__button"
-            href="/services"
+            href="/services/Bespoke Packages"
           >
             <img
               alt=""
