@@ -94,28 +94,28 @@ exports[`should render the Faqs page 1`] = `
       class="category-filter category-filter--desktop category-filter--alternative-highlight"
     >
       <button
-        class="category-filter__option category-filter__option--selected"
-        value="General /"
+        class="category-filter__option"
+        value="General"
       >
-        General /
+        General
       </button>
       <button
         class="category-filter__option"
-        value="Payments /"
+        value="Payments"
       >
-        Payments /
+        Payments
       </button>
       <button
         class="category-filter__option"
-        value="Training Methods /"
+        value="Training Methods"
       >
-        Training Methods /
+        Training Methods
       </button>
       <button
         class="category-filter__option"
-        value="Packages /"
+        value="Packages"
       >
-        Packages /
+        Packages
       </button>
       <button
         class="category-filter__option"
