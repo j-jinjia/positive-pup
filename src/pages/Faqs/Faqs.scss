@@ -8,25 +8,24 @@
   margin: 4rem 0;
 }
 .header {
-  
-  &__heading{
+  &__heading {
     font-size: $font-size-large;
     margin-top: 3rem;
   }
 
-  &__subheading{
+  &__subheading {
     margin-bottom: 4.3rem;
   }
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
-.header {
-  &__heading{
-    font-size: $font-size-larger;
+  .header {
+    &__heading {
+      font-size: $font-size-larger;
+    }
+    &--alternative {
+      margin-bottom: 6.25rem;
+      padding-top: 0;
+    }
   }
-  &--alternative{
-    margin-bottom: 6.25rem;
-    padding-top: 0;
-  }
-}
 }
