@@ -29,15 +29,19 @@ exports[`should render the Home Page 1`] = `
           >
             About
           </a>
-          <button
-            class="navbar__nav-item navbar__nav-item--button"
+          <div
+            class="navbar__nav-item navbar__nav-item--dropdown"
           >
-            Services
-            <img
-              class="navbar__nav-item-arrow"
-              src="dropdown-arrow.svg"
-            />
-          </button>
+            <button
+              class="navbar__nav-item-button"
+            >
+              Services
+              <img
+                class="navbar__nav-item-arrow"
+                src="dropdown-arrow.svg"
+              />
+            </button>
+          </div>
           <a
             class="navbar__nav-item"
             href="/testimonials"
@@ -133,7 +137,7 @@ exports[`should render the Home Page 1`] = `
             >
               <img
                 alt="international companion animal network certification badge"
-                class="certifications__badge certifications__badge--small"
+                class="certifications__badge"
                 src="ICAN.png"
               />
             </a>
@@ -144,7 +148,7 @@ exports[`should render the Home Page 1`] = `
             >
               <img
                 alt="Pet Industry Advocacy International badge"
-                class="certifications__badge certifications__badge--small"
+                class="certifications__badge"
                 src="PIAI.png"
               />
                
@@ -156,7 +160,7 @@ exports[`should render the Home Page 1`] = `
             >
               <img
                 alt="Victoria Stillwell certification badge"
-                class="certifications__badge certifications__badge--small"
+                class="certifications__badge"
                 src="VSWA.png"
               />
             </a>
@@ -167,7 +171,7 @@ exports[`should render the Home Page 1`] = `
             >
               <img
                 alt="UK dog behaviour and training charter certification badge"
-                class="certifications__badge certifications__badge--small"
+                class="certifications__badge"
                 src="behave.png"
               />
             </a>
@@ -178,7 +182,7 @@ exports[`should render the Home Page 1`] = `
             >
               <img
                 alt="the pet professional guild certification badge"
-                class="certifications__badge certifications__badge--small"
+                class="certifications__badge"
                 src="ppg2022.png"
               />
             </a>

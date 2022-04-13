@@ -7,6 +7,7 @@
   padding: 2rem;
   justify-content: center;
   padding-top: 7rem;
+  padding-bottom: 8rem;
 
   &__header {
     font-size: $font-size-large;
@@ -22,14 +23,14 @@
     border: 1px solid $colour-primary;
     background-color: $colour-primary;
     width: 3.75rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
   }
 }
 
 @media only screen and (min-width: $desktop-breakpoint) {
   .services-section {
     &__line-break {
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
   }
 }

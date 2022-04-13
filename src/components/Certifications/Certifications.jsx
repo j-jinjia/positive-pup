@@ -5,11 +5,7 @@ import ukBehaviour from "../../assets/images/certification_badges/behave.png";
 import victoriaStillwell from "../../assets/images/certification_badges/VSWA.png";
 import petAdvocacy from "../../assets/images/certification_badges/PIAI.png";
 
-const Certifications = ({ showText, isSmaller }) => {
-  let certificationsBadgeClassName = "certifications__badge";
-  if (isSmaller)
-    certificationsBadgeClassName += " certifications__badge--small";
-
+const Certifications = ({ showText }) => {
   return (
     <div className="certifications">
       {showText && (
@@ -36,7 +32,7 @@ const Certifications = ({ showText, isSmaller }) => {
         >
           <img
             src={internationalBadge}
-            className={certificationsBadgeClassName}
+            className="certifications__badge"
             alt="international companion animal network certification badge"
           />
         </a>
@@ -48,7 +44,7 @@ const Certifications = ({ showText, isSmaller }) => {
         >
           <img
             src={petAdvocacy}
-            className={certificationsBadgeClassName}
+            className="certifications__badge"
             alt="Pet Industry Advocacy International badge"
           />{" "}
         </a>
@@ -59,7 +55,7 @@ const Certifications = ({ showText, isSmaller }) => {
         >
           <img
             src={victoriaStillwell}
-            className={certificationsBadgeClassName}
+            className="certifications__badge"
             alt="Victoria Stillwell certification badge"
           />
         </a>
@@ -67,7 +63,7 @@ const Certifications = ({ showText, isSmaller }) => {
         <a href="https://ukdogcharter.org/" rel="noreferrer" target="_blank">
           <img
             src={ukBehaviour}
-            className={certificationsBadgeClassName}
+            className="certifications__badge"
             alt="UK dog behaviour and training charter certification badge"
           />
         </a>
@@ -78,7 +74,7 @@ const Certifications = ({ showText, isSmaller }) => {
         >
           <img
             src={ppgBadge}
-            className={certificationsBadgeClassName}
+            className="certifications__badge"
             alt="the pet professional guild certification badge"
           />
         </a>

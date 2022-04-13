@@ -28,14 +28,13 @@ const Navbar = () => {
       <NavLink className="navbar__nav-item" to="/about">
         About
       </NavLink>
-      <button
-        className="navbar__nav-item navbar__nav-item--button"
-        onClick={toggleDropdown}
-      >
-        Services
-        <img src={dropdownArrow} className="navbar__nav-item-arrow" />
-        {showDropdown && <DropdownMenu />}
-      </button>
+      <div className="navbar__nav-item navbar__nav-item--dropdown">
+        <button className="navbar__nav-item-button" onClick={toggleDropdown}>
+          Services
+          <img src={dropdownArrow} className="navbar__nav-item-arrow" />
+        </button>
+        {showDropdown && <DropdownMenu toggleDropdown={toggleDropdown} />}
+      </div>
       <NavLink className="navbar__nav-item" to="/testimonials">
         Testimonials
       </NavLink>

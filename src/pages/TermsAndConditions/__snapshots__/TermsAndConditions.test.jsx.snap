@@ -29,15 +29,19 @@ exports[`should render the terms and conditions page 1`] = `
           >
             About
           </a>
-          <button
-            class="navbar__nav-item navbar__nav-item--button"
+          <div
+            class="navbar__nav-item navbar__nav-item--dropdown"
           >
-            Services
-            <img
-              class="navbar__nav-item-arrow"
-              src="dropdown-arrow.svg"
-            />
-          </button>
+            <button
+              class="navbar__nav-item-button"
+            >
+              Services
+              <img
+                class="navbar__nav-item-arrow"
+                src="dropdown-arrow.svg"
+              />
+            </button>
+          </div>
           <a
             class="navbar__nav-item"
             href="/testimonials"
