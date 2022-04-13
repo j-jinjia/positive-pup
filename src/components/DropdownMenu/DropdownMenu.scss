@@ -30,11 +30,27 @@
       color: $colour-quatenary;
       font-weight: inherit;
       margin-bottom: 0.55rem;
+      text-decoration: none;
     }
 
     &-option {
       text-decoration: none;
       color: $colour-quinary;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    background: none;
+    border: none;
+    top: 0;
+    right: 0;
+    margin: 0.75rem;
+    &-close {
+      width: 1rem;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
