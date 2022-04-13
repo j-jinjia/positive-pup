@@ -34,14 +34,10 @@
     align-items: center;
     flex-wrap: wrap;
     max-height: 578px;
+    gap: 10px;
     .certifications__badge {
-      margin: 0px 10px;
       width: 60px;
-      &--small {
-        width: 52px;
-        margin-left: 5px;
-        margin-right: 5px;
-      }
+      image-rendering: -webkit-optimize-contrast;
     }
   }
 }
@@ -51,7 +47,6 @@
     justify-content: space-around;
 
     &__img {
-      margin: 0px 19px;
       width: auto;
     }
   }
@@ -63,7 +58,6 @@
   }
   .certifications__badge-container {
     .certifications__badge {
-      margin: 0px 19px;
       width: 5.7rem;
     }
   }
@@ -73,11 +67,6 @@
   .certifications__badge-container {
     .certifications__badge {
       width: 100px;
-      &--small {
-        width: 80px;
-        margin-left: 10px;
-        margin-right: 10px;
-      }
     }
   }
 }

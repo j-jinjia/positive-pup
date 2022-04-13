@@ -25,7 +25,7 @@ const Hero = ({
         />
       </div>
       <div className="hero-certifications">
-        <Certifications showText={false} isSmaller />
+        <Certifications showText={false} />
       </div>
     </div>
   );
