@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/positive-pup/static/css/main.8ee369e7.css",
-    "main.js": "/positive-pup/static/js/main.6c5ffb72.js",
+    "main.css": "/positive-pup/static/css/main.b99b4702.css",
+    "main.js": "/positive-pup/static/js/main.293fe18f.js",
     "static/js/787.dace3d45.chunk.js": "/positive-pup/static/js/787.dace3d45.chunk.js",
     "static/media/dog.svg": "/positive-pup/static/media/dog.c7c3af44728e7ab84d7529f9bee37603.svg",
     "static/media/trainingMethodsImage.svg": "/positive-pup/static/media/trainingMethodsImage.6f63b941c6de5d8ee3aefc21585950c6.svg",
@@ -18,6 +18,7 @@
     "static/media/underline.svg": "/positive-pup/static/media/underline.fc4c4022e39b032fbde5.svg",
     "static/media/instagram-logo.svg": "/positive-pup/static/media/instagram-logo.f1a0307a33e9dd9d16cfae1894f3a7cb.svg",
     "static/media/calendar.svg": "/positive-pup/static/media/calendar.3410e0c8ecd9abf59c44f0d0476e7af5.svg",
+    "static/media/filter-icon.svg": "/positive-pup/static/media/filter-icon.4c39209993b3e76d30821695516a2a04.svg",
     "static/media/paw_print.svg": "/positive-pup/static/media/paw_print.444004762532bfe1ad6d21d964735ece.svg",
     "static/media/quotations-1.svg": "/positive-pup/static/media/quotations-1.af27aa08324bfd858ce09127e393fd27.svg",
     "static/media/phone.svg": "/positive-pup/static/media/phone.e0af6e678a12853cd1bc1b4240aa59f3.svg",
@@ -30,17 +31,18 @@
     "static/media/testimonial-arrow.svg": "/positive-pup/static/media/testimonial-arrow.4192cab3402d9490141ffa657c2f8afd.svg",
     "static/media/testimonial_course.svg": "/positive-pup/static/media/testimonial_course.35143775df6a1787b937c0968fd3a7be.svg",
     "static/media/close-menu.svg": "/positive-pup/static/media/close-menu.1e3a47ea57c8c548bf541bbbc1d6ada7.svg",
+    "static/media/filter-cross.svg": "/positive-pup/static/media/filter-cross.de0979302110d702ee36f5b045aca7bf.svg",
     "static/media/hamburger-menu.svg": "/positive-pup/static/media/hamburger-menu.282efe67ddd1e22bcb10adac968693b3.svg",
     "static/media/Vector-black.svg": "/positive-pup/static/media/Vector-black.282e57cb2d9d579f66c9d2071fcfba85.svg",
     "static/media/dropdown-arrow.svg": "/positive-pup/static/media/dropdown-arrow.3c3fb4d4888b65d0cb4925eee9f5e985.svg",
     "static/media/carousel-dot.svg": "/positive-pup/static/media/carousel-dot.73a54db33f5305a44a616e01d6ca7422.svg",
     "static/media/carousel-dot-active.svg": "/positive-pup/static/media/carousel-dot-active.61f84ff4589c9a3dbc151cfac0f73db4.svg",
-    "main.8ee369e7.css.map": "/positive-pup/static/css/main.8ee369e7.css.map",
-    "main.6c5ffb72.js.map": "/positive-pup/static/js/main.6c5ffb72.js.map",
+    "main.b99b4702.css.map": "/positive-pup/static/css/main.b99b4702.css.map",
+    "main.293fe18f.js.map": "/positive-pup/static/js/main.293fe18f.js.map",
     "787.dace3d45.chunk.js.map": "/positive-pup/static/js/787.dace3d45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ee369e7.css",
-    "static/js/main.6c5ffb72.js"
+    "static/css/main.b99b4702.css",
+    "static/js/main.293fe18f.js"
   ]
 }
