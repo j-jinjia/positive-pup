@@ -5,12 +5,14 @@
     align-self: center;
     padding-top: 3rem;
     padding: 2rem;
+    margin: 0 2rem;
     &__header {
       font-family: $font-header;
       font-size: $font-size-medium;
       font-weight: 400;
       position: relative;
       margin-bottom: 40px;
+      
 
       &-highlight {
         display: inline;
@@ -90,6 +92,7 @@
       display: flex;
       padding-top: 8rem;
       padding-bottom: 6rem;
+      margin-left: 2.125rem;
       &__image {
         width: 100%;
         padding-bottom: 5rem;
@@ -98,6 +101,7 @@
 
     .hero-content {
       text-align: left;
+      padding-right: 0;
     }
 
     .hero-certifications {
