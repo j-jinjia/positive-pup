@@ -24,7 +24,7 @@ const FiltersDropdown = ({
   };
 
   const filtersDropdownMenu = (
-    <div className="filters-dropdown">
+    <div className="filters-dropdown__menu">
       <button className="filters-dropdown__cross">
         <img onClick={handleClick} src={filterCross} />
       </button>
@@ -138,9 +138,9 @@ const FiltersDropdown = ({
 
   return (
     <>
-      <button className="filters-dropdown__button" onClick={handleClick}>
+      <button className="filters-dropdown-button" onClick={handleClick}>
         Filters
-        <img className="filters-dropdown__button-image" src={filterIcon} />
+        <img className="filters-dropdown-button__image" src={filterIcon} />
       </button>
       {showFilterMenu && <div>{filtersDropdownMenu}</div>}
     </>

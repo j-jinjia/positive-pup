@@ -1,19 +1,10 @@
 @use "../../styles/_variables.scss" as *;
 
 .filters-dropdown {
-  border: solid 1px $colour-secondary-background;
-  background-color: $colour-secondary;
-  position: relative;
-
-  &__button {
+  &__menu {
     border: solid 1px $colour-secondary-background;
     background-color: $colour-secondary;
-    padding: 1rem;
-    border-radius: 0.5rem;
-
-    &-image {
-      margin-left: 0.5rem;
-    }
+    position: relative;
   }
 
   &__cross {
@@ -55,5 +46,16 @@
 
   &__input:checked {
     color: $colour-primary;
+  }
+}
+
+.filters-dropdown-button {
+  border: solid 1px $colour-secondary-background;
+  background-color: $colour-secondary;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  &__image {
+    margin-left: 0.5rem;
   }
 }
