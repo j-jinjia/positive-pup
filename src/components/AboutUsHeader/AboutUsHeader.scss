@@ -6,27 +6,42 @@
   flex-wrap: wrap;
   gap: 50px;
   align-items: center;
+  padding: 2rem;
 
   &__image {
     width: 100%;
     max-width: 430px;
   }
-  &__content {
-    &-title {
-      color: $colour-primary;
-      font-family: $font-general;
-      font-size: $font-size-smallest;
+  &__text {
+    color: $colour-font-paragraph;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (min-width: $tablet-breakpoint) {
+  .about-us-header {
+    justify-content: center;
+    text-align: center;
+    &__content {
+      &-title {
+        color: $colour-primary;
+        font-family: $font-general;
+        font-size: $font-size-smallest;
+      }
     }
   }
 }
 
 @media screen and (min-width: $desktop-breakpoint) {
   .about-us-header {
+    flex-wrap: nowrap;
+    text-align: left;
     &__image {
       max-width: 540px;
+      padding-right: 5rem;
     }
     &__content {
       max-width: 45%;
+      padding-left: 5rem;
     }
   }
 }

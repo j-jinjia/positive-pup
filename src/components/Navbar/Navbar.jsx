@@ -1,19 +1,26 @@
 import "./Navbar.scss";
 import logo from "../../assets/images/navbar-logo.png";
 import openMenu from "../../assets/svgs/hamburger-menu.svg";
+import dropdownArrow from "../../assets/svgs/dropdown-arrow.svg";
 import closeMenu from "../../assets/svgs/close-menu.svg";
 import phone from "../../assets/svgs/phone.svg";
 import { useState } from "react";
 import Button from "../Button/Button";
+import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import { Link, NavLink } from "react-router-dom";
 import useWindowSize from "../../hooks/useWindowSize.js";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
   const windowIsDesktop = useWindowSize(1024);
 
   const handleClick = () => {
     setShowMenu(!showMenu);
+  };
+
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
   };
 
   const desktopNav = (
@@ -21,9 +28,14 @@ const Navbar = () => {
       <NavLink className="navbar__nav-item" to="/about">
         About
       </NavLink>
-      <NavLink className="navbar__nav-item" to="/services">
+      <button
+        className="navbar__nav-item navbar__nav-item--button"
+        onClick={toggleDropdown}
+      >
         Services
-      </NavLink>
+        <img src={dropdownArrow} className="navbar__nav-item-arrow" />
+        {showDropdown && <DropdownMenu />}
+      </button>
       <NavLink className="navbar__nav-item" to="/testimonials">
         Testimonials
       </NavLink>

@@ -281,6 +281,86 @@ exports[`should match CoursesList component snapshot 1`] = `
         </div>
       </div>
     </div>
+    <div
+      class="course-card"
+    >
+      <div
+        class="course-card__img-container"
+      >
+        <img
+          alt="dog"
+          class="course-card__img"
+          src="image.png"
+        />
+      </div>
+      <div
+        class="course-card__course-content"
+      >
+        <p
+          class="course-card__course-type"
+        >
+          Bespoke Package
+        </p>
+        <p
+          class="course-card__course-heading"
+        >
+          Premium Puppy
+        </p>
+        <div
+          class="course-card__labels"
+        >
+          <div
+            class="card-label"
+          >
+            <span
+              class="card-label__text"
+            >
+              Online
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="course-card"
+    >
+      <div
+        class="course-card__img-container"
+      >
+        <img
+          alt="dog"
+          class="course-card__img"
+          src="image3.png"
+        />
+      </div>
+      <div
+        class="course-card__course-content"
+      >
+        <p
+          class="course-card__course-type"
+        >
+          Bespoke Package
+        </p>
+        <p
+          class="course-card__course-heading"
+        >
+          Bespoke Packages
+        </p>
+        <div
+          class="course-card__labels"
+        >
+          <div
+            class="card-label"
+          >
+            <span
+              class="card-label__text"
+            >
+              Online
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
