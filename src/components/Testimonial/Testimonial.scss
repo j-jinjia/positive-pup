@@ -11,6 +11,7 @@
   border-radius: 16px;
   padding: 2rem 2.5rem;
   max-width: calc(34rem * 0.725);
+  min-height: 14rem;
 
   &__header {
     font-size: calc($font-size-small * 0.6);
@@ -75,7 +76,7 @@
     border-radius: 16px;
     padding: 2rem 2.5rem;
     max-width: 34rem;
-    min-height: 20rem;
+    min-height: 23rem;
 
     .testimonial {
       &__header {

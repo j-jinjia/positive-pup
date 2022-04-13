@@ -7,11 +7,13 @@ import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import FiltersDropdown from "../../components/FiltersDropdown/FiltersDropdown";
+import useWindowSize from "../../hooks/useWindowSize.js";
 import { useParams } from "react-router-dom";
 
 const Services = () => {
-  const { filter } = useParams();
+  const windowIsTablet = useWindowSize(768);
 
+  const { filter } = useParams();
   const [courseType, setCourseType] = useState(filter || "All");
   const [searchTerm, setSearchTerm] = useState("");
   const [ageFilter, setAgeFilter] = useState("all");
@@ -76,11 +78,13 @@ const Services = () => {
         handleClick={handleClick}
         filterOptions={filterOptions}
       />
-      <SearchBar
-        searchTerm={searchTerm}
-        handleInput={handleInput}
-        label="Search Courses"
-      />
+      {windowIsTablet && (
+        <SearchBar
+          searchTerm={searchTerm}
+          handleInput={handleInput}
+          label="Search Courses"
+        />
+      )}
       <FiltersDropdown
         handleAgeFilterSelect={handleAgeFilterSelect}
         handleDurationFilterSelect={handleDurationFilterSelect}

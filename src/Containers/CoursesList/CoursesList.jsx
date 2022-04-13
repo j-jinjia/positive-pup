@@ -8,6 +8,7 @@ export const CoursesList = ({ courseData }) => {
         key={card.courseHeading + index}
         image={card.image}
         courseType={card.courseTypeSingular}
+        courseLink={card.link}
         courseHeading={card.courseHeading}
         labelsArray={card.labelsArray}
       />
