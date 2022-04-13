@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { screen } from "@testing-library/react";
 import { customRender } from "../../utils/testUtils";
 import Services from "./Services";
