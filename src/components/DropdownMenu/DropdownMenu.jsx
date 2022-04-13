@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import "./DropdownMenu.scss";
+import cross from "../../assets/svgs/close-menu.svg";
 import courseData from "../../assets/mockData/courseData";
 
-const DropdownMenu = () => {
+const DropdownMenu = ({ toggleDropdown }) => {
   const getColumn = (courseType) => {
     const colData = courseData.filter(
       (courseData) => courseData.courseTypePlural === courseType
@@ -53,6 +54,13 @@ const DropdownMenu = () => {
         </Link>
         {getColumn("Bespoke Packages")}
       </div>
+      <button className="dropdown-menu__button" onClick={toggleDropdown}>
+        <img
+          src={cross}
+          alt="close dropdown"
+          className="dropdown-menu__button-close"
+        />
+      </button>
     </div>
   );
 };

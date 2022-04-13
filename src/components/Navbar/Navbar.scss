@@ -51,15 +51,20 @@
         color: $colour-primary;
       }
 
-      &--button {
-        position: relative;
-        background: none;
+      &-button {
         display: flex;
         align-items: center;
-
+        background: none;
+        border: none;
+        font-size: inherit;
         &:hover {
           cursor: pointer;
         }
+      }
+
+      &--dropdown {
+        position: relative;
+        background: none;
       }
 
       &-arrow {
