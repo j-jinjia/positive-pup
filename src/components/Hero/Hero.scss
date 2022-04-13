@@ -8,7 +8,9 @@
     &__header {
       font-family: $font-header;
       font-size: $font-size-medium;
+      //font size 2rem
       font-weight: 400;
+      //font weight 500
       position: relative;
       margin-bottom: 40px;
 
@@ -34,6 +36,7 @@
     }
     &__subheader {
       font-size: 1.25rem;
+      //font size 1 rem
       line-height: 150%;
       font-family: $font-general;
       color: hsla(259, 12%, 45%, 1);
@@ -82,12 +85,12 @@
   .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
     .hero-image {
       display: flex;
-      padding-bottom: 6rem;
+      height: 450px;
       &__image {
         width: 100%;
+        height: 100%;
         padding-bottom: 5rem;
       }
     }
@@ -102,3 +105,28 @@
     }
   }
 }
+
+// .hero {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   grid-template-rows: 1fr 1fr;
+//   .hero-image {
+//     display: flex;
+//     padding-bottom: 6rem;
+//     &__image {
+//       width: 100%;
+//       height: 100%;
+//       padding-bottom: 5rem;
+//     }
+//   }
+
+//   .hero-content {
+//     text-align: left;
+//   }
+
+//   .hero-certifications {
+//     grid-column-start: 2;
+//     display: flex;
+//   }
+// }
+// }
