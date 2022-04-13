@@ -23,16 +23,16 @@ const FiltersDropdown = ({
     setActiveDurationInput(event.target.id);
   };
 
-  const filterDropdownMenu = (
-    <div className="menu-container">
-      <button className="menu-container__button">
+  const filtersDropdownMenu = (
+    <div className="filters-dropdown">
+      <button className="filters-dropdown__cross">
         <img onClick={handleClick} src={filterCross} />
       </button>
-      <h3 className="menu-container__heading">Suitable Age</h3>
-      <div className="menu-container__filter-options">
+      <h3 className="filters-dropdown__heading">Suitable Age</h3>
+      <div className="filters-dropdown__filter-options">
         <span>
           <input
-            className="menu-container__input"
+            className="filters-dropdown__input"
             onClick={handleAgeFilterSelect}
             onChange={handleAgeFilterChange}
             name="suitable-age"
@@ -40,13 +40,13 @@ const FiltersDropdown = ({
             id="all"
             checked={activeAgeInput === "all"}
           />
-          <label className="menu-container__label" htmlFor="all">
+          <label className="filters-dropdown__label" htmlFor="all">
             All ages
           </label>
         </span>
         <span>
           <input
-            className="menu-container__input"
+            className="filters-dropdown__input"
             onClick={handleAgeFilterSelect}
             onChange={handleAgeFilterChange}
             name="suitable-age"
@@ -54,13 +54,13 @@ const FiltersDropdown = ({
             id="infant"
             checked={activeAgeInput === "infant"}
           />
-          <label className="menu-container__label" htmlFor="infant">
+          <label className="filters-dropdown__label" htmlFor="infant">
             Infant (10 weeks &amp; above)
           </label>
         </span>
         <span>
           <input
-            className="menu-container__input"
+            className="filters-dropdown__input"
             onClick={handleAgeFilterSelect}
             onChange={handleAgeFilterChange}
             name="suitable-age"
@@ -68,13 +68,13 @@ const FiltersDropdown = ({
             id="junior"
             checked={activeAgeInput === "junior"}
           />
-          <label className="menu-container__label" htmlFor="junior">
+          <label className="filters-dropdown__label" htmlFor="junior">
             Junior (16 weeks &amp; above)
           </label>
         </span>
         <span>
           <input
-            className="menu-container__input"
+            className="filters-dropdown__input"
             onClick={handleAgeFilterSelect}
             onChange={handleAgeFilterChange}
             name="suitable-age"
@@ -82,16 +82,16 @@ const FiltersDropdown = ({
             id="mature"
             checked={activeAgeInput === "mature"}
           />
-          <label className="menu-container__label" htmlFor="mature">
+          <label className="filters-dropdown__label" htmlFor="mature">
             Mature (1 year &amp; above)
           </label>
         </span>
       </div>
-      <h3 className="menu-container__heading">Duration</h3>
-      <div className="menu-container__filter-options">
+      <h3 className="filters-dropdown__heading">Duration</h3>
+      <div className="filters-dropdown__filter-options">
         <span>
           <input
-            className="menu-container__input"
+            className="filters-dropdown__input"
             onClick={handleDurationFilterSelect}
             onChange={handleDurationFilterChange}
             name="duration"
@@ -99,14 +99,14 @@ const FiltersDropdown = ({
             id="short"
             checked={activeDurationInput === "short"}
           />
-          <label className="menu-container__label" htmlFor="short">
+          <label className="filters-dropdown__label" htmlFor="short">
             {" "}
             &lt; 1 month
           </label>
         </span>
         <span>
           <input
-            className="menu-container__input"
+            className="filters-dropdown__input"
             onClick={handleDurationFilterSelect}
             onChange={handleDurationFilterChange}
             name="duration"
@@ -114,13 +114,13 @@ const FiltersDropdown = ({
             id="medium"
             checked={activeDurationInput === "medium"}
           />
-          <label className="menu-container__label" htmlFor="medium">
+          <label className="filters-dropdown__label" htmlFor="medium">
             1 to 3 months
           </label>
         </span>
         <span>
           <input
-            className="menu-container__input"
+            className="filters-dropdown__input"
             onClick={handleDurationFilterSelect}
             onChange={handleDurationFilterChange}
             name="duration"
@@ -128,7 +128,7 @@ const FiltersDropdown = ({
             id="long"
             checked={activeDurationInput === "long"}
           />
-          <label className="menu-container__label" htmlFor="long">
+          <label className="filters-dropdown__label" htmlFor="long">
             3+ months
           </label>
         </span>
@@ -138,11 +138,11 @@ const FiltersDropdown = ({
 
   return (
     <>
-      <button className="filter-dropdown-button" onClick={handleClick}>
+      <button className="filters-dropdown__button" onClick={handleClick}>
         Filters
-        <img className="filter-dropdown-button__image" src={filterIcon} />
+        <img className="filters-dropdown__button-image" src={filterIcon} />
       </button>
-      {showFilterMenu && <div>{filterDropdownMenu}</div>}
+      {showFilterMenu && <div>{filtersDropdownMenu}</div>}
     </>
   );
 };

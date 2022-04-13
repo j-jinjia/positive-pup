@@ -1,22 +1,22 @@
 @use "../../styles/_variables.scss" as *;
 
-.filter-dropdown-button {
-  border: solid 1px $colour-secondary-background;
-  background-color: $colour-secondary;
-  padding: 1rem;
-  border-radius: 0.5rem;
-
-  &__image {
-    margin-left: 0.5rem;
-  }
-}
-
-.menu-container {
+.filters-dropdown {
   border: solid 1px $colour-secondary-background;
   background-color: $colour-secondary;
   position: relative;
 
   &__button {
+    border: solid 1px $colour-secondary-background;
+    background-color: $colour-secondary;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    &-image {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &__cross {
     background-color: transparent;
     border-style: none;
     padding: 1rem;
