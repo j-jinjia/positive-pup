@@ -1,0 +1,32 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  width: 23.125rem;
+  padding-bottom: 1rem;
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 48.25rem) {
+  .filters {
+    width: 48.25rem;
+    &__right {
+      min-width: 22.375rem;
+    }
+  }
+}
+
+@media screen and (min-width: 73.375rem) {
+  .filters {
+    width: 73.375rem;
+  }
+}
+
+@media screen and (min-width: 98.5rem) {
+  .filters {
+    width: 98.5rem;
+  }
+}
