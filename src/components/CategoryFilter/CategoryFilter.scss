@@ -24,4 +24,11 @@
       }
     }
   }
+  &.category-filter--alternative-highlight {
+    .category-filter__option {
+      &.category-filter__option--selected {
+        color: $colour-primary;
+      }
+    }
+  }
 }

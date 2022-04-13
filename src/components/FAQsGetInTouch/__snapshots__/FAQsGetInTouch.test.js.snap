@@ -8,12 +8,6 @@ exports[`should match the FAQS Get in Touch component snapshot 1`] = `
     <div
       class="header"
     >
-      <h1
-        class="header__heading"
-      >
-         
-         
-      </h1>
       <h2
         class="header__subheading"
       >

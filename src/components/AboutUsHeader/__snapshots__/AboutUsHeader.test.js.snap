@@ -8,37 +8,40 @@ exports[`should match AboutUsHeader component snapshot 1`] = `
     <main
       class="about-us-header__content"
     >
-      <h1
-        class="about-us-header__content-title"
-      >
-        ABOUT US
-      </h1>
       <div
-        class="hero"
+        class="header header--left-align"
       >
+        <h1
+          class="header__heading"
+        >
+           
+          About Us
+           
+        </h1>
         <h2
-          class="hero__header"
+          class="header__subheading"
         >
           Hey there
-          <div>
-             
-          </div>
+        </h2>
+        <h2
+          class="header__subheading"
+        >
           My name is Melanie!
         </h2>
-        <p
-          class="hero__subheader"
+      </div>
+      <p
+        class="about-us-header__text"
+      >
+        As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
+      </p>
+      <div
+        class="button button--secondary button--link"
+      >
+        <a
+          href="#mission-section"
         >
-          As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
-        </p>
-        <div
-          class="button button--secondary button--link"
-        >
-          <a
-            href="#mission-section"
-          >
-            More About Us
-          </a>
-        </div>
+          More About Us
+        </a>
       </div>
     </main>
     <img

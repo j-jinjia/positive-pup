@@ -36,7 +36,12 @@
     margin-bottom: 6.4rem;
     .certifications__badge {
       margin: 0px 10px;
-      width: 5.3rem;
+      width: 3.75rem;
+      &--small {
+        width: 52px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
     }
   }
 }
@@ -68,6 +73,11 @@
   .certifications__badge-container {
     .certifications__badge {
       width: 100px;
+      &--small {
+        width: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     }
   }
   .certifications__description {
