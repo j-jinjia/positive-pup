@@ -74,13 +74,13 @@ const Services = () => {
         headingText={"Services"}
         subheadingText={"Take a peek at everything we offer"}
       />
-      <div className="filters">
+      <div className="services">
         <CategoryFilter
           courseType={courseType}
           handleClick={handleClick}
           filterOptions={filterOptions}
         />
-        <div className="filters__right">
+        <div className="services__right">
           {windowIsTablet && (
             <SearchBar
               searchTerm={searchTerm}

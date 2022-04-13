@@ -1,4 +1,4 @@
-.filters {
+.services {
   display: flex;
   justify-content: space-between;
   width: 23.125rem;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (min-width: 48.25rem) {
-  .filters {
+  .services {
     width: 48.25rem;
     &__right {
       min-width: 22.375rem;
@@ -20,13 +20,13 @@
 }
 
 @media screen and (min-width: 73.375rem) {
-  .filters {
+  .services {
     width: 73.375rem;
   }
 }
 
 @media screen and (min-width: 98.5rem) {
-  .filters {
+  .services {
     width: 98.5rem;
   }
 }
