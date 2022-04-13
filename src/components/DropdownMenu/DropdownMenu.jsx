@@ -27,15 +27,30 @@ const DropdownMenu = () => {
         View All
       </Link>
       <div className="dropdown-menu__column">
-        <h3 className="dropdown-menu__column-title">Online Courses</h3>
+        <Link
+          to="/services/Online Courses"
+          className="dropdown-menu__column-title"
+        >
+          Online Courses
+        </Link>
         {getColumn("Online Courses")}
       </div>
       <div className="dropdown-menu__column">
-        <h3 className="dropdown-menu__column-title">Group Classes</h3>
+        <Link
+          to="/services/Group Classes"
+          className="dropdown-menu__column-title"
+        >
+          Group Classes
+        </Link>
         {getColumn("Group Classes")}
       </div>
       <div className="dropdown-menu__column">
-        <h3 className="dropdown-menu__column-title">Other</h3>
+        <Link
+          to="/services/Bespoke Packages"
+          className="dropdown-menu__column-title"
+        >
+          Other
+        </Link>
         {getColumn("Bespoke Packages")}
       </div>
     </div>
