@@ -64,9 +64,6 @@
       }
     }
     .hero-image {
-      margin: 2rem;
-      padding-top: 4rem;
-      padding-bottom: 4rem;
       background: linear-gradient(
         to right,
         transparent 15%,
@@ -88,7 +85,6 @@
     grid-template-rows: auto;
     .hero-image {
       display: flex;
-      padding-top: 8rem;
       padding-bottom: 6rem;
       &__image {
         width: 100%;
