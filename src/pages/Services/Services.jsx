@@ -6,11 +6,13 @@ import ServicesGetInTouchSection from "../../components/ServicesGetInTouchSectio
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import { useState, useEffect } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
+import useWindowSize from "../../hooks/useWindowSize.js";
 import { useParams } from "react-router-dom";
 
 const Services = () => {
-  const { filter } = useParams();
+  const windowIsTablet = useWindowSize(768);
 
+  const { filter } = useParams();
   const [courseType, setCourseType] = useState(filter || "All");
   const [searchTerm, setSearchTerm] = useState("");
   const [courseCards, setCourseCards] = useState(courseData);
@@ -57,11 +59,13 @@ const Services = () => {
         handleClick={handleClick}
         filterOptions={filterOptions}
       />
-      <SearchBar
-        searchTerm={searchTerm}
-        handleInput={handleInput}
-        label="Search Courses"
-      />
+      {windowIsTablet && (
+        <SearchBar
+          searchTerm={searchTerm}
+          handleInput={handleInput}
+          label="Search Courses"
+        />
+      )}
       <CoursesList courseData={courseCards} />
       <ServicesGetInTouchSection />
     </Layout>
