@@ -31,19 +31,16 @@ const Services = () => {
   useEffect(() => {
     const filteredCourses = courseData
       .filter((course) => {
-        if (courseType === "All") return true;
-        return course.courseTypePlural === courseType;
+        return courseType === "All" || course.courseTypePlural === courseType;
       })
       .filter((course) => {
         return course.courseHeading.toLowerCase().includes(searchTerm);
       })
       .filter((course) => {
-        if (ageFilter === "all") return true;
-        return course.suitableAges.includes(ageFilter);
+        return ageFilter === "all" || course.suitableAges.includes(ageFilter);
       })
       .filter((course) => {
-        if (durationFilter === "") return true;
-        return course.duration === durationFilter;
+        return durationFilter === "" || course.duration === durationFilter;
       });
 
     setCourseCards(filteredCourses);
