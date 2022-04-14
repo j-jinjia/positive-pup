@@ -41,12 +41,13 @@ const Testimonials = () => {
   const testimonialsListJSX = testimonials.map((testimonial, index) => {
     return (
       <Testimonial
-        key={testimonial.name + index}
+        key={testimonial.id}
         name={testimonial.name}
         date={testimonial.date}
         course={testimonial.course}
         comment={testimonial.comment}
         active={index === 2}
+        id={testimonial.id}
       />
     );
   });
