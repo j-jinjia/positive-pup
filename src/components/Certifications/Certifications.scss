@@ -5,6 +5,7 @@
   align-items: center;
   flex-direction: column;
   padding: 2rem;
+  margin-bottom: 4rem;
 
   &__header {
     font-size: $font-size-medium;
@@ -17,6 +18,7 @@
     line-height: 2;
     font-size: $font-size-smaller;
     color: $colour-tertiary;
+    max-width: 38rem;
 
     &--highlighted-text {
       color: $colour-primary;
