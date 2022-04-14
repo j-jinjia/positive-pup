@@ -2,6 +2,8 @@
 
 .contact-header {
   max-width: 386px;
+  height: 60vh;
+  padding: 2rem;
   &__text {
     line-height: 1.5;
     margin-bottom: 2.5rem;
@@ -30,6 +32,8 @@
 
 @media screen and (min-width: $desktop-breakpoint) {
   .contact-header {
+    margin-top: 3rem;
+    padding: 1rem;
     &__heading {
       font-size: $font-size-larger;
     }
