@@ -10,6 +10,8 @@ const courses = [
     courseTypePlural: "Group Classes",
     courseHeading: "Little Stars Course",
     labelsArray: ["In Person", "10 weeks+"],
+    suitableAges: ["infant"],
+    duration: "medium",
     link: "https://www.thepositivepup.teachable.com/",
   },
   {
@@ -18,6 +20,8 @@ const courses = [
     courseTypePlural: "Group Classes",
     courseHeading: "Rising Stars Course",
     labelsArray: ["In Person", "16 weeks+"],
+    suitableAges: ["junior"],
+    duration: "long",
     link: "https://www.thepositivepup.teachable.com/",
   },
   {
@@ -26,6 +30,8 @@ const courses = [
     courseTypePlural: "Bespoke Packages",
     courseHeading: "1:1 Personalised Training",
     labelsArray: ["In Person", "Intensive"],
+    suitableAges: ["all","infant", "junior", "mature"],
+    duration: "short",
     link: "https://www.thepositivepup.teachable.com/",
   },
   {
@@ -34,6 +40,8 @@ const courses = [
     courseTypePlural: "Group Classes",
     courseHeading: "Little Stars Course",
     labelsArray: ["Online"],
+    suitableAges: ["infant"],
+    duration: "medium",
     link: "https://www.thepositivepup.teachable.com/",
   },
 
@@ -43,6 +51,8 @@ const courses = [
     courseTypePlural: "Online Courses",
     courseHeading: "Chaos to Calm",
     labelsArray: ["Online", "Flexible"],
+    suitableAges: ["mature"],
+    duration: "long",
     link: "https://www.thepositivepup.teachable.com/",
   },
 
@@ -52,6 +62,8 @@ const courses = [
     courseTypePlural: "Online Courses",
     courseHeading: "Rapid Recall",
     labelsArray: ["Online"],
+    suitableAges: ["all","infant", "junior", "mature"],
+    duration: "short",
     link: "https://www.thepositivepup.teachable.com/",
   },
   {

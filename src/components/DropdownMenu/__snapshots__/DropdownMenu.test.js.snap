@@ -14,11 +14,12 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
     <div
       class="dropdown-menu__column"
     >
-      <h3
+      <a
         class="dropdown-menu__column-title"
+        href="/services/Online Courses"
       >
         Online Courses
-      </h3>
+      </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
@@ -39,11 +40,12 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
     <div
       class="dropdown-menu__column"
     >
-      <h3
+      <a
         class="dropdown-menu__column-title"
+        href="/services/Group Classes"
       >
         Group Classes
-      </h3>
+      </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
@@ -72,11 +74,12 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
     <div
       class="dropdown-menu__column"
     >
-      <h3
+      <a
         class="dropdown-menu__column-title"
+        href="/services/Bespoke Packages"
       >
         Other
-      </h3>
+      </a>
       <a
         class="dropdown-menu__column-option"
         href="https://www.thepositivepup.teachable.com/"
@@ -102,6 +105,15 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
         Bespoke Packages
       </a>
     </div>
+    <button
+      class="dropdown-menu__button"
+    >
+      <img
+        alt="close dropdown"
+        class="dropdown-menu__button-close"
+        src="close-menu.svg"
+      />
+    </button>
   </div>
 </div>
 `;
