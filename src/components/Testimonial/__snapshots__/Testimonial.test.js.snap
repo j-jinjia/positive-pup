@@ -41,13 +41,14 @@ exports[`should match active Testimonial component snapshot 1`] = `
       We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
       <label
         class="testimonial__comment-button-label"
-        for="toggle-more"
+        for="We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!"
       >
         Toggle additional testimonial text
       </label>
       <button
+        aria-label="click to show more"
         class="testimonial__comment-button"
-        id="toggle-more"
+        id="We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!"
       >
         show more
       </button>
@@ -107,13 +108,14 @@ exports[`should match inactive Testimonial component snapshot 1`] = `
       We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
       <label
         class="testimonial__comment-button-label"
-        for="toggle-more"
+        for="We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!"
       >
         Toggle additional testimonial text
       </label>
       <button
+        aria-label="click to show more"
         class="testimonial__comment-button"
-        id="toggle-more"
+        id="We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!"
       >
         show more
       </button>
