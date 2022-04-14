@@ -2,8 +2,14 @@
 
 .arrow-link {
   color: $colour-primary;
-  font-size: $font-size-smaller;
+  font-size: $font-size-default;
   display: flex;
   align-items: flex-end;
   gap: 1rem;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .arrow-link {
+    font-size: $font-size-smaller;
+  }
 }
