@@ -8,7 +8,6 @@ const BookNow = () => {
         headingText={"Book Now"}
         subheadingText={"Secure your place on one of our services"}
         isLeftAlign={false}
-        isBookNowHeader
       />
     </Layout>
   );
