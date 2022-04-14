@@ -9,9 +9,10 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 import FiltersDropdown from "../../components/FiltersDropdown/FiltersDropdown";
 import useWindowSize from "../../hooks/useWindowSize.js";
 import { useParams } from "react-router-dom";
+import "./Services.scss";
 
 const Services = () => {
-  const windowIsTablet = useWindowSize(768);
+  const windowIsTablet = useWindowSize(772);
 
   const { filter } = useParams();
   const [courseType, setCourseType] = useState(filter || "All");
@@ -73,24 +74,28 @@ const Services = () => {
         headingText={"Services"}
         subheadingText={"Take a peek at everything we offer"}
       />
-      <CategoryFilter
-        courseType={courseType}
-        handleClick={handleClick}
-        filterOptions={filterOptions}
-      />
-      {windowIsTablet && (
-        <SearchBar
-          searchTerm={searchTerm}
-          handleInput={handleInput}
-          label="Search Courses"
+      <div className="services">
+        <CategoryFilter
+          courseType={courseType}
+          handleClick={handleClick}
+          filterOptions={filterOptions}
         />
-      )}
-      <FiltersDropdown
-        handleAgeFilterSelect={handleAgeFilterSelect}
-        handleDurationFilterSelect={handleDurationFilterSelect}
-        ageFilter={ageFilter}
-        durationFilter={durationFilter}
-      />
+        <div className="services__right">
+          {windowIsTablet && (
+            <SearchBar
+              searchTerm={searchTerm}
+              handleInput={handleInput}
+              label="Search Courses"
+            />
+          )}
+          <FiltersDropdown
+            handleAgeFilterSelect={handleAgeFilterSelect}
+            handleDurationFilterSelect={handleDurationFilterSelect}
+            ageFilter={ageFilter}
+            durationFilter={durationFilter}
+          />
+        </div>
+      </div>
       <CoursesList courseData={courseCards} />
       <ServicesGetInTouchSection />
     </Layout>
