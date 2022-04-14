@@ -64,9 +64,14 @@
     padding: 5rem;
 
     &__image {
-      height: 80%;
+      height: 40rem;
       max-width: initial;
       align-self: start;
+    }
+
+    &__content {
+      padding-left: 2rem;
+      padding-top: 4rem;
     }
 
     &__header {
