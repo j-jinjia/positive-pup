@@ -38,16 +38,6 @@ exports[`should render the footer component 1`] = `
         </a>
       </li>
       <li
-        class="footer__list-item"
-      >
-        <a
-          class="footer__link"
-          href="/gallery"
-        >
-          Gallery
-        </a>
-      </li>
-      <li
         class="footer__list-item footer__list-item--desktop"
       >
         <a
