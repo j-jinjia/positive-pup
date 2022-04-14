@@ -24,15 +24,16 @@ const Testimonial = ({ name, date, course, comment, active }) => {
       {comment.length > charLimit && (
         <>
           <label
-            htmlFor="toggle-more"
+            htmlFor={comment}
             className="testimonial__comment-button-label"
           >
             Toggle additional testimonial text
           </label>
           <button
-            id="toggle-more"
+            id={comment}
             className="testimonial__comment-button"
             onClick={handleClick}
+            aria-label={`click to ${filterComment ? "show more" : "show less"}`}
           >
             {filterComment ? "show more" : "show less"}
           </button>
