@@ -57,6 +57,10 @@
 @media screen and (min-width: $tablet-breakpoint) {
   .certifications {
     text-align: center;
+
+    &__description{
+      font-size: $font-size-smaller;
+    }
   }
   .certifications__badge-container {
     .certifications__badge {
