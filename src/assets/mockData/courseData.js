@@ -72,6 +72,8 @@ const courses = [
     courseTypePlural: "Bespoke Packages",
     courseHeading: "Premium Puppy",
     labelsArray: ["Online"],
+    suitableAges: ["all", "infant", "junior", "mature"],
+    duration: "short",
     link: "https://www.thepositivepup.teachable.com/",
   },
   {
@@ -80,6 +82,8 @@ const courses = [
     courseTypePlural: "Bespoke Packages",
     courseHeading: "Bespoke Packages",
     labelsArray: ["Online"],
+    suitableAges: ["all", "infant", "junior", "mature"],
+    duration: "short",
     link: "https://www.thepositivepup.teachable.com/",
   },
 ];
