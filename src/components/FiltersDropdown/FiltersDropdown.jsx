@@ -96,6 +96,21 @@ const FiltersDropdown = ({
             onChange={handleDurationFilterChange}
             name="duration"
             type="radio"
+            id="all"
+            checked={activeDurationInput === "all"}
+          />
+          <label className="filters-dropdown__label" htmlFor="all">
+            {" "}
+            All
+          </label>
+        </span>
+        <span>
+          <input
+            className="filters-dropdown__input"
+            onClick={handleDurationFilterSelect}
+            onChange={handleDurationFilterChange}
+            name="duration"
+            type="radio"
             id="short"
             checked={activeDurationInput === "short"}
           />
