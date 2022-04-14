@@ -3,7 +3,7 @@
 exports[`should match the FiltersDropdown component snapshot 1`] = `
 <div>
   <div
-    class="filters-dropdown__container"
+    class="filters-dropdown"
   >
     <button
       class="filters-dropdown__button"

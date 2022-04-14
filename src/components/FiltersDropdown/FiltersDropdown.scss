@@ -1,9 +1,7 @@
 @use "../../styles/_variables.scss" as *;
 
 .filters-dropdown {
-  &__container {
-    position: relative;
-  }
+  position: relative;
 
   &__menu {
     border: solid 1px $colour-secondary-background;

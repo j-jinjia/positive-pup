@@ -137,7 +137,7 @@ const FiltersDropdown = ({
   );
 
   return (
-    <div className="filters-dropdown__container">
+    <div className="filters-dropdown">
       <button className="filters-dropdown__button" onClick={handleClick}>
         Filters
         <img className="filters-dropdown__button-image" src={filterIcon} />
