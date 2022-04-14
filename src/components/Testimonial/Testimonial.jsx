@@ -4,7 +4,7 @@ import folder from "../../assets/svgs/testimonial_course.svg";
 import quotations from "../../assets/svgs/quotations-1.svg";
 import { useState } from "react";
 
-const Testimonial = ({ name, date, course, comment, active }) => {
+const Testimonial = ({ name, date, course, comment, active, id }) => {
   const cardClass = active ? "testimonial testimonial--active" : "testimonial";
   const [filterComment, setFilterComment] = useState(true);
 
@@ -23,11 +23,11 @@ const Testimonial = ({ name, date, course, comment, active }) => {
         : comment}
       {comment.length > charLimit && (
         <>
-          <label htmlFor={name} className="testimonial__comment-button-label">
+          <label htmlFor={id} className="testimonial__comment-button-label">
             Toggle additional testimonial text
           </label>
           <button
-            id={name}
+            id={id}
             className="testimonial__comment-button"
             onClick={handleClick}
             aria-label={`click to ${filterComment ? "show more" : "show less"}`}
