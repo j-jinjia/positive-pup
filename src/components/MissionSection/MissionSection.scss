@@ -2,9 +2,9 @@
 
 .mission-section {
   background-color: rgba($colour-primary, 0.1);
-  padding: 2rem;
+  padding: 7rem 2rem;
   border-radius: 8px;
-  padding-top: 7rem;
+
   &__heading {
     font-size: $font-size-medium;
     margin-bottom: 2rem;
@@ -28,15 +28,15 @@
 
     background: linear-gradient(
       to right,
-      transparent 15%,
-      rgba($colour-primary, 0.1) 15%,
-      rgba($colour-primary, 0.1) 85%,
-      transparent 85%
+      transparent 8%,
+      rgba($colour-primary, 0.1) 8%,
+      rgba($colour-primary, 0.1) 92%,
+      transparent 92%
     );
 
     &__heading {
       text-align: center;
-      margin-left: 30%;
+      margin-left: 20%;
       margin-top: 2.5rem;
     }
     &__about-us {
