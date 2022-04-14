@@ -70,7 +70,7 @@ exports[`should render the BookNow page 1`] = `
       </div>
     </div>
     <div
-      class="header"
+      class="header header--screenHeight"
     >
       <h1
         class="header__heading"
