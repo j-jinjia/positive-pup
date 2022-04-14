@@ -17,10 +17,10 @@ const Navbar = () => {
   const windowIsDesktop = useWindowSize(1024);
 
   useEffect(() => {
-    if (showMenu && windowIsDesktop) {
+    if (windowIsDesktop) {
       setShowMenu(false);
     }
-  }, [showMenu, windowIsDesktop]);
+  }, [windowIsDesktop]);
   const handleClick = () => {
     setShowMenu(!showMenu);
   };
