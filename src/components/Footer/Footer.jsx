@@ -30,12 +30,6 @@ const Footer = () => {
           </Link>
         </li>
 
-        <li className="footer__list-item">
-          <Link className="footer__link" to="/gallery">
-            Gallery
-          </Link>
-        </li>
-
         {/* Added two similar T&C's list elements here. Only one is displayed at a time dending on whether the device is mobile or desktop */}
         <li className="footer__list-item footer__list-item--desktop">
           <Link className="footer__link" to="/terms-and-conditions">

@@ -39,18 +39,6 @@ exports[`should match the Navbar component snapshot 1`] = `
             />
           </button>
         </div>
-        <a
-          class="navbar__nav-item"
-          href="/testimonials"
-        >
-          Testimonials
-        </a>
-        <a
-          class="navbar__nav-item"
-          href="/gallery"
-        >
-          Gallery
-        </a>
         <span
           class="navbar__nav-item navbar__nav-item--phone"
         >

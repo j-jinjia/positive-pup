@@ -42,18 +42,6 @@ exports[`should render the GetInTouch page 1`] = `
               />
             </button>
           </div>
-          <a
-            class="navbar__nav-item"
-            href="/testimonials"
-          >
-            Testimonials
-          </a>
-          <a
-            class="navbar__nav-item"
-            href="/gallery"
-          >
-            Gallery
-          </a>
           <span
             class="navbar__nav-item navbar__nav-item--phone"
           >
@@ -153,16 +141,6 @@ exports[`should render the GetInTouch page 1`] = `
             href="/services"
           >
             Services
-          </a>
-        </li>
-        <li
-          class="footer__list-item"
-        >
-          <a
-            class="footer__link"
-            href="/gallery"
-          >
-            Gallery
           </a>
         </li>
         <li

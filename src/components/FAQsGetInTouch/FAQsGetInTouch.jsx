@@ -11,8 +11,8 @@ const FAQsGetInTouch = () => {
         subheadingText="Can't find an answer to your Question?"
       />
       <p className="faq-get-in-touch__paragraph">
-        Please get in touch below if you can’t find an answer youre looking for.
-        I’d love to hear from you! Thanks Mel
+        Please get in touch below if you can’t find an answer you’re looking
+        for. I’d love to hear from you! Thanks Mel
       </p>
 
       <Button

@@ -35,12 +35,6 @@ const Navbar = () => {
         </button>
         {showDropdown && <DropdownMenu toggleDropdown={toggleDropdown} />}
       </div>
-      <NavLink className="navbar__nav-item" to="/testimonials">
-        Testimonials
-      </NavLink>
-      <NavLink className="navbar__nav-item" to="/gallery">
-        Gallery
-      </NavLink>
       <span className="navbar__nav-item navbar__nav-item--phone">
         <img className="navbar__nav-item-button" src={phone} alt="" />
         <NavLink className="navbar__nav-item" to="/get-in-touch">
@@ -64,12 +58,6 @@ const Navbar = () => {
       </Link>
       <Link className="navbar__nav-item" to="/services">
         Services
-      </Link>
-      <Link className="navbar__nav-item" to="/testimonials">
-        Testimonials
-      </Link>
-      <Link className="navbar__nav-item" to="/gallery">
-        Gallery
       </Link>
       <Link className="navbar__nav-item" to="/get-in-touch">
         Get in Touch
