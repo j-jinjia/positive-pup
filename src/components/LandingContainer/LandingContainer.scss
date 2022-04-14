@@ -122,6 +122,7 @@
     &__header {
       grid-column: 2;
       margin: 0;
+      align-self: center;
     }
 
     &__paragraph {
@@ -136,6 +137,7 @@
   }
 
   .landing-container--flipped {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     background: linear-gradient(
       to right,
       $colour-container-foreground 85%,
