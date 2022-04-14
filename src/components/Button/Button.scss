@@ -29,9 +29,11 @@
   &--link {
     padding: 0;
     > * {
-      display: block;
+      display: flex;
+      white-space: nowrap;
       padding: 15px 38px;
       text-decoration: none;
+      overflow-wrap: none;
     }
   }
 
