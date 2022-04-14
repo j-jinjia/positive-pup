@@ -19,6 +19,7 @@ exports[`should match CardList component snapshot 1`] = `
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </p>
       <a
+        aria-label="link to services filtered for Online Courses"
         class="services-card__button"
         href="/services/Online Courses"
       >
@@ -48,6 +49,7 @@ exports[`should match CardList component snapshot 1`] = `
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </p>
       <a
+        aria-label="link to services filtered for Group Classes"
         class="services-card__button"
         href="/services/Group Classes"
       >
@@ -77,6 +79,7 @@ exports[`should match CardList component snapshot 1`] = `
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </p>
       <a
+        aria-label="link to services filtered for Bespoke Packages"
         class="services-card__button"
         href="/services/Bespoke Packages"
       >

@@ -40,7 +40,9 @@ const Services = () => {
         return ageFilter === "all" || course.suitableAges.includes(ageFilter);
       })
       .filter((course) => {
-        return durationFilter === "" || course.duration === durationFilter;
+        return (
+          durationFilter === "all" || course.duration.includes(durationFilter)
+        );
       });
 
     setCourseCards(filteredCourses);
