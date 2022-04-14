@@ -6,4 +6,7 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+  &__content {
+    flex: 1;
+  }
 }

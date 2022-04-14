@@ -69,661 +69,665 @@ exports[`should render the Home Page 1`] = `
         </nav>
       </div>
     </div>
-    <div
-      class="hero"
+    <main
+      class="layout__content"
     >
       <div
-        class="hero-content"
-      >
-        <h2
-          class="hero-content__header"
-        >
-          Start your journey on the right 
-          <span
-            class="hero-content__header-highlight"
-          >
-            paw.
-          </span>
-        </h2>
-        <p
-          class="hero-content__subheader"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
-        </p>
-        <div
-          class="button button--primary button--link"
-        >
-          <a
-            href="/services"
-          >
-            What We Offer
-          </a>
-        </div>
-      </div>
-      <div
-        class="hero-image"
-      >
-        <img
-          alt="Picture of a happy Staffie"
-          class="hero-image__image"
-          src="dog.svg"
-        />
-      </div>
-      <div
-        class="hero-certifications"
+        class="hero"
       >
         <div
-          class="certifications"
+          class="hero-content"
         >
+          <h2
+            class="hero-content__header"
+          >
+            Start your journey on the right 
+            <span
+              class="hero-content__header-highlight"
+            >
+              paw.
+            </span>
+          </h2>
+          <p
+            class="hero-content__subheader"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci diam malesuada pellentesque aenean sed ut egestas
+          </p>
           <div
-            class="certifications__badge-container"
+            class="button button--primary button--link"
           >
             <a
-              href="https://companionanimal.network/"
-              rel="noreferrer"
-              target="_blank"
+              href="/services"
             >
-              <img
-                alt="international companion animal network certification badge"
-                class="certifications__badge"
-                src="ICAN.png"
-              />
-            </a>
-            <a
-              href="https://www.petadvocacy.info/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Pet Industry Advocacy International badge"
-                class="certifications__badge"
-                src="PIAI.png"
-              />
-               
-            </a>
-            <a
-              href="https://www.vsdogtrainingacademy.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Victoria Stillwell certification badge"
-                class="certifications__badge"
-                src="VSWA.png"
-              />
-            </a>
-            <a
-              href="https://ukdogcharter.org/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="UK dog behaviour and training charter certification badge"
-                class="certifications__badge"
-                src="behave.png"
-              />
-            </a>
-            <a
-              href="https://www.petprofessionalguild.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="the pet professional guild certification badge"
-                class="certifications__badge"
-                src="ppg2022.png"
-              />
+              What We Offer
             </a>
           </div>
         </div>
+        <div
+          class="hero-image"
+        >
+          <img
+            alt="Picture of a happy Staffie"
+            class="hero-image__image"
+            src="dog.svg"
+          />
+        </div>
+        <div
+          class="hero-certifications"
+        >
+          <div
+            class="certifications"
+          >
+            <div
+              class="certifications__badge-container"
+            >
+              <a
+                href="https://companionanimal.network/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="international companion animal network certification badge"
+                  class="certifications__badge"
+                  src="ICAN.png"
+                />
+              </a>
+              <a
+                href="https://www.petadvocacy.info/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Pet Industry Advocacy International badge"
+                  class="certifications__badge"
+                  src="PIAI.png"
+                />
+                 
+              </a>
+              <a
+                href="https://www.vsdogtrainingacademy.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Victoria Stillwell certification badge"
+                  class="certifications__badge"
+                  src="VSWA.png"
+                />
+              </a>
+              <a
+                href="https://ukdogcharter.org/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="UK dog behaviour and training charter certification badge"
+                  class="certifications__badge"
+                  src="behave.png"
+                />
+              </a>
+              <a
+                href="https://www.petprofessionalguild.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="the pet professional guild certification badge"
+                  class="certifications__badge"
+                  src="ppg2022.png"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div
-      class="landing-container"
-    >
-      <img
-        alt=""
-        class="landing-container__paw"
-        src="paw_print.svg"
-      />
-      <h2
-        class="landing-container__header"
-      >
-        Why The Positive Pup?
-         
-      </h2>
-      <p
-        class="landing-container__paragraph"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo, faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet malesuada est dignissim magna. Amet vel tempor egestas at in mi, facilisi proin. 
-      </p>
       <div
-        class="landing-container__button"
+        class="landing-container"
       >
+        <img
+          alt=""
+          class="landing-container__paw"
+          src="paw_print.svg"
+        />
+        <h2
+          class="landing-container__header"
+        >
+          Why The Positive Pup?
+           
+        </h2>
+        <p
+          class="landing-container__paragraph"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi malesuada tortor, tristique aenean ultricies. Integer aliquam mattis turpis justo, faucibus bibendum sagittis lacus ornare. Porttitor eget sed amet malesuada est dignissim magna. Amet vel tempor egestas at in mi, facilisi proin. 
+        </p>
+        <div
+          class="landing-container__button"
+        >
+          <div
+            class="button button--secondary button--link"
+          >
+            <a
+              href="/about"
+            >
+              More About Me
+            </a>
+          </div>
+        </div>
+        <img
+          alt="Positive Pup owner, Melanie, with a dog"
+          class="landing-container__image"
+          src="landing_page_about_intro_img.png"
+        />
+      </div>
+      <div
+        class="landing-container landing-container--flipped"
+      >
+        <img
+          alt=""
+          class="landing-container__paw"
+          src="chain.svg"
+        />
+        <h2
+          class="landing-container__header"
+        >
+          Strengthen the bond between you and your pup
+           
+        </h2>
+        <p
+          class="landing-container__paragraph"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A quo repudiandae possimus porro sunt unde cum sint. Quod iusto quisquam harum
+        </p>
+        <div
+          class="landing-container__button"
+        >
+          <a
+            class="arrow-link"
+            href="#services-section"
+          >
+            View Our Services
+            <img
+              alt=""
+              class="arrow-link__arrow"
+              src="arrow.svg"
+            />
+          </a>
+        </div>
+        <img
+          alt="Positive Pup owner, Melanie, with a dog"
+          class="landing-container__image"
+          src="services-image.png"
+        />
+      </div>
+      <div
+        class="services-section"
+        id="services-section"
+      >
+        <h2
+          class="services-section__header"
+        >
+          Services I Offer
+        </h2>
+        <p
+          class="services-section__sub-header"
+        >
+          A breakdown of all the different kind of services I offer.
+        </p>
+        <hr
+          class="services-section__line-break"
+        />
+        <div
+          class="card-list"
+        >
+          <div
+            class="services-card"
+          >
+            <h3
+              class="services-card__title"
+            >
+              Online Courses
+            </h3>
+            <p
+              class="services-card__text"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <a
+              class="services-card__button"
+              href="/services/Online Courses"
+            >
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--black"
+                src="Vector-black.svg"
+              />
+            </a>
+            <img
+              alt="dog"
+              class="services-card__img"
+              src="image.png"
+            />
+          </div>
+          <div
+            class="services-card"
+          >
+            <h3
+              class="services-card__title"
+            >
+              Group Classes
+            </h3>
+            <p
+              class="services-card__text"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <a
+              class="services-card__button"
+              href="/services/Group Classes"
+            >
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--black"
+                src="Vector-black.svg"
+              />
+            </a>
+            <img
+              alt="dog"
+              class="services-card__img"
+              src="image1.png"
+            />
+          </div>
+          <div
+            class="services-card"
+          >
+            <h3
+              class="services-card__title"
+            >
+              Bespoke Packages
+            </h3>
+            <p
+              class="services-card__text"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <a
+              class="services-card__button"
+              href="/services/Bespoke Packages"
+            >
+              <img
+                alt=""
+                class="services-card__vector services-card__vector--black"
+                src="Vector-black.svg"
+              />
+            </a>
+            <img
+              alt="dog"
+              class="services-card__img"
+              src="image4.png"
+            />
+          </div>
+        </div>
         <div
           class="button button--secondary button--link"
         >
           <a
-            href="/about"
+            href="/services"
           >
-            More About Me
+            VIEW OUR SERVICES
           </a>
         </div>
       </div>
-      <img
-        alt="Positive Pup owner, Melanie, with a dog"
-        class="landing-container__image"
-        src="landing_page_about_intro_img.png"
-      />
-    </div>
-    <div
-      class="landing-container landing-container--flipped"
-    >
-      <img
-        alt=""
-        class="landing-container__paw"
-        src="chain.svg"
-      />
-      <h2
-        class="landing-container__header"
-      >
-        Strengthen the bond between you and your pup
-         
-      </h2>
-      <p
-        class="landing-container__paragraph"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A quo repudiandae possimus porro sunt unde cum sint. Quod iusto quisquam harum
-      </p>
       <div
-        class="landing-container__button"
+        class="testimonials"
       >
-        <a
-          class="arrow-link"
-          href="#services-section"
+        <h2
+          class="testimonials__header"
         >
-          View Our Services
-          <img
-            alt=""
-            class="arrow-link__arrow"
-            src="arrow.svg"
-          />
-        </a>
-      </div>
-      <img
-        alt="Positive Pup owner, Melanie, with a dog"
-        class="landing-container__image"
-        src="services-image.png"
-      />
-    </div>
-    <div
-      class="services-section"
-      id="services-section"
-    >
-      <h2
-        class="services-section__header"
-      >
-        Services I Offer
-      </h2>
-      <p
-        class="services-section__sub-header"
-      >
-        A breakdown of all the different kind of services I offer.
-      </p>
-      <hr
-        class="services-section__line-break"
-      />
-      <div
-        class="card-list"
-      >
+          RECENT TESTIMONIALS
+        </h2>
+        <h3
+          class="testimonials__subheader"
+        >
+          See what people have said...
+        </h3>
+        <p
+          class="testimonials__text"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem egestas vestibulum est neque, viverra. Vel neque dui aenean sagittis id in nulla tempor ac. Id adipiscing adipiscing ac odio.
+        </p>
         <div
-          class="services-card"
+          class="testimonials__cards"
         >
-          <h3
-            class="services-card__title"
+          <div
+            class="testimonial"
+            data-testid="Gemma Powell & Max"
           >
-            Online Courses
-          </h3>
-          <p
-            class="services-card__text"
+            <h3
+              class="testimonial__header"
+            >
+              Gemma Powell & Max
+            </h3>
+            <div
+              class="testimonial__details"
+            >
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt="calendar"
+                  src="calendar.svg"
+                />
+                 
+                JAN 2020
+              </p>
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt=""
+                  src="testimonial_course.svg"
+                />
+                 
+                LITTLE STARS COURSE
+              </p>
+            </div>
+            <p
+              class="testimonial__comment"
+            >
+              We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
+              <label
+                class="testimonial__comment-button-label"
+                for="toggle-more"
+              >
+                Toggle additional testimonial text
+              </label>
+              <button
+                class="testimonial__comment-button"
+                id="toggle-more"
+              >
+                show more
+              </button>
+            </p>
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--1"
+              src="quotations-1.svg"
+            />
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--2"
+              src="quotations-1.svg"
+            />
+          </div>
+          <div
+            class="testimonial"
+            data-testid="Karen Hayter & Tilly"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <a
-            class="services-card__button"
-            href="/services/Online Courses"
+            <h3
+              class="testimonial__header"
+            >
+              Karen Hayter & Tilly
+            </h3>
+            <div
+              class="testimonial__details"
+            >
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt="calendar"
+                  src="calendar.svg"
+                />
+                 
+                MAY 2020
+              </p>
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt=""
+                  src="testimonial_course.svg"
+                />
+                 
+                LITTLE STARS COURSE
+              </p>
+            </div>
+            <p
+              class="testimonial__comment"
+            >
+              Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique...
+              <label
+                class="testimonial__comment-button-label"
+                for="toggle-more"
+              >
+                Toggle additional testimonial text
+              </label>
+              <button
+                class="testimonial__comment-button"
+                id="toggle-more"
+              >
+                show more
+              </button>
+            </p>
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--1"
+              src="quotations-1.svg"
+            />
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--2"
+              src="quotations-1.svg"
+            />
+          </div>
+          <div
+            class="testimonial testimonial--active"
+            data-testid="Lianna Bradshaw & Ralph"
+          >
+            <h3
+              class="testimonial__header"
+            >
+              Lianna Bradshaw & Ralph
+            </h3>
+            <div
+              class="testimonial__details"
+            >
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt="calendar"
+                  src="calendar.svg"
+                />
+                 
+                DEC 2019
+              </p>
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt=""
+                  src="testimonial_course.svg"
+                />
+                 
+                LITTLE STARS COURSE
+              </p>
+            </div>
+            <p
+              class="testimonial__comment"
+            >
+              Mel has been absolutely brilliant over the course, super informative and lots of great advice. Ralph is particularly nervous for a pup as he’s so small (mini dachshund) but Mel adapted the layout of the class to help him which was brilliant. We’ve had so much fun and are hoping to have some sessions outside of the classes to work on extra things. Would highly recommend! Xxx
+            </p>
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--1"
+              src="quotations-1.svg"
+            />
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--2"
+              src="quotations-1.svg"
+            />
+          </div>
+          <div
+            class="testimonial"
+            data-testid="Bethanie Maxwell & Teddy"
+          >
+            <h3
+              class="testimonial__header"
+            >
+              Bethanie Maxwell & Teddy
+            </h3>
+            <div
+              class="testimonial__details"
+            >
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt="calendar"
+                  src="calendar.svg"
+                />
+                 
+                DEC 2019
+              </p>
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt=""
+                  src="testimonial_course.svg"
+                />
+                 
+                LITTLE STARS COURSE
+              </p>
+            </div>
+            <p
+              class="testimonial__comment"
+            >
+              Couldn’t be happier with the quality of training we received, although our puppy was very easily distracted Melanie gave us all the tools and help that we needed! Very very happy with the training received would highly recommend and have recommended to several friends! Melanie is a very lovely and welcoming lady, 5⭐️
+            </p>
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--1"
+              src="quotations-1.svg"
+            />
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--2"
+              src="quotations-1.svg"
+            />
+          </div>
+          <div
+            class="testimonial"
+            data-testid="Jessika-Anne Horner & Layla"
+          >
+            <h3
+              class="testimonial__header"
+            >
+              Jessika-Anne Horner & Layla
+            </h3>
+            <div
+              class="testimonial__details"
+            >
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt="calendar"
+                  src="calendar.svg"
+                />
+                 
+                NOV 2019
+              </p>
+              <p
+                class="testimonial__detail"
+              >
+                <img
+                  alt=""
+                  src="testimonial_course.svg"
+                />
+                 
+                RISING STARS COURSE
+              </p>
+            </div>
+            <p
+              class="testimonial__comment"
+            >
+              Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me...
+              <label
+                class="testimonial__comment-button-label"
+                for="toggle-more"
+              >
+                Toggle additional testimonial text
+              </label>
+              <button
+                class="testimonial__comment-button"
+                id="toggle-more"
+              >
+                show more
+              </button>
+            </p>
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--1"
+              src="quotations-1.svg"
+            />
+            <img
+              alt="quotation marks"
+              class="testimonial__quotations testimonial__quotations--2"
+              src="quotations-1.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="testimonials__carousel"
+        >
+          <button
+            class="testimonials__btn"
+            id="previous-testimonial"
           >
             <img
-              alt=""
-              class="services-card__vector services-card__vector--black"
-              src="Vector-black.svg"
+              alt="left arrow"
+              class="testimonials__btn-arrow testimonials__btn-arrow--1"
+              data-testid="previous-button"
+              src="testimonial-arrow.svg"
             />
-          </a>
+          </button>
           <img
-            alt="dog"
-            class="services-card__img"
-            src="image.png"
+            alt="carousel dot"
+            src="carousel-dot.svg"
           />
-        </div>
-        <div
-          class="services-card"
-        >
-          <h3
-            class="services-card__title"
-          >
-            Group Classes
-          </h3>
-          <p
-            class="services-card__text"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <a
-            class="services-card__button"
-            href="/services/Group Classes"
+          <img
+            alt="carousel dot"
+            src="carousel-dot.svg"
+          />
+          <img
+            alt="carousel dot"
+            src="carousel-dot-active.svg"
+          />
+          <img
+            alt="carousel dot"
+            src="carousel-dot.svg"
+          />
+          <img
+            alt="carousel dot"
+            src="carousel-dot.svg"
+          />
+          <button
+            class="testimonials__btn"
+            id="next-testimonial"
           >
             <img
-              alt=""
-              class="services-card__vector services-card__vector--black"
-              src="Vector-black.svg"
+              alt="left arrow"
+              class="testimonials__btn-arrow testimonials__btn-arrow--2"
+              data-testid="next-button"
+              src="testimonial-arrow.svg"
             />
-          </a>
-          <img
-            alt="dog"
-            class="services-card__img"
-            src="image1.png"
-          />
-        </div>
-        <div
-          class="services-card"
-        >
-          <h3
-            class="services-card__title"
-          >
-            Bespoke Packages
-          </h3>
-          <p
-            class="services-card__text"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <a
-            class="services-card__button"
-            href="/services/Bespoke Packages"
-          >
-            <img
-              alt=""
-              class="services-card__vector services-card__vector--black"
-              src="Vector-black.svg"
-            />
-          </a>
-          <img
-            alt="dog"
-            class="services-card__img"
-            src="image4.png"
-          />
+          </button>
         </div>
       </div>
-      <div
-        class="button button--secondary button--link"
-      >
-        <a
-          href="/services"
-        >
-          VIEW OUR SERVICES
-        </a>
-      </div>
-    </div>
-    <div
-      class="testimonials"
-    >
-      <h2
-        class="testimonials__header"
-      >
-        RECENT TESTIMONIALS
-      </h2>
-      <h3
-        class="testimonials__subheader"
-      >
-        See what people have said...
-      </h3>
-      <p
-        class="testimonials__text"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem egestas vestibulum est neque, viverra. Vel neque dui aenean sagittis id in nulla tempor ac. Id adipiscing adipiscing ac odio.
-      </p>
-      <div
-        class="testimonials__cards"
-      >
-        <div
-          class="testimonial"
-          data-testid="Gemma Powell & Max"
-        >
-          <h3
-            class="testimonial__header"
-          >
-            Gemma Powell & Max
-          </h3>
-          <div
-            class="testimonial__details"
-          >
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt="calendar"
-                src="calendar.svg"
-              />
-               
-              JAN 2020
-            </p>
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt=""
-                src="testimonial_course.svg"
-              />
-               
-              LITTLE STARS COURSE
-            </p>
-          </div>
-          <p
-            class="testimonial__comment"
-          >
-            We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
-            <label
-              class="testimonial__comment-button-label"
-              for="toggle-more"
-            >
-              Toggle additional testimonial text
-            </label>
-            <button
-              class="testimonial__comment-button"
-              id="toggle-more"
-            >
-              show more
-            </button>
-          </p>
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--1"
-            src="quotations-1.svg"
-          />
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--2"
-            src="quotations-1.svg"
-          />
-        </div>
-        <div
-          class="testimonial"
-          data-testid="Karen Hayter & Tilly"
-        >
-          <h3
-            class="testimonial__header"
-          >
-            Karen Hayter & Tilly
-          </h3>
-          <div
-            class="testimonial__details"
-          >
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt="calendar"
-                src="calendar.svg"
-              />
-               
-              MAY 2020
-            </p>
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt=""
-                src="testimonial_course.svg"
-              />
-               
-              LITTLE STARS COURSE
-            </p>
-          </div>
-          <p
-            class="testimonial__comment"
-          >
-            Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique...
-            <label
-              class="testimonial__comment-button-label"
-              for="toggle-more"
-            >
-              Toggle additional testimonial text
-            </label>
-            <button
-              class="testimonial__comment-button"
-              id="toggle-more"
-            >
-              show more
-            </button>
-          </p>
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--1"
-            src="quotations-1.svg"
-          />
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--2"
-            src="quotations-1.svg"
-          />
-        </div>
-        <div
-          class="testimonial testimonial--active"
-          data-testid="Lianna Bradshaw & Ralph"
-        >
-          <h3
-            class="testimonial__header"
-          >
-            Lianna Bradshaw & Ralph
-          </h3>
-          <div
-            class="testimonial__details"
-          >
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt="calendar"
-                src="calendar.svg"
-              />
-               
-              DEC 2019
-            </p>
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt=""
-                src="testimonial_course.svg"
-              />
-               
-              LITTLE STARS COURSE
-            </p>
-          </div>
-          <p
-            class="testimonial__comment"
-          >
-            Mel has been absolutely brilliant over the course, super informative and lots of great advice. Ralph is particularly nervous for a pup as he’s so small (mini dachshund) but Mel adapted the layout of the class to help him which was brilliant. We’ve had so much fun and are hoping to have some sessions outside of the classes to work on extra things. Would highly recommend! Xxx
-          </p>
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--1"
-            src="quotations-1.svg"
-          />
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--2"
-            src="quotations-1.svg"
-          />
-        </div>
-        <div
-          class="testimonial"
-          data-testid="Bethanie Maxwell & Teddy"
-        >
-          <h3
-            class="testimonial__header"
-          >
-            Bethanie Maxwell & Teddy
-          </h3>
-          <div
-            class="testimonial__details"
-          >
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt="calendar"
-                src="calendar.svg"
-              />
-               
-              DEC 2019
-            </p>
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt=""
-                src="testimonial_course.svg"
-              />
-               
-              LITTLE STARS COURSE
-            </p>
-          </div>
-          <p
-            class="testimonial__comment"
-          >
-            Couldn’t be happier with the quality of training we received, although our puppy was very easily distracted Melanie gave us all the tools and help that we needed! Very very happy with the training received would highly recommend and have recommended to several friends! Melanie is a very lovely and welcoming lady, 5⭐️
-          </p>
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--1"
-            src="quotations-1.svg"
-          />
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--2"
-            src="quotations-1.svg"
-          />
-        </div>
-        <div
-          class="testimonial"
-          data-testid="Jessika-Anne Horner & Layla"
-        >
-          <h3
-            class="testimonial__header"
-          >
-            Jessika-Anne Horner & Layla
-          </h3>
-          <div
-            class="testimonial__details"
-          >
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt="calendar"
-                src="calendar.svg"
-              />
-               
-              NOV 2019
-            </p>
-            <p
-              class="testimonial__detail"
-            >
-              <img
-                alt=""
-                src="testimonial_course.svg"
-              />
-               
-              RISING STARS COURSE
-            </p>
-          </div>
-          <p
-            class="testimonial__comment"
-          >
-            Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me...
-            <label
-              class="testimonial__comment-button-label"
-              for="toggle-more"
-            >
-              Toggle additional testimonial text
-            </label>
-            <button
-              class="testimonial__comment-button"
-              id="toggle-more"
-            >
-              show more
-            </button>
-          </p>
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--1"
-            src="quotations-1.svg"
-          />
-          <img
-            alt="quotation marks"
-            class="testimonial__quotations testimonial__quotations--2"
-            src="quotations-1.svg"
-          />
-        </div>
-      </div>
-      <div
-        class="testimonials__carousel"
-      >
-        <button
-          class="testimonials__btn"
-          id="previous-testimonial"
-        >
-          <img
-            alt="left arrow"
-            class="testimonials__btn-arrow testimonials__btn-arrow--1"
-            data-testid="previous-button"
-            src="testimonial-arrow.svg"
-          />
-        </button>
-        <img
-          alt="carousel dot"
-          src="carousel-dot.svg"
-        />
-        <img
-          alt="carousel dot"
-          src="carousel-dot.svg"
-        />
-        <img
-          alt="carousel dot"
-          src="carousel-dot-active.svg"
-        />
-        <img
-          alt="carousel dot"
-          src="carousel-dot.svg"
-        />
-        <img
-          alt="carousel dot"
-          src="carousel-dot.svg"
-        />
-        <button
-          class="testimonials__btn"
-          id="next-testimonial"
-        >
-          <img
-            alt="left arrow"
-            class="testimonials__btn-arrow testimonials__btn-arrow--2"
-            data-testid="next-button"
-            src="testimonial-arrow.svg"
-          />
-        </button>
-      </div>
-    </div>
+    </main>
     <div
       class="footer"
     >

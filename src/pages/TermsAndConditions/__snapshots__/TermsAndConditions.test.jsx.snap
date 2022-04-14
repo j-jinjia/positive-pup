@@ -69,9 +69,13 @@ exports[`should render the terms and conditions page 1`] = `
         </nav>
       </div>
     </div>
-    <h1>
-      Terms and conditions
-    </h1>
+    <main
+      class="layout__content"
+    >
+      <h1>
+        Terms and conditions
+      </h1>
+    </main>
     <div
       class="footer"
     >

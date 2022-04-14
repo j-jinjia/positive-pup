@@ -69,532 +69,536 @@ exports[`should render the Services page 1`] = `
         </nav>
       </div>
     </div>
-    <div
-      class="header"
-    >
-      <h1
-        class="header__heading"
-      >
-         
-        Services
-         
-      </h1>
-      <h2
-        class="header__subheading"
-      >
-        Take a peek at everything we offer
-      </h2>
-    </div>
-    <div
-      class="services"
+    <main
+      class="layout__content"
     >
       <div
-        class="category-filter category-filter--desktop"
+        class="header"
       >
-        <button
-          class="category-filter__option category-filter__option--selected"
-          value="All"
+        <h1
+          class="header__heading"
         >
-          All
-        </button>
-        <button
-          class="category-filter__option"
-          value="Online Courses"
+           
+          Services
+           
+        </h1>
+        <h2
+          class="header__subheading"
         >
-          Online Courses
-        </button>
-        <button
-          class="category-filter__option"
-          value="Group Classes"
-        >
-          Group Classes
-        </button>
-        <button
-          class="category-filter__option"
-          value="Bespoke Packages"
-        >
-          Bespoke Packages
-        </button>
+          Take a peek at everything we offer
+        </h2>
       </div>
       <div
-        class="services__right"
+        class="services"
       >
         <div
-          class="search-bar"
-        >
-          <label
-            class="search-bar__label"
-            for="Search Courses"
-          >
-            Search Courses
-          </label>
-          <input
-            class="search-bar__input"
-            id="Search Courses"
-            role="input"
-            type="text"
-            value=""
-          />
-          <img
-            alt="search icon"
-            class="search-bar__input-icon"
-            src="searchBarIcon.svg"
-          />
-        </div>
-        <div
-          class="filters-dropdown"
+          class="category-filter category-filter--desktop"
         >
           <button
-            class="filters-dropdown__button"
+            class="category-filter__option category-filter__option--selected"
+            value="All"
           >
-            Filters
-            <img
-              class="filters-dropdown__button-image"
-              src="filter-icon.svg"
-            />
+            All
+          </button>
+          <button
+            class="category-filter__option"
+            value="Online Courses"
+          >
+            Online Courses
+          </button>
+          <button
+            class="category-filter__option"
+            value="Group Classes"
+          >
+            Group Classes
+          </button>
+          <button
+            class="category-filter__option"
+            value="Bespoke Packages"
+          >
+            Bespoke Packages
           </button>
         </div>
+        <div
+          class="services__right"
+        >
+          <div
+            class="search-bar"
+          >
+            <label
+              class="search-bar__label"
+              for="Search Courses"
+            >
+              Search Courses
+            </label>
+            <input
+              class="search-bar__input"
+              id="Search Courses"
+              role="input"
+              type="text"
+              value=""
+            />
+            <img
+              alt="search icon"
+              class="search-bar__input-icon"
+              src="searchBarIcon.svg"
+            />
+          </div>
+          <div
+            class="filters-dropdown"
+          >
+            <button
+              class="filters-dropdown__button"
+            >
+              Filters
+              <img
+                class="filters-dropdown__button-image"
+                src="filter-icon.svg"
+              />
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-    <div
-      class="courses-list"
-    >
       <div
-        class="course-card"
+        class="courses-list"
       >
         <div
-          class="course-card__img-container"
+          class="course-card"
         >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
-        >
-          <p
-            class="course-card__course-type"
+          <div
+            class="course-card__img-container"
           >
-            Group Class
-          </p>
-          <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
           >
             <p
-              class="course-card__course-heading"
+              class="course-card__course-type"
             >
-              Little Stars Course
+              Group Class
             </p>
-          </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
             >
-              <span
-                class="card-label__text"
+              <p
+                class="course-card__course-heading"
               >
-                In Person
-              </span>
+                Little Stars Course
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  In Person
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  10 weeks+
+                </span>
+              </div>
             </div>
-            <div
-              class="card-label"
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image1.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
             >
-              <span
-                class="card-label__text"
+              Group Class
+            </p>
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p
+                class="course-card__course-heading"
               >
-                10 weeks+
-              </span>
+                Rising Stars Course
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  In Person
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  16 weeks+
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image2.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Bespoke Package
+            </p>
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p
+                class="course-card__course-heading"
+              >
+                1:1 Personalised Training
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  In Person
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Intensive
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Group Class
+            </p>
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p
+                class="course-card__course-heading"
+              >
+                Little Stars Course
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image1.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Online Course
+            </p>
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p
+                class="course-card__course-heading"
+              >
+                Chaos to Calm
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Flexible
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image3.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Online Course
+            </p>
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p
+                class="course-card__course-heading"
+              >
+                Rapid Recall
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Bespoke Package
+            </p>
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p
+                class="course-card__course-heading"
+              >
+                Premium Puppy
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="course-card"
+        >
+          <div
+            class="course-card__img-container"
+          >
+            <img
+              alt="dog"
+              class="course-card__img"
+              src="image3.png"
+            />
+          </div>
+          <div
+            class="course-card__course-content"
+          >
+            <p
+              class="course-card__course-type"
+            >
+              Bespoke Package
+            </p>
+            <a
+              class="course-card__course-link"
+              href="https://www.thepositivepup.teachable.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p
+                class="course-card__course-heading"
+              >
+                Bespoke Packages
+              </p>
+            </a>
+            <div
+              class="course-card__labels"
+            >
+              <div
+                class="card-label"
+              >
+                <span
+                  class="card-label__text"
+                >
+                  Online
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div
-        class="course-card"
+        class="services-get-in-touch-section"
       >
-        <div
-          class="course-card__img-container"
+        <h3
+          class="services-get-in-touch-section__header"
         >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image1.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
+          Have a question about any of our courses?
+        </h3>
+        <p
+          class="services-get-in-touch-section__subtext"
         >
-          <p
-            class="course-card__course-type"
-          >
-            Group Class
-          </p>
+          Please take a look at our FAQ’s to see if it’s already been answered. Alternatively, get in touch using the button below.
+        </p>
+        <div
+          class="button button--secondary button--link"
+        >
           <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
+            href="/get-in-touch"
           >
-            <p
-              class="course-card__course-heading"
-            >
-              Rising Stars Course
-            </p>
+            GET IN TOUCH
           </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                In Person
-              </span>
-            </div>
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                16 weeks+
-              </span>
-            </div>
-          </div>
         </div>
       </div>
-      <div
-        class="course-card"
-      >
-        <div
-          class="course-card__img-container"
-        >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image2.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
-        >
-          <p
-            class="course-card__course-type"
-          >
-            Bespoke Package
-          </p>
-          <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <p
-              class="course-card__course-heading"
-            >
-              1:1 Personalised Training
-            </p>
-          </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                In Person
-              </span>
-            </div>
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                Intensive
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="course-card"
-      >
-        <div
-          class="course-card__img-container"
-        >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
-        >
-          <p
-            class="course-card__course-type"
-          >
-            Group Class
-          </p>
-          <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <p
-              class="course-card__course-heading"
-            >
-              Little Stars Course
-            </p>
-          </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                Online
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="course-card"
-      >
-        <div
-          class="course-card__img-container"
-        >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image1.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
-        >
-          <p
-            class="course-card__course-type"
-          >
-            Online Course
-          </p>
-          <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <p
-              class="course-card__course-heading"
-            >
-              Chaos to Calm
-            </p>
-          </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                Online
-              </span>
-            </div>
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                Flexible
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="course-card"
-      >
-        <div
-          class="course-card__img-container"
-        >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image3.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
-        >
-          <p
-            class="course-card__course-type"
-          >
-            Online Course
-          </p>
-          <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <p
-              class="course-card__course-heading"
-            >
-              Rapid Recall
-            </p>
-          </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                Online
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="course-card"
-      >
-        <div
-          class="course-card__img-container"
-        >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
-        >
-          <p
-            class="course-card__course-type"
-          >
-            Bespoke Package
-          </p>
-          <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <p
-              class="course-card__course-heading"
-            >
-              Premium Puppy
-            </p>
-          </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                Online
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="course-card"
-      >
-        <div
-          class="course-card__img-container"
-        >
-          <img
-            alt="dog"
-            class="course-card__img"
-            src="image3.png"
-          />
-        </div>
-        <div
-          class="course-card__course-content"
-        >
-          <p
-            class="course-card__course-type"
-          >
-            Bespoke Package
-          </p>
-          <a
-            class="course-card__course-link"
-            href="https://www.thepositivepup.teachable.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <p
-              class="course-card__course-heading"
-            >
-              Bespoke Packages
-            </p>
-          </a>
-          <div
-            class="course-card__labels"
-          >
-            <div
-              class="card-label"
-            >
-              <span
-                class="card-label__text"
-              >
-                Online
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="services-get-in-touch-section"
-    >
-      <h3
-        class="services-get-in-touch-section__header"
-      >
-        Have a question about any of our courses?
-      </h3>
-      <p
-        class="services-get-in-touch-section__subtext"
-      >
-        Please take a look at our FAQ’s to see if it’s already been answered. Alternatively, get in touch using the button below.
-      </p>
-      <div
-        class="button button--secondary button--link"
-      >
-        <a
-          href="/get-in-touch"
-        >
-          GET IN TOUCH
-        </a>
-      </div>
-    </div>
+    </main>
     <div
       class="footer"
     >

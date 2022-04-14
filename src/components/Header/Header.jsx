@@ -7,12 +7,10 @@ const Header = (props) => {
     isLeftAlign,
     subheadingSecondLine,
     isAlternative,
-    isBookNowHeader,
   } = props;
   let headerClassName = "header";
   if (isLeftAlign) headerClassName += " header--left-align";
   if (isAlternative) headerClassName += " header--alternative";
-  if (isBookNowHeader) headerClassName += " header--screenHeight";
 
   return (
     <div className={headerClassName}>
