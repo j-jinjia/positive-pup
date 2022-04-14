@@ -3,11 +3,13 @@
 .contact-header {
   max-width: 386px;
   padding: 2rem;
+
   &__text {
     line-height: 1.5;
     margin-bottom: 2.5rem;
     color: #6f6682;
   }
+
   &__anchor {
     text-decoration: none;
     display: flex;
@@ -20,9 +22,11 @@
     border: none;
     border-radius: 14px;
     box-shadow: 0px 20px 40px rgba(55, 175, 162, 0.08);
+
     &-text {
       text-decoration: none;
     }
+
     &:hover {
       cursor: pointer;
     }
@@ -31,8 +35,8 @@
 
 @media screen and (min-width: $desktop-breakpoint) {
   .contact-header {
-    margin-top: 3rem;
     padding: 1rem;
+
     &__heading {
       font-size: $font-size-larger;
     }
