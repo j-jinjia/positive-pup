@@ -137,13 +137,14 @@ const FiltersDropdown = ({
   );
 
   return (
-    <>
-      <button className="filters-dropdown-button" onClick={handleClick}>
+    <div className="filters-dropdown__container">
+      <button className="filters-dropdown__button" onClick={handleClick}>
         Filters
-        <img className="filters-dropdown-button__image" src={filterIcon} />
+        <img className="filters-dropdown__button-image" src={filterIcon} />
       </button>
-      {showFilterMenu && <div>{filtersDropdownMenu}</div>}
-    </>
+
+      {showFilterMenu && filtersDropdownMenu}
+    </div>
   );
 };
 

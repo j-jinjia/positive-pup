@@ -1,10 +1,20 @@
 @use "../../styles/_variables.scss" as *;
 
 .filters-dropdown {
+  &__container {
+    position: relative;
+  }
+
   &__menu {
     border: solid 1px $colour-secondary-background;
     background-color: $colour-secondary;
-    position: relative;
+    position: absolute;
+    top: calc(100% + 1rem);
+    right: 0;
+    width: max-content;
+    z-index: 1;
+    padding: 2.5rem 3rem;
+    border-radius: 0.5rem;
   }
 
   &__cross {
@@ -14,32 +24,31 @@
     position: absolute;
     top: 0;
     right: 0;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__heading {
     font-size: $font-size-smallest;
     font-family: $font-general;
     color: $colour-font-general;
-    padding: 1rem;
-    padding-left: 2rem;
   }
 
   &__filter-options {
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
-    padding-right: 3rem;
   }
 
   &__label {
     font-size: $font-general;
     font-family: $font-general;
-    padding-left: 1rem;
     color: $colour-font-paragraph;
   }
 
   &__input {
     margin: 0.5rem;
+    margin-left: 0;
     border: solid 1px $colour-secondary-background;
     background-color: transparent;
   }
@@ -47,15 +56,19 @@
   &__input:checked {
     color: $colour-primary;
   }
-}
 
-.filters-dropdown-button {
-  border: solid 1px $colour-secondary-background;
-  background-color: $colour-secondary;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  &__button {
+    border: solid 1px $colour-secondary-background;
+    background-color: $colour-secondary;
+    padding: 1rem;
+    border-radius: 0.5rem;
 
-  &__image {
-    margin-left: 0.5rem;
+    &-image {
+      margin-left: 0.5rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
