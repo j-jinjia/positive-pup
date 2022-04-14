@@ -62,14 +62,14 @@ exports[`should match TestimonialsSection component snapshot 1`] = `
           We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on...
           <label
             class="testimonial__comment-button-label"
-            for="We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!"
+            for="Gemma Powell & Max"
           >
             Toggle additional testimonial text
           </label>
           <button
             aria-label="click to show more"
             class="testimonial__comment-button"
-            id="We would just like to say how AMAZING Mel is at The Positive Pup! We have just finished the Rising Stars course and Mel was brilliant. Our black lab Max was an over excitable dog who needed lots of mental stimulation and clear instructions. We have learnt so much and would urge anyone who is looking for dog training to look no further. We are already looking into more courses to keep us and Max on our toes!!! Thank you so much Mel you are the best!!!"
+            id="Gemma Powell & Max"
           >
             show more
           </button>
@@ -124,14 +124,14 @@ exports[`should match TestimonialsSection component snapshot 1`] = `
           Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique...
           <label
             class="testimonial__comment-button-label"
-            for="Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique and general puppy care. Tilly has come on in leaps and bounds and I don't know if we would have coped without the input from The Positive Pup team. We will definitely be enrolling in Rising Stars, even if it still has to be delivered over the internet."
+            for="Karen Hayter & Tilly"
           >
             Toggle additional testimonial text
           </label>
           <button
             aria-label="click to show more"
             class="testimonial__comment-button"
-            id="Our cocker spaniel pup Tilly has just finished the Little Stars course. Training was interrupted in March by the lockdown but Mel and Carly were brilliant. Within a couple of weeks they had made videos of the training elements and organized on-line tutorials which worked really well. Our puppy is very lively and needs a lot of work but Mel and Carly gave us loads of helpful advice on our technique and general puppy care. Tilly has come on in leaps and bounds and I don't know if we would have coped without the input from The Positive Pup team. We will definitely be enrolling in Rising Stars, even if it still has to be delivered over the internet."
+            id="Karen Hayter & Tilly"
           >
             show more
           </button>
@@ -284,14 +284,14 @@ exports[`should match TestimonialsSection component snapshot 1`] = `
           Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me...
           <label
             class="testimonial__comment-button-label"
-            for="Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me and Layla loved every single session, we made a puppy family and met some amazing people along the way. Mel sends all the sessions in brilliant detail so when you go home you don’t feel like you have forgotten and it can be done in your daily routine. I really can’t wait for me and Layla to start the relaxed rally and carry on seeing Mel because she truly is amazing lady so thank you from Jess and Layla 🐾"
+            for="Jessika-Anne Horner & Layla"
           >
             Toggle additional testimonial text
           </label>
           <button
             aria-label="click to show more"
             class="testimonial__comment-button"
-            id="Mel is amazing lady who just understands what life is like with a puppy/dog. She has helped me and Layla gain so much confidence and do things I never thought could happen and I couldn’t thank her enough!. I recommend Mel to anyone who is starting out with a puppy or even a couple years down the line and thinking things need to be taught in a different but positive way. Mel’s courses are so fun me and Layla loved every single session, we made a puppy family and met some amazing people along the way. Mel sends all the sessions in brilliant detail so when you go home you don’t feel like you have forgotten and it can be done in your daily routine. I really can’t wait for me and Layla to start the relaxed rally and carry on seeing Mel because she truly is amazing lady so thank you from Jess and Layla 🐾"
+            id="Jessika-Anne Horner & Layla"
           >
             show more
           </button>
