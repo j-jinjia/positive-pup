@@ -24,13 +24,14 @@ const DropdownMenu = ({ toggleDropdown }) => {
 
   return (
     <div className="dropdown-menu">
-      <Link to="/services" className="dropdown-menu__link">
+      <Link to="/services" className="dropdown-menu__link" target="_parent">
         View All
       </Link>
       <div className="dropdown-menu__column">
         <Link
           to="/services/Online Courses"
           className="dropdown-menu__column-title"
+          target="_parent"
         >
           Online Courses
         </Link>
@@ -40,6 +41,7 @@ const DropdownMenu = ({ toggleDropdown }) => {
         <Link
           to="/services/Group Classes"
           className="dropdown-menu__column-title"
+          target="_parent"
         >
           Group Classes
         </Link>
@@ -49,6 +51,7 @@ const DropdownMenu = ({ toggleDropdown }) => {
         <Link
           to="/services/Bespoke Packages"
           className="dropdown-menu__column-title"
+          target="_parent"
         >
           Other
         </Link>

@@ -8,6 +8,7 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
     <a
       class="dropdown-menu__link"
       href="/services"
+      target="_parent"
     >
       View All
     </a>
@@ -17,6 +18,7 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
       <a
         class="dropdown-menu__column-title"
         href="/services/Online Courses"
+        target="_parent"
       >
         Online Courses
       </a>
@@ -43,6 +45,7 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
       <a
         class="dropdown-menu__column-title"
         href="/services/Group Classes"
+        target="_parent"
       >
         Group Classes
       </a>
@@ -77,6 +80,7 @@ exports[`should match the DropdownMenu component snapshot 1`] = `
       <a
         class="dropdown-menu__column-title"
         href="/services/Bespoke Packages"
+        target="_parent"
       >
         Other
       </a>
