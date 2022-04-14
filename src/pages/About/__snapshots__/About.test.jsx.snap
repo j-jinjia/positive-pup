@@ -69,204 +69,208 @@ exports[`should render the About page 1`] = `
         </nav>
       </div>
     </div>
-    <div
-      class="about-us-header"
+    <main
+      class="layout__content"
     >
-      <main
-        class="about-us-header__content"
+      <div
+        class="about-us-header"
       >
-        <div
-          class="header header--left-align"
+        <main
+          class="about-us-header__content"
         >
-          <h1
-            class="header__heading"
+          <div
+            class="header header--left-align"
           >
-             
-            About Us
-             
-          </h1>
-          <h2
-            class="header__subheading"
+            <h1
+              class="header__heading"
+            >
+               
+              About Us
+               
+            </h1>
+            <h2
+              class="header__subheading"
+            >
+              Hey there
+            </h2>
+            <h2
+              class="header__subheading"
+            >
+              My name is Melanie!
+            </h2>
+          </div>
+          <p
+            class="about-us-header__text"
           >
-            Hey there
-          </h2>
-          <h2
-            class="header__subheading"
+            As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
+          </p>
+          <div
+            class="button button--secondary button--link"
           >
-            My name is Melanie!
-          </h2>
-        </div>
+            <a
+              href="#mission-section"
+            >
+              More About Us
+            </a>
+          </div>
+        </main>
+        <img
+          alt="Melanie and a dog"
+          class="about-us-header__image"
+          src="AboutMe.png"
+        />
+      </div>
+      <div
+        class="mission-section"
+        id="mission-section"
+      >
+        <h1
+          class="mission-section__heading"
+        >
+           My Mission
+        </h1>
         <p
-          class="about-us-header__text"
+          class="mission-section__about-us"
         >
-          As the owner of The Positive Pup, it is my joy to be able to welcome you to this website.
+          Have you ever dreamt about your perfect career? the kind of job that would make you jump out of bed in the morning, ready to welcome in the new day? Mine has always involved working with dogs and making a difference to people’s lives.
+        </p>
+        <p
+          class="mission-section__about-us"
+        >
+          I have made it my mission to help promote and strengthen the bond between humans and their canine companions, so that I can make a difference in your world. I truly believe that by increasing the understanding of how dogs communicate with their humans, amazing things can be achieved. The results speak for themselves, content well-mannered canines and relaxed happy humans!
+        </p>
+        <p
+          class="mission-section__about-us"
+        >
+          Thanks for visiting The Positive Pup and for taking your very first step towards building a special bond with your canine companion.
         </p>
         <div
-          class="button button--secondary button--link"
+          class="link-container"
         >
           <a
-            href="#mission-section"
+            class="arrow-link"
+            href="#about-us-training-section"
           >
-            More About Us
+            View Training Methods
+            <img
+              alt=""
+              class="arrow-link__arrow"
+              src="arrow.svg"
+            />
           </a>
         </div>
-      </main>
-      <img
-        alt="Melanie and a dog"
-        class="about-us-header__image"
-        src="AboutMe.png"
-      />
-    </div>
-    <div
-      class="mission-section"
-      id="mission-section"
-    >
-      <h1
-        class="mission-section__heading"
-      >
-         My Mission
-      </h1>
-      <p
-        class="mission-section__about-us"
-      >
-        Have you ever dreamt about your perfect career? the kind of job that would make you jump out of bed in the morning, ready to welcome in the new day? Mine has always involved working with dogs and making a difference to people’s lives.
-      </p>
-      <p
-        class="mission-section__about-us"
-      >
-        I have made it my mission to help promote and strengthen the bond between humans and their canine companions, so that I can make a difference in your world. I truly believe that by increasing the understanding of how dogs communicate with their humans, amazing things can be achieved. The results speak for themselves, content well-mannered canines and relaxed happy humans!
-      </p>
-      <p
-        class="mission-section__about-us"
-      >
-        Thanks for visiting The Positive Pup and for taking your very first step towards building a special bond with your canine companion.
-      </p>
-      <div
-        class="link-container"
-      >
-        <a
-          class="arrow-link"
-          href="#about-us-training-section"
-        >
-          View Training Methods
-          <img
-            alt=""
-            class="arrow-link__arrow"
-            src="arrow.svg"
-          />
-        </a>
       </div>
-    </div>
-    <div
-      class="about-us-training-section"
-      id="about-us-training-section"
-    >
-      <img
-        alt="Positive Pup owner, Melanie, with a dog"
-        class="about-us-training-section__image"
-        src="trainingMethodsImage.svg"
-      />
       <div
-        class="about-us-training-section__content"
+        class="about-us-training-section"
+        id="about-us-training-section"
+      >
+        <img
+          alt="Positive Pup owner, Melanie, with a dog"
+          class="about-us-training-section__image"
+          src="trainingMethodsImage.svg"
+        />
+        <div
+          class="about-us-training-section__content"
+        >
+          <h2
+            class="about-us-training-section__header"
+          >
+            Training Methods 
+          </h2>
+          <p
+            class="about-us-training-section__paragraph"
+          >
+            As a graduate of the Victoria Stilwell Dog Training Academy, I am a positive reinforcement dog trainer. This means that I use reward-based training methods that are deeply rooted in the continually evolving world of behavioral science.
+          </p>
+          <p
+            class="about-us-training-section__paragraph"
+          >
+            Outdated old school dominance and punishment are certainly not my bag. Not only does science tell us that these methods achieve temporary results and can often result in eventual aggressive behavior, but that they are cruel, dangerous and unnecessary.
+          </p>
+        </div>
+      </div>
+      <div
+        class="certifications"
       >
         <h2
-          class="about-us-training-section__header"
+          class="certifications__header"
         >
-          Training Methods 
+          You’re in professional hands!
         </h2>
         <p
-          class="about-us-training-section__paragraph"
+          class="certifications__description"
         >
-          As a graduate of the Victoria Stilwell Dog Training Academy, I am a positive reinforcement dog trainer. This means that I use reward-based training methods that are deeply rooted in the continually evolving world of behavioral science.
-        </p>
-        <p
-          class="about-us-training-section__paragraph"
-        >
-          Outdated old school dominance and punishment are certainly not my bag. Not only does science tell us that these methods achieve temporary results and can often result in eventual aggressive behavior, but that they are cruel, dangerous and unnecessary.
-        </p>
-      </div>
-    </div>
-    <div
-      class="certifications"
-    >
-      <h2
-        class="certifications__header"
-      >
-        You’re in professional hands!
-      </h2>
-      <p
-        class="certifications__description"
-      >
-        I’m a well-established, certified trainer in Dog behaviour & training, with over
-         
-        <span
-          class="certifications__description--highlighted-text"
-        >
-          4.5 years of experience
-        </span>
-        . To find out more information about any of my certifications, please click on one of the logos.
-      </p>
-      <div
-        class="certifications__badge-container"
-      >
-        <a
-          href="https://companionanimal.network/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="international companion animal network certification badge"
-            class="certifications__badge"
-            src="ICAN.png"
-          />
-        </a>
-        <a
-          href="https://www.petadvocacy.info/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Pet Industry Advocacy International badge"
-            class="certifications__badge"
-            src="PIAI.png"
-          />
+          I’m a well-established, certified trainer in Dog behaviour & training, with over
            
-        </a>
-        <a
-          href="https://www.vsdogtrainingacademy.com/"
-          rel="noreferrer"
-          target="_blank"
+          <span
+            class="certifications__description--highlighted-text"
+          >
+            4.5 years of experience
+          </span>
+          . To find out more information about any of my certifications, please click on one of the logos.
+        </p>
+        <div
+          class="certifications__badge-container"
         >
-          <img
-            alt="Victoria Stillwell certification badge"
-            class="certifications__badge"
-            src="VSWA.png"
-          />
-        </a>
-        <a
-          href="https://ukdogcharter.org/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="UK dog behaviour and training charter certification badge"
-            class="certifications__badge"
-            src="behave.png"
-          />
-        </a>
-        <a
-          href="https://www.petprofessionalguild.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="the pet professional guild certification badge"
-            class="certifications__badge"
-            src="ppg2022.png"
-          />
-        </a>
+          <a
+            href="https://companionanimal.network/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="international companion animal network certification badge"
+              class="certifications__badge"
+              src="ICAN.png"
+            />
+          </a>
+          <a
+            href="https://www.petadvocacy.info/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Pet Industry Advocacy International badge"
+              class="certifications__badge"
+              src="PIAI.png"
+            />
+             
+          </a>
+          <a
+            href="https://www.vsdogtrainingacademy.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Victoria Stillwell certification badge"
+              class="certifications__badge"
+              src="VSWA.png"
+            />
+          </a>
+          <a
+            href="https://ukdogcharter.org/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="UK dog behaviour and training charter certification badge"
+              class="certifications__badge"
+              src="behave.png"
+            />
+          </a>
+          <a
+            href="https://www.petprofessionalguild.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="the pet professional guild certification badge"
+              class="certifications__badge"
+              src="ppg2022.png"
+            />
+          </a>
+        </div>
       </div>
-    </div>
+    </main>
     <div
       class="footer"
     >

@@ -69,45 +69,49 @@ exports[`should render the GetInTouch page 1`] = `
         </nav>
       </div>
     </div>
-    <div
-      class="contact-header"
+    <main
+      class="layout__content"
     >
       <div
-        class="header header--left-align"
+        class="contact-header"
       >
-        <h1
-          class="header__heading"
+        <div
+          class="header header--left-align"
         >
-           
-          Contact Us
-           
-        </h1>
-        <h2
-          class="header__subheading"
-        >
-          I'd love to hear from you!
-        </h2>
-      </div>
-      <p
-        class="contact-header__text"
-      >
-        Please fill in the form or alternatively, drop me an email using the link below.
-      </p>
-      <a
-        class="contact-header__anchor"
-        href="mailto:info@thepositivepup.co.uk"
-      >
-        <img
-          alt=""
-          src="mail.svg"
-        />
+          <h1
+            class="header__heading"
+          >
+             
+            Contact Us
+             
+          </h1>
+          <h2
+            class="header__subheading"
+          >
+            I'd love to hear from you!
+          </h2>
+        </div>
         <p
-          class="contact-header__button-text"
+          class="contact-header__text"
         >
-          info@thepositivepup.co.uk
+          Please fill in the form or alternatively, drop me an email using the link below.
         </p>
-      </a>
-    </div>
+        <a
+          class="contact-header__anchor"
+          href="mailto:info@thepositivepup.co.uk"
+        >
+          <img
+            alt=""
+            src="mail.svg"
+          />
+          <p
+            class="contact-header__button-text"
+          >
+            info@thepositivepup.co.uk
+          </p>
+        </a>
+      </div>
+    </main>
     <div
       class="footer"
     >
