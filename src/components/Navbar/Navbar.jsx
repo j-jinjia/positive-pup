@@ -28,13 +28,21 @@ const Navbar = () => {
       <NavLink className="navbar__nav-item" to="/about">
         About
       </NavLink>
-      <div className="navbar__nav-item navbar__nav-item--dropdown">
-        <button className="navbar__nav-item-button" onClick={toggleDropdown}>
-          Services
-          <img src={dropdownArrow} className="navbar__nav-item-arrow" />
-        </button>
-        {showDropdown && <DropdownMenu toggleDropdown={toggleDropdown} />}
-      </div>
+
+      <button
+        className="navbar__nav-item navbar__nav-item--button"
+        onClick={toggleDropdown}
+      >
+        Services
+        <img src={dropdownArrow} className="navbar__nav-item-arrow" />
+        {showDropdown && <DropdownMenu />}
+      </button>
+      <NavLink className="navbar__nav-item" to="/testimonials">
+        Testimonials
+      </NavLink>
+      <NavLink className="navbar__nav-item" to="/gallery">
+        Gallery
+      </NavLink>
       <span className="navbar__nav-item navbar__nav-item--phone">
         <img className="navbar__nav-item-button" src={phone} alt="" />
         <NavLink className="navbar__nav-item" to="/get-in-touch">
@@ -58,6 +66,12 @@ const Navbar = () => {
       </Link>
       <Link className="navbar__nav-item" to="/services">
         Services
+      </Link>
+      <Link className="navbar__nav-item" to="/testimonials">
+        Testimonials
+      </Link>
+      <Link className="navbar__nav-item" to="/gallery">
+        Gallery
       </Link>
       <Link className="navbar__nav-item" to="/get-in-touch">
         Get in Touch
@@ -87,7 +101,11 @@ const Navbar = () => {
         {windowIsDesktop ? (
           desktopNav
         ) : (
-          <button onClick={handleClick} className="navbar__container-button">
+          <button
+            onClick={handleClick}
+            className="navbar__container-button"
+            aria-label="menu-button"
+          >
             <img
               src={menuIcon}
               className="navbar__container-button-image"
