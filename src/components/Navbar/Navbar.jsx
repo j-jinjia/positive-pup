@@ -9,12 +9,18 @@ import Button from "../Button/Button";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import { Link, NavLink } from "react-router-dom";
 import useWindowSize from "../../hooks/useWindowSize.js";
+import { useEffect } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const windowIsDesktop = useWindowSize(1024);
 
+  useEffect(() => {
+    if (showMenu && windowIsDesktop) {
+      setShowMenu(false);
+    }
+  }, [windowIsDesktop]);
   const handleClick = () => {
     setShowMenu(!showMenu);
   };
