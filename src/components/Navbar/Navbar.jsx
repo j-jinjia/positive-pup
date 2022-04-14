@@ -93,7 +93,11 @@ const Navbar = () => {
         {windowIsDesktop ? (
           desktopNav
         ) : (
-          <button onClick={handleClick} className="navbar__container-button">
+          <button
+            onClick={handleClick}
+            className="navbar__container-button"
+            aria-label="menu-button"
+          >
             <img
               src={menuIcon}
               className="navbar__container-button-image"
