@@ -20,7 +20,7 @@ const Navbar = () => {
     if (showMenu && windowIsDesktop) {
       setShowMenu(false);
     }
-  }, [windowIsDesktop]);
+  }, [showMenu, windowIsDesktop]);
   const handleClick = () => {
     setShowMenu(!showMenu);
   };
